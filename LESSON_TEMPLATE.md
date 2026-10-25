@@ -11,14 +11,23 @@ Lessons are short: a 10 minute read, about 600 to 1000 words of prose, with a ha
 - The lab has at most 6 steps.
 - Cut background, history and asides. If a detail is something the reader could look up or ask an AI for once they know the word, name it and move on. The aim is a solid general understanding, so leave out detail that a reader can look up or ask an AI for once they have the vocabulary.
 
+## Diagrams
+
+The reader learns best from pictures, so diagrams are required, not optional. Every lesson has at least one diagram, and most have two: one for the big picture in The idea, and one for the mechanism in How it works or the worked example. Use a diagram wherever it explains better than a paragraph, and then cut the paragraph.
+
+- Mermaid first, because it renders on the site and in VS Code: `flowchart` (pipelines, decisions, layers, trees), `sequenceDiagram` (requests, handshakes, who talks to whom and in what order), `stateDiagram-v2` (lifecycles, states of a process or connection), `erDiagram` (tables and relationships), `classDiagram` (objects, inheritance, interfaces).
+- A small fixed-width drawing in a `text` block is fine for bit layouts, byte layouts, memory and stack frames, and grids, when Mermaid can't draw it.
+- For plots and precise drawings, write a matplotlib script in `tools/figures/<folder>/` that saves an SVG to `docs/assets/figures/<folder>/`, and embed it with a Markdown image with alt text.
+- A diagram shows the mechanism (what moves where, in what order, what points to what), with short labels. No decorative diagrams, no more than about 12 boxes, and the prose must refer to it ("in the diagram, ...").
+
 ## Section rules
 
 | Section | What goes in it |
 |---|---|
 | Title and goal | Title in sentence case. One line: "After this you can ...". Then prerequisite links. |
-| The idea | A concrete situation first, then the mental model in plain words. A Mermaid diagram where it helps. No formal definitions yet. |
+| The idea | A concrete situation first, then the mental model in plain words, with a big-picture diagram. No formal definitions yet. |
 | Key terms | Each term in bold once, with a plain-words definition. Keep it to the terms the lesson needs. |
-| How it works | The mechanism, as a short explanation or numbered steps. Short code snippets that show the idea. |
+| How it works | The mechanism, as a diagram plus a short explanation or numbered steps. Short code snippets that show the idea. |
 | Worked examples | One or two, in example boxes. Example 1 is explained step by step and ends with a check (run it, print it, compare). |
 | Common mistakes | One to four, in a warning box. Each shows the mistake, why it goes wrong and the fix. |
 | Working with AI | A box with "Words to use", "Prompts to try" (2 or 3) and "What to check". See `STYLE.md`. |
