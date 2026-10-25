@@ -255,6 +255,6 @@ Without `fsync`, `close` returns once the OS has copied the data into its page c
 
 ## Where this shows up
 
-- File systems<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md --> and system calls and kernel mode<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md --> cover what the OS does between `open` and the device.
+- [File systems](../../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md) and [system calls and kernel mode](../../02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md) cover what the OS does between `open` and the device.
 - Database indexes and `fsync` settings, which decide whether a committed transaction survives a power cut.
 - [GPUs and parallel hardware](06-gpus-and-parallel-hardware.md) hang off the same PCIe lanes.

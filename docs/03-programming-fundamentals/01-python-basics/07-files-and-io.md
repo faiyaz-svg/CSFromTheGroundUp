@@ -17,7 +17,7 @@ flowchart LR
     H -- "binary mode: raw bytes,<br/>no changes" --> Y["bytes in your program"]
 ```
 
-The usual line is `open(path)` with no encoding. That works on the author's Linux machine and breaks on a colleague's Windows laptop, because the default is the platform's locale encoding, often cp1252 on Windows. The file system itself is covered in file systems<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md -->; here we only deal with the Python side.
+The usual line is `open(path)` with no encoding. That works on the author's Linux machine and breaks on a colleague's Windows laptop, because the default is the platform's locale encoding, often cp1252 on Windows. The file system itself is covered in [file systems](../../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md); here we only deal with the Python side.
 
 ## Key terms
 

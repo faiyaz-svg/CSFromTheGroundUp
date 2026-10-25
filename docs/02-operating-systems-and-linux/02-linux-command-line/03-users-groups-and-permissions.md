@@ -295,4 +295,4 @@ The commands in steps 1 to 6 are the full solution. The first `bob` write fails 
 ## Where this shows up
 
 - Generating and protecting keys in SSH and keys<!-- link: 10-ssh-and-keys.md -->, where mode `600` on the private key is checked on every connection.
-- Dedicated users for services in Services, systemd and logs<!-- link: 07-services-systemd-and-logs.md -->, and the permission model underneath file systems<!-- link: ../01-os-concepts/04-file-systems.md -->.
+- Dedicated users for services in Services, systemd and logs<!-- link: 07-services-systemd-and-logs.md -->, and the permission model underneath [file systems](../01-os-concepts/04-file-systems.md).

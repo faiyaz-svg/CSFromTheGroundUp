@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 40 of 252. New lessons appear here as they are added.
+Lessons written so far: 45 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -30,6 +30,14 @@ Lessons written so far: 40 of 252. New lessons appear here as they are added.
 - [ ] [Compilers, interpreters and JIT](01-how-computers-work/03-code-to-running-program/02-compilers-interpreters-and-jit.md)
 
 ## Operating systems and Linux
+
+### Operating system concepts
+
+- [ ] [What an OS and kernel do](02-operating-systems-and-linux/01-os-concepts/01-what-an-os-and-kernel-do.md)
+- [ ] [Processes, threads and scheduling](02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md)
+- [ ] [Memory and virtual memory](02-operating-systems-and-linux/01-os-concepts/03-memory-and-virtual-memory.md)
+- [ ] [File systems](02-operating-systems-and-linux/01-os-concepts/04-file-systems.md)
+- [ ] [System calls and kernel mode](02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md)
 
 ### Linux command line
 

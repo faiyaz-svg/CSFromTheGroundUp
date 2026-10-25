@@ -120,6 +120,11 @@ nav:
       - 02-operating-systems-and-linux/index.md
       - "Operating system concepts":
           - 02-operating-systems-and-linux/01-os-concepts/index.md
+          - "What an OS and kernel do": 02-operating-systems-and-linux/01-os-concepts/01-what-an-os-and-kernel-do.md
+          - "Processes, threads and scheduling": 02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md
+          - "Memory and virtual memory": 02-operating-systems-and-linux/01-os-concepts/03-memory-and-virtual-memory.md
+          - "File systems": 02-operating-systems-and-linux/01-os-concepts/04-file-systems.md
+          - "System calls and kernel mode": 02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md
       - "Linux command line":
           - 02-operating-systems-and-linux/02-linux-command-line/index.md
           - "Users, groups and permissions": 02-operating-systems-and-linux/02-linux-command-line/03-users-groups-and-permissions.md

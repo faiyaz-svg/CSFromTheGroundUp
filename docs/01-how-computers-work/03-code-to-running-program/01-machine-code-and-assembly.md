@@ -236,5 +236,5 @@ sum_to:
 ## Where this shows up
 
 - [Compilers, interpreters and JIT](02-compilers-interpreters-and-jit.md) shows the steps before assembly, and how Python and JavaScript avoid it.
-- System calls and kernel mode<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md --> covers the special instruction a program uses to ask the operating system for something.
+- [System calls and kernel mode](../../02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md) covers the special instruction a program uses to ask the operating system for something.
 - Multi-architecture container builds in the Docker lessons: the `exec format error` above.

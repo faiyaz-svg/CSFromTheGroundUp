@@ -240,5 +240,5 @@ The 8-worker run gets 4.1 times, not 8, because this chip has 6 physical cores. 
 ## Where this shows up
 
 - [Machine code and assembly](../03-code-to-running-program/01-machine-code-and-assembly.md) shows the instructions this lesson describes.
-- Processes, threads and scheduling<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md --> covers how the operating system shares cores among programs.
+- [Processes, threads and scheduling](../../02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md) covers how the operating system shares cores among programs.
 - [GPUs and parallel hardware](06-gpus-and-parallel-hardware.md) takes the "many cores" idea much further.

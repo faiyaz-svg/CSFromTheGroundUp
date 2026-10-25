@@ -11,11 +11,11 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Operating system concepts](01-os-concepts/index.md)
 
-1. What an OS and kernel do (not written yet)
-2. Processes, threads and scheduling (not written yet)
-3. Memory and virtual memory (not written yet)
-4. File systems (not written yet)
-5. System calls and kernel mode (not written yet)
+1. [What an OS and kernel do](01-os-concepts/01-what-an-os-and-kernel-do.md)
+2. [Processes, threads and scheduling](01-os-concepts/02-processes-threads-and-scheduling.md)
+3. [Memory and virtual memory](01-os-concepts/03-memory-and-virtual-memory.md)
+4. [File systems](01-os-concepts/04-file-systems.md)
+5. [System calls and kernel mode](01-os-concepts/05-system-calls-and-kernel-mode.md)
 
 ### 2. [Linux command line](02-linux-command-line/index.md)
 
