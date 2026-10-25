@@ -1,0 +1,221 @@
+/* In-browser SQL runner (javascripts/sqlrunner.js).
+   Flat, W3Schools-like. Colours come from the variables in site.css. */
+
+.sql-runner {
+  margin: 1.2em 0;
+}
+
+.sql-runner [hidden] {
+  display: none !important;
+}
+
+.sqlr {
+  border: 1px solid var(--mf-gray-line);
+  border-radius: 5px;
+  background-color: var(--mf-page);
+  overflow: hidden;
+}
+
+.sqlr-label {
+  padding: 0.35rem 0.8rem;
+  background-color: var(--mf-gray);
+  border-bottom: 1px solid var(--mf-gray-line);
+  color: var(--mf-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.sqlr-editor {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0.7rem 0.8rem;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+  background-color: var(--md-code-bg-color);
+  color: var(--mf-text);
+  font-family: var(--md-code-font-family);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  tab-size: 2;
+  white-space: pre;
+  overflow: auto;
+}
+
+.sqlr-editor:focus {
+  box-shadow: inset 3px 0 0 var(--mf-green);
+}
+
+.sqlr-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border-top: 1px solid var(--mf-gray-line);
+}
+
+.sqlr-btn {
+  padding: 0.35rem 1rem;
+  border: 1px solid var(--mf-gray-line);
+  border-radius: 3px;
+  background-color: var(--mf-gray);
+  color: var(--mf-text);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.sqlr-btn:hover:not(:disabled) {
+  border-color: var(--mf-muted);
+}
+
+.sqlr-btn:focus-visible {
+  outline: 2px solid var(--mf-green);
+  outline-offset: 1px;
+}
+
+.sqlr-btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.sqlr-run {
+  background-color: var(--mf-green);
+  border-color: var(--mf-green);
+  color: #ffffff;
+}
+
+.sqlr-run:hover:not(:disabled) {
+  background-color: var(--mf-green-dark);
+  border-color: var(--mf-green-dark);
+}
+
+[data-md-color-scheme="slate"] .sqlr-run {
+  color: #0f1a14;
+}
+
+[data-md-color-scheme="slate"] .sqlr-run:hover:not(:disabled) {
+  background-color: var(--mf-green-dark);
+  border-color: var(--mf-green-dark);
+}
+
+.sqlr-hint {
+  margin-left: auto;
+  color: var(--mf-muted);
+  font-size: 0.7rem;
+}
+
+/* Results */
+.sqlr-out {
+  padding: 0.6rem 0.8rem;
+  border-top: 1px solid var(--mf-gray-line);
+}
+
+.sqlr-out--empty {
+  display: none;
+}
+
+.sqlr-out--busy {
+  color: var(--mf-muted);
+}
+
+.sqlr-out p {
+  margin: 0;
+}
+
+.sqlr-note {
+  color: var(--mf-muted);
+  font-size: 0.75rem;
+}
+
+.sqlr-table-wrap {
+  max-height: 24rem;
+  margin-bottom: 0.5rem;
+  overflow: auto;
+  border: 1px solid var(--mf-gray-line);
+}
+
+.md-typeset .sqlr-table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  box-shadow: none;
+  font-size: 0.75rem;
+}
+
+.md-typeset .sqlr-table th,
+.md-typeset .sqlr-table td {
+  min-width: 0;
+  padding: 0.3rem 0.7rem;
+  border-bottom: 1px solid var(--mf-gray-line);
+  font-family: var(--md-code-font-family);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.md-typeset .sqlr-table th {
+  position: sticky;
+  top: 0;
+  background-color: var(--mf-gray);
+  color: var(--mf-text);
+  font-weight: 600;
+}
+
+.md-typeset .sqlr-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.md-typeset .sqlr-table td.sqlr-num {
+  text-align: right;
+}
+
+.md-typeset .sqlr-table td.sqlr-null {
+  color: var(--mf-muted);
+  font-style: italic;
+}
+
+/* Errors and check verdicts */
+.sqlr-out--error {
+  background-color: var(--mf-warning);
+  border-top-color: var(--mf-warning-line);
+}
+
+.sqlr-error {
+  color: var(--mf-text);
+  font-family: var(--md-code-font-family);
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+}
+
+.sqlr-verdict {
+  margin: 0 0 0.6rem;
+  padding: 0.4rem 0.7rem;
+  border-left: 4px solid;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sqlr-verdict--ok {
+  border-color: var(--mf-green);
+  background-color: var(--mf-gray);
+}
+
+.sqlr-verdict--no {
+  border-color: var(--mf-warning-line);
+  background-color: var(--mf-warning);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .sqlr-hint {
+    display: none;
+  }
+}

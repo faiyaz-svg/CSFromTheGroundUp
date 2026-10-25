@@ -1,0 +1,9 @@
+{
+  "name": "cs-from-the-ground-up-tools",
+  "private": true,
+  "description": "Dev tools for checking the SQL examples. Not part of the site build.",
+  "type": "module",
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8"
+  }
+}

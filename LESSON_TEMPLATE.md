@@ -59,7 +59,29 @@ LIMIT 5;
 
 The `data-db` value is one of `shop` (customers, products, orders, order_items), `events` (signups and page views) or `warehouse` (a star schema). Every SQL block and every SQL solution is run by `node tools/check_sql.mjs` before commit.
 
-TODO: add the exact syntax for the optional answer check and the hidden solution query once `sqlrunner.js` exists.
+To let the reader check an answer, give the runner a `data-solution` id and put the solution query, as the first `sql` block, in a solution box with that id. The Check button runs both queries and compares the results (row order counts only when the solution has `ORDER BY`).
+
+````markdown
+<div class="sql-runner" data-db="shop" data-solution="sol-1" markdown>
+
+```sql
+-- write your query here
+SELECT 1;
+```
+
+</div>
+
+<details class="solution" id="sol-1" markdown>
+<summary>Solution</summary>
+
+```sql
+SELECT count(*) FROM customers;
+```
+
+</details>
+````
+
+Solution ids must be unique on the page. For a plain `sql` fence outside a runner (for example in a quiz answer), put `<!-- db: shop -->` on the line before it so `check_sql.mjs` knows which database to run it on. Put `<!-- sql: expect-error -->` before a block that is meant to fail.
 
 ## Skeleton
 
@@ -133,8 +155,6 @@ Watch out: the mistake, why it goes wrong, and the fix.
 ## Working with AI
 
 <div class="ai" markdown>
-
-### Working with AI
 
 Words to use: term one, term two, term three. They make a prompt precise.
 
