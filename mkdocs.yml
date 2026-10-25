@@ -109,6 +109,7 @@ nav:
           - 02-operating-systems-and-linux/01-os-concepts/index.md
       - "Linux command line":
           - 02-operating-systems-and-linux/02-linux-command-line/index.md
+          - "Users, groups and permissions": 02-operating-systems-and-linux/02-linux-command-line/03-users-groups-and-permissions.md
   - "Programming":
       - 03-programming-fundamentals/index.md
       - "Python basics":

@@ -21,7 +21,7 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 1. Shell and terminal basics (not written yet)
 2. Files and navigation (not written yet)
-3. Users, groups and permissions (not written yet)
+3. [Users, groups and permissions](02-linux-command-line/03-users-groups-and-permissions.md)
 4. Pipes, redirection and text tools (not written yet)
 5. Processes and signals (not written yet)
 6. Packages with apt (not written yet)
