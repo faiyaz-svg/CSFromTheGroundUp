@@ -22,10 +22,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Thinking like a programmer](02-thinking-like-a-programmer/index.md)
 
-1. Recursion (not written yet)
-2. References, mutability and copying (not written yet)
-3. Type systems (not written yet)
-4. Reading code and debugging (not written yet)
+1. [Recursion](02-thinking-like-a-programmer/01-recursion.md)
+2. [References, mutability and copying](02-thinking-like-a-programmer/02-references-mutability-and-copying.md)
+3. [Type systems](02-thinking-like-a-programmer/03-type-systems.md)
+4. [Reading code and debugging](02-thinking-like-a-programmer/04-reading-code-and-debugging.md)
 
 ### 3. [OOP and paradigms](03-oop-and-paradigms/index.md)
 

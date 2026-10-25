@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 24 of 252. New lessons appear here as they are added.
+Lessons written so far: 28 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -47,6 +47,13 @@ Lessons written so far: 24 of 252. New lessons appear here as they are added.
 - [ ] [Errors and exceptions](03-programming-fundamentals/01-python-basics/06-errors-and-exceptions.md)
 - [ ] [Files and I/O](03-programming-fundamentals/01-python-basics/07-files-and-io.md)
 - [ ] [Modules, packages, pip and venv](03-programming-fundamentals/01-python-basics/08-modules-packages-pip-and-venv.md)
+
+### Thinking like a programmer
+
+- [ ] [Recursion](03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md)
+- [ ] [References, mutability and copying](03-programming-fundamentals/02-thinking-like-a-programmer/02-references-mutability-and-copying.md)
+- [ ] [Type systems](03-programming-fundamentals/02-thinking-like-a-programmer/03-type-systems.md)
+- [ ] [Reading code and debugging](03-programming-fundamentals/02-thinking-like-a-programmer/04-reading-code-and-debugging.md)
 
 ## Databases, SQL and Postgres
 
