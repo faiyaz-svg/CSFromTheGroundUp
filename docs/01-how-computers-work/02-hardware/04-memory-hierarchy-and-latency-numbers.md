@@ -259,6 +259,6 @@ Why `N = 20_000` brings the ratio close to 1: 20,000 integers fit in L1 and L2 c
 
 ## Where this shows up
 
-- Choosing between an array and a linked list, in arrays and dynamic arrays<!-- link: ../../05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md -->, and Big O's hidden constants in Big O and runtime<!-- link: ../../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md -->.
+- Choosing between an array and a linked list, in arrays and dynamic arrays<!-- link: ../../05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md -->, and Big O's hidden constants in [Big O and runtime](../../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md).
 - Database indexes, Redis and caching strategies<!-- link: ../../14-software-and-system-design/02-system-design/03-caching-strategies.md -->, all of which are ways of avoiding a slower layer.
 - [Storage, I/O and buses](05-storage-io-and-buses.md) continues with how data gets from a disk or a network card into memory.

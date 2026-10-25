@@ -11,9 +11,9 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Analysis](01-analysis/index.md)
 
-1. Big O and runtime (not written yet)
-2. Space and amortized analysis (not written yet)
-3. Analysing recursive algorithms (not written yet)
+1. [Big O and runtime](01-analysis/01-big-o-and-runtime.md)
+2. [Space and amortized analysis](01-analysis/02-space-and-amortized-analysis.md)
+3. [Analysing recursive algorithms](01-analysis/03-analysing-recursive-algorithms.md)
 
 ### 2. [Data structures](02-data-structures/index.md)
 

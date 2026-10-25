@@ -166,6 +166,9 @@ nav:
       - 05-data-structures-and-algorithms/index.md
       - "Analysis":
           - 05-data-structures-and-algorithms/01-analysis/index.md
+          - "Big O and runtime": 05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md
+          - "Space and amortized analysis": 05-data-structures-and-algorithms/01-analysis/02-space-and-amortized-analysis.md
+          - "Analysing recursive algorithms": 05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md
       - "Data structures":
           - 05-data-structures-and-algorithms/02-data-structures/index.md
       - "Algorithms":

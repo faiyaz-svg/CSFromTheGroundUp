@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 45 of 252. New lessons appear here as they are added.
+Lessons written so far: 48 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -80,6 +80,14 @@ Lessons written so far: 45 of 252. New lessons appear here as they are added.
 - [ ] [Graphs and trees](04-discrete-math-for-cs/06-graphs-and-trees.md)
 - [ ] [Modular arithmetic](04-discrete-math-for-cs/07-modular-arithmetic.md)
 - [ ] [Sums, logs and recurrences](04-discrete-math-for-cs/08-sums-logs-and-recurrences.md)
+
+## Data structures and algorithms
+
+### Analysis
+
+- [ ] [Big O and runtime](05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md)
+- [ ] [Space and amortized analysis](05-data-structures-and-algorithms/01-analysis/02-space-and-amortized-analysis.md)
+- [ ] [Analysing recursive algorithms](05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md)
 
 ## Databases, SQL and Postgres
 
