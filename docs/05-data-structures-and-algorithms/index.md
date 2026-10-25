@@ -17,14 +17,14 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Data structures](02-data-structures/index.md)
 
-1. Arrays and dynamic arrays (not written yet)
-2. Linked lists (not written yet)
-3. Stacks and queues (not written yet)
-4. Hash tables (not written yet)
-5. Trees and binary search trees (not written yet)
-6. Heaps and priority queues (not written yet)
-7. Graphs and representations (not written yet)
-8. Tries and union find (not written yet) (optional)
+1. [Arrays and dynamic arrays](02-data-structures/01-arrays-and-dynamic-arrays.md)
+2. [Linked lists](02-data-structures/02-linked-lists.md)
+3. [Stacks and queues](02-data-structures/03-stacks-and-queues.md)
+4. [Hash tables](02-data-structures/04-hash-tables.md)
+5. [Trees and binary search trees](02-data-structures/05-trees-and-binary-search-trees.md)
+6. [Heaps and priority queues](02-data-structures/06-heaps-and-priority-queues.md)
+7. [Graphs and representations](02-data-structures/07-graphs-and-representations.md)
+8. [Tries and union find](02-data-structures/08-tries-and-union-find.md) (optional)
 
 ### 3. [Algorithms](03-algorithms/index.md)
 

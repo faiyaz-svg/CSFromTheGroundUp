@@ -252,5 +252,5 @@ User 1 appears twice in `events`, but the set keeps one copy.
 ## Where this shows up
 
 - Set operations in SQL, in set operations and CASE<!-- link: ../10-databases-sql-and-postgres/02-querying/08-set-operations-and-case.md --> and [joins](../10-databases-sql-and-postgres/02-querying/04-joins.md).
-- Hash functions and collisions in hash tables<!-- link: ../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md -->.
+- Hash functions and collisions in [hash tables](../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md).
 - More depth (optional): [sets and set operations](https://faiyaz-svg.github.io/MathFromTheGroundUp/04-proofs-and-logic/02-logic-and-sets/06-sets-and-set-operations/) in the sibling math book.

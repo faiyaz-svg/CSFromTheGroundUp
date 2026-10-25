@@ -48,14 +48,17 @@ A cheat sheet for the chapter. Costs use $n$ for the number of items; for graphs
 
 ## Key terms
 
-- **Contiguous**: stored side by side in memory, with no gaps.
-- **Amortized**: the average cost per operation over a long run.
-- **LIFO, FIFO**: last in first out, first in first out.
-- **Collision**: two keys in one hash table bucket. **Load factor**: entries divided by buckets.
-- **Hashable**: has a hash that never changes; lists, dicts and sets are not.
-- **Invariant**: a rule that always holds. The BST rule: left keys smaller, right keys larger. The heap rule: a parent is not larger than its children.
-- **Height**: nodes on the longest root-to-leaf path. **Balanced**: height near $\log_2 n$.
-- **Degree**: the number of edges at a vertex. **Sparse**: $E$ much smaller than $V^2$.
+| Term | Meaning |
+|---|---|
+| Contiguous | stored side by side in memory, with no gaps |
+| Amortized | the average cost per operation over a long run |
+| LIFO, FIFO | last in first out; first in first out |
+| Collision | two keys in one hash table bucket |
+| Load factor | entries divided by buckets |
+| Hashable | has a hash that never changes; lists, dicts and sets are not |
+| Invariant | a rule that always holds: the BST rule (left keys smaller, right keys larger) or the heap rule (a parent is not larger than its children) |
+| Height | nodes on the longest root-to-leaf path; a tree is balanced when this is near $\log_2 n$ |
+| Degree | the number of edges at a vertex; a graph is sparse when $E$ is much smaller than $V^2$ |
 
 ## Rules of thumb
 

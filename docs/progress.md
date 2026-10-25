@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 48 of 252. New lessons appear here as they are added.
+Lessons written so far: 56 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -88,6 +88,17 @@ Lessons written so far: 48 of 252. New lessons appear here as they are added.
 - [ ] [Big O and runtime](05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md)
 - [ ] [Space and amortized analysis](05-data-structures-and-algorithms/01-analysis/02-space-and-amortized-analysis.md)
 - [ ] [Analysing recursive algorithms](05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md)
+
+### Data structures
+
+- [ ] [Arrays and dynamic arrays](05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md)
+- [ ] [Linked lists](05-data-structures-and-algorithms/02-data-structures/02-linked-lists.md)
+- [ ] [Stacks and queues](05-data-structures-and-algorithms/02-data-structures/03-stacks-and-queues.md)
+- [ ] [Hash tables](05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md)
+- [ ] [Trees and binary search trees](05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md)
+- [ ] [Heaps and priority queues](05-data-structures-and-algorithms/02-data-structures/06-heaps-and-priority-queues.md)
+- [ ] [Graphs and representations](05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md)
+- [ ] [Tries and union find](05-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md)
 
 ## Databases, SQL and Postgres
 

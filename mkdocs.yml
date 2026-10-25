@@ -171,6 +171,14 @@ nav:
           - "Analysing recursive algorithms": 05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md
       - "Data structures":
           - 05-data-structures-and-algorithms/02-data-structures/index.md
+          - "Arrays and dynamic arrays": 05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md
+          - "Linked lists": 05-data-structures-and-algorithms/02-data-structures/02-linked-lists.md
+          - "Stacks and queues": 05-data-structures-and-algorithms/02-data-structures/03-stacks-and-queues.md
+          - "Hash tables": 05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md
+          - "Trees and binary search trees": 05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md
+          - "Heaps and priority queues": 05-data-structures-and-algorithms/02-data-structures/06-heaps-and-priority-queues.md
+          - "Graphs and representations": 05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md
+          - "Tries and union find": 05-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md
       - "Algorithms":
           - 05-data-structures-and-algorithms/03-algorithms/index.md
       - "LeetCode patterns":

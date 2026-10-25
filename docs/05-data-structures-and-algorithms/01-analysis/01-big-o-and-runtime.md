@@ -293,5 +293,5 @@ Step 4: an $n \log n$ curve, fitted as a power of $n$, gives an exponent slightl
 
 ## Where this shows up
 
-- Choosing what to store a collection in, in arrays and dynamic arrays<!-- link: ../02-data-structures/01-arrays-and-dynamic-arrays.md --> and hash tables<!-- link: ../02-data-structures/04-hash-tables.md -->.
+- Choosing what to store a collection in, in [arrays and dynamic arrays](../02-data-structures/01-arrays-and-dynamic-arrays.md) and [hash tables](../02-data-structures/04-hash-tables.md).
 - Coding-interview questions, which end with "what is the time and space complexity?". [Space and amortized analysis](02-space-and-amortized-analysis.md) is the next lesson.

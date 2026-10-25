@@ -291,5 +291,5 @@ Step 4: the list's peak grows in proportion to $n$ (about 80 MB at 2,000,000 ite
 
 ## Where this shows up
 
-- Dynamic arrays are built in arrays and dynamic arrays<!-- link: ../02-data-structures/01-arrays-and-dynamic-arrays.md -->, and hash tables resize by the same doubling argument.
+- Dynamic arrays are built in [arrays and dynamic arrays](../02-data-structures/01-arrays-and-dynamic-arrays.md), and hash tables resize by the same doubling argument.
 - Memory and a recursion limit are what interviewers mean by "what is the space complexity?". Memoization and dynamic programming trade space for time, as in [analysing recursive algorithms](03-analysing-recursive-algorithms.md).
