@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 28 of 252. New lessons appear here as they are added.
+Lessons written so far: 32 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -54,6 +54,13 @@ Lessons written so far: 28 of 252. New lessons appear here as they are added.
 - [ ] [References, mutability and copying](03-programming-fundamentals/02-thinking-like-a-programmer/02-references-mutability-and-copying.md)
 - [ ] [Type systems](03-programming-fundamentals/02-thinking-like-a-programmer/03-type-systems.md)
 - [ ] [Reading code and debugging](03-programming-fundamentals/02-thinking-like-a-programmer/04-reading-code-and-debugging.md)
+
+### OOP and paradigms
+
+- [ ] [Classes and objects](03-programming-fundamentals/03-oop-and-paradigms/01-classes-and-objects.md)
+- [ ] [Encapsulation, inheritance and polymorphism](03-programming-fundamentals/03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md)
+- [ ] [Composition and interfaces](03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md)
+- [ ] [Functional programming ideas](03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md)
 
 ## Databases, SQL and Postgres
 

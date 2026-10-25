@@ -2,7 +2,7 @@
 
 After this you can format output with f-strings, tell text (`str`) from bytes, and avoid the string mistakes that turn into slow loops, wrong encodings and SQL injection.
 
-Before this: [Lists, dicts, sets and tuples](04-lists-dicts-sets-and-tuples.md). For the encoding background, see text, ASCII and Unicode<!-- link: ../../01-how-computers-work/01-bits-and-data/05-text-ascii-and-unicode.md -->.
+Before this: [Lists, dicts, sets and tuples](04-lists-dicts-sets-and-tuples.md). For the encoding background, see [text, ASCII and Unicode](../../01-how-computers-work/01-bits-and-data/05-text-ascii-and-unicode.md).
 
 ## The idea
 
@@ -266,5 +266,5 @@ WARN        1
 
 ## Where this shows up
 
-- Files and I/O<!-- link: 07-files-and-io.md --> is where encodings bite: the `encoding` argument of `open`.
+- [Files and I/O](07-files-and-io.md) is where encodings bite: the `encoding` argument of `open`.
 - Injection and escaping come back in injection and input validation<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md --> and in parameterized queries in SQL.

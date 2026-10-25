@@ -306,4 +306,4 @@ The output is from the author's Windows 11 PC, Python 3.14. `dict.fromkeys` is t
 ## Where this shows up
 
 - Hash tables<!-- link: ../../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md --> explains why dict and set lookups are constant time on average.
-- References, mutability and copying<!-- link: ../02-thinking-like-a-programmer/02-references-mutability-and-copying.md --> covers the shared-row grid bug in depth.
+- [References, mutability and copying](../02-thinking-like-a-programmer/02-references-mutability-and-copying.md) covers the shared-row grid bug in depth.

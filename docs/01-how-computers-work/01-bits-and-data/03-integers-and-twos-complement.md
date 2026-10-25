@@ -229,5 +229,5 @@ print(datetime.datetime.fromtimestamp(2**31 - 1, datetime.timezone.utc))
 
 ## Where this shows up
 
-- Floating point<!-- link: 04-floating-point.md --> is the other way a computer stores numbers, and it has its own limits.
+- [Floating point](04-floating-point.md) is the other way a computer stores numbers, and it has its own limits.
 - Database column types such as `integer` and `bigint` in data types and constraints<!-- link: ../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md -->, and the 64-bit counters in IDs and timestamps.

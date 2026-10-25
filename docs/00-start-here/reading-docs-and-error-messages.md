@@ -251,5 +251,5 @@ What to check:
 
 ## Where this shows up
 
-- Python errors in depth: errors and exceptions<!-- link: ../03-programming-fundamentals/01-python-basics/06-errors-and-exceptions.md --> and reading code and debugging<!-- link: ../03-programming-fundamentals/02-thinking-like-a-programmer/04-reading-code-and-debugging.md -->.
+- Python errors in depth: [errors and exceptions](../03-programming-fundamentals/01-python-basics/06-errors-and-exceptions.md) and [reading code and debugging](../03-programming-fundamentals/02-thinking-like-a-programmer/04-reading-code-and-debugging.md).
 - Ports and connection errors: ports and sockets<!-- link: ../07-networking/01-how-the-internet-works/04-ports-and-sockets.md -->.

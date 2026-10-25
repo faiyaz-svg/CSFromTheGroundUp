@@ -349,5 +349,5 @@ True           -> bool True
 
 ## Where this shows up
 
-- Functions<!-- link: 03-functions-and-scope.md --> package these branches; comprehensions in lists, dicts, sets and tuples<!-- link: 04-lists-dicts-sets-and-tuples.md --> replace many loops.
-- Recursion<!-- link: ../02-thinking-like-a-programmer/01-recursion.md --> is the other way to repeat work.
+- Functions<!-- link: 03-functions-and-scope.md --> package these branches; comprehensions in [lists, dicts, sets and tuples](04-lists-dicts-sets-and-tuples.md) replace many loops.
+- [Recursion](../02-thinking-like-a-programmer/01-recursion.md) is the other way to repeat work.

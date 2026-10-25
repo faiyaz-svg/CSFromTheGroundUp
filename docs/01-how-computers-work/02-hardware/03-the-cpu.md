@@ -28,7 +28,7 @@ A **core** is one complete instruction-running unit, with its own registers and 
 
 ## How it works
 
-Fetch, decode, execute. The CPU reads the instruction at the address in the PC and increases the PC. The decoder splits it into an operation and operands. The ALU, a memory access or a jump then carries it out, and a result goes into a register. A jump loads a new address into the PC, and that is how `if` and `for` work at this level. Machine code and assembly<!-- link: ../03-code-to-running-program/01-machine-code-and-assembly.md --> shows real instructions.
+Fetch, decode, execute. The CPU reads the instruction at the address in the PC and increases the PC. The decoder splits it into an operation and operands. The ALU, a memory access or a jump then carries it out, and a result goes into a register. A jump loads a new address into the PC, and that is how `if` and `for` work at this level. [Machine code and assembly](../03-code-to-running-program/01-machine-code-and-assembly.md) shows real instructions.
 
 Clock speed. At 4 GHz a cycle lasts 0.25 ns. Many simple instructions take one cycle once the pipeline is full, and a memory miss can cost hundreds. Clock speed alone does not rank CPUs: a newer design can finish more instructions per cycle, and a faster clock draws more power and makes more heat, so chips raise and lower it constantly (boost clocks). The figure to ask about is work per second for your workload.
 
@@ -239,6 +239,6 @@ The 8-worker run gets 4.1 times, not 8, because this chip has 6 physical cores. 
 
 ## Where this shows up
 
-- Machine code and assembly<!-- link: ../03-code-to-running-program/01-machine-code-and-assembly.md --> shows the instructions this lesson describes.
+- [Machine code and assembly](../03-code-to-running-program/01-machine-code-and-assembly.md) shows the instructions this lesson describes.
 - Processes, threads and scheduling<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md --> covers how the operating system shares cores among programs.
 - [GPUs and parallel hardware](06-gpus-and-parallel-hardware.md) takes the "many cores" idea much further.

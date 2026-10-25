@@ -315,5 +315,5 @@ Real retry code also backs off (a longer delay each time) and adds randomness, s
 
 ## Where this shows up
 
-- Files and I/O<!-- link: 07-files-and-io.md --> uses `with` so cleanup happens even when an exception is raised.
+- [Files and I/O](07-files-and-io.md) uses `with` so cleanup happens even when an exception is raised.
 - Validation and error handling<!-- link: ../../09-back-end/01-servers-and-apis/05-validation-and-error-handling.md --> turns exceptions into HTTP status codes.

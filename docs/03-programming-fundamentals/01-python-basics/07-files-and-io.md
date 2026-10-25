@@ -288,5 +288,5 @@ The cp1252 line shows `\xc3\xab`, which is `Ã«`: the two UTF-8 bytes for `ë`,
 
 ## Where this shows up
 
-- Modules, packages, pip and venv<!-- link: 08-modules-packages-pip-and-venv.md --> shows how a script finds its own data files relative to `__file__`.
+- [Modules, packages, pip and venv](08-modules-packages-pip-and-venv.md) shows how a script finds its own data files relative to `__file__`.
 - Pipes, redirection and text tools<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/04-pipes-redirection-and-text-tools.md --> treat standard input and output as files, and so does Python (`sys.stdin`, `sys.stdout`).

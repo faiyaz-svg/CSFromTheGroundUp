@@ -144,7 +144,7 @@ print(bad(1), bad(2))
 [1, 2] [1, 2]
 ```
 
-The first fix is a comprehension, `[[0] * 2 for _ in range(3)]`, which builds a new row each time. The tuple is immutable only in which objects it holds, not in what those objects contain. The third fix is the `None` default from Functions and scope<!-- link: ../01-python-basics/03-functions-and-scope.md -->.
+The first fix is a comprehension, `[[0] * 2 for _ in range(3)]`, which builds a new row each time. The tuple is immutable only in which objects it holds, not in what those objects contain. The third fix is the `None` default from [Functions and scope](../01-python-basics/03-functions-and-scope.md).
 
 </div>
 
@@ -280,6 +280,6 @@ print(board["bo"])
 
 ## Where this shows up
 
-- Objects hold references to other objects: classes and objects<!-- link: ../03-oop-and-paradigms/01-classes-and-objects.md -->.
-- Avoiding mutation is a core idea of functional programming ideas<!-- link: ../03-oop-and-paradigms/04-functional-programming-ideas.md -->.
+- Objects hold references to other objects: [classes and objects](../03-oop-and-paradigms/01-classes-and-objects.md).
+- Avoiding mutation is a core idea of [functional programming ideas](../03-oop-and-paradigms/04-functional-programming-ideas.md).
 - The same sharing exists in JavaScript objects and arrays, in React state, and in pointers in C.

@@ -143,6 +143,10 @@ nav:
           - "Reading code and debugging": 03-programming-fundamentals/02-thinking-like-a-programmer/04-reading-code-and-debugging.md
       - "OOP and paradigms":
           - 03-programming-fundamentals/03-oop-and-paradigms/index.md
+          - "Classes and objects": 03-programming-fundamentals/03-oop-and-paradigms/01-classes-and-objects.md
+          - "Encapsulation, inheritance and polymorphism": 03-programming-fundamentals/03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md
+          - "Composition and interfaces": 03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md
+          - "Functional programming ideas": 03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md
   - "Discrete math":
       - 04-discrete-math-for-cs/index.md
   - "Data structures":

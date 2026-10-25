@@ -328,5 +328,5 @@ all tests passed
 
 ## Where this shows up
 
-- Closures are the basis of decorators and of functional programming ideas<!-- link: ../03-oop-and-paradigms/04-functional-programming-ideas.md -->.
-- Methods are functions bound to objects, covered in classes and objects<!-- link: ../03-oop-and-paradigms/01-classes-and-objects.md -->.
+- Closures are the basis of decorators and of [functional programming ideas](../03-oop-and-paradigms/04-functional-programming-ideas.md).
+- Methods are functions bound to objects, covered in [classes and objects](../03-oop-and-paradigms/01-classes-and-objects.md).

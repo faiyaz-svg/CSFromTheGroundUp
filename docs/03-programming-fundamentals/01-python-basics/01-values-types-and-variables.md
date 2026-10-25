@@ -2,7 +2,7 @@
 
 After this you can predict what Python's numeric operators return, explain what a variable name actually is, and choose between `==` and `is`.
 
-Before this: [Setting up your machine](../../00-start-here/setting-up-your-machine.md). For the float details, see floating point<!-- link: ../../01-how-computers-work/01-bits-and-data/04-floating-point.md -->.
+Before this: [Setting up your machine](../../00-start-here/setting-up-your-machine.md). For the float details, see [floating point](../../01-how-computers-work/01-bits-and-data/04-floating-point.md).
 
 ## The idea
 
@@ -31,7 +31,7 @@ flowchart LR
 
 In the diagram, the dotted arrow is the old binding. The second assignment moves the arrow to a new object; the `int` is untouched, and the name never had a type.
 
-Type annotations such as `price: int = "free"` are hints for editors and type checkers. The interpreter ignores them, so that line runs without complaint. Type systems<!-- link: ../02-thinking-like-a-programmer/03-type-systems.md --> covers what checkers add.
+Type annotations such as `price: int = "free"` are hints for editors and type checkers. The interpreter ignores them, so that line runs without complaint. [Type systems](../02-thinking-like-a-programmer/03-type-systems.md) covers what checkers add.
 
 ## Key terms
 
@@ -93,7 +93,7 @@ flowchart LR
     b["name: b"] --> L2["list [1, 2]<br/>object 2"]
 ```
 
-In the diagram, `c = a` copied nothing, so `a` and `c` are two names for one list. `b` equals them but is a separate object, which is why `a == b` is `True` and `a is b` is `False`. The integers 1000 are likewise equal but separate. CPython happens to reuse small integers (about -5 to 256), so `is` on numbers sometimes appears to work, which is the worst kind of bug. Recent versions warn on `x is 5`. Aliasing gets its own lesson: references, mutability and copying<!-- link: ../02-thinking-like-a-programmer/02-references-mutability-and-copying.md -->.
+In the diagram, `c = a` copied nothing, so `a` and `c` are two names for one list. `b` equals them but is a separate object, which is why `a == b` is `True` and `a is b` is `False`. The integers 1000 are likewise equal but separate. CPython happens to reuse small integers (about -5 to 256), so `is` on numbers sometimes appears to work, which is the worst kind of bug. Recent versions warn on `x is 5`. Aliasing gets its own lesson: [references, mutability and copying](../02-thinking-like-a-programmer/02-references-mutability-and-copying.md).
 
 ## Worked examples
 
@@ -261,5 +261,5 @@ False True
 
 ## Where this shows up
 
-- Control flow<!-- link: 02-control-flow.md --> uses truthiness and `is None` checks on every page.
-- Aliasing bugs are the topic of references, mutability and copying<!-- link: ../02-thinking-like-a-programmer/02-references-mutability-and-copying.md -->.
+- [Control flow](02-control-flow.md) uses truthiness and `is None` checks on every page.
+- Aliasing bugs are the topic of [references, mutability and copying](../02-thinking-like-a-programmer/02-references-mutability-and-copying.md).

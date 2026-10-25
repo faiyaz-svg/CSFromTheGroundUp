@@ -2,7 +2,7 @@
 
 After this you can follow a program from source text to running code, say which path Python, JavaScript, TypeScript and C take, and explain why the same loop runs at very different speeds in them.
 
-Before this: Machine code and assembly<!-- link: 01-machine-code-and-assembly.md -->.
+Before this: [Machine code and assembly](01-machine-code-and-assembly.md).
 
 ## The idea
 

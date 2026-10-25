@@ -2,7 +2,7 @@
 
 After this you can read a short assembly listing, say what a compiler turned your function into, and explain why a program built for one kind of CPU does not run on another.
 
-Before this: The CPU<!-- link: ../02-hardware/03-the-cpu.md --> and binary and hexadecimal<!-- link: ../01-bits-and-data/01-binary-and-hexadecimal.md -->.
+Before this: [The CPU](../02-hardware/03-the-cpu.md) and [binary and hexadecimal](../01-bits-and-data/01-binary-and-hexadecimal.md).
 
 ## The idea
 
@@ -235,6 +235,6 @@ sum_to:
 
 ## Where this shows up
 
-- Compilers, interpreters and JIT<!-- link: 02-compilers-interpreters-and-jit.md --> shows the steps before assembly, and how Python and JavaScript avoid it.
+- [Compilers, interpreters and JIT](02-compilers-interpreters-and-jit.md) shows the steps before assembly, and how Python and JavaScript avoid it.
 - System calls and kernel mode<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md --> covers the special instruction a program uses to ask the operating system for something.
 - Multi-architecture container builds in the Docker lessons: the `exec format error` above.

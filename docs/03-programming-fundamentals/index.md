@@ -29,9 +29,9 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [OOP and paradigms](03-oop-and-paradigms/index.md)
 
-1. Classes and objects (not written yet)
-2. Encapsulation, inheritance and polymorphism (not written yet)
-3. Composition and interfaces (not written yet)
-4. Functional programming ideas (not written yet)
+1. [Classes and objects](03-oop-and-paradigms/01-classes-and-objects.md)
+2. [Encapsulation, inheritance and polymorphism](03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md)
+3. [Composition and interfaces](03-oop-and-paradigms/03-composition-and-interfaces.md)
+4. [Functional programming ideas](03-oop-and-paradigms/04-functional-programming-ideas.md)
 
 <!-- lessons:end -->
