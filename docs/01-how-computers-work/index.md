@@ -29,7 +29,7 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [From code to running program](03-code-to-running-program/index.md)
 
-1. Machine code and assembly (not written yet)
-2. Compilers, interpreters and JIT (not written yet)
+1. [Machine code and assembly](03-code-to-running-program/01-machine-code-and-assembly.md)
+2. [Compilers, interpreters and JIT](03-code-to-running-program/02-compilers-interpreters-and-jit.md)
 
 <!-- lessons:end -->

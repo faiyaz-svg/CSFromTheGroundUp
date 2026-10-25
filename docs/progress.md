@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 22 of 252. New lessons appear here as they are added.
+Lessons written so far: 24 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -23,6 +23,11 @@ Lessons written so far: 22 of 252. New lessons appear here as they are added.
 - [ ] [Memory hierarchy and latency numbers](01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md)
 - [ ] [Storage, I/O and buses](01-how-computers-work/02-hardware/05-storage-io-and-buses.md)
 - [ ] [GPUs and parallel hardware](01-how-computers-work/02-hardware/06-gpus-and-parallel-hardware.md)
+
+### From code to running program
+
+- [ ] [Machine code and assembly](01-how-computers-work/03-code-to-running-program/01-machine-code-and-assembly.md)
+- [ ] [Compilers, interpreters and JIT](01-how-computers-work/03-code-to-running-program/02-compilers-interpreters-and-jit.md)
 
 ## Operating systems and Linux
 

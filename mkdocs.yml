@@ -114,6 +114,8 @@ nav:
           - "GPUs and parallel hardware": 01-how-computers-work/02-hardware/06-gpus-and-parallel-hardware.md
       - "From code to running program":
           - 01-how-computers-work/03-code-to-running-program/index.md
+          - "Machine code and assembly": 01-how-computers-work/03-code-to-running-program/01-machine-code-and-assembly.md
+          - "Compilers, interpreters and JIT": 01-how-computers-work/03-code-to-running-program/02-compilers-interpreters-and-jit.md
   - "OS and Linux":
       - 02-operating-systems-and-linux/index.md
       - "Operating system concepts":
