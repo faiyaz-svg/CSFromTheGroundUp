@@ -20,7 +20,7 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 1. SELECT, WHERE and ORDER BY (not written yet)
 2. NULL and three-valued logic (not written yet)
 3. Aggregates, GROUP BY and HAVING (not written yet)
-4. Joins (not written yet)
+4. [Joins](02-querying/04-joins.md)
 5. Subqueries (not written yet)
 6. CTEs and recursive queries (not written yet)
 7. Window functions (not written yet)

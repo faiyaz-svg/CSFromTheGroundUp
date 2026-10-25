@@ -23,7 +23,7 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 1. Transistors and logic gates (not written yet)
 2. Boolean algebra and circuits (not written yet)
 3. The CPU (not written yet)
-4. Memory hierarchy and latency numbers (not written yet)
+4. [Memory hierarchy and latency numbers](02-hardware/04-memory-hierarchy-and-latency-numbers.md)
 5. Storage, I/O and buses (not written yet)
 6. GPUs and parallel hardware (not written yet) (optional)
 
