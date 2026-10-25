@@ -61,7 +61,7 @@ print(cart)
 [9.0, 18.0, 27.0]
 ```
 
-`discounted` leaves `cart` alone. `discount_in_place` rewrites it, so any other code holding the same list sees different prices (see references and mutability<!-- link: ../02-thinking-like-a-programmer/02-references-mutability-and-copying.md -->).
+`discounted` leaves `cart` alone. `discount_in_place` rewrites it, so any other code holding the same list sees different prices (see [references and mutability](../02-thinking-like-a-programmer/02-references-mutability-and-copying.md)).
 
 The usual tools for transforming a collection without mutating it are comprehensions and the higher-order functions `map` and `filter`. In Python the comprehension is the common choice; `map` and `filter` return lazy iterators, so wrap them in `list(...)` to see the results.
 
