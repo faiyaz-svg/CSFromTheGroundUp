@@ -149,6 +149,14 @@ nav:
           - "Functional programming ideas": 03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md
   - "Discrete math":
       - 04-discrete-math-for-cs/index.md
+      - "Logic and truth tables": 04-discrete-math-for-cs/01-logic-and-truth-tables.md
+      - "Sets, functions and relations": 04-discrete-math-for-cs/02-sets-functions-and-relations.md
+      - "Proof techniques and induction": 04-discrete-math-for-cs/03-proof-techniques-and-induction.md
+      - "Counting": 04-discrete-math-for-cs/04-counting.md
+      - "Discrete probability": 04-discrete-math-for-cs/05-discrete-probability.md
+      - "Graphs and trees": 04-discrete-math-for-cs/06-graphs-and-trees.md
+      - "Modular arithmetic": 04-discrete-math-for-cs/07-modular-arithmetic.md
+      - "Sums, logs and recurrences": 04-discrete-math-for-cs/08-sums-logs-and-recurrences.md
   - "Data structures":
       - 05-data-structures-and-algorithms/index.md
       - "Analysis":

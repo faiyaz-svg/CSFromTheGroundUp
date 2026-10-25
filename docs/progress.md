@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 32 of 252. New lessons appear here as they are added.
+Lessons written so far: 40 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -61,6 +61,17 @@ Lessons written so far: 32 of 252. New lessons appear here as they are added.
 - [ ] [Encapsulation, inheritance and polymorphism](03-programming-fundamentals/03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md)
 - [ ] [Composition and interfaces](03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md)
 - [ ] [Functional programming ideas](03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md)
+
+## Discrete math for CS
+
+- [ ] [Logic and truth tables](04-discrete-math-for-cs/01-logic-and-truth-tables.md)
+- [ ] [Sets, functions and relations](04-discrete-math-for-cs/02-sets-functions-and-relations.md)
+- [ ] [Proof techniques and induction](04-discrete-math-for-cs/03-proof-techniques-and-induction.md)
+- [ ] [Counting](04-discrete-math-for-cs/04-counting.md)
+- [ ] [Discrete probability](04-discrete-math-for-cs/05-discrete-probability.md)
+- [ ] [Graphs and trees](04-discrete-math-for-cs/06-graphs-and-trees.md)
+- [ ] [Modular arithmetic](04-discrete-math-for-cs/07-modular-arithmetic.md)
+- [ ] [Sums, logs and recurrences](04-discrete-math-for-cs/08-sums-logs-and-recurrences.md)
 
 ## Databases, SQL and Postgres
 
