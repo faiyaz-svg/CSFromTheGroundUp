@@ -39,7 +39,7 @@ A **cache line** is the fixed-size block, 64 bytes on most x86 chips, that moves
 
 ## The latency numbers
 
-The list known as "latency numbers every programmer should know" goes back to a table of timings on [Peter Norvig's page](https://norvig.com/21-days.html), which Jeff Dean later popularised in talks. Its figures date from the early 2000s. Colin Scott's [interactive version](https://colin-scott.github.io/personal_website/research/interactive_latency.html) extrapolates them by year. A more recent source is Simon Eskildsen's [napkin-math](https://github.com/sirupsen/napkin-math), last measured in October 2026 on cloud virtual machines. L3 latency is not in those lists; the figure below comes from [Chips and Cheese's cache tests](https://chipsandcheese.com/p/previewing-meteor-lake-at-ces).
+The list known as "latency numbers every programmer should know" goes back to a table of timings on [Peter Norvig's page](https://norvig.com/21-days.html), which Jeff Dean later popularised in talks. Its figures date from the early 2000s. Colin Scott's [interactive version](https://colin-scott.github.io/personal_website/research/interactive_latency.html) extrapolates them by year. A more recent source is Simon Eskildsen's [napkin-math](https://github.com/sirupsen/napkin-math), measured on cloud virtual machines. L3 latency is not in those lists; the figure below comes from [Chips and Cheese's cache tests](https://chipsandcheese.com/p/previewing-meteor-lake-at-ces).
 
 Treat every value as an order of magnitude, not a measurement of your machine. A different CPU, SSD model or cloud region can move a number by two or three times. What matters is the ratio between rows.
 
@@ -58,11 +58,11 @@ The last column is the human-scale version: it multiplies every time by one bill
 | Round trip within one continent | 40 ms | 1.3 years |
 | Round trip across the Atlantic | 90 ms | 2.9 years |
 
-The data-centre row uses Dean's 500 µs; napkin-math lists 100 µs for the same availability zone. Both are the same order of magnitude as the SSD row, which is the useful fact: asking a nearby server for something costs about as much as reading it from a disk.
+The data-centre row uses Dean's 500 µs; napkin-math lists 100 µs for the same availability zone. Either way it is close to the SSD row: asking a nearby server for something costs about as much as reading from a disk.
 
-Bandwidth tells a different story. Reading sequentially, one thread can pull about 20 GiB/s from RAM, about 4 GiB/s from a fast SSD and about 200 MiB/s from an HDD (napkin-math, 2026). A home gigabit link carries about 125 MB/s.
+Bandwidth tells a different story. Reading sequentially, one thread can pull about 20 GiB/s from RAM, about 4 GiB/s from a fast SSD and about 200 MiB/s from an HDD (napkin-math). A home gigabit link carries about 125 MB/s.
 
-Latency and bandwidth combine in one rule: the time to move data is roughly the latency plus the size divided by the bandwidth. A single 8 KiB read from an SSD is dominated by latency (100 µs against about 4 µs of transfer). Reading 1 GiB is dominated by bandwidth (about 250 ms against 100 µs). So many small requests cost far more than one large request of the same total size.
+Latency and bandwidth combine in one rule: the time to move data is roughly the latency plus the size divided by the bandwidth. A single 8 KiB read from an SSD is dominated by latency (100 µs against about 2 µs of transfer). Reading 1 GiB is dominated by bandwidth (about 250 ms against 100 µs). So many small requests cost far more than one large request of the same total size.
 
 ## How it works
 
@@ -75,9 +75,6 @@ The same idea repeats at every layer:
 - An array stores its elements side by side, so a loop over it moves through cache lines in order. A linked list stores each element in a separate node, reached by following a pointer, so each step can be a miss and the CPU cannot fetch ahead because it does not know the next address until it has loaded the current node. Both take time proportional to $n$ in Big O terms, but the array's constant is much smaller. See arrays and dynamic arrays<!-- link: ../../05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md --> and linked lists<!-- link: ../../05-data-structures-and-algorithms/02-data-structures/02-linked-lists.md -->.
 - A database index is a small, sorted structure that finds a row in a few reads instead of scanning the table. Scanning a large table from disk reads many pages; an index lookup reads a handful. See indexes<!-- link: ../../10-databases-sql-and-postgres/04-postgres-in-depth/01-indexes.md -->.
 - An in-memory cache such as Redis keeps frequently used results in RAM, so the application skips a slow query. It still sits across the network, so each lookup costs a round trip of roughly 100 µs to 1 ms, not 100 ns. See Redis and caching<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md -->.
-- The operating system keeps recently used file contents in spare RAM, so a second read of the same file often never touches the disk. See memory and virtual memory<!-- link: ../../02-operating-systems-and-linux/01-os-concepts/03-memory-and-virtual-memory.md -->.
-
-The cost of the network layer is the one most often missed. A call to another service takes at least one round trip, and in a loop the round trips add up one after another. A loop that makes one API or database call per item pays the full latency for every item, as the next example shows.
 
 ## Worked examples
 
@@ -136,8 +133,6 @@ The page that took eight seconds loads 10,000 orders, then calls a pricing servi
 Watch out: treating the table as exact. These are orders of magnitude from different machines and different years. Use them to decide whether a design is plausible, then measure your own system. A claim like "this will take 3.2 ms" cannot come from this table; "this is in the milliseconds, not the nanoseconds" can.
 
 Watch out: assuming a cache always helps. A cache only helps when the same data is reused. A loop that reads each item once, with no pattern the CPU can predict, misses on nearly every access. The same holds one level up: a Redis cache with a low hit rate adds a network round trip to every request and saves little.
-
-Watch out: confusing latency with bandwidth. A fast link does not make a single small request fast. A 10 Gbps connection with a 100 ms round trip still takes at least 100 ms to answer one question.
 
 </div>
 
