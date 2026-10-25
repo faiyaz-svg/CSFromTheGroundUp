@@ -1,0 +1,8 @@
+site/
+.venv/
+.cache/
+.playwright-mcp/
+__pycache__/
+*.pyc
+context.txt
+node_modules/

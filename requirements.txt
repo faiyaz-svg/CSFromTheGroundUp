@@ -1,0 +1,4 @@
+zensical==0.0.71
+pymdown-extensions==12.3
+markdown==3.11.1
+pygments==2.21.0
