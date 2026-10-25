@@ -2,7 +2,14 @@
 
 Copy the skeleton below into a new lesson file and fill it in. Read `STYLE.md` first; every rule there applies.
 
-Lessons are short: a 10 to 15 minute read, about 800 to 1500 words, not counting code, the quiz and the lab. If a lesson grows past that, split it. The aim is a solid general understanding, so leave out detail that a reader can look up or ask an AI for once they have the vocabulary.
+Lessons are short: a 10 minute read, about 600 to 1000 words of prose, with a hard cap of 1200. Code, tables, the quiz and the lab don't count, but keep them lean too. The pilots ran long and the reader asked for harder cuts, so:
+
+- One worked example. Add a second only when it shows something the first can't.
+- At most 3 common mistakes, one or two sentences each.
+- The Working with AI box: up to 8 words to use, 2 prompts, 3 or 4 checks.
+- SQL lessons: at most 5 runner boxes outside the quiz and lab.
+- The lab has at most 6 steps.
+- Cut background, history and asides. If a detail is something the reader could look up or ask an AI for once they know the word, name it and move on. The aim is a solid general understanding, so leave out detail that a reader can look up or ask an AI for once they have the vocabulary.
 
 ## Section rules
 

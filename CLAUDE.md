@@ -1,6 +1,6 @@
 # CS From the Ground Up
 
-A self-study CS and software development textbook for one reader: a 4th-year CS student (economics minor, Ontario) preparing for the workforce. The thesis: with AI coding tools you need a solid general understanding (concepts, vocabulary, mental models, what to check) more than every detail. Lessons are short (10 to 15 minute read, about 800 to 1500 words) with a quiz and a small lab. Python first, then JavaScript and TypeScript. The Markdown in `docs/` is published to https://faiyaz-svg.github.io/CSFromTheGroundUp/ and also read directly in VS Code. The sibling math book is https://faiyaz-svg.github.io/MathFromTheGroundUp/.
+A self-study CS and software development textbook for one reader: a 4th-year CS student (economics minor, Ontario) preparing for the workforce. The thesis: with AI coding tools you need a solid general understanding (concepts, vocabulary, mental models, what to check) more than every detail. Lessons are short (a 10 minute read, about 600 to 1000 words of prose, cap 1200) with a quiz and a small lab. Python first, then JavaScript and TypeScript. The Markdown in `docs/` is published to https://faiyaz-svg.github.io/CSFromTheGroundUp/ and also read directly in VS Code. The sibling math book is https://faiyaz-svg.github.io/MathFromTheGroundUp/.
 
 ## Rules to follow
 
