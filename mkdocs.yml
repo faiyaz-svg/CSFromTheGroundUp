@@ -106,7 +106,12 @@ nav:
           - "Files, images and sound as bytes": 01-how-computers-work/01-bits-and-data/06-files-images-and-sound-as-bytes.md
       - "Hardware":
           - 01-how-computers-work/02-hardware/index.md
+          - "Transistors and logic gates": 01-how-computers-work/02-hardware/01-transistors-and-logic-gates.md
+          - "Boolean algebra and circuits": 01-how-computers-work/02-hardware/02-boolean-algebra-and-circuits.md
+          - "The CPU": 01-how-computers-work/02-hardware/03-the-cpu.md
           - "Memory hierarchy and latency numbers": 01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md
+          - "Storage, I/O and buses": 01-how-computers-work/02-hardware/05-storage-io-and-buses.md
+          - "GPUs and parallel hardware": 01-how-computers-work/02-hardware/06-gpus-and-parallel-hardware.md
       - "From code to running program":
           - 01-how-computers-work/03-code-to-running-program/index.md
   - "OS and Linux":

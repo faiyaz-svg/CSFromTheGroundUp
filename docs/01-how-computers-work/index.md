@@ -20,12 +20,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Hardware](02-hardware/index.md)
 
-1. Transistors and logic gates (not written yet)
-2. Boolean algebra and circuits (not written yet)
-3. The CPU (not written yet)
+1. [Transistors and logic gates](02-hardware/01-transistors-and-logic-gates.md)
+2. [Boolean algebra and circuits](02-hardware/02-boolean-algebra-and-circuits.md)
+3. [The CPU](02-hardware/03-the-cpu.md)
 4. [Memory hierarchy and latency numbers](02-hardware/04-memory-hierarchy-and-latency-numbers.md)
-5. Storage, I/O and buses (not written yet)
-6. GPUs and parallel hardware (not written yet) (optional)
+5. [Storage, I/O and buses](02-hardware/05-storage-io-and-buses.md)
+6. [GPUs and parallel hardware](02-hardware/06-gpus-and-parallel-hardware.md) (optional)
 
 ### 3. [From code to running program](03-code-to-running-program/index.md)
 
