@@ -28,12 +28,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [Algorithms](03-algorithms/index.md)
 
-1. Binary search (not written yet)
-2. Sorting (not written yet)
-3. BFS and DFS (not written yet)
-4. Shortest paths (not written yet)
-5. Greedy algorithms (not written yet)
-6. Dynamic programming (not written yet)
+1. [Binary search](03-algorithms/01-binary-search.md)
+2. [Sorting](03-algorithms/02-sorting.md)
+3. [BFS and DFS](03-algorithms/03-bfs-and-dfs.md)
+4. [Shortest paths](03-algorithms/04-shortest-paths.md)
+5. [Greedy algorithms](03-algorithms/05-greedy-algorithms.md)
+6. [Dynamic programming](03-algorithms/06-dynamic-programming.md)
 
 ### 4. [LeetCode patterns](04-leetcode-patterns/index.md)
 

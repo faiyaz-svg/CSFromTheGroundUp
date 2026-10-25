@@ -80,7 +80,7 @@ flowchart TB
     style F2r fill:#f6d5cf,stroke:#b3402a
 ```
 
-In the diagram, `fib(2)` appears twice (shaded), and each copy rebuilds the same subtree. With memoization the second `fib(2)` is looked up instead. For `fib(n)` this changes the cost from exponential to $O(n)$. In Python, `@functools.cache` does it. A memoized recursion still uses $O(n)$ stack, and the cache itself takes memory, which is the trade from the last lesson. Systematic use of this idea is dynamic programming<!-- link: ../03-algorithms/06-dynamic-programming.md -->.
+In the diagram, `fib(2)` appears twice (shaded), and each copy rebuilds the same subtree. With memoization the second `fib(2)` is looked up instead. For `fib(n)` this changes the cost from exponential to $O(n)$. In Python, `@functools.cache` does it. A memoized recursion still uses $O(n)$ stack, and the cache itself takes memory, which is the trade from the last lesson. Systematic use of this idea is [dynamic programming](../03-algorithms/06-dynamic-programming.md).
 
 ## Worked examples
 
@@ -297,6 +297,6 @@ The memoized time is a few microseconds and nearly flat, because it does $n + 1$
 
 ## Where this shows up
 
-- Binary search<!-- link: ../03-algorithms/01-binary-search.md --> ($T(n/2) + 1$), sorting<!-- link: ../03-algorithms/02-sorting.md --> ($2T(n/2) + n$) and tree traversals<!-- link: ../02-data-structures/05-trees-and-binary-search-trees.md --> ($2T(n/2) + 1$).
-- Dynamic programming<!-- link: ../03-algorithms/06-dynamic-programming.md --> and the interview patterns built on it<!-- link: ../04-leetcode-patterns/07-dp-patterns.md -->, which are memoization organized on purpose.
+- [Binary search](../03-algorithms/01-binary-search.md) ($T(n/2) + 1$), [sorting](../03-algorithms/02-sorting.md) ($2T(n/2) + n$) and tree traversals<!-- link: ../02-data-structures/05-trees-and-binary-search-trees.md --> ($2T(n/2) + 1$).
+- [Dynamic programming](../03-algorithms/06-dynamic-programming.md) and the interview patterns built on it<!-- link: ../04-leetcode-patterns/07-dp-patterns.md -->, which are memoization organized on purpose.
 - [Sums, logs and recurrences](../../04-discrete-math-for-cs/08-sums-logs-and-recurrences.md) gives the maths behind the level sums used here.

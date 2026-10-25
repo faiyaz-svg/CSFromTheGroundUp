@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 56 of 252. New lessons appear here as they are added.
+Lessons written so far: 62 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -99,6 +99,15 @@ Lessons written so far: 56 of 252. New lessons appear here as they are added.
 - [ ] [Heaps and priority queues](05-data-structures-and-algorithms/02-data-structures/06-heaps-and-priority-queues.md)
 - [ ] [Graphs and representations](05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md)
 - [ ] [Tries and union find](05-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md)
+
+### Algorithms
+
+- [ ] [Binary search](05-data-structures-and-algorithms/03-algorithms/01-binary-search.md)
+- [ ] [Sorting](05-data-structures-and-algorithms/03-algorithms/02-sorting.md)
+- [ ] [BFS and DFS](05-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md)
+- [ ] [Shortest paths](05-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md)
+- [ ] [Greedy algorithms](05-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md)
+- [ ] [Dynamic programming](05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md)
 
 ## Databases, SQL and Postgres
 

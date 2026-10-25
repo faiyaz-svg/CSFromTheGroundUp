@@ -222,5 +222,5 @@ The code is in Example 1. For the 5 smallest, keep a max-heap by storing negated
 
 ## Where this shows up
 
-- Dijkstra's shortest paths<!-- link: ../03-algorithms/04-shortest-paths.md --> uses a priority queue, and the heaps, intervals and top-k<!-- link: ../04-leetcode-patterns/08-heaps-intervals-and-top-k.md --> pattern uses `heapq` constantly.
+- Dijkstra's [shortest paths](../03-algorithms/04-shortest-paths.md) uses a priority queue, and the heaps, intervals and top-k<!-- link: ../04-leetcode-patterns/08-heaps-intervals-and-top-k.md --> pattern uses `heapq` constantly.
 - Task schedulers, event simulations and "merge $k$ sorted lists" use a heap.

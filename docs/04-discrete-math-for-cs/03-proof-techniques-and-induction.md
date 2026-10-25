@@ -243,5 +243,5 @@ With `hi = mid - 1`, the first step on target 3 sets `hi = 1`, so `xs[hi:]` is `
 ## Where this shows up
 
 - Reasoning about recursion in [recursion](../03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md) and in [analysing recursive algorithms](../05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md).
-- Binary search<!-- link: ../05-data-structures-and-algorithms/03-algorithms/01-binary-search.md -->, where the invariant is the whole difficulty.
+- [Binary search](../05-data-structures-and-algorithms/03-algorithms/01-binary-search.md), where the invariant is the whole difficulty.
 - More depth (optional): [mathematical induction](https://faiyaz-svg.github.io/MathFromTheGroundUp/04-proofs-and-logic/05-induction/01-mathematical-induction/) in the sibling math book.

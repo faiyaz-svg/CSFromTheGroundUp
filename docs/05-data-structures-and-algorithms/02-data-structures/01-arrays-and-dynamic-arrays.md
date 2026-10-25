@@ -78,7 +78,7 @@ The size jumps only at 1, 5, 9, 17, 25 and 33 elements, so most appends touch no
 | Append at the end | $O(1)$ amortized | occasional copy when full |
 | Insert or delete at index $i$ | $O(n)$ | shifts the elements after $i$ |
 | Search an unsorted array | $O(n)$ | check each slot |
-| Search a sorted array | $O(\log n)$ | binary search<!-- link: ../03-algorithms/01-binary-search.md --> |
+| Search a sorted array | $O(\log n)$ | [binary search](../03-algorithms/01-binary-search.md) |
 
 Python's `list` is the dynamic array; `array.array` stores raw numbers of one type, and NumPy arrays do the same for numerical work. In JavaScript, `Array` plays the same role (`push`, `pop`, `a[i]`), and typed arrays such as `Int32Array` are fixed-size.
 
@@ -260,4 +260,4 @@ The growths happen at sizes 1, 2, 4, ..., 512, copying $1 + 2 + \dots + 512 = 10
 ## Where this shows up
 
 - [Linked lists](02-linked-lists.md) trade the fast index for cheap insertion, and every other structure in this chapter is built from arrays, pointers or both.
-- Binary search<!-- link: ../03-algorithms/01-binary-search.md --> and sorting<!-- link: ../03-algorithms/02-sorting.md --> work on arrays because of the $O(1)$ index.
+- [Binary search](../03-algorithms/01-binary-search.md) and [sorting](../03-algorithms/02-sorting.md) work on arrays because of the $O(1)$ index.

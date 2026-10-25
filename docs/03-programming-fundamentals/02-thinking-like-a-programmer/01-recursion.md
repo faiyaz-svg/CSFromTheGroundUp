@@ -63,7 +63,7 @@ The stack has a fixed size, so Python caps the depth. The limit is 1000 by defau
 
 Any recursion can be written as a loop (with your own stack if needed). A loop is usually faster in Python, because each call costs time and memory, and Python does not optimize tail calls. Recursion is the better fit when the data is itself nested: trees, folders, JSON, expressions, and the problems in backtracking<!-- link: ../../05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md -->.
 
-The second trap is repeated work. A function that calls itself twice per level, such as Fibonacci, recomputes the same subproblems an exponential number of times. Memoization fixes this in one line: `functools.cache` wraps the function and remembers each result. Doing this systematically is dynamic programming<!-- link: ../../05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md -->.
+The second trap is repeated work. A function that calls itself twice per level, such as Fibonacci, recomputes the same subproblems an exponential number of times. Memoization fixes this in one line: `functools.cache` wraps the function and remembers each result. Doing this systematically is [dynamic programming](../../05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md).
 
 ## Worked examples
 

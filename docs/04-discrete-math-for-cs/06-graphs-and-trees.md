@@ -262,6 +262,6 @@ The number of waves equals the length of the longest dependency chain (`core`, `
 
 ## Where this shows up
 
-- Graph representations and traversals, in [graphs and representations](../05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md) and BFS and DFS<!-- link: ../05-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md -->.
+- Graph representations and traversals, in [graphs and representations](../05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md) and [BFS and DFS](../05-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md).
 - Trees in code, in [trees and binary search trees](../05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md), and file systems in [file systems](../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md).
 - More depth (optional): [paths, connectivity and trees](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/05-graphs/02-paths-connectivity-and-trees/) in the sibling math book.

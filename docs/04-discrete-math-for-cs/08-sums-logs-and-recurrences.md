@@ -260,7 +260,7 @@ print(sum(1 / i for i in range(1, 10**6 + 1)), math.log(10**6) + 0.5772156649)
 14.392726722865724 14.392726222864274
 ```
 
-The call count is close to 20,000 because $T(n) = T(n-1) + T(n-2) + 1$ grows exponentially, by a factor of about 1.6 per step. The count is a reason to remember results, as in dynamic programming<!-- link: ../05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md -->.
+The call count is close to 20,000 because $T(n) = T(n-1) + T(n-2) + 1$ grows exponentially, by a factor of about 1.6 per step. The count is a reason to remember results, as in [dynamic programming](../05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md).
 
 </details>
 
@@ -269,5 +269,5 @@ The call count is close to 20,000 because $T(n) = T(n-1) + T(n-2) + 1$ grows exp
 ## Where this shows up
 
 - Reading and writing Big O, in [Big O and runtime](../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md) and [analysing recursive algorithms](../05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md).
-- Binary search<!-- link: ../05-data-structures-and-algorithms/03-algorithms/01-binary-search.md --> and the cost of sorting, in sorting<!-- link: ../05-data-structures-and-algorithms/03-algorithms/02-sorting.md -->.
+- [Binary search](../05-data-structures-and-algorithms/03-algorithms/01-binary-search.md) and the cost of sorting, in [sorting](../05-data-structures-and-algorithms/03-algorithms/02-sorting.md).
 - More depth (optional): [recurrences](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/04-sums-recurrences-and-algorithms/02-recurrences/) in the sibling math book.

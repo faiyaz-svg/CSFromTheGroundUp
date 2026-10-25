@@ -181,6 +181,12 @@ nav:
           - "Tries and union find": 05-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md
       - "Algorithms":
           - 05-data-structures-and-algorithms/03-algorithms/index.md
+          - "Binary search": 05-data-structures-and-algorithms/03-algorithms/01-binary-search.md
+          - "Sorting": 05-data-structures-and-algorithms/03-algorithms/02-sorting.md
+          - "BFS and DFS": 05-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md
+          - "Shortest paths": 05-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md
+          - "Greedy algorithms": 05-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md
+          - "Dynamic programming": 05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md
       - "LeetCode patterns":
           - 05-data-structures-and-algorithms/04-leetcode-patterns/index.md
   - "Dev tools":
