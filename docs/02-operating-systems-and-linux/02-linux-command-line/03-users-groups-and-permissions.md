@@ -2,7 +2,7 @@
 
 After this you can read an `ls -l` line, change who may read, write or run a file with `chmod` and `chown`, and fix a "Permission denied" error without reaching for `chmod 777`.
 
-Before this: [Shell and terminal basics](01-shell-and-terminal-basics.md)<!-- link: 01-shell-and-terminal-basics.md --> and [Files and navigation](02-files-and-navigation.md)<!-- link: 02-files-and-navigation.md -->.
+Before this: Shell and terminal basics<!-- link: 01-shell-and-terminal-basics.md --><!-- link: 01-shell-and-terminal-basics.md --> and Files and navigation<!-- link: 02-files-and-navigation.md --><!-- link: 02-files-and-navigation.md -->.
 
 ## The idea
 
