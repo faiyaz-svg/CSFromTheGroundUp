@@ -6,9 +6,9 @@ Before this: the relational model<!-- link: ../01-database-basics/02-the-relatio
 
 ## The idea
 
-The `shop` database stores a customer's name once, in `customers`. An order stores only a `customer_id`, and each line of an order stores an `order_id` and a `product_id`. Splitting the data this way means a name or a price is written in one place, so it can't disagree with itself. The cost is that a question such as "who bought the Wireless Mouse?" needs rows from four tables.
+The `shop` database stores a customer's name once, in `customers`. An order stores only a `customer_id`, and each line of an order stores an `order_id` and a `product_id`. A name or a price is written in one place, so it can't disagree with itself, but "who bought the Wireless Mouse?" now needs rows from four tables.
 
-A **join** puts those tables back together at query time. For every row of one table it looks for rows in another table where a condition is true, and the usual condition is "the foreign key equals the primary key". A primary key identifies one row of its table; a foreign key is a column that holds another table's primary key value.
+A **join** puts those tables back together at query time. For each row of one table it finds the rows in another table where a condition is true, usually "the foreign key equals the primary key". A primary key identifies one row of its table; a foreign key is a column that holds another table's primary key value.
 
 ```mermaid
 flowchart LR
@@ -18,58 +18,45 @@ flowchart LR
     P["products<br/>product_id (PK)"] -->|"product_id"| I
 ```
 
-Each arrow points from the table that has the primary key to the table that holds it as a foreign key. A customer has many orders, an order has many items, and a product appears in many items. These are one-to-many relationships, and they are why row counts change when you join.
+Each arrow points from the table with the primary key to the table that holds it as a foreign key. A customer has many orders, an order many items, and a product appears in many items. These one-to-many relationships are why row counts change when you join.
 
 ## Key terms
 
-A **join** combines each row of one table with the rows of another table that satisfy a join condition, written after `ON`.
+A **join** combines each row of one table with the rows of another table that satisfy a condition, written after `ON`.
 
 An **inner join** keeps only the pairs where the condition is true. A row with no partner disappears.
 
-A **left outer join** keeps every row of the left table. When no row on the right matches, the right-hand columns are filled with `NULL`. A **right outer join** is the same with the sides swapped, and a **full outer join** keeps unmatched rows from both sides. The word `OUTER` is optional.
-
-A **cross join** pairs every row of one table with every row of the other, with no condition.
+A **left outer join** keeps every row of the left table. When no right-hand row matches, the right-hand columns are filled with `NULL`. A right outer join swaps the sides, a **full outer join** keeps unmatched rows from both sides, and a **cross join** pairs every row with every row, with no condition. The word `OUTER` is optional.
 
 A **table alias** is a short name given to a table in `FROM`, such as `customers AS c`, so you can write `c.customer_id`.
 
 ## How it works
 
-Take customer 13, who has no orders, and customer 14, who has two (orders 61 and 498). Here is what each join produces for just those two customers.
+Take customer 13, who has no orders, and customer 14, who has two (orders 61 and 498).
 
 | Join | Rows for customers 13 and 14 |
 |---|---|
 | `INNER JOIN` | (14, 61), (14, 498). Customer 13 is gone. |
 | `LEFT JOIN` | (13, NULL), (14, 61), (14, 498). Customer 13 is kept, with `NULL` for the order. |
 
-Conceptually, the database takes each left row, finds the right rows where the `ON` condition is true, and emits one output row per match. Zero matches means no output row for an inner join and one `NULL`-padded row for a left join. Two matches means two output rows, so the left row is repeated. The real planner uses indexes and hash tables rather than comparing every pair, which a later lesson on query plans<!-- link: ../04-postgres-in-depth/02-explain-and-query-plans.md --> shows.
+Conceptually, the database takes each left row and emits one output row per right row where the `ON` condition is true. Zero matches gives no row for an inner join and one `NULL`-padded row for a left join. Two matches give two rows, so the left row is repeated. The real planner is faster than comparing every pair; the lesson on query plans<!-- link: ../04-postgres-in-depth/02-explain-and-query-plans.md --> shows how.
 
-Start with an inner join. Run it, then change `INNER JOIN` to `LEFT JOIN` and compare the row counts.
-
-<div class="sql-runner" data-db="shop" markdown>
-
-```sql
-SELECT c.first_name, c.last_name, o.order_id, o.status
-FROM customers AS c
-INNER JOIN orders AS o ON o.customer_id = c.customer_id
-ORDER BY o.order_id
-LIMIT 4;
-```
-
-</div>
-
-When the two columns have the same name, `USING` shortens the condition and keeps one copy of the column. `JOIN` on its own means `INNER JOIN`.
+Each extra `JOIN` adds one table to the result so far, so a chain follows the arrows in the diagram. This query lists what order 1 contained. When two columns share a name, `USING (customer_id)` can replace the `ON` condition and keeps one copy of the column. `JOIN` on its own means `INNER JOIN`.
 
 <div class="sql-runner" data-db="shop" markdown>
 
 ```sql
-SELECT count(*) AS rows_after_join
+SELECT c.last_name, o.order_id, p.name, i.quantity, i.unit_price
 FROM customers c
-JOIN orders o USING (customer_id);
+JOIN orders o ON o.customer_id = c.customer_id
+JOIN order_items i ON i.order_id = o.order_id
+JOIN products p ON p.product_id = i.product_id
+WHERE o.order_id = 1;
 ```
 
 </div>
 
-The result is 900, the number of rows in `orders`. Every order has exactly one customer, so the join neither drops nor adds orders.
+Order 1 has four items, so four rows come back. Without the `WHERE`, the chain returns 1689 rows, the same as `order_items`: joining from the "many" side towards the "one" side keeps the count of the many side.
 
 ## Worked examples
 
@@ -95,81 +82,7 @@ ORDER BY c.customer_id;
 
 </div>
 
-Check: the query returns 42 rows. Remove the `WHERE` line and the same join returns 942 rows, which is 900 matched orders plus 42 customers padded with `NULL`. The same idea finds products that were never ordered: put `products` on the left, `order_items` on the right, and test `i.order_item_id IS NULL` (6 products).
-
-</div>
-
-<div class="example" markdown>
-
-### Example 2: three joins in a chain
-
-To list what one order contained, follow the arrows in the diagram: customers to orders to order_items to products. Each `JOIN` adds one table to the result so far.
-
-<div class="sql-runner" data-db="shop" markdown>
-
-```sql
-SELECT c.last_name, o.order_id, p.name, i.quantity, i.unit_price
-FROM customers c
-JOIN orders o ON o.customer_id = c.customer_id
-JOIN order_items i ON i.order_id = o.order_id
-JOIN products p ON p.product_id = i.product_id
-WHERE o.order_id = 1;
-```
-
-</div>
-
-Check: order 1 has four items, so four rows come back. Without the `WHERE`, the chain returns 1689 rows, the same as `order_items`. Joining from the "many" side towards the "one" side keeps the count of the many side. The column `unit_price` records the price at the time of the sale; in this sample data it equals `products.price` on every row.
-
-</div>
-
-## Outer, cross and self joins
-
-A right join is a left join with the tables written in the other order, so `orders RIGHT JOIN customers` equals `customers LEFT JOIN orders`. Most people write left joins only, because reading from left to right is easier.
-
-A full outer join is rare with foreign keys, because a foreign key stops an order from pointing at a missing customer. It is useful for comparing two lists that should match. Here `tax_rates` (cut down to three provinces) is compared with a list of codes someone typed in by hand. A `VALUES` list is a small inline table, and the subquery in `FROM` is covered in the next lesson.
-
-<div class="sql-runner" data-db="shop" markdown>
-
-```sql
-SELECT t.province, t.tax_type, v.code
-FROM (SELECT province, tax_type FROM tax_rates
-      WHERE province IN ('ON', 'QC', 'BC')) AS t
-FULL OUTER JOIN (VALUES ('ON'), ('QC'), ('XX')) AS v(code)
-  ON v.code = t.province
-ORDER BY t.province NULLS LAST;
-```
-
-</div>
-
-BC has no matching code, and `XX` has no matching province. Both unmatched rows appear, each with `NULL` on the other side.
-
-A cross join has no `ON`. It returns every combination, which is useful for building a grid, such as every province with every product category: 10 provinces times 5 categories gives 50 rows.
-
-<div class="sql-runner" data-db="shop" markdown>
-
-```sql
-SELECT t.province, cats.category
-FROM tax_rates t
-CROSS JOIN (SELECT DISTINCT category FROM products) AS cats
-ORDER BY t.province, cats.category
-LIMIT 6;
-```
-
-</div>
-
-A self join joins a table to itself, which is why aliases are required. The schema has no manager-and-employee column, but `order_items` supports a natural one: pairs of products bought in the same order. The condition `a.product_id < b.product_id` keeps each pair once and stops a product from pairing with itself.
-
-<div class="sql-runner" data-db="shop" markdown>
-
-```sql
-SELECT a.product_id AS p1, b.product_id AS p2, count(*) AS together
-FROM order_items a
-JOIN order_items b
-  ON b.order_id = a.order_id AND a.product_id < b.product_id
-GROUP BY a.product_id, b.product_id
-ORDER BY together DESC, p1, p2
-LIMIT 3;
-```
+Check: the query returns 42 rows. Remove the `WHERE` line and the same join returns 942 rows, which is 900 matched orders plus 42 customers padded with `NULL`. The same pattern finds products that were never ordered (6 of them): `products` on the left, `order_items` on the right, test `i.order_item_id IS NULL`.
 
 </div>
 
@@ -177,9 +90,7 @@ LIMIT 3;
 
 <div class="warning" markdown>
 
-Watch out: a `WHERE` filter on the right table turns a left join back into an inner join.
-
-The `ON` clause decides which rows match. The `WHERE` clause then filters the joined result, and a padded row has `NULL` in every right-hand column, so a test such as `o.status = 'refunded'` is not true for it. The customer is removed. To count refunded orders per province and still list provinces with none, put the filter in `ON`.
+Watch out: a `WHERE` filter on the right table turns a left join back into an inner join. A padded row has `NULL` in every right-hand column, so a test such as `o.status = 'refunded'` is not true for it and the row is removed. To count refunded orders per province and still list provinces with none, put the filter in `ON`.
 
 <div class="sql-runner" data-db="shop" markdown>
 
@@ -194,15 +105,13 @@ ORDER BY refunded_orders, t.province;
 
 </div>
 
-This returns 10 provinces, and NL shows 0. Move `AND o.status = 'refunded'` into a `WHERE` clause and NL disappears, leaving 9 rows. Filters on the left table belong in `WHERE`; filters on the right table of a left join belong in `ON`.
+This returns 10 provinces, and NL shows 0. Move `AND o.status = 'refunded'` into a `WHERE` clause and NL disappears, leaving 9 rows.
 
 </div>
 
 <div class="warning" markdown>
 
-Watch out: joining a "one" row to "many" rows repeats the one row, and aggregates then count or add the repeats.
-
-The 900 orders have just under two items each on average, so joining `orders` to `order_items` gives 1689 rows. `count(*)` now counts items, and `sum` over an order-level or product-level column adds the same value once per item.
+Watch out: joining a "one" row to "many" rows repeats the one row, and aggregates then count or add the repeats. Joining `orders` to `order_items` gives 1689 rows for 900 orders, so `count(*)` counts items, not orders.
 
 <div class="sql-runner" data-db="shop" markdown>
 
@@ -215,11 +124,15 @@ JOIN order_items i ON i.order_id = o.order_id;
 
 </div>
 
-The result is 1689 and 900. The same thing happens to `sum(p.stock)` after joining `products` to `order_items`: the real stock total is 4956, but the joined sum is 220549. Count with `count(DISTINCT ...)` on the "one" side's key, or aggregate the "many" side first. The habit that catches this is to count rows before and after each join.
+The result is 1689 and 900. Count with `count(DISTINCT ...)` on the "one" side's key, or aggregate the "many" side first.
 
 </div>
 
-Forgetting the join condition is a third way to get too many rows. In `FROM a, b` the comma is a cross join, so `customers, orders` with no `WHERE` returns 200 times 900 rows. A result that large almost always means a lost condition.
+<div class="warning" markdown>
+
+Watch out: a lost join condition. In `FROM a, b` the comma is a cross join, so `customers, orders` with no `WHERE` returns 200 times 900 rows.
+
+</div>
 
 ## Working with AI
 
@@ -231,15 +144,13 @@ Prompts to try:
 
 - "Here is my schema: [paste the CREATE TABLE statements]. One row of `orders` is one purchase by one customer; one row of `order_items` is one product line inside an order. Write a PostgreSQL query that lists every customer with their number of orders, including customers with zero orders."
 - "This query returns 1689 rows but I expected 900, one per order: [paste query]. Which join multiplies the rows, and how do I count orders once?"
-- "Rewrite this query so the `status` filter keeps unmatched rows from the left table, and explain whether the filter belongs in `ON` or `WHERE`."
 
 What to check:
 
-- Row counts before and after every join. Run `SELECT count(*)` on the first table, then on the joined result. If the count changed in a way the relationships don't explain, the join is wrong.
-- Duplicates. Ask whether the join goes from "one" to "many", and whether the query then sums or counts a column from the "one" side. If so, look for `DISTINCT` or a pre-aggregation.
-- `NULL` handling. In a left join, a filter on the right table in `WHERE` removes unmatched rows without any error, and `COALESCE(sum(...), 0)` is often needed so missing groups show 0 instead of `NULL`.
-- Invented columns. AI tools guess names such as `customers.orders_count` or `order_total`. Compare every column with the `CREATE TABLE` text you pasted.
-- The AI's picture of your data. The schema says what can be joined; only your description of what one row means tells it which join type is right. If the answer assumes every customer has an order, say so and correct it.
+- Row counts before and after every join. Run `SELECT count(*)` on the first table, then on the joined result, and explain any change.
+- Duplicates. If the join goes from "one" to "many" and the query sums or counts a "one" side column, look for `DISTINCT` or a pre-aggregation.
+- `NULL` handling. A `WHERE` filter on the right table of a left join removes unmatched rows without an error, and `COALESCE(sum(...), 0)` is often needed so missing groups show 0.
+- Invented columns such as `customers.orders_count`. Compare every column with the `CREATE TABLE` text you pasted.
 
 </div>
 
@@ -333,9 +244,9 @@ A `NOT EXISTS` subquery gives the same rows; the next lesson covers it.
 
 ### Lab: four join questions on the shop database
 
-Goal: answer four questions of increasing difficulty with joins, and check each result. Time: about 20 minutes. Runs in: the browser, with an optional step in WSL (Ubuntu).
+Goal: answer four questions of increasing difficulty with joins, and check each result. Time: about 20 minutes. Runs in: the browser.
 
-For tasks 1 to 4, write the query in the runner and press Check. The column names in each task must match exactly.
+For each task, write the query in the runner and press Check. The column names must match exactly.
 
 Task 1, pending orders. Return `order_id`, `customer` (first and last name joined with a space) and `status` for orders whose status is `pending`, sorted by `order_id`. Expected: 3 rows.
 
@@ -444,25 +355,12 @@ ORDER BY buyers, p.name;
 
 </details>
 
-Task 5 (optional), in WSL (Ubuntu), with PostgreSQL installed as in the Postgres and psql lesson<!-- link: ../01-database-basics/03-postgres-and-psql.md -->: download the same sample database the runner uses, load it, and run task 3 yourself.
-
-```bash
-curl -O https://faiyaz-svg.github.io/CSFromTheGroundUp/assets/sql/shop.sql
-createdb shop
-psql -d shop -f shop.sql
-psql -d shop
-```
-
-Inside `psql`, run `\d order_items` to see the foreign keys, paste the solution to task 3, and compare the output with the runner. Leave with `\q`.
-
-Cleanup: if you created the database only for this lab, remove it with `dropdb shop`.
-
-Expected result: tasks 1 to 4 show "matches" in the runner.
+Expected result: all four tasks show "matches" in the runner.
 
 </div>
 
 ## Where this shows up
 
-- Reports always join: revenue by category, orders by region, and the zero rows in these reports are the left join's job.
+- Reports join tables, and the zero rows in them (provinces with no refunds) are the left join's job.
 - Subqueries<!-- link: 05-subqueries.md --> and CTEs<!-- link: 06-ctes-and-recursive-queries.md --> are often alternatives to a join, and the next lesson compares them.
 - Indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> on foreign key columns are what make a join fast on large tables.
