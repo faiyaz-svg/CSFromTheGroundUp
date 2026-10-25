@@ -1,0 +1,501 @@
+# The lesson map for the whole book, in reading order.
+# tools/build_nav.py reads this file and updates the nav in mkdocs.yml,
+# docs/progress.md, and the lesson list in each folder's index.md.
+# The start-here pages (docs/00-start-here) are listed in build_nav.py, not here.
+#
+# File paths come from the order here:
+#   flat folder:      docs/<folder>/<NN>-<slug>.md
+#   chaptered folder: docs/<folder>/<NN>-<chapter>/<NN>-<slug>.md
+# A lesson entry is [slug, title] or [slug, title, flags] where flags can
+# contain "optional" and/or "fast".
+
+folders:
+  - folder: 01-how-computers-work
+    title: "How computers work"
+    tab: "Computers"
+    summary: "How information is stored as bits, how the hardware runs it, and how the code you write becomes a running program."
+    before: "Nothing. This is the start."
+    chapters:
+      - slug: bits-and-data
+        title: "Bits and data"
+        lessons:
+          - [binary-and-hexadecimal, "Binary and hexadecimal"]
+          - [bits-bytes-and-units, "Bits, bytes and units"]
+          - [integers-and-twos-complement, "Integers and two's complement"]
+          - [floating-point, "Floating point"]
+          - [text-ascii-and-unicode, "Text, ASCII and Unicode"]
+          - [files-images-and-sound-as-bytes, "Files, images and sound as bytes"]
+      - slug: hardware
+        title: "Hardware"
+        lessons:
+          - [transistors-and-logic-gates, "Transistors and logic gates"]
+          - [boolean-algebra-and-circuits, "Boolean algebra and circuits"]
+          - [the-cpu, "The CPU"]
+          - [memory-hierarchy-and-latency-numbers, "Memory hierarchy and latency numbers"]
+          - [storage-io-and-buses, "Storage, I/O and buses"]
+          - [gpus-and-parallel-hardware, "GPUs and parallel hardware", ["optional"]]
+      - slug: code-to-running-program
+        title: "From code to running program"
+        lessons:
+          - [machine-code-and-assembly, "Machine code and assembly"]
+          - [compilers-interpreters-and-jit, "Compilers, interpreters and JIT"]
+
+  - folder: 02-operating-systems-and-linux
+    title: "Operating systems and Linux"
+    tab: "OS and Linux"
+    summary: "What an operating system does, plus a working command-line toolkit for Linux, where most servers run."
+    before: "How computers work."
+    chapters:
+      - slug: os-concepts
+        title: "Operating system concepts"
+        lessons:
+          - [what-an-os-and-kernel-do, "What an OS and kernel do"]
+          - [processes-threads-and-scheduling, "Processes, threads and scheduling"]
+          - [memory-and-virtual-memory, "Memory and virtual memory"]
+          - [file-systems, "File systems"]
+          - [system-calls-and-kernel-mode, "System calls and kernel mode"]
+      - slug: linux-command-line
+        title: "Linux command line"
+        lessons:
+          - [shell-and-terminal-basics, "Shell and terminal basics"]
+          - [files-and-navigation, "Files and navigation"]
+          - [users-groups-and-permissions, "Users, groups and permissions"]
+          - [pipes-redirection-and-text-tools, "Pipes, redirection and text tools"]
+          - [processes-and-signals, "Processes and signals"]
+          - [packages-with-apt, "Packages with apt"]
+          - [services-systemd-and-logs, "Services, systemd and logs"]
+          - [environment-variables-and-path, "Environment variables and path"]
+          - [shell-scripting-and-cron, "Shell scripting and cron"]
+          - [ssh-and-keys, "SSH and keys"]
+
+  - folder: 03-programming-fundamentals
+    title: "Programming fundamentals"
+    tab: "Programming"
+    summary: "Python from the basics, the habits of thinking like a programmer, and object-oriented and functional ideas."
+    before: "How computers work, and Operating systems and Linux for the terminal."
+    chapters:
+      - slug: python-basics
+        title: "Python basics"
+        lessons:
+          - [values-types-and-variables, "Values, types and variables"]
+          - [control-flow, "Control flow"]
+          - [functions-and-scope, "Functions and scope"]
+          - [lists-dicts-sets-and-tuples, "Lists, dicts, sets and tuples"]
+          - [strings-and-formatting, "Strings and formatting"]
+          - [errors-and-exceptions, "Errors and exceptions"]
+          - [files-and-io, "Files and I/O"]
+          - [modules-packages-pip-and-venv, "Modules, packages, pip and venv"]
+      - slug: thinking-like-a-programmer
+        title: "Thinking like a programmer"
+        lessons:
+          - [recursion, "Recursion"]
+          - [references-mutability-and-copying, "References, mutability and copying"]
+          - [type-systems, "Type systems"]
+          - [reading-code-and-debugging, "Reading code and debugging"]
+      - slug: oop-and-paradigms
+        title: "OOP and paradigms"
+        lessons:
+          - [classes-and-objects, "Classes and objects"]
+          - [encapsulation-inheritance-and-polymorphism, "Encapsulation, inheritance and polymorphism"]
+          - [composition-and-interfaces, "Composition and interfaces"]
+          - [functional-programming-ideas, "Functional programming ideas"]
+
+  - folder: 04-discrete-math-for-cs
+    title: "Discrete math for CS"
+    tab: "Discrete math"
+    summary: "The math that algorithms, databases and cryptography rest on: logic, sets, proofs, counting, probability, graphs and modular arithmetic."
+    before: "Programming fundamentals."
+    lessons:
+      - [logic-and-truth-tables, "Logic and truth tables"]
+      - [sets-functions-and-relations, "Sets, functions and relations"]
+      - [proof-techniques-and-induction, "Proof techniques and induction"]
+      - [counting, "Counting"]
+      - [discrete-probability, "Discrete probability"]
+      - [graphs-and-trees, "Graphs and trees"]
+      - [modular-arithmetic, "Modular arithmetic"]
+      - [sums-logs-and-recurrences, "Sums, logs and recurrences"]
+
+  - folder: 05-data-structures-and-algorithms
+    title: "Data structures and algorithms"
+    tab: "Data structures"
+    summary: "Big O, the standard data structures and algorithms, and a set of problem-solving patterns for coding interviews."
+    before: "Programming fundamentals and Discrete math for CS."
+    chapters:
+      - slug: analysis
+        title: "Analysis"
+        lessons:
+          - [big-o-and-runtime, "Big O and runtime"]
+          - [space-and-amortized-analysis, "Space and amortized analysis"]
+          - [analysing-recursive-algorithms, "Analysing recursive algorithms"]
+      - slug: data-structures
+        title: "Data structures"
+        lessons:
+          - [arrays-and-dynamic-arrays, "Arrays and dynamic arrays"]
+          - [linked-lists, "Linked lists"]
+          - [stacks-and-queues, "Stacks and queues"]
+          - [hash-tables, "Hash tables"]
+          - [trees-and-binary-search-trees, "Trees and binary search trees"]
+          - [heaps-and-priority-queues, "Heaps and priority queues"]
+          - [graphs-and-representations, "Graphs and representations"]
+          - [tries-and-union-find, "Tries and union find", ["optional"]]
+      - slug: algorithms
+        title: "Algorithms"
+        lessons:
+          - [binary-search, "Binary search"]
+          - [sorting, "Sorting"]
+          - [bfs-and-dfs, "BFS and DFS"]
+          - [shortest-paths, "Shortest paths"]
+          - [greedy-algorithms, "Greedy algorithms"]
+          - [dynamic-programming, "Dynamic programming"]
+      - slug: leetcode-patterns
+        title: "LeetCode patterns"
+        lessons:
+          - [how-to-approach-a-problem, "How to approach a problem"]
+          - [two-pointers-and-sliding-window, "Two pointers and sliding window"]
+          - [hashing-and-prefix-sums, "Hashing and prefix sums"]
+          - [stacks-and-monotonic-stacks, "Stacks and monotonic stacks"]
+          - [tree-and-graph-problems, "Tree and graph problems"]
+          - [backtracking, "Backtracking"]
+          - [dp-patterns, "DP patterns"]
+          - [heaps-intervals-and-top-k, "Heaps, intervals and top-k"]
+
+  - folder: 06-developer-tools-and-workflow
+    title: "Developer tools and workflow"
+    tab: "Dev tools"
+    summary: "Git, GitHub, dependencies, configuration, data formats, regular expressions, testing, code quality and spreadsheets."
+    before: "Programming fundamentals."
+    chapters:
+      - slug: editor-and-git
+        title: "Editor and Git"
+        lessons:
+          - [vs-code-and-ides, "VS Code and IDEs"]
+          - [git-basics, "Git basics"]
+          - [branches-merging-and-conflicts, "Branches, merging and conflicts"]
+          - [github-pull-requests-and-code-review, "GitHub, pull requests and code review"]
+      - slug: project-plumbing
+        title: "Project plumbing"
+        lessons:
+          - [package-managers-and-dependencies, "Package managers and dependencies"]
+          - [config-env-vars-and-secrets, "Config, environment variables and secrets"]
+          - [data-formats-json-yaml-csv, "Data formats: JSON, YAML and CSV"]
+          - [regular-expressions, "Regular expressions"]
+      - slug: code-quality
+        title: "Code quality"
+        lessons:
+          - [unit-testing, "Unit testing"]
+          - [integration-tests-mocks-and-e2e, "Integration tests, mocks and end-to-end tests"]
+          - [linters-formatters-and-type-checkers, "Linters, formatters and type checkers"]
+          - [documentation-and-readmes, "Documentation and readmes"]
+      - slug: spreadsheets
+        title: "Spreadsheets"
+        lessons:
+          - [excel-formulas-and-references, "Excel formulas and references"]
+          - [lookups-pivot-tables-and-charts, "Lookups, pivot tables and charts"]
+          - [spreadsheets-csv-and-sql, "Spreadsheets, CSV and SQL"]
+
+  - folder: 07-networking
+    title: "Networking"
+    tab: "Networking"
+    summary: "How data crosses the internet, from IP addresses and DNS to HTTP and HTTPS, and the tools for debugging a connection."
+    before: "Operating systems and Linux."
+    chapters:
+      - slug: how-the-internet-works
+        title: "How the internet works"
+        lessons:
+          - [packets-routers-and-the-internet, "Packets, routers and the internet"]
+          - [ip-addresses-subnets-and-nat, "IP addresses, subnets and NAT"]
+          - [network-layers-tcp-and-udp, "Network layers, TCP and UDP"]
+          - [ports-and-sockets, "Ports and sockets"]
+          - [dns-and-domains, "DNS and domains"]
+      - slug: web-protocols
+        title: "Web protocols"
+        lessons:
+          - [http-requests-and-responses, "HTTP requests and responses"]
+          - [http-headers-cookies-and-caching, "HTTP headers, cookies and caching"]
+          - [tls-https-and-certificates, "TLS, HTTPS and certificates"]
+          - [client-server-architecture, "Client-server architecture"]
+          - [proxies-and-cdns, "Proxies and CDNs"]
+          - [websockets-and-real-time, "WebSockets and real-time communication"]
+          - [network-debugging-tools, "Network debugging tools"]
+
+  - folder: 08-front-end
+    title: "Front end"
+    tab: "Front end"
+    summary: "How browsers render pages, HTML and CSS, JavaScript and TypeScript, and React."
+    before: "Networking and Developer tools and workflow."
+    chapters:
+      - slug: html-css-and-the-browser
+        title: "HTML, CSS and the browser"
+        lessons:
+          - [how-browsers-render-pages, "How browsers render pages"]
+          - [html, "HTML"]
+          - [css-and-the-box-model, "CSS and the box model"]
+          - [layout-flexbox-grid-and-responsive, "Layout with flexbox, grid and responsive design"]
+          - [accessibility, "Accessibility"]
+      - slug: javascript-and-typescript
+        title: "JavaScript and TypeScript"
+        lessons:
+          - [javascript-for-python-programmers, "JavaScript for Python programmers"]
+          - [the-dom-and-events, "The DOM and events"]
+          - [async-javascript-and-the-event-loop, "Async JavaScript and the event loop"]
+          - [typescript, "TypeScript"]
+          - [npm-bundlers-and-vite, "npm, bundlers and Vite"]
+      - slug: react
+        title: "React"
+        lessons:
+          - [components-props-and-jsx, "Components, props and JSX"]
+          - [state-and-hooks, "State and hooks"]
+          - [data-fetching-and-forms, "Data fetching and forms"]
+          - [frameworks-and-libraries-landscape, "Frameworks and libraries landscape"]
+          - [web-performance, "Web performance"]
+
+  - folder: 09-back-end
+    title: "Back end"
+    tab: "Back end"
+    summary: "What a server does, how to design and secure an API, and how to run background jobs."
+    before: "Front end and Networking."
+    chapters:
+      - slug: servers-and-apis
+        title: "Servers and APIs"
+        lessons:
+          - [what-a-back-end-does, "What a back end does"]
+          - [nodejs-and-its-runtime, "Node.js and its runtime"]
+          - [express-routing-and-middleware, "Express: routing and middleware"]
+          - [rest-api-design, "REST API design"]
+          - [validation-and-error-handling, "Validation and error handling"]
+          - [other-api-styles-graphql-grpc-webhooks, "Other API styles: GraphQL, gRPC and webhooks", ["optional"]]
+          - [python-back-ends-fastapi-and-django, "Python back ends: FastAPI and Django", ["optional"]]
+      - slug: auth
+        title: "Authentication and authorization"
+        lessons:
+          - [authentication-vs-authorization, "Authentication vs authorization"]
+          - [sessions-cookies-and-jwt, "Sessions, cookies and JWT"]
+          - [oauth-and-sso, "OAuth and SSO"]
+          - [cors-and-same-origin, "CORS and same origin"]
+      - slug: api-quality
+        title: "API quality"
+        lessons:
+          - [background-jobs, "Background jobs"]
+          - [testing-and-documenting-apis, "Testing and documenting APIs"]
+
+  - folder: 10-databases-sql-and-postgres
+    title: "Databases, SQL and Postgres"
+    tab: "SQL and Postgres"
+    summary: "Relational databases and SQL in depth, schema design, how Postgres works inside, and using a database from application code."
+    before: "Programming fundamentals."
+    chapters:
+      - slug: database-basics
+        title: "Database basics"
+        lessons:
+          - [what-a-database-is, "What a database is"]
+          - [the-relational-model, "The relational model"]
+          - [postgres-and-psql, "Postgres and psql"]
+      - slug: querying
+        title: "Querying"
+        lessons:
+          - [select-where-and-order-by, "SELECT, WHERE and ORDER BY"]
+          - [null-and-three-valued-logic, "NULL and three-valued logic"]
+          - [aggregates-group-by-and-having, "Aggregates, GROUP BY and HAVING"]
+          - [joins, "Joins"]
+          - [subqueries, "Subqueries"]
+          - [ctes-and-recursive-queries, "CTEs and recursive queries"]
+          - [window-functions, "Window functions"]
+          - [set-operations-and-case, "Set operations and CASE"]
+          - [text-dates-and-times, "Text, dates and times"]
+      - slug: schema-design
+        title: "Schema design"
+        lessons:
+          - [data-types-and-constraints, "Data types and constraints"]
+          - [creating-and-changing-tables-and-data, "Creating and changing tables and data"]
+          - [modelling-relationships-and-er-diagrams, "Modelling relationships and ER diagrams"]
+          - [normalization-and-denormalization, "Normalization and denormalization"]
+      - slug: postgres-in-depth
+        title: "Postgres in depth"
+        lessons:
+          - [indexes, "Indexes"]
+          - [explain-and-query-plans, "EXPLAIN and query plans"]
+          - [transactions-and-acid, "Transactions and ACID"]
+          - [isolation-locking-and-mvcc, "Isolation, locking and MVCC"]
+          - [roles-privileges-and-row-level-security, "Roles, privileges and row-level security"]
+          - [views-functions-and-triggers, "Views, functions and triggers"]
+          - [jsonb-and-full-text-search, "JSONB and full-text search"]
+          - [backups-replication-and-pooling, "Backups, replication and pooling"]
+      - slug: databases-in-apps
+        title: "Databases in apps"
+        lessons:
+          - [sql-from-code-and-sql-injection, "SQL from code and SQL injection"]
+          - [orms-and-migrations, "ORMs and migrations"]
+          - [nosql-databases, "NoSQL databases"]
+          - [redis-and-caching, "Redis and caching"]
+
+  - folder: 11-data-engineering-and-data-science
+    title: "Data engineering and data science"
+    tab: "Data"
+    summary: "Warehouses, pipelines and dimensional modelling, then statistics, A/B testing and the basics of machine learning."
+    before: "Databases, SQL and Postgres."
+    chapters:
+      - slug: data-engineering
+        title: "Data engineering"
+        lessons:
+          - [oltp-vs-olap-and-warehouses, "OLTP vs OLAP and warehouses"]
+          - [star-schemas-and-dimensional-modelling, "Star schemas and dimensional modelling"]
+          - [etl-and-elt-pipelines, "ETL and ELT pipelines"]
+          - [loading-data-into-postgres, "Loading data into Postgres"]
+          - [batch-and-streaming, "Batch and streaming"]
+          - [orchestration-and-idempotent-jobs, "Orchestration and idempotent jobs"]
+          - [dbt-and-sql-transformations, "dbt and SQL transformations"]
+          - [file-formats-and-columnar-storage, "File formats and columnar storage"]
+          - [data-quality, "Data quality"]
+          - [lakes-lakehouses-and-cloud-warehouses, "Lakes, lakehouses and cloud warehouses", ["optional"]]
+      - slug: data-science-and-ml
+        title: "Data science and machine learning"
+        lessons:
+          - [statistics-for-data-work, "Statistics for data work"]
+          - [analytics-sql-cohorts-funnels-retention, "Analytics in SQL: cohorts, funnels and retention"]
+          - [ab-testing, "A/B testing"]
+          - [what-machine-learning-is, "What machine learning is"]
+          - [training-testing-and-metrics, "Training, testing and metrics"]
+          - [regression-and-classification-with-scikit-learn, "Regression and classification with scikit-learn"]
+          - [neural-networks-and-deep-learning, "Neural networks and deep learning"]
+
+  - folder: 12-security
+    title: "Security"
+    tab: "Security"
+    summary: "How web applications get attacked and defended, and the cryptography behind hashing, encryption, signatures and TLS."
+    before: "Networking, Back end, and Databases, SQL and Postgres."
+    chapters:
+      - slug: web-security
+        title: "Web security"
+        lessons:
+          - [security-mindset-and-threat-modelling, "Security mindset and threat modelling"]
+          - [owasp-top-10, "OWASP top 10"]
+          - [injection-and-input-validation, "Injection and input validation"]
+          - [xss-csrf-and-browser-security, "XSS, CSRF and browser security"]
+          - [secure-authentication, "Secure authentication"]
+          - [secrets-and-dependency-security, "Secrets and dependency security"]
+      - slug: cryptography
+        title: "Cryptography"
+        lessons:
+          - [hashing-and-salts, "Hashing and salts"]
+          - [symmetric-encryption, "Symmetric encryption"]
+          - [public-key-encryption-and-signatures, "Public-key encryption and signatures"]
+          - [rsa-step-by-step, "RSA step by step"]
+          - [the-tls-handshake, "The TLS handshake"]
+          - [privacy-and-pipeda, "Privacy and PIPEDA"]
+
+  - folder: 13-devops-and-cloud
+    title: "DevOps and cloud"
+    tab: "DevOps and cloud"
+    summary: "Containers, CI/CD pipelines, the core AWS services, and how to monitor a running system."
+    before: "Operating systems and Linux, Networking, and Back end."
+    chapters:
+      - slug: containers
+        title: "Containers"
+        lessons:
+          - [vms-vs-containers, "VMs vs containers"]
+          - [docker-images-and-dockerfiles, "Docker images and Dockerfiles"]
+          - [volumes-networks-and-compose, "Volumes, networks and Compose"]
+          - [registries-and-kubernetes-basics, "Registries and Kubernetes basics"]
+      - slug: ci-cd
+        title: "CI/CD"
+        lessons:
+          - [ci-cd-concepts, "CI/CD concepts"]
+          - [github-actions, "GitHub Actions"]
+          - [deployment-strategies, "Deployment strategies"]
+          - [infrastructure-as-code, "Infrastructure as code", ["optional"]]
+      - slug: aws
+        title: "AWS"
+        lessons:
+          - [cloud-models-and-regions, "Cloud models and regions"]
+          - [aws-account-iam-and-billing, "AWS account, IAM and billing"]
+          - [ec2, "EC2"]
+          - [s3, "S3"]
+          - [rds-managed-postgres, "RDS managed Postgres"]
+          - [vpcs-and-security-groups, "VPCs and security groups"]
+          - [lambda-and-serverless, "Lambda and serverless"]
+          - [deploying-an-app-to-ec2, "Deploying an app to EC2"]
+      - slug: operations
+        title: "Operations"
+        lessons:
+          - [logging-metrics-and-monitoring, "Logging metrics and monitoring"]
+          - [incidents-and-on-call, "Incidents and on-call"]
+
+  - folder: 14-software-and-system-design
+    title: "Software and system design"
+    tab: "Design"
+    summary: "How to structure code that stays maintainable, and how to design systems that scale, with worked case studies."
+    before: "Back end, Databases, SQL and Postgres, and DevOps and cloud."
+    chapters:
+      - slug: software-design
+        title: "Software design"
+        lessons:
+          - [clean-code, "Clean code"]
+          - [solid-principles, "SOLID principles"]
+          - [design-patterns, "Design patterns"]
+          - [layered-architecture-and-mvc, "Layered architecture and MVC"]
+          - [monoliths-and-microservices, "Monoliths and microservices"]
+          - [coupling-cohesion-and-refactoring, "Coupling, cohesion and refactoring"]
+      - slug: system-design
+        title: "System design"
+        lessons:
+          - [scalability-basics, "Scalability basics"]
+          - [load-balancing, "Load balancing"]
+          - [caching-strategies, "Caching strategies"]
+          - [database-scaling-replication-and-sharding, "Database scaling: replication and sharding"]
+          - [cap-and-consistency, "CAP and consistency"]
+          - [queues-and-event-driven-design, "Queues and event-driven design"]
+          - [rate-limiting-and-api-gateways, "Rate limiting and API gateways"]
+          - [back-of-the-envelope-estimates, "Back-of-the-envelope estimates"]
+          - [system-design-interviews, "System design interviews"]
+          - [case-study-url-shortener, "Case study: a URL shortener"]
+          - [case-study-chat-app, "Case study: a chat app", ["optional"]]
+
+  - folder: 15-ai-and-llms
+    title: "AI and LLMs"
+    tab: "AI and LLMs"
+    summary: "How large language models work, how to build with them, and how to use AI coding tools and check what they produce."
+    before: "Programming fundamentals and Databases, SQL and Postgres."
+    chapters:
+      - slug: how-llms-work
+        title: "How LLMs work"
+        lessons:
+          - [from-ml-to-transformers, "From ML to transformers"]
+          - [tokens-embeddings-and-context-windows, "Tokens, embeddings and context windows"]
+          - [training-fine-tuning-and-rlhf, "Training, fine-tuning and RLHF"]
+          - [sampling-and-hallucinations, "Sampling and hallucinations"]
+          - [choosing-a-model, "Choosing a model"]
+      - slug: building-with-llms
+        title: "Building with LLMs"
+        lessons:
+          - [calling-an-llm-api, "Calling an LLM API"]
+          - [prompt-and-context-engineering, "Prompt and context engineering"]
+          - [tool-use, "Tool use"]
+          - [rag-embeddings-and-pgvector, "RAG embeddings and pgvector"]
+          - [agents-and-harnesses, "Agents and harnesses"]
+          - [mcp, "MCP (Model Context Protocol)"]
+          - [evals, "Evals"]
+      - slug: ai-assisted-development
+        title: "AI-assisted development"
+        lessons:
+          - [claude-code, "Claude Code"]
+          - [plan-build-test-review-workflow, "The plan, build, test, review workflow"]
+          - [reviewing-ai-code, "Reviewing AI code"]
+          - [ai-security-risks, "AI security risks"]
+          - [ai-coding-tools-landscape, "AI coding tools landscape", ["optional"]]
+
+  - folder: 16-the-workplace
+    title: "The workplace"
+    tab: "Workplace"
+    summary: "How software teams work, how to communicate in code review and design docs, and how to prepare for hiring."
+    before: "Developer tools and workflow."
+    lessons:
+      - [how-software-teams-work, "How software teams work"]
+      - [agile-scrum-and-kanban, "Agile, Scrum and Kanban"]
+      - [tickets-estimates-and-planning, "Tickets, estimates and planning"]
+      - [code-review-etiquette, "Code review etiquette"]
+      - [design-docs-and-writing, "Design docs and writing"]
+      - [working-in-a-legacy-codebase, "Working in a legacy codebase"]
+      - [open-source-and-licences, "Open source and licences"]
+      - [resume-and-portfolio, "Resume and portfolio"]
+      - [technical-interviews, "Technical interviews"]
+      - [behavioural-interviews, "Behavioural interviews"]
