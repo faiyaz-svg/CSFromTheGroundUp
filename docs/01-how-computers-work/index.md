@@ -11,12 +11,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Bits and data](01-bits-and-data/index.md)
 
-1. Binary and hexadecimal (not written yet)
-2. Bits, bytes and units (not written yet)
-3. Integers and two's complement (not written yet)
-4. Floating point (not written yet)
-5. Text, ASCII and Unicode (not written yet)
-6. Files, images and sound as bytes (not written yet)
+1. [Binary and hexadecimal](01-bits-and-data/01-binary-and-hexadecimal.md)
+2. [Bits, bytes and units](01-bits-and-data/02-bits-bytes-and-units.md)
+3. [Integers and two's complement](01-bits-and-data/03-integers-and-twos-complement.md)
+4. [Floating point](01-bits-and-data/04-floating-point.md)
+5. [Text, ASCII and Unicode](01-bits-and-data/05-text-ascii-and-unicode.md)
+6. [Files, images and sound as bytes](01-bits-and-data/06-files-images-and-sound-as-bytes.md)
 
 ### 2. [Hardware](02-hardware/index.md)
 

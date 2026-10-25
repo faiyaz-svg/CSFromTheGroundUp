@@ -2,9 +2,18 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 11 of 252. New lessons appear here as they are added.
+Lessons written so far: 17 of 252. New lessons appear here as they are added.
 
 ## How computers work
+
+### Bits and data
+
+- [ ] [Binary and hexadecimal](01-how-computers-work/01-bits-and-data/01-binary-and-hexadecimal.md)
+- [ ] [Bits, bytes and units](01-how-computers-work/01-bits-and-data/02-bits-bytes-and-units.md)
+- [ ] [Integers and two's complement](01-how-computers-work/01-bits-and-data/03-integers-and-twos-complement.md)
+- [ ] [Floating point](01-how-computers-work/01-bits-and-data/04-floating-point.md)
+- [ ] [Text, ASCII and Unicode](01-how-computers-work/01-bits-and-data/05-text-ascii-and-unicode.md)
+- [ ] [Files, images and sound as bytes](01-how-computers-work/01-bits-and-data/06-files-images-and-sound-as-bytes.md)
 
 ### Hardware
 

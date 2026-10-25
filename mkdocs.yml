@@ -98,6 +98,12 @@ nav:
       - 01-how-computers-work/index.md
       - "Bits and data":
           - 01-how-computers-work/01-bits-and-data/index.md
+          - "Binary and hexadecimal": 01-how-computers-work/01-bits-and-data/01-binary-and-hexadecimal.md
+          - "Bits, bytes and units": 01-how-computers-work/01-bits-and-data/02-bits-bytes-and-units.md
+          - "Integers and two's complement": 01-how-computers-work/01-bits-and-data/03-integers-and-twos-complement.md
+          - "Floating point": 01-how-computers-work/01-bits-and-data/04-floating-point.md
+          - "Text, ASCII and Unicode": 01-how-computers-work/01-bits-and-data/05-text-ascii-and-unicode.md
+          - "Files, images and sound as bytes": 01-how-computers-work/01-bits-and-data/06-files-images-and-sound-as-bytes.md
       - "Hardware":
           - 01-how-computers-work/02-hardware/index.md
           - "Memory hierarchy and latency numbers": 01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md
