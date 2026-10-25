@@ -1,0 +1,466 @@
+/* CS From the Ground Up: site styles.
+   A flat, W3Schools-like look: dark subject tabs, light gray sidebar,
+   gray example boxes, green accent. Rules in DESIGN.md. */
+
+:root,
+[data-md-color-scheme="default"] {
+  --mf-green: #04aa6d;
+  --mf-green-dark: #05794e;
+  --mf-dark: #282a35;
+  --mf-gray: #ebedee;
+  --mf-gray-line: #d4d7d9;
+  --mf-note: #ffffcc;
+  --mf-warning: #ffdddd;
+  --mf-warning-line: #e57373;
+  --mf-text: #1b1b1b;
+  --mf-muted: #555b61;
+  --mf-page: #ffffff;
+  --mf-code-fg: #c7254e;
+
+  --md-primary-fg-color: var(--mf-dark);
+  --md-primary-fg-color--light: #3d4050;
+  --md-primary-fg-color--dark: #1d1f27;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--mf-green);
+  --md-accent-fg-color--transparent: rgba(4, 170, 109, 0.1);
+  --md-typeset-a-color: var(--mf-green-dark);
+  --md-default-fg-color: var(--mf-text);
+  --md-default-bg-color: var(--mf-page);
+  --md-code-bg-color: #f3f4f5;
+  --md-text-font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --md-code-font-family: Consolas, Menlo, "Courier New", monospace;
+}
+
+[data-md-color-scheme="slate"] {
+  --mf-green: #2fbf86;
+  --mf-green-dark: #4fd49c;
+  --mf-dark: #15171c;
+  --mf-gray: #2a2d35;
+  --mf-gray-line: #3a3e48;
+  --mf-note: #3a3820;
+  --mf-warning: #3d2626;
+  --mf-warning-line: #c26060;
+  --mf-text: #e6e6e6;
+  --mf-muted: #a9aeb5;
+  --mf-page: #1e2027;
+  --mf-code-fg: #f08ca8;
+
+  --md-primary-fg-color: var(--mf-dark);
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--mf-green);
+  --md-typeset-a-color: var(--mf-green-dark);
+  --md-default-fg-color: var(--mf-text);
+  --md-default-bg-color: var(--mf-page);
+  --md-code-bg-color: #262932;
+  --md-hue: 225;
+}
+
+/* Code colours in the W3Schools style (no purple) */
+:root,
+[data-md-color-scheme="default"] {
+  --md-code-hl-keyword-color: #0000cd;
+  --md-code-hl-string-color: #a52a2a;
+  --md-code-hl-number-color: #d0021b;
+  --md-code-hl-comment-color: #008000;
+  --md-code-hl-function-color: #1b1b1b;
+  --md-code-hl-name-color: #1b1b1b;
+  --md-code-hl-constant-color: #0000cd;
+  --md-code-hl-special-color: #a52a2a;
+  --md-code-hl-operator-color: #1b1b1b;
+  --md-code-hl-punctuation-color: #1b1b1b;
+  --md-code-hl-variable-color: #1b1b1b;
+  --md-code-hl-generic-color: #555b61;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-code-hl-keyword-color: #6fa8ff;
+  --md-code-hl-string-color: #e6a27a;
+  --md-code-hl-number-color: #ff8080;
+  --md-code-hl-comment-color: #6cc070;
+  --md-code-hl-function-color: #e6e6e6;
+  --md-code-hl-name-color: #e6e6e6;
+  --md-code-hl-constant-color: #6fa8ff;
+  --md-code-hl-special-color: #e6a27a;
+  --md-code-hl-operator-color: #e6e6e6;
+  --md-code-hl-punctuation-color: #e6e6e6;
+  --md-code-hl-variable-color: #e6e6e6;
+  --md-code-hl-generic-color: #a9aeb5;
+}
+
+body,
+input {
+  font-family: var(--md-text-font-family);
+}
+
+/* Header: plain white bar, no translucency */
+.md-header {
+  background-color: var(--mf-page);
+  color: var(--mf-text);
+  box-shadow: none;
+  border-bottom: 1px solid var(--mf-gray-line);
+  backdrop-filter: none;
+}
+
+/* Subject tabs: dark bar with white links, like W3Schools */
+.md-tabs {
+  background-color: var(--mf-dark);
+  color: #ffffff;
+}
+
+.md-tabs__list {
+  margin-left: 0;
+}
+
+.md-tabs__item {
+  height: auto;
+  padding: 0;
+}
+
+.md-tabs__link {
+  display: block;
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  color: #f1f1f1;
+  opacity: 1;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link:focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.md-tabs__item--active .md-tabs__link {
+  color: #000000;
+  background-color: var(--mf-gray);
+}
+
+[data-md-color-scheme="slate"] .md-tabs__item--active .md-tabs__link {
+  color: #ffffff;
+  background-color: var(--mf-gray);
+}
+
+.md-tabs__item--active {
+  border-bottom: none;
+}
+
+/* Left sidebar: light gray panel */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    background-color: var(--mf-gray);
+  }
+
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    background-color: var(--mf-gray);
+  }
+}
+
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active {
+  color: var(--mf-text);
+  background-color: var(--mf-page);
+  border-left: 3px solid var(--mf-green);
+  border-radius: 0;
+  font-weight: 600;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--mf-green-dark);
+}
+
+/* Typography: large plain titles */
+.md-typeset {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.md-typeset h1 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: var(--mf-text);
+  margin-bottom: 0.6em;
+}
+
+.md-typeset h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--mf-text);
+  margin-top: 1.8em;
+}
+
+.md-typeset h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset a:hover {
+  color: var(--mf-green);
+}
+
+.md-typeset code {
+  color: var(--mf-code-fg);
+  background-color: rgba(222, 222, 222, 0.35);
+  border-radius: 3px;
+}
+
+.md-typeset pre code {
+  color: inherit;
+  background-color: var(--md-code-bg-color);
+}
+
+/* Worked example: gray box */
+.md-typeset .example {
+  background-color: var(--mf-gray);
+  border-radius: 5px;
+  padding: 0.2em 1.2em 0.8em;
+  margin: 1.5em 0;
+}
+
+.md-typeset .example > h3:first-child {
+  margin-top: 0.8em;
+}
+
+/* Phones: less padding, so wide math layouts fit inside the box */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .example {
+    padding: 0.2em 0.6em 0.6em;
+  }
+
+  .md-typeset details.solution,
+  .md-typeset details.code {
+    padding: 0 0.6em;
+  }
+}
+
+/* Note and warning panels: flat colour, no icons */
+.md-typeset .note {
+  background-color: var(--mf-note);
+  padding: 0.4em 1.2em;
+  margin: 1.5em 0;
+}
+
+.md-typeset .warning {
+  background-color: var(--mf-warning);
+  border-left: 4px solid var(--mf-warning-line);
+  padding: 0.4em 1.2em;
+  margin: 1.5em 0;
+}
+
+/* Collapsible solution and code boxes */
+.md-typeset details.solution,
+.md-typeset details.code {
+  background-color: var(--mf-page);
+  border: 1px solid var(--mf-gray-line);
+  border-left: 4px solid var(--mf-green);
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: inherit;
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+.md-typeset details.solution > summary,
+.md-typeset details.code > summary {
+  background-color: transparent;
+  color: var(--mf-text);
+  font-weight: 600;
+  padding: 0.5em 1.8em 0.5em 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.md-typeset details.solution > summary::before,
+.md-typeset details.code > summary::before {
+  display: none;
+}
+
+.md-typeset details.solution > summary::after,
+.md-typeset details.code > summary::after {
+  background-color: var(--mf-muted);
+  right: 0;
+}
+
+.md-typeset details.solution[open] > summary,
+.md-typeset details.code[open] > summary {
+  border-bottom: 1px solid var(--mf-gray-line);
+  margin-bottom: 0.6em;
+}
+
+.md-typeset details.code[open] {
+  padding-bottom: 0.4em;
+}
+
+/* A solution inside an example box sits on white */
+.md-typeset .example details.solution {
+  background-color: var(--mf-page);
+}
+
+/* Tables: simple lines */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--mf-gray-line);
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--mf-gray);
+  color: var(--mf-text);
+}
+
+/* Previous / next buttons (added by javascripts/prevnext.js) */
+.mf-prevnext {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.4rem 0 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--mf-gray-line);
+}
+
+.mf-prevnext--bottom {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  border-top: 1px solid var(--mf-gray-line);
+  border-bottom: none;
+}
+
+.md-typeset .mf-prevnext a {
+  display: inline-block;
+  padding: 0.4rem 0.95rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.md-typeset .mf-prevnext a.mf-prev {
+  color: var(--mf-text);
+  background-color: var(--mf-page);
+  border: 1px solid var(--mf-text);
+}
+
+.md-typeset .mf-prevnext a.mf-next {
+  margin-left: auto;
+  color: #ffffff;
+  background-color: var(--mf-green);
+  border: 1px solid var(--mf-green);
+}
+
+.md-typeset .mf-prevnext a.mf-prev:hover {
+  background-color: var(--mf-gray);
+  color: var(--mf-text);
+}
+
+.md-typeset .mf-prevnext a.mf-next:hover {
+  background-color: var(--mf-green-dark);
+  border-color: var(--mf-green-dark);
+  color: #ffffff;
+}
+
+/* The theme's own footer links are replaced by the buttons above */
+.md-footer__inner {
+  display: none;
+}
+
+.md-footer {
+  background-color: var(--mf-dark);
+}
+
+.md-footer-meta {
+  background-color: var(--mf-dark);
+}
+
+.md-footer-meta,
+.md-copyright,
+.md-footer-meta .md-copyright__highlight {
+  color: #c9ccd1;
+}
+
+.md-footer-meta.md-typeset a {
+  color: #ffffff;
+}
+
+/* Progress page checkboxes are clickable (javascripts/progress.js) */
+.md-typeset .task-list-item input.mf-progress-box {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.mf-progress-count {
+  color: var(--mf-muted);
+}
+
+/* Figures from tools/figures are drawn on white. Centre them, keep them
+   inside the column on phones, and give them a white panel in dark mode. */
+.md-typeset img[src*="assets/figures/"] {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img[src*="assets/figures/"] {
+  background: #fff;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+/* Working with AI box and lab box (no purple: the AI box is blue-grey) */
+:root,
+[data-md-color-scheme="default"] {
+  --mf-ai: #e8eef3;
+  --mf-ai-line: #5b7a94;
+  --mf-lab-line: #04aa6d;
+}
+
+[data-md-color-scheme="slate"] {
+  --mf-ai: #232c36;
+  --mf-ai-line: #6f93b3;
+  --mf-lab-line: #2fbf86;
+}
+
+.md-typeset .ai {
+  background-color: var(--mf-ai);
+  border-left: 4px solid var(--mf-ai-line);
+  border-radius: 5px;
+  padding: 0.4em 1.2em;
+  margin: 1.5em 0;
+}
+
+.md-typeset .ai > h3:first-child,
+.md-typeset .lab > h3:first-child {
+  margin-top: 0.8em;
+}
+
+.md-typeset .lab {
+  background-color: var(--mf-page);
+  border: 1px solid var(--mf-gray-line);
+  border-left: 6px solid var(--mf-lab-line);
+  border-radius: 5px;
+  padding: 0.2em 1.2em 0.8em;
+  margin: 1.5em 0;
+}
+
+/* A solution inside a lab sits on the page colour, with a gray panel */
+.md-typeset .lab details.solution {
+  background-color: var(--mf-gray);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ai,
+  .md-typeset .lab {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+}
