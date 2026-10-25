@@ -114,6 +114,14 @@ nav:
       - 03-programming-fundamentals/index.md
       - "Python basics":
           - 03-programming-fundamentals/01-python-basics/index.md
+          - "Values, types and variables": 03-programming-fundamentals/01-python-basics/01-values-types-and-variables.md
+          - "Control flow": 03-programming-fundamentals/01-python-basics/02-control-flow.md
+          - "Functions and scope": 03-programming-fundamentals/01-python-basics/03-functions-and-scope.md
+          - "Lists, dicts, sets and tuples": 03-programming-fundamentals/01-python-basics/04-lists-dicts-sets-and-tuples.md
+          - "Strings and formatting": 03-programming-fundamentals/01-python-basics/05-strings-and-formatting.md
+          - "Errors and exceptions": 03-programming-fundamentals/01-python-basics/06-errors-and-exceptions.md
+          - "Files and I/O": 03-programming-fundamentals/01-python-basics/07-files-and-io.md
+          - "Modules, packages, pip and venv": 03-programming-fundamentals/01-python-basics/08-modules-packages-pip-and-venv.md
       - "Thinking like a programmer":
           - 03-programming-fundamentals/02-thinking-like-a-programmer/index.md
       - "OOP and paradigms":
