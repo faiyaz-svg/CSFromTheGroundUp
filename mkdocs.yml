@@ -90,6 +90,9 @@ nav:
   - Start here:
       - index.md
       - "How to use this book": 00-start-here/index.md
+      - "Setting up your machine": 00-start-here/setting-up-your-machine.md
+      - "Learning tech with AI": 00-start-here/learning-tech-with-ai.md
+      - "Reading docs and error messages": 00-start-here/reading-docs-and-error-messages.md
       - "Progress": progress.md
   - "Computers":
       - 01-how-computers-work/index.md
