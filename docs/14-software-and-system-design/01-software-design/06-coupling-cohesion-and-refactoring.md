@@ -243,4 +243,4 @@ The final form is `price2` from the example, with the new case added to `CASES`.
 ## Where this shows up
 
 - Code review and pull requests: [GitHub, pull requests and code review](../../04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
-- Reviewing AI-written changes for hidden behaviour changes: Reviewing AI code<!-- link: ../../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md -->.
+- Reviewing AI-written changes for hidden behaviour changes: [Reviewing AI code](../../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md).

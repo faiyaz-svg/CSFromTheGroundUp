@@ -45,7 +45,7 @@ As the reviewer:
 
 ## Reviewing AI-written code
 
-An AI tool, or a teammate using one, can produce a large diff that looks tidy and compiles. The reviewer still owns the merge. Check that the change does what the ticket asks (the code may solve a nearby problem), that tests would fail if the code were wrong, that every imported package and called function exists, and that nothing sensitive was added. Authors using AI should read every line before opening the PR and say in the description which parts were generated. A later lesson goes deeper on reviewing AI code<!-- link: ../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md -->.
+An AI tool, or a teammate using one, can produce a large diff that looks tidy and compiles. The reviewer still owns the merge. Check that the change does what the ticket asks (the code may solve a nearby problem), that tests would fail if the code were wrong, that every imported package and called function exists, and that nothing sensitive was added. Authors using AI should read every line before opening the PR and say in the description which parts were generated. A later lesson goes deeper on [reviewing AI code](../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md).
 
 ## Worked examples
 

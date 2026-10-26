@@ -235,4 +235,4 @@ With banana at 3.0 it becomes the second most likely token, because its score is
 ## Where this shows up
 
 - Grounding and tool use are the subject of tool use<!-- link: ../02-building-with-llms/03-tool-use.md --> and RAG embeddings and pgvector<!-- link: ../02-building-with-llms/04-rag-embeddings-and-pgvector.md -->.
-- Checking claims is the daily habit in reviewing AI code<!-- link: ../03-ai-assisted-development/03-reviewing-ai-code.md -->.
+- Checking claims is the daily habit in [reviewing AI code](../03-ai-assisted-development/03-reviewing-ai-code.md).

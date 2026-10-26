@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 231 of 252. New lessons appear here as they are added.
+Lessons written so far: 236 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -375,6 +375,14 @@ Lessons written so far: 231 of 252. New lessons appear here as they are added.
 - [ ] [Training, fine-tuning and RLHF](15-ai-and-llms/01-how-llms-work/03-training-fine-tuning-and-rlhf.md)
 - [ ] [Sampling and hallucinations](15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md)
 - [ ] [Choosing a model](15-ai-and-llms/01-how-llms-work/05-choosing-a-model.md)
+
+### AI-assisted development
+
+- [ ] [Claude Code](15-ai-and-llms/03-ai-assisted-development/01-claude-code.md)
+- [ ] [The plan, build, test, review workflow](15-ai-and-llms/03-ai-assisted-development/02-plan-build-test-review-workflow.md)
+- [ ] [Reviewing AI code](15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md)
+- [ ] [AI security risks](15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md)
+- [ ] [AI coding tools landscape](15-ai-and-llms/03-ai-assisted-development/05-ai-coding-tools-landscape.md)
 
 ## The workplace
 

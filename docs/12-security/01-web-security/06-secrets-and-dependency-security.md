@@ -228,4 +228,4 @@ Expected result: audit reports a high severity first, then none after upgrading;
 ## Where this shows up
 
 - Docker builds and CI pipelines in [DevOps and cloud](../../13-devops-and-cloud/index.md) are where secrets leak into images and logs.
-- AI security risks<!-- link: ../../15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md --> covers package hallucination and prompt injection.
+- [AI security risks](../../15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md) covers package hallucination and prompt injection.

@@ -29,10 +29,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [AI-assisted development](03-ai-assisted-development/index.md)
 
-1. Claude Code (not written yet)
-2. The plan, build, test, review workflow (not written yet)
-3. Reviewing AI code (not written yet)
-4. AI security risks (not written yet)
-5. AI coding tools landscape (not written yet) (optional)
+1. [Claude Code](03-ai-assisted-development/01-claude-code.md)
+2. [The plan, build, test, review workflow](03-ai-assisted-development/02-plan-build-test-review-workflow.md)
+3. [Reviewing AI code](03-ai-assisted-development/03-reviewing-ai-code.md)
+4. [AI security risks](03-ai-assisted-development/04-ai-security-risks.md)
+5. [AI coding tools landscape](03-ai-assisted-development/05-ai-coding-tools-landscape.md) (optional)
 
 <!-- lessons:end -->

@@ -144,7 +144,7 @@ A `301 Moved Permanently` lets browsers and proxies cache the redirect, which cu
 
 ## Scaling and bottlenecks
 
-The cache holds the hot codes, and a replica set handles misses; if reads grow, add replicas, then shard the table by hash of `code`, as in database scaling<!-- link: 04-database-scaling-replication-and-sharding.md -->. Rate limit creation per user or API key so one client cannot exhaust the code space. Run the redirect service in several availability zones behind the load balancer. Expired links are deleted by a background job, and cache entries use a TTL (time to live) so deleted links stop working within minutes.
+The cache holds the hot codes, and a replica set handles misses; if reads grow, add replicas, then shard the table by hash of `code`, as in [database scaling](04-database-scaling-replication-and-sharding.md). Rate limit creation per user or API key so one client cannot exhaust the code space. Run the redirect service in several availability zones behind the load balancer. Expired links are deleted by a background job, and cache entries use a TTL (time to live) so deleted links stop working within minutes.
 
 ## Common mistakes
 

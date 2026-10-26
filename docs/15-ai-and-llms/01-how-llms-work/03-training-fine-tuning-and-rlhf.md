@@ -210,4 +210,4 @@ With the contradictory pair added, the scores shrink to about 0.17, 0.08 and $-0
 ## Where this shows up
 
 - The system prompt and tool access added at deployment are what you control in prompt and context engineering<!-- link: ../02-building-with-llms/02-prompt-and-context-engineering.md -->.
-- Sycophancy and stale knowledge are two reasons to read reviewing AI code<!-- link: ../03-ai-assisted-development/03-reviewing-ai-code.md --> as a habit.
+- Sycophancy and stale knowledge are two reasons to read [reviewing AI code](../03-ai-assisted-development/03-reviewing-ai-code.md) as a habit.

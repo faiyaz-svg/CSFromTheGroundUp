@@ -429,6 +429,11 @@ nav:
           - 15-ai-and-llms/02-building-with-llms/index.md
       - "AI-assisted development":
           - 15-ai-and-llms/03-ai-assisted-development/index.md
+          - "Claude Code": 15-ai-and-llms/03-ai-assisted-development/01-claude-code.md
+          - "The plan, build, test, review workflow": 15-ai-and-llms/03-ai-assisted-development/02-plan-build-test-review-workflow.md
+          - "Reviewing AI code": 15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md
+          - "AI security risks": 15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md
+          - "AI coding tools landscape": 15-ai-and-llms/03-ai-assisted-development/05-ai-coding-tools-landscape.md
   - "Workplace":
       - 16-the-workplace/index.md
       - "How software teams work": 16-the-workplace/01-how-software-teams-work.md

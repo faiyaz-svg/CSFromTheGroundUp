@@ -124,7 +124,7 @@ Many AI tools send your prompts and files to a server you do not control; the Mi
 - Replace real values with placeholders (`user@example.com`, `API_KEY_HERE`) before you paste an error or a config.
 - Keep permission prompts on when a tool can run commands or edit files. The lecture says skipping them is only reasonable inside an isolated environment such as a VM or container.
 
-More on this in AI security risks<!-- link: ../15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md --> and reviewing AI code<!-- link: ../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md -->.
+More on this in [AI security risks](../15-ai-and-llms/03-ai-assisted-development/04-ai-security-risks.md) and [reviewing AI code](../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md).
 
 ## Working with AI
 
