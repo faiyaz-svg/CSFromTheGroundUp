@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 87 of 252. New lessons appear here as they are added.
+Lessons written so far: 90 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -142,6 +142,12 @@ Lessons written so far: 87 of 252. New lessons appear here as they are added.
 - [ ] [Integration tests, mocks and end-to-end tests](06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md)
 - [ ] [Linters, formatters and type checkers](06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md)
 - [ ] [Documentation and readmes](06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md)
+
+### Spreadsheets
+
+- [ ] [Excel formulas and references](06-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md)
+- [ ] [Lookups, pivot tables and charts](06-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
+- [ ] [Spreadsheets, CSV and SQL](06-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md)
 
 ## Networking
 

@@ -219,6 +219,9 @@ nav:
           - "Documentation and readmes": 06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md
       - "Spreadsheets":
           - 06-developer-tools-and-workflow/04-spreadsheets/index.md
+          - "Excel formulas and references": 06-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md
+          - "Lookups, pivot tables and charts": 06-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md
+          - "Spreadsheets, CSV and SQL": 06-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md
   - "Networking":
       - 07-networking/index.md
       - "How the internet works":

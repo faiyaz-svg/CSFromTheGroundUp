@@ -32,8 +32,8 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 4. [Spreadsheets](04-spreadsheets/index.md)
 
-1. Excel formulas and references (not written yet)
-2. Lookups, pivot tables and charts (not written yet)
-3. Spreadsheets, CSV and SQL (not written yet)
+1. [Excel formulas and references](04-spreadsheets/01-excel-formulas-and-references.md)
+2. [Lookups, pivot tables and charts](04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
+3. [Spreadsheets, CSV and SQL](04-spreadsheets/03-spreadsheets-csv-and-sql.md)
 
 <!-- lessons:end -->

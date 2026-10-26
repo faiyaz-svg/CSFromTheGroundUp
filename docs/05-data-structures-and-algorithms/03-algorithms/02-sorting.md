@@ -287,5 +287,5 @@ Insertion sort grows by about 4 each time $n$ doubles, which is quadratic. Merge
 
 ## Where this shows up
 
-- Sorting is the first step of many other algorithms: the greedy interval scheduler<!-- link: 05-greedy-algorithms.md --> sorts by finish time, and "sort, then two pointers" is a common pattern in [two pointers and sliding window](../04-leetcode-patterns/02-two-pointers-and-sliding-window.md).
+- Sorting is the first step of many other algorithms: [the greedy interval scheduler](05-greedy-algorithms.md) sorts by finish time, and "sort, then two pointers" is a common pattern in [two pointers and sliding window](../04-leetcode-patterns/02-two-pointers-and-sliding-window.md).
 - Database `ORDER BY` and index builds are sorts, and large ones are merge sorts that spill to disk.
