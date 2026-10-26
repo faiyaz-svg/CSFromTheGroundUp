@@ -2,7 +2,7 @@
 
 After this you can describe what an agentic coding tool is made of, install and start Claude Code, and set up the files that control it: permissions, `CLAUDE.md`, hooks, subagents and MCP servers.
 
-Before this: [Learning tech with AI](../../00-start-here/learning-tech-with-ai.md), [Git basics](../../04-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md), and agents and harnesses<!-- link: ../02-building-with-llms/05-agents-and-harnesses.md -->.
+Before this: [Learning tech with AI](../../00-start-here/learning-tech-with-ai.md), [Git basics](../../04-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md), and [agents and harnesses](../02-building-with-llms/05-agents-and-harnesses.md).
 
 ## The idea
 

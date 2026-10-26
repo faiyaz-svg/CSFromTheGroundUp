@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 245 of 252. New lessons appear here as they are added.
+Lessons written so far: 252 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -384,6 +384,16 @@ Lessons written so far: 245 of 252. New lessons appear here as they are added.
 - [ ] [Training, fine-tuning and RLHF](15-ai-and-llms/01-how-llms-work/03-training-fine-tuning-and-rlhf.md)
 - [ ] [Sampling and hallucinations](15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md)
 - [ ] [Choosing a model](15-ai-and-llms/01-how-llms-work/05-choosing-a-model.md)
+
+### Building with LLMs
+
+- [ ] [Calling an LLM API](15-ai-and-llms/02-building-with-llms/01-calling-an-llm-api.md)
+- [ ] [Prompt and context engineering](15-ai-and-llms/02-building-with-llms/02-prompt-and-context-engineering.md)
+- [ ] [Tool use](15-ai-and-llms/02-building-with-llms/03-tool-use.md)
+- [ ] [RAG embeddings and pgvector](15-ai-and-llms/02-building-with-llms/04-rag-embeddings-and-pgvector.md)
+- [ ] [Agents and harnesses](15-ai-and-llms/02-building-with-llms/05-agents-and-harnesses.md)
+- [ ] [MCP (Model Context Protocol)](15-ai-and-llms/02-building-with-llms/06-mcp.md)
+- [ ] [Evals](15-ai-and-llms/02-building-with-llms/07-evals.md)
 
 ### AI-assisted development
 

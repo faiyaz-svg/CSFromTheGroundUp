@@ -245,4 +245,4 @@ Depth 3 has the best test accuracy (0.939). From depth 8 the tree reaches 1.0 on
 ## Where this shows up
 
 - [Regression and classification with scikit-learn](06-regression-and-classification-with-scikit-learn.md) applies this split-and-score routine to real models.
-- The same hold-out idea, applied to an LLM's answers, is evals<!-- link: ../../15-ai-and-llms/02-building-with-llms/07-evals.md -->.
+- The same hold-out idea, applied to an LLM's answers, is [evals](../../15-ai-and-llms/02-building-with-llms/07-evals.md).

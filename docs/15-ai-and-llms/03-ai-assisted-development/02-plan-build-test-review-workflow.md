@@ -221,4 +221,4 @@ def test_accepts_edges(percent, expected):
 
 - The review step uses the checklist in [Reviewing AI code](03-reviewing-ai-code.md).
 - The same loop is how teams use [pull requests and code review](../../04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
-- Checking agent output at scale is the subject of evals<!-- link: ../02-building-with-llms/07-evals.md -->.
+- Checking agent output at scale is the subject of [evals](../02-building-with-llms/07-evals.md).

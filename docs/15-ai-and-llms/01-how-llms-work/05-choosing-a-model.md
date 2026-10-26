@@ -220,5 +220,5 @@ model-b: 1/4 passed
 
 ## Where this shows up
 
-- Calling an LLM API<!-- link: ../02-building-with-llms/01-calling-an-llm-api.md --> is where the model name goes into code.
-- Evals<!-- link: ../02-building-with-llms/07-evals.md --> expands the lab into a repeatable test.
+- [Calling an LLM API](../02-building-with-llms/01-calling-an-llm-api.md) is where the model name goes into code.
+- [Evals](../02-building-with-llms/07-evals.md) expands the lab into a repeatable test.

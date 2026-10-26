@@ -436,6 +436,13 @@ nav:
           - "Choosing a model": 15-ai-and-llms/01-how-llms-work/05-choosing-a-model.md
       - "Building with LLMs":
           - 15-ai-and-llms/02-building-with-llms/index.md
+          - "Calling an LLM API": 15-ai-and-llms/02-building-with-llms/01-calling-an-llm-api.md
+          - "Prompt and context engineering": 15-ai-and-llms/02-building-with-llms/02-prompt-and-context-engineering.md
+          - "Tool use": 15-ai-and-llms/02-building-with-llms/03-tool-use.md
+          - "RAG embeddings and pgvector": 15-ai-and-llms/02-building-with-llms/04-rag-embeddings-and-pgvector.md
+          - "Agents and harnesses": 15-ai-and-llms/02-building-with-llms/05-agents-and-harnesses.md
+          - "MCP (Model Context Protocol)": 15-ai-and-llms/02-building-with-llms/06-mcp.md
+          - "Evals": 15-ai-and-llms/02-building-with-llms/07-evals.md
       - "AI-assisted development":
           - 15-ai-and-llms/03-ai-assisted-development/index.md
           - "Claude Code": 15-ai-and-llms/03-ai-assisted-development/01-claude-code.md

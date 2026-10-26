@@ -41,7 +41,7 @@ The picture shows the same four scores at three temperatures. At 0.2 almost all 
 
 Lower temperature means more repeatable and more conservative; higher means more varied. Neither means more correct. A low temperature does not stop a model from confidently choosing a wrong top token. Use low settings for extraction, code and classification, and higher ones for brainstorming.
 
-Even at temperature 0 you may see small differences between runs, because floating-point sums on GPUs can change with batching and hardware. Treat "deterministic" as "mostly repeatable", and never write a test that expects byte-identical output from a hosted model. Some APIs also fix or limit the sampling settings for particular models, so read the parameter docs for the model you call.
+Even at temperature 0 you may see small differences between runs, because floating-point sums on GPUs can change with batching and hardware. Treat "deterministic" as "mostly repeatable", and never write a test that expects byte-identical output from a hosted model. Some APIs also fix or limit the sampling settings for particular models, so read the parameter docs for the model you call. For example, in the Claude API version 2026-10-21 the `temperature`, `top_p` and `top_k` request parameters are removed (as of 2026, [API versioning](https://platform.claude.com/docs/en/api/versioning)).
 
 Why do models hallucinate? The training objective rewards a plausible next token, not a true one. When the model has seen a fact many times, the plausible continuation is also true. When the topic is rare, recent, or asks for an exact detail (a page number, a function signature, a court case), it still must output something, and the most plausible-looking string is a fabrication. There is no internal flag for "I don't know" that is reliably wired to the output. Models are trained to be better calibrated, but the fluent wrong answer remains the default failure.
 
@@ -234,5 +234,5 @@ With banana at 3.0 it becomes the second most likely token, because its score is
 
 ## Where this shows up
 
-- Grounding and tool use are the subject of tool use<!-- link: ../02-building-with-llms/03-tool-use.md --> and RAG embeddings and pgvector<!-- link: ../02-building-with-llms/04-rag-embeddings-and-pgvector.md -->.
+- Grounding and tool use are the subject of [tool use](../02-building-with-llms/03-tool-use.md) and [RAG embeddings and pgvector](../02-building-with-llms/04-rag-embeddings-and-pgvector.md).
 - Checking claims is the daily habit in [reviewing AI code](../03-ai-assisted-development/03-reviewing-ai-code.md).

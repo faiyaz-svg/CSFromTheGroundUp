@@ -65,7 +65,7 @@ The English sentence is about 4.4 characters per token. French costs more per ch
 
 Token counts matter for three reasons. Providers bill per token, with separate rates for input and output. Latency grows with output tokens, because each one needs a forward pass. And the context window is measured in tokens.
 
-Embeddings work the same way for whole texts. An embedding model maps a sentence to a vector so that meaning can be compared with arithmetic. Searching documents by embedding similarity is the basis of retrieval, which a later lesson covers (RAG embeddings and pgvector<!-- link: ../02-building-with-llms/04-rag-embeddings-and-pgvector.md -->).
+Embeddings work the same way for whole texts. An embedding model maps a sentence to a vector so that meaning can be compared with arithmetic. Searching documents by embedding similarity is the basis of retrieval, which a later lesson covers ([RAG embeddings and pgvector](../02-building-with-llms/04-rag-embeddings-and-pgvector.md)).
 
 ### The context window as working memory
 
@@ -274,4 +274,4 @@ emoji    13 chars   5 tokens  2.6 chars/token
 ## Where this shows up
 
 - Token counts drive cost and rate limits in [choosing a model](05-choosing-a-model.md).
-- The window is the main design constraint of prompt and context engineering<!-- link: ../02-building-with-llms/02-prompt-and-context-engineering.md -->.
+- The window is the main design constraint of [prompt and context engineering](../02-building-with-llms/02-prompt-and-context-engineering.md).

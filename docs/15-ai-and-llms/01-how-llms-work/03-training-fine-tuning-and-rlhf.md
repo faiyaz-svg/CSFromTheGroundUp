@@ -96,7 +96,7 @@ Check: the output matches the hand arithmetic. Confident wrong predictions are p
 
 <div class="warning" markdown>
 
-Watch out: assuming fine-tuning is how you teach a model your company's documents. It mostly changes style and format, and facts learned this way are unreliable. To give a model your data, put it in the prompt or retrieve it at request time (RAG embeddings and pgvector<!-- link: ../02-building-with-llms/04-rag-embeddings-and-pgvector.md -->).
+Watch out: assuming fine-tuning is how you teach a model your company's documents. It mostly changes style and format, and facts learned this way are unreliable. To give a model your data, put it in the prompt or retrieve it at request time ([RAG embeddings and pgvector](../02-building-with-llms/04-rag-embeddings-and-pgvector.md)).
 
 Watch out: treating a refusal as a statement about what is true or legal. It reflects trained caution and the provider's policy, and a rephrased request can flip the outcome either way. Do not rely on it as a security control.
 
@@ -209,5 +209,5 @@ With the contradictory pair added, the scores shrink to about 0.17, 0.08 and $-0
 
 ## Where this shows up
 
-- The system prompt and tool access added at deployment are what you control in prompt and context engineering<!-- link: ../02-building-with-llms/02-prompt-and-context-engineering.md -->.
+- The system prompt and tool access added at deployment are what you control in [prompt and context engineering](../02-building-with-llms/02-prompt-and-context-engineering.md).
 - Sycophancy and stale knowledge are two reasons to read [reviewing AI code](../03-ai-assisted-development/03-reviewing-ai-code.md) as a habit.

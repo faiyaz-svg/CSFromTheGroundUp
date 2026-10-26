@@ -246,4 +246,4 @@ Greedy always picks "cat" after "the" (the most common follower), then "sat", "o
 ## Where this shows up
 
 - Every tool in the AI-assisted development chapter is a loop around this next-token prediction.
-- Knowing inference is fixed weights plus a prompt explains why prompt and context engineering<!-- link: ../02-building-with-llms/02-prompt-and-context-engineering.md --> matters.
+- Knowing inference is fixed weights plus a prompt explains why [prompt and context engineering](../02-building-with-llms/02-prompt-and-context-engineering.md) matters.

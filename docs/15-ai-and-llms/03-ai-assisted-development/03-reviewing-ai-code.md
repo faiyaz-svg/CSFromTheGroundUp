@@ -248,4 +248,4 @@ The fixed function is in Example 1. For ties, `ORDER BY SUM(total) DESC, custome
 
 - The review runs in step 5 of [the workflow](02-plan-build-test-review-workflow.md).
 - The security row is expanded in [AI security risks](04-ai-security-risks.md) and in [the OWASP top 10](../../12-security/01-web-security/02-owasp-top-10.md).
-- Measuring model output systematically is covered in evals<!-- link: ../02-building-with-llms/07-evals.md -->.
+- Measuring model output systematically is covered in [evals](../02-building-with-llms/07-evals.md).
