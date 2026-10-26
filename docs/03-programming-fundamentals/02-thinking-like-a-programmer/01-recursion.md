@@ -273,4 +273,4 @@ The loop keeps pending work in a list on the heap, which has no depth cap, so th
 
 - Trees, folders and JSON are recursive data: [trees and binary search trees](../../05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md).
 - Counting the cost of recursive calls: [analysing recursive algorithms](../../05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md).
-- SQL has recursion too, for hierarchies: CTEs and recursive queries<!-- link: ../../10-databases-sql-and-postgres/02-querying/06-ctes-and-recursive-queries.md -->.
+- SQL has recursion too, for hierarchies: [CTEs and recursive queries](../../10-databases-sql-and-postgres/02-querying/06-ctes-and-recursive-queries.md).

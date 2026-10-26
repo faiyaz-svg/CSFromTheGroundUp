@@ -2,7 +2,7 @@
 
 After this you can combine rows from several tables with the right kind of join, keep unmatched rows when you need them, and check that a join did not drop or duplicate rows.
 
-Before this: [the relational model](../01-database-basics/02-the-relational-model.md) and aggregates, GROUP BY and HAVING<!-- link: 03-aggregates-group-by-and-having.md -->.
+Before this: [the relational model](../01-database-basics/02-the-relational-model.md) and [aggregates, GROUP BY and HAVING](03-aggregates-group-by-and-having.md).
 
 ## The idea
 
@@ -362,5 +362,5 @@ Expected result: all four tasks show "matches" in the runner.
 ## Where this shows up
 
 - Reports join tables, and the zero rows in them (provinces with no refunds) are the left join's job.
-- Subqueries<!-- link: 05-subqueries.md --> and CTEs<!-- link: 06-ctes-and-recursive-queries.md --> are often alternatives to a join, and the next lesson compares them.
+- [Subqueries](05-subqueries.md) and CTEs<!-- link: 06-ctes-and-recursive-queries.md --> are often alternatives to a join, and the next lesson compares them.
 - Indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> on foreign key columns are what make a join fast on large tables.

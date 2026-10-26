@@ -17,15 +17,15 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Querying](02-querying/index.md)
 
-1. SELECT, WHERE and ORDER BY (not written yet)
-2. NULL and three-valued logic (not written yet)
-3. Aggregates, GROUP BY and HAVING (not written yet)
+1. [SELECT, WHERE and ORDER BY](02-querying/01-select-where-and-order-by.md)
+2. [NULL and three-valued logic](02-querying/02-null-and-three-valued-logic.md)
+3. [Aggregates, GROUP BY and HAVING](02-querying/03-aggregates-group-by-and-having.md)
 4. [Joins](02-querying/04-joins.md)
-5. Subqueries (not written yet)
-6. CTEs and recursive queries (not written yet)
-7. Window functions (not written yet)
-8. Set operations and CASE (not written yet)
-9. Text, dates and times (not written yet)
+5. [Subqueries](02-querying/05-subqueries.md)
+6. [CTEs and recursive queries](02-querying/06-ctes-and-recursive-queries.md)
+7. [Window functions](02-querying/07-window-functions.md)
+8. [Set operations and CASE](02-querying/08-set-operations-and-case.md)
+9. [Text, dates and times](02-querying/09-text-dates-and-times.md)
 
 ### 3. [Schema design](03-schema-design/index.md)
 

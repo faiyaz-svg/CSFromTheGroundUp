@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 132 of 252. New lessons appear here as they are added.
+Lessons written so far: 140 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -229,7 +229,15 @@ Lessons written so far: 132 of 252. New lessons appear here as they are added.
 
 ### Querying
 
+- [ ] [SELECT, WHERE and ORDER BY](10-databases-sql-and-postgres/02-querying/01-select-where-and-order-by.md)
+- [ ] [NULL and three-valued logic](10-databases-sql-and-postgres/02-querying/02-null-and-three-valued-logic.md)
+- [ ] [Aggregates, GROUP BY and HAVING](10-databases-sql-and-postgres/02-querying/03-aggregates-group-by-and-having.md)
 - [ ] [Joins](10-databases-sql-and-postgres/02-querying/04-joins.md)
+- [ ] [Subqueries](10-databases-sql-and-postgres/02-querying/05-subqueries.md)
+- [ ] [CTEs and recursive queries](10-databases-sql-and-postgres/02-querying/06-ctes-and-recursive-queries.md)
+- [ ] [Window functions](10-databases-sql-and-postgres/02-querying/07-window-functions.md)
+- [ ] [Set operations and CASE](10-databases-sql-and-postgres/02-querying/08-set-operations-and-case.md)
+- [ ] [Text, dates and times](10-databases-sql-and-postgres/02-querying/09-text-dates-and-times.md)
 
 ### Schema design
 

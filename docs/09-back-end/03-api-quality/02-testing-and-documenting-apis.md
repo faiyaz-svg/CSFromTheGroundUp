@@ -35,7 +35,7 @@ An API **collection** is a saved set of requests in a tool such as Postman or Br
 
 Test the behaviour a caller depends on, not the internals. For each endpoint, cover the success case, each validation failure, and the auth cases from the earlier chapter: no token (401), wrong role (403), someone else's record (403 or 404). Use a separate test database or in-memory data, and reset it between tests so they can run in any order.
 
-For the spec, write it by hand for a small API, or let the framework generate it. FastAPI<!-- link: ../01-servers-and-apis/07-python-back-ends-fastapi-and-django.md --> builds an OpenAPI file and a Swagger UI page from the type hints automatically; with Express you write `openapi.yaml` yourself or use a generator. Generated specs describe what the code does, which may not be what you intended, so read them.
+For the spec, write it by hand for a small API, or let the framework generate it. [FastAPI](../01-servers-and-apis/07-python-back-ends-fastapi-and-django.md) builds an OpenAPI file and a Swagger UI page from the type hints automatically; with Express you write `openapi.yaml` yourself or use a generator. Generated specs describe what the code does, which may not be what you intended, so read them.
 
 A good reference page answers, for each endpoint: what it does, parameters and body, every status code it can return, an example request and response, the auth it needs, and the rate limits. Error responses matter as much as successes. When behaviour changes, keep a changelog and mark deprecated fields in the spec with `deprecated: true`, so callers get warning before a removal.
 

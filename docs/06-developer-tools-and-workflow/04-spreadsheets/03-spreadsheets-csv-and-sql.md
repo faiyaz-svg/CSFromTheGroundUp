@@ -209,4 +209,4 @@ Use `open("sales.csv", newline="", encoding="utf-8-sig")` in place of `io.String
 ## Where this shows up
 
 - Loading real files into a database: Loading data into Postgres<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/04-loading-data-into-postgres.md -->.
-- Grouping in depth: Aggregates, GROUP BY and HAVING<!-- link: ../../10-databases-sql-and-postgres/02-querying/03-aggregates-group-by-and-having.md -->.
+- Grouping in depth: [Aggregates, GROUP BY and HAVING](../../10-databases-sql-and-postgres/02-querying/03-aggregates-group-by-and-having.md).
