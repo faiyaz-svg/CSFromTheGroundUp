@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 82 of 252. New lessons appear here as they are added.
+Lessons written so far: 87 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -142,6 +142,16 @@ Lessons written so far: 82 of 252. New lessons appear here as they are added.
 - [ ] [Integration tests, mocks and end-to-end tests](06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md)
 - [ ] [Linters, formatters and type checkers](06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md)
 - [ ] [Documentation and readmes](06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md)
+
+## Networking
+
+### How the internet works
+
+- [ ] [Packets, routers and the internet](07-networking/01-how-the-internet-works/01-packets-routers-and-the-internet.md)
+- [ ] [IP addresses, subnets and NAT](07-networking/01-how-the-internet-works/02-ip-addresses-subnets-and-nat.md)
+- [ ] [Network layers, TCP and UDP](07-networking/01-how-the-internet-works/03-network-layers-tcp-and-udp.md)
+- [ ] [Ports and sockets](07-networking/01-how-the-internet-works/04-ports-and-sockets.md)
+- [ ] [DNS and domains](07-networking/01-how-the-internet-works/05-dns-and-domains.md)
 
 ## Databases, SQL and Postgres
 

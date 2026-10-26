@@ -223,6 +223,11 @@ nav:
       - 07-networking/index.md
       - "How the internet works":
           - 07-networking/01-how-the-internet-works/index.md
+          - "Packets, routers and the internet": 07-networking/01-how-the-internet-works/01-packets-routers-and-the-internet.md
+          - "IP addresses, subnets and NAT": 07-networking/01-how-the-internet-works/02-ip-addresses-subnets-and-nat.md
+          - "Network layers, TCP and UDP": 07-networking/01-how-the-internet-works/03-network-layers-tcp-and-udp.md
+          - "Ports and sockets": 07-networking/01-how-the-internet-works/04-ports-and-sockets.md
+          - "DNS and domains": 07-networking/01-how-the-internet-works/05-dns-and-domains.md
       - "Web protocols":
           - 07-networking/02-web-protocols/index.md
   - "Front end":

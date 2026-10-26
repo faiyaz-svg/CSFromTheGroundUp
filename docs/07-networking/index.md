@@ -11,11 +11,11 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [How the internet works](01-how-the-internet-works/index.md)
 
-1. Packets, routers and the internet (not written yet)
-2. IP addresses, subnets and NAT (not written yet)
-3. Network layers, TCP and UDP (not written yet)
-4. Ports and sockets (not written yet)
-5. DNS and domains (not written yet)
+1. [Packets, routers and the internet](01-how-the-internet-works/01-packets-routers-and-the-internet.md)
+2. [IP addresses, subnets and NAT](01-how-the-internet-works/02-ip-addresses-subnets-and-nat.md)
+3. [Network layers, TCP and UDP](01-how-the-internet-works/03-network-layers-tcp-and-udp.md)
+4. [Ports and sockets](01-how-the-internet-works/04-ports-and-sockets.md)
+5. [DNS and domains](01-how-the-internet-works/05-dns-and-domains.md)
 
 ### 2. [Web protocols](02-web-protocols/index.md)
 
