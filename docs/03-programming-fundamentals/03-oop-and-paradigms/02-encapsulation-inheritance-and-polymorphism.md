@@ -354,4 +354,4 @@ except ValueError as e:
 ## Where this shows up
 
 - Frameworks are built on overriding: you subclass a base class (a Django view, a test case) and fill in the methods the framework calls.
-- Next: [Composition and interfaces](03-composition-and-interfaces.md), which covers when to avoid inheritance. The SOLID principles<!-- link: ../../14-software-and-system-design/01-software-design/02-solid-principles.md --> include the rule that a subclass must be usable wherever its parent is.
+- Next: [Composition and interfaces](03-composition-and-interfaces.md), which covers when to avoid inheritance. The [SOLID principles](../../14-software-and-system-design/01-software-design/02-solid-principles.md) include the rule that a subclass must be usable wherever its parent is.

@@ -11,12 +11,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Software design](01-software-design/index.md)
 
-1. Clean code (not written yet)
-2. SOLID principles (not written yet)
-3. Design patterns (not written yet)
-4. Layered architecture and MVC (not written yet)
-5. Monoliths and microservices (not written yet)
-6. Coupling, cohesion and refactoring (not written yet)
+1. [Clean code](01-software-design/01-clean-code.md)
+2. [SOLID principles](01-software-design/02-solid-principles.md)
+3. [Design patterns](01-software-design/03-design-patterns.md)
+4. [Layered architecture and MVC](01-software-design/04-layered-architecture-and-mvc.md)
+5. [Monoliths and microservices](01-software-design/05-monoliths-and-microservices.md)
+6. [Coupling, cohesion and refactoring](01-software-design/06-coupling-cohesion-and-refactoring.md)
 
 ### 2. [System design](02-system-design/index.md)
 

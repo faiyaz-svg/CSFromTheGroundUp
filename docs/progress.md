@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 189 of 252. New lessons appear here as they are added.
+Lessons written so far: 195 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -324,3 +324,14 @@ Lessons written so far: 189 of 252. New lessons appear here as they are added.
 - [ ] [GitHub Actions](13-devops-and-cloud/02-ci-cd/02-github-actions.md)
 - [ ] [Deployment strategies](13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md)
 - [ ] [Infrastructure as code](13-devops-and-cloud/02-ci-cd/04-infrastructure-as-code.md)
+
+## Software and system design
+
+### Software design
+
+- [ ] [Clean code](14-software-and-system-design/01-software-design/01-clean-code.md)
+- [ ] [SOLID principles](14-software-and-system-design/01-software-design/02-solid-principles.md)
+- [ ] [Design patterns](14-software-and-system-design/01-software-design/03-design-patterns.md)
+- [ ] [Layered architecture and MVC](14-software-and-system-design/01-software-design/04-layered-architecture-and-mvc.md)
+- [ ] [Monoliths and microservices](14-software-and-system-design/01-software-design/05-monoliths-and-microservices.md)
+- [ ] [Coupling, cohesion and refactoring](14-software-and-system-design/01-software-design/06-coupling-cohesion-and-refactoring.md)

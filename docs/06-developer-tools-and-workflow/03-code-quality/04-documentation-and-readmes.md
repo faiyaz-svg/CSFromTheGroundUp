@@ -86,7 +86,7 @@ def apply_discount(price: float, percent: float) -> float:
 Test passed.
 ```
 
-Comments should say why, not what. `# add 1 to i` repeats the code and goes stale. `# The vendor API returns 429 under load, so retry 3 times` records something the code cannot show. If a comment is needed to explain what a block does, a better function name usually works instead; see Clean code<!-- link: ../../14-software-and-system-design/01-software-design/01-clean-code.md -->.
+Comments should say why, not what. `# add 1 to i` repeats the code and goes stale. `# The vendor API returns 429 under load, so retry 3 times` records something the code cannot show. If a comment is needed to explain what a block does, a better function name usually works instead; see [Clean code](../../14-software-and-system-design/01-software-design/01-clean-code.md).
 
 An ADR is one short page:
 
