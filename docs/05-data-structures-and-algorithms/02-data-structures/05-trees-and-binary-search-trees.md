@@ -247,5 +247,5 @@ The code is the "In code" block in Example 1. The difference in height comes fro
 
 ## Where this shows up
 
-- [Heaps](06-heaps-and-priority-queues.md) are also trees, stored in an array. Tree and graph problems<!-- link: ../04-leetcode-patterns/05-tree-and-graph-problems.md --> covers traversals in interview questions.
+- [Heaps](06-heaps-and-priority-queues.md) are also trees, stored in an array. [Tree and graph problems](../04-leetcode-patterns/05-tree-and-graph-problems.md) covers traversals in interview questions.
 - Database indexes (B-trees) and file systems are trees on disk.

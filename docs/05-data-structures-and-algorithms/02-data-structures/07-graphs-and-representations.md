@@ -256,5 +256,5 @@ The last line checks that the degrees from the list and the matrix agree, and th
 
 ## Where this shows up
 
-- [BFS and DFS](../03-algorithms/03-bfs-and-dfs.md), [shortest paths](../03-algorithms/04-shortest-paths.md) and the tree and graph problems<!-- link: ../04-leetcode-patterns/05-tree-and-graph-problems.md --> pattern all start from an adjacency list.
+- [BFS and DFS](../03-algorithms/03-bfs-and-dfs.md), [shortest paths](../03-algorithms/04-shortest-paths.md) and the [tree and graph problems](../04-leetcode-patterns/05-tree-and-graph-problems.md) pattern all start from an adjacency list.
 - Dependency resolution in package managers and build tools is a directed graph with no cycles.

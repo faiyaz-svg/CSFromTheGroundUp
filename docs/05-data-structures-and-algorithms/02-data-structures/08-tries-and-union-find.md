@@ -300,5 +300,5 @@ For the union find, the cables merge 0, 1, 2 and 3 into one set, 5 and 6 into an
 
 ## Where this shows up
 
-- Union find is used in Kruskal's minimum spanning tree algorithm and in connected-component problems in the tree and graph problems<!-- link: ../04-leetcode-patterns/05-tree-and-graph-problems.md --> pattern.
+- Union find is used in Kruskal's minimum spanning tree algorithm and in connected-component problems in the [tree and graph problems](../04-leetcode-patterns/05-tree-and-graph-problems.md) pattern.
 - Tries sit behind autocomplete, spell checkers and IP routing tables.

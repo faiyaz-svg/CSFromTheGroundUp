@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 74 of 252. New lessons appear here as they are added.
+Lessons written so far: 82 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -108,6 +108,17 @@ Lessons written so far: 74 of 252. New lessons appear here as they are added.
 - [ ] [Shortest paths](05-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md)
 - [ ] [Greedy algorithms](05-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md)
 - [ ] [Dynamic programming](05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md)
+
+### LeetCode patterns
+
+- [ ] [How to approach a problem](05-data-structures-and-algorithms/04-leetcode-patterns/01-how-to-approach-a-problem.md)
+- [ ] [Two pointers and sliding window](05-data-structures-and-algorithms/04-leetcode-patterns/02-two-pointers-and-sliding-window.md)
+- [ ] [Hashing and prefix sums](05-data-structures-and-algorithms/04-leetcode-patterns/03-hashing-and-prefix-sums.md)
+- [ ] [Stacks and monotonic stacks](05-data-structures-and-algorithms/04-leetcode-patterns/04-stacks-and-monotonic-stacks.md)
+- [ ] [Tree and graph problems](05-data-structures-and-algorithms/04-leetcode-patterns/05-tree-and-graph-problems.md)
+- [ ] [Backtracking](05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md)
+- [ ] [DP patterns](05-data-structures-and-algorithms/04-leetcode-patterns/07-dp-patterns.md)
+- [ ] [Heaps, intervals and top-k](05-data-structures-and-algorithms/04-leetcode-patterns/08-heaps-intervals-and-top-k.md)
 
 ## Developer tools and workflow
 

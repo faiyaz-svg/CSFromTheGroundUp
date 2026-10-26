@@ -235,5 +235,5 @@ The complement of "at least one digit" is "all letters", which has $26^k$ string
 ## Where this shows up
 
 - Hash collisions and the birthday problem, in [discrete probability](05-discrete-probability.md).
-- Why exhaustive search blows up, in [Big O and runtime](../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md) and in backtracking<!-- link: ../05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md -->.
+- Why exhaustive search blows up, in [Big O and runtime](../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md) and in [backtracking](../05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md).
 - More depth (optional): [counting rules](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/03-counting-and-discrete-probability/01-counting-rules/) in the sibling math book.

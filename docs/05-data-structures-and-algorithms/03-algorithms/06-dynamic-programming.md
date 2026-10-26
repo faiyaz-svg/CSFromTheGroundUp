@@ -276,4 +276,4 @@ print(min(words, key=lambda w: edit_distance("adress", w)))
 ## Where this shows up
 
 - Diff tools, spell checkers, DNA sequence alignment, and "fewest steps" or "number of ways" problems on arrays and strings are DP. Knapsack, climbing stairs and house robber appear in many interview lists.
-- In the LeetCode patterns chapter, how to approach a problem<!-- link: ../04-leetcode-patterns/01-how-to-approach-a-problem.md --> includes how to spot a DP problem. The [chapter cheat sheet](index.md) compares all six algorithms.
+- In the LeetCode patterns chapter, [how to approach a problem](../04-leetcode-patterns/01-how-to-approach-a-problem.md) includes how to spot a DP problem. The [chapter cheat sheet](index.md) compares all six algorithms.

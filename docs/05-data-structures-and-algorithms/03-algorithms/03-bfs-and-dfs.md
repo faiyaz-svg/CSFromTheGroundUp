@@ -309,5 +309,5 @@ The outer loops visit each cell once, and each island is searched once, so the t
 
 ## Where this shows up
 
-- Web crawlers, social "friends within 2 hops", and flood fill in image editors are BFS. Finding cycles, ordering tasks that depend on each other, and exploring all options in backtracking<!-- link: ../04-leetcode-patterns/06-backtracking.md --> are DFS.
+- Web crawlers, social "friends within 2 hops", and flood fill in image editors are BFS. Finding cycles, ordering tasks that depend on each other, and exploring all options in [backtracking](../04-leetcode-patterns/06-backtracking.md) are DFS.
 - Next, [shortest paths](04-shortest-paths.md) handles edges that have different costs.

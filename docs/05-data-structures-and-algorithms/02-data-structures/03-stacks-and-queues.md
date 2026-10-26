@@ -226,5 +226,5 @@ print(f"deque.popleft(): {fast:.3f} s")
 
 ## Where this shows up
 
-- Breadth-first search uses a queue and depth-first search uses a stack, in [BFS and DFS](../03-algorithms/03-bfs-and-dfs.md). The stacks and monotonic stacks<!-- link: ../04-leetcode-patterns/04-stacks-and-monotonic-stacks.md --> pattern solves many interview problems.
+- Breadth-first search uses a queue and depth-first search uses a stack, in [BFS and DFS](../03-algorithms/03-bfs-and-dfs.md). The [stacks and monotonic stacks](../04-leetcode-patterns/04-stacks-and-monotonic-stacks.md) pattern solves many interview problems.
 - Message queues in system design<!-- link: ../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md --> are FIFO queues between services.

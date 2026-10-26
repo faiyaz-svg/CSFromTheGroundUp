@@ -232,4 +232,4 @@ This is the output of the script as written; changing `coins` to `[1, 5, 10, 25]
 ## Where this shows up
 
 - Heap-based scheduling, compression (Huffman) and spanning-tree algorithms are greedy. When greedy is not safe, the next lesson, [dynamic programming](06-dynamic-programming.md), is usually the fix.
-- In the LeetCode patterns chapter, how to approach a problem<!-- link: ../04-leetcode-patterns/01-how-to-approach-a-problem.md --> includes testing a greedy idea against brute force before trusting it.
+- In the LeetCode patterns chapter, [how to approach a problem](../04-leetcode-patterns/01-how-to-approach-a-problem.md) includes testing a greedy idea against brute force before trusting it.

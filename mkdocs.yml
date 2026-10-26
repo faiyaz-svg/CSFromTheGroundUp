@@ -189,6 +189,14 @@ nav:
           - "Dynamic programming": 05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md
       - "LeetCode patterns":
           - 05-data-structures-and-algorithms/04-leetcode-patterns/index.md
+          - "How to approach a problem": 05-data-structures-and-algorithms/04-leetcode-patterns/01-how-to-approach-a-problem.md
+          - "Two pointers and sliding window": 05-data-structures-and-algorithms/04-leetcode-patterns/02-two-pointers-and-sliding-window.md
+          - "Hashing and prefix sums": 05-data-structures-and-algorithms/04-leetcode-patterns/03-hashing-and-prefix-sums.md
+          - "Stacks and monotonic stacks": 05-data-structures-and-algorithms/04-leetcode-patterns/04-stacks-and-monotonic-stacks.md
+          - "Tree and graph problems": 05-data-structures-and-algorithms/04-leetcode-patterns/05-tree-and-graph-problems.md
+          - "Backtracking": 05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md
+          - "DP patterns": 05-data-structures-and-algorithms/04-leetcode-patterns/07-dp-patterns.md
+          - "Heaps, intervals and top-k": 05-data-structures-and-algorithms/04-leetcode-patterns/08-heaps-intervals-and-top-k.md
   - "Dev tools":
       - 06-developer-tools-and-workflow/index.md
       - "Editor and Git":

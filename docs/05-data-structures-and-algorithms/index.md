@@ -37,13 +37,13 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 4. [LeetCode patterns](04-leetcode-patterns/index.md)
 
-1. How to approach a problem (not written yet)
-2. Two pointers and sliding window (not written yet)
-3. Hashing and prefix sums (not written yet)
-4. Stacks and monotonic stacks (not written yet)
-5. Tree and graph problems (not written yet)
-6. Backtracking (not written yet)
-7. DP patterns (not written yet)
-8. Heaps, intervals and top-k (not written yet)
+1. [How to approach a problem](04-leetcode-patterns/01-how-to-approach-a-problem.md)
+2. [Two pointers and sliding window](04-leetcode-patterns/02-two-pointers-and-sliding-window.md)
+3. [Hashing and prefix sums](04-leetcode-patterns/03-hashing-and-prefix-sums.md)
+4. [Stacks and monotonic stacks](04-leetcode-patterns/04-stacks-and-monotonic-stacks.md)
+5. [Tree and graph problems](04-leetcode-patterns/05-tree-and-graph-problems.md)
+6. [Backtracking](04-leetcode-patterns/06-backtracking.md)
+7. [DP patterns](04-leetcode-patterns/07-dp-patterns.md)
+8. [Heaps, intervals and top-k](04-leetcode-patterns/08-heaps-intervals-and-top-k.md)
 
 <!-- lessons:end -->

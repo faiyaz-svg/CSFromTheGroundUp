@@ -256,4 +256,4 @@ A shortest path without a cycle has at most $V - 1$ edges, so $V - 1$ rounds are
 ## Where this shows up
 
 - Navigation, network routing and game pathfinding all use this family. Dijkstra is also the model for [greedy algorithms](05-greedy-algorithms.md): always take the best available option and never revisit it.
-- In the LeetCode patterns chapter, tree and graph problems<!-- link: ../04-leetcode-patterns/05-tree-and-graph-problems.md --> include "cheapest flight" and "network delay" problems that are Dijkstra or Bellman-Ford with a twist.
+- In the LeetCode patterns chapter, [tree and graph problems](../04-leetcode-patterns/05-tree-and-graph-problems.md) include "cheapest flight" and "network delay" problems that are Dijkstra or Bellman-Ford with a twist.
