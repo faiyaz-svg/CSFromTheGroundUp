@@ -29,10 +29,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [Schema design](03-schema-design/index.md)
 
-1. Data types and constraints (not written yet)
-2. Creating and changing tables and data (not written yet)
-3. Modelling relationships and ER diagrams (not written yet)
-4. Normalization and denormalization (not written yet)
+1. [Data types and constraints](03-schema-design/01-data-types-and-constraints.md)
+2. [Creating and changing tables and data](03-schema-design/02-creating-and-changing-tables-and-data.md)
+3. [Modelling relationships and ER diagrams](03-schema-design/03-modelling-relationships-and-er-diagrams.md)
+4. [Normalization and denormalization](03-schema-design/04-normalization-and-denormalization.md)
 
 ### 4. [Postgres in depth](04-postgres-in-depth/index.md)
 

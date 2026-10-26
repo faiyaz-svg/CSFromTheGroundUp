@@ -303,4 +303,4 @@ if price is not None:
 
 - Type hints, linters and CI checks: [linters, formatters and type checkers](../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md).
 - TypeScript on top of JavaScript: [TypeScript](../../08-front-end/02-javascript-and-typescript/04-typescript.md).
-- SQL columns have types too: data types and constraints<!-- link: ../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md -->.
+- SQL columns have types too: [data types and constraints](../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md).

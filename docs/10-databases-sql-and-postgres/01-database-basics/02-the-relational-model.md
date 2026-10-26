@@ -281,4 +281,4 @@ ORDER BY table_name;
 ## Where this shows up
 
 - [Joins](../02-querying/04-joins.md) follow the foreign keys in the diagram, on exactly this schema.
-- Writing constraints yourself is in data types and constraints<!-- link: ../03-schema-design/01-data-types-and-constraints.md -->, and drawing diagrams for a new design in modelling relationships and ER diagrams<!-- link: ../03-schema-design/03-modelling-relationships-and-er-diagrams.md -->.
+- Writing constraints yourself is in [data types and constraints](../03-schema-design/01-data-types-and-constraints.md), and drawing diagrams for a new design in [modelling relationships and ER diagrams](../03-schema-design/03-modelling-relationships-and-er-diagrams.md).

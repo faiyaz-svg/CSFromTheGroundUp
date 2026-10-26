@@ -242,5 +242,5 @@ print(Decimal(0.1))
 
 ## Where this shows up
 
-- Money in apps: integer cents or `numeric` in data types and constraints<!-- link: ../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md -->.
+- Money in apps: integer cents or `numeric` in [data types and constraints](../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md).
 - Machine learning, where 32-bit and 16-bit floats trade precision for speed: neural networks and deep learning<!-- link: ../../11-data-engineering-and-data-science/02-data-science-and-ml/07-neural-networks-and-deep-learning.md -->.
