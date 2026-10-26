@@ -255,4 +255,4 @@ SELECT 'net above list total', count(*) FROM stg_sales WHERE net_amount > quanti
 ## Where this shows up
 
 - Orchestrators place checks as a task before the publish step, as in [orchestration](06-orchestration-and-idempotent-jobs.md).
-- Statistics for data work<!-- link: ../02-data-science-and-ml/01-statistics-for-data-work.md --> covers spotting outliers that fixed range rules miss.
+- [Statistics for data work](../02-data-science-and-ml/01-statistics-for-data-work.md) covers spotting outliers that fixed range rules miss.

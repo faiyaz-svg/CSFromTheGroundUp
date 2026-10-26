@@ -24,12 +24,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Data science and machine learning](02-data-science-and-ml/index.md)
 
-1. Statistics for data work (not written yet)
-2. Analytics in SQL: cohorts, funnels and retention (not written yet)
-3. A/B testing (not written yet)
-4. What machine learning is (not written yet)
-5. Training, testing and metrics (not written yet)
-6. Regression and classification with scikit-learn (not written yet)
-7. Neural networks and deep learning (not written yet)
+1. [Statistics for data work](02-data-science-and-ml/01-statistics-for-data-work.md)
+2. [Analytics in SQL: cohorts, funnels and retention](02-data-science-and-ml/02-analytics-sql-cohorts-funnels-retention.md)
+3. [A/B testing](02-data-science-and-ml/03-ab-testing.md)
+4. [What machine learning is](02-data-science-and-ml/04-what-machine-learning-is.md)
+5. [Training, testing and metrics](02-data-science-and-ml/05-training-testing-and-metrics.md)
+6. [Regression and classification with scikit-learn](02-data-science-and-ml/06-regression-and-classification-with-scikit-learn.md)
+7. [Neural networks and deep learning](02-data-science-and-ml/07-neural-networks-and-deep-learning.md)
 
 <!-- lessons:end -->

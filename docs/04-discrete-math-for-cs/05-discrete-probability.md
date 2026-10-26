@@ -223,7 +223,7 @@ print(f"{big:.3f}", f"{max(diffs):.3f}", f"{min(diffs):.3f}")
 0.338 0.035 -0.029
 ```
 
-A gap of 1 point on a 5% base rate looks like a 20% relative lift, yet it shows up by chance in 33.8% of runs. With larger groups the gap shrinks, because the spread of the difference falls with $\sqrt{n}$. A/B testing<!-- link: ../11-data-engineering-and-data-science/02-data-science-and-ml/03-ab-testing.md --> turns this into a rule for deciding when a gap is large enough to trust.
+A gap of 1 point on a 5% base rate looks like a 20% relative lift, yet it shows up by chance in 33.8% of runs. With larger groups the gap shrinks, because the spread of the difference falls with $\sqrt{n}$. [A/B testing](../11-data-engineering-and-data-science/02-data-science-and-ml/03-ab-testing.md) turns this into a rule for deciding when a gap is large enough to trust.
 
 </details>
 
@@ -232,5 +232,5 @@ A gap of 1 point on a 5% base rate looks like a 20% relative lift, yet it shows 
 ## Where this shows up
 
 - Hash tables and how collisions are handled, in [hash tables](../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md), and hashes in security, in [hashing and salts](../12-security/02-cryptography/01-hashing-and-salts.md).
-- Reading experiment results, in statistics for data work<!-- link: ../11-data-engineering-and-data-science/02-data-science-and-ml/01-statistics-for-data-work.md -->.
+- Reading experiment results, in [statistics for data work](../11-data-engineering-and-data-science/02-data-science-and-ml/01-statistics-for-data-work.md).
 - More depth (optional): [discrete probability](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/03-counting-and-discrete-probability/05-discrete-probability/) in the sibling math book.

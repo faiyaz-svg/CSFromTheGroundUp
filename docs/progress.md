@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 174 of 252. New lessons appear here as they are added.
+Lessons written so far: 181 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -278,6 +278,16 @@ Lessons written so far: 174 of 252. New lessons appear here as they are added.
 - [ ] [File formats and columnar storage](11-data-engineering-and-data-science/01-data-engineering/08-file-formats-and-columnar-storage.md)
 - [ ] [Data quality](11-data-engineering-and-data-science/01-data-engineering/09-data-quality.md)
 - [ ] [Lakes, lakehouses and cloud warehouses](11-data-engineering-and-data-science/01-data-engineering/10-lakes-lakehouses-and-cloud-warehouses.md)
+
+### Data science and machine learning
+
+- [ ] [Statistics for data work](11-data-engineering-and-data-science/02-data-science-and-ml/01-statistics-for-data-work.md)
+- [ ] [Analytics in SQL: cohorts, funnels and retention](11-data-engineering-and-data-science/02-data-science-and-ml/02-analytics-sql-cohorts-funnels-retention.md)
+- [ ] [A/B testing](11-data-engineering-and-data-science/02-data-science-and-ml/03-ab-testing.md)
+- [ ] [What machine learning is](11-data-engineering-and-data-science/02-data-science-and-ml/04-what-machine-learning-is.md)
+- [ ] [Training, testing and metrics](11-data-engineering-and-data-science/02-data-science-and-ml/05-training-testing-and-metrics.md)
+- [ ] [Regression and classification with scikit-learn](11-data-engineering-and-data-science/02-data-science-and-ml/06-regression-and-classification-with-scikit-learn.md)
+- [ ] [Neural networks and deep learning](11-data-engineering-and-data-science/02-data-science-and-ml/07-neural-networks-and-deep-learning.md)
 
 ## Security
 
