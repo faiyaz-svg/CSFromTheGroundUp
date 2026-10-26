@@ -20,13 +20,13 @@ flowchart LR
     O --> L["LIMIT / OFFSET<br/>cut rows"]
 ```
 
-In the diagram, a clause can only use what earlier boxes produced. `WHERE` runs before `SELECT`, so it can't use a column alias made in `SELECT`. `ORDER BY` runs after, so it can. Grouping is covered in the aggregates lesson<!-- link: 03-aggregates-group-by-and-having.md -->.
+In the diagram, a clause can only use what earlier boxes produced. `WHERE` runs before `SELECT`, so it can't use a column alias made in `SELECT`. `ORDER BY` runs after, so it can. Grouping is covered in the [aggregates lesson](03-aggregates-group-by-and-having.md).
 
 ## Key terms
 
 A **query** is one `SELECT` statement. It reads rows and returns a result table; it changes nothing.
 
-A **predicate** is a condition that is true, false or unknown for a row. `WHERE` keeps the rows whose predicate is true (unknown is covered in the `NULL` lesson<!-- link: 02-null-and-three-valued-logic.md -->).
+A **predicate** is a condition that is true, false or unknown for a row. `WHERE` keeps the rows whose predicate is true (unknown is covered in the `NULL` [lesson](02-null-and-three-valued-logic.md)).
 
 An **alias** is a new name for a column or table, given with `AS`: `price * 1.13 AS with_tax`.
 
@@ -125,7 +125,7 @@ Postgres reports that the column "with_tax" does not exist. Repeat the expressio
 
 `LIMIT 20 OFFSET 40` returns rows 41 to 60. It is easy but has two problems. The database still produces and throws away the 40 skipped rows, so deep pages get slower. And if a row is inserted or deleted between two page requests, rows shift: a row can appear twice or be skipped.
 
-**Keyset pagination** (also called the seek method) remembers the last row of the previous page and asks for rows after it. The sort must be unique, so add the primary key as a last tie-breaker, and an index on the sort columns<!-- link: ../04-postgres-in-depth/01-indexes.md --> lets Postgres jump straight to the place.
+**Keyset pagination** (also called the seek method) remembers the last row of the previous page and asks for rows after it. The sort must be unique, so add the primary key as a last tie-breaker, and an index on the [sort columns](../04-postgres-in-depth/01-indexes.md) lets Postgres jump straight to the place.
 
 <div class="sql-runner" data-db="shop" markdown>
 
@@ -330,5 +330,5 @@ Expected result: all three tasks show "matches" in the runner.
 
 ## Where this shows up
 
-- Every report starts with `FROM` and `WHERE`; the same logical order explains why `HAVING` exists, in the aggregates lesson<!-- link: 03-aggregates-group-by-and-having.md -->.
+- Every report starts with `FROM` and `WHERE`; the same logical order explains why `HAVING` exists, in the [aggregates lesson](03-aggregates-group-by-and-having.md).
 - [Indexes](../04-postgres-in-depth/01-indexes.md) are what make a keyset query fast, and the same sort columns should be the index columns.

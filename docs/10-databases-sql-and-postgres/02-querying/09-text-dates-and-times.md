@@ -358,5 +358,5 @@ Expected result: all three tasks show "matches".
 ## Where this shows up
 
 - Every report is grouped by day, week or month, and every log table has a timestamp column.
-- Storing times correctly matters again in [data types and constraints](../03-schema-design/01-data-types-and-constraints.md) and in application code<!-- link: ../05-databases-in-apps/01-sql-from-code-and-sql-injection.md -->.
-- Full-text search<!-- link: ../04-postgres-in-depth/07-jsonb-and-full-text-search.md --> is the next step up from `LIKE` and regular expressions.
+- Storing times correctly matters again in [data types and constraints](../03-schema-design/01-data-types-and-constraints.md) and in [application code](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md).
+- [Full-text search](../04-postgres-in-depth/07-jsonb-and-full-text-search.md) is the next step up from `LIKE` and regular expressions.

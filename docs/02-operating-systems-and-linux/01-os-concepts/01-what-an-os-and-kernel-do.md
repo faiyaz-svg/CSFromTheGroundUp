@@ -2,7 +2,7 @@
 
 After this you can say what the operating system does for your program, name the kernel in Linux, Windows and macOS, and explain why "Ubuntu" and "Linux" are not the same thing.
 
-Before this: [The CPU](../../01-how-computers-work/02-hardware/03-the-cpu.md) and the memory hierarchy<!-- link: ../../01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md -->.
+Before this: [The CPU](../../01-how-computers-work/02-hardware/03-the-cpu.md) and the [memory hierarchy](../../01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md).
 
 ## The idea
 
@@ -51,7 +51,7 @@ Windows and macOS are not Linux-based. Windows uses the NT kernel. macOS uses XN
 
 ### Why your laptop probably runs two kernels
 
-WSL 2 runs a real Linux kernel inside a lightweight virtual machine that Windows manages behind the scenes ([Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/compare-versions)). When you open Ubuntu in WSL on Windows 11, Windows is the host OS and a second kernel is running beside it. Docker Desktop on Windows and macOS does the same, because containers share a Linux kernel and need one to run<!-- link: ../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md -->.
+WSL 2 runs a real Linux kernel inside a lightweight virtual machine that Windows manages behind the scenes ([Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/compare-versions)). When you open Ubuntu in WSL on Windows 11, Windows is the host OS and a second kernel is running beside it. Docker Desktop on Windows and macOS does the same, because containers share a Linux kernel and need one to [run](../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md).
 
 <details class="code" markdown>
 <summary>In code</summary>

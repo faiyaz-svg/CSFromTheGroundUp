@@ -269,6 +269,6 @@ def test_greeting_in_the_afternoon(mock_dt):
 
 ## Where this shows up
 
-- CI pipelines<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md --> run the unit tests on every push and the slower tests before a release.
+- [CI pipelines](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md) run the unit tests on every push and the slower tests before a release.
 - Swapping a real dependency for a double is easy when code receives it as a parameter; see [Composition and interfaces](../../03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md).
 - [Linters, formatters and type checkers](03-linters-formatters-and-type-checkers.md) catch a different set of bugs without running the code.

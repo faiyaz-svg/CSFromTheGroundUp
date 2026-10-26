@@ -27,13 +27,13 @@ In the diagram, the dashed arrow is a job that keeps failing. The API server and
 
 A **job** is one unit of deferred work, stored as data: a name and arguments such as `{type: "welcomeEmail", to: "ana@example.com"}`.
 
-A **queue** is an ordered store of jobs waiting to run, kept in Redis<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md -->, a database or a message broker. A **worker** is a long-running process that pulls jobs from it. Libraries do this for you: BullMQ (Node.js, on Redis), Celery and RQ (Python, on Redis or RabbitMQ).
+A **queue** is an ordered store of jobs waiting to run, [kept in Redis](../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md), a database or a message broker. A **worker** is a long-running process that pulls jobs from it. Libraries do this for you: BullMQ (Node.js, on Redis), Celery and RQ (Python, on Redis or RabbitMQ).
 
 A **retry** runs a failed job again, usually after a growing delay (**exponential backoff**: 1 s, 2 s, 4 s). A **dead letter queue** (DLQ) collects jobs that failed every retry, so a person can look at them instead of the job disappearing or looping forever.
 
 An operation is **idempotent** if doing it twice has the same effect as doing it once. An **idempotency key** is a unique id sent with a request or stored on a job, so the second delivery can be recognized and skipped.
 
-A **scheduled job** (cron job) runs at fixed times, such as "every night at 02:00". Linux has `cron`<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/09-shell-scripting-and-cron.md -->; queue libraries also offer repeating jobs.
+A **scheduled job** (cron job) runs at fixed times, such as "every night at 02:00". Linux has [`cron`](../../02-operating-systems-and-linux/02-linux-command-line/09-shell-scripting-and-cron.md); queue libraries also offer repeating jobs.
 
 ## How it works
 
@@ -214,6 +214,6 @@ In a real system the balance change and the `done_ids` insert happen in one data
 
 ## Where this shows up
 
-- [Queues and event-driven design](../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md) and rate limiting<!-- link: ../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md -->.
+- [Queues and event-driven design](../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md) and [rate limiting](../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md).
 - [Testing and documenting APIs](02-testing-and-documenting-apis.md) covers how to test an endpoint like `POST /signup`.
 - Webhooks from Stripe and others are delivered at least once, so their handlers need the same idempotency.

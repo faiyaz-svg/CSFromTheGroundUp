@@ -137,7 +137,7 @@ SELECT ctid, id, balance FROM accounts ORDER BY id;
  (0,2) |  2 |      50
 ```
 
-Asha's row was at slot 1 of page 0; the update wrote a new version at slot 3 (slot 2 is Ben's row). The old version is still in the page but invisible to new snapshots. It is a **dead tuple** once no running transaction can need it. `VACUUM` reclaims that space, and updates the visibility map that index only scans use (the indexes lesson<!-- link: 01-indexes.md -->). Autovacuum runs it for you. A transaction left open for hours keeps old versions needed, so the table bloats; that is the cost of MVCC.
+Asha's row was at slot 1 of page 0; the update wrote a new version at slot 3 (slot 2 is Ben's row). The old version is still in the page but invisible to new snapshots. It is a **dead tuple** once no running transaction can need it. `VACUUM` reclaims that space, and updates the visibility map that index only scans use (the [indexes lesson](01-indexes.md)). Autovacuum runs it for you. A transaction left open for hours keeps old versions needed, so the table bloats; that is the cost of MVCC.
 
 ## Worked examples
 
@@ -285,5 +285,5 @@ Step 3 loses the update because both sessions read 100 before either wrote. In s
 
 ## Where this shows up
 
-- Payment, booking and inventory code retries on `40001` and `40P01` (deadlock detected); see SQL from code<!-- link: ../05-databases-in-apps/01-sql-from-code-and-sql-injection.md -->.
+- Payment, booking and inventory code retries on `40001` and `40P01` (deadlock detected); see [SQL from code](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md).
 - Connection poolers and replicas change what "the same session" means; see [backups, replication and pooling](08-backups-replication-and-pooling.md).

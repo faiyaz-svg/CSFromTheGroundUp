@@ -30,7 +30,7 @@ A **subagent** is a second agent, started by the first, with its own fresh conte
 
 ## How it works
 
-Claude Code is a coding agent with exactly this structure, and its [overview](https://code.claude.com/docs/en/overview) names the parts (as of 2026): tools to read files, edit them and run commands; a `CLAUDE.md` file it reads at the start of every session; hooks that run your shell commands before or after actions; MCP servers for external tools; and subagents that work on different parts of a task in parallel. The next chapter covers Claude Code in detail<!-- link: ../03-ai-assisted-development/01-claude-code.md -->.
+Claude Code is a coding agent with exactly this structure, and its [overview](https://code.claude.com/docs/en/overview) names the parts (as of 2026): tools to read files, edit them and run commands; a `CLAUDE.md` file it reads at the start of every session; hooks that run your shell commands before or after actions; MCP servers for external tools; and subagents that work on different parts of a task in parallel. The next chapter [covers Claude Code in detail](../03-ai-assisted-development/01-claude-code.md).
 
 ```mermaid
 flowchart TB

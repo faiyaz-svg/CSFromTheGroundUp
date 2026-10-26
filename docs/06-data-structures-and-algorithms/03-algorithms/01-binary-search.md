@@ -117,7 +117,7 @@ print(first_true(1, max(piles), lambda k: sum(-(-p // k) for p in piles) <= hour
 4
 ```
 
-`-(-p // k)` is a ceiling division: the hours one pile takes. With `k = 4` the piles take 1 + 2 + 2 + 3 = 8 hours, and with `k = 3` they take 1 + 2 + 3 + 4 = 10. This "first true" shape returns to you in the LeetCode patterns chapter<!-- link: ../04-leetcode-patterns/01-how-to-approach-a-problem.md -->.
+`-(-p // k)` is a ceiling division: the hours one pile takes. With `k = 4` the piles take 1 + 2 + 2 + 3 = 8 hours, and with `k = 3` they take 1 + 2 + 3 + 4 = 10. This "first true" shape returns to you in the [LeetCode patterns chapter](../04-leetcode-patterns/01-how-to-approach-a-problem.md).
 
 </div>
 

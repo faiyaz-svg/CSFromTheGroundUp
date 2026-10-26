@@ -129,7 +129,7 @@ Watch out: negating `a and b` as `not a and not b`. De Morgan flips the connecti
 
 Watch out: reading "if p then q" as also meaning "if q then p". "If the code is correct, the tests pass" does not mean "if the tests pass, the code is correct".
 
-Watch out: assuming SQL conditions have only two outcomes. With `NULL` a comparison can be unknown, so `NOT (x = 1)` does not select every row that `x = 1` skipped. See `NULL` and three-valued logic<!-- link: ../10-databases-sql-and-postgres/02-querying/02-null-and-three-valued-logic.md -->.
+Watch out: assuming SQL conditions have only two outcomes. With `NULL` a comparison can be unknown, so `NOT (x = 1)` does not select every row that `x = 1` skipped. See `NULL` and [three-valued logic](../10-databases-sql-and-postgres/02-querying/02-null-and-three-valued-logic.md).
 
 </div>
 
@@ -254,6 +254,6 @@ r3 None
 
 ## Where this shows up
 
-- `NULL` and three-valued logic<!-- link: ../10-databases-sql-and-postgres/02-querying/02-null-and-three-valued-logic.md --> in SQL, where a third value breaks some of these laws.
+- `NULL` and [three-valued logic](../10-databases-sql-and-postgres/02-querying/02-null-and-three-valued-logic.md) in SQL, where a third value breaks some of these laws.
 - Circuits built from gates, in [boolean algebra and circuits](../01-how-computers-work/02-hardware/02-boolean-algebra-and-circuits.md).
 - More depth (optional): [truth tables and logical equivalence](https://faiyaz-svg.github.io/MathFromTheGroundUp/04-proofs-and-logic/02-logic-and-sets/03-truth-tables-and-logical-equivalence/) in the sibling math book.

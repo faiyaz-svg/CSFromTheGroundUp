@@ -197,6 +197,6 @@ With `allowedHeaders` set, the `cors` middleware sends exactly that list in `Acc
 
 ## Where this shows up
 
-- Fetching data from React<!-- link: ../../08-front-end/03-react/03-data-fetching-and-forms.md --> across origins, and the dev proxy in `npm`, bundlers and Vite<!-- link: ../../08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md -->.
-- CSRF and browser security<!-- link: ../../12-security/01-web-security/04-xss-csrf-and-browser-security.md --> explains the attacks that the same-origin policy and `SameSite` cookies limit.
+- [Fetching data from React](../../08-front-end/03-react/03-data-fetching-and-forms.md) across origins, and the dev proxy in `npm`[, bundlers and Vite](../../08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md).
+- [CSRF and browser security](../../12-security/01-web-security/04-xss-csrf-and-browser-security.md) explains the attacks that the same-origin policy and `SameSite` cookies limit.
 - Next chapter: [background jobs](../03-api-quality/01-background-jobs.md).

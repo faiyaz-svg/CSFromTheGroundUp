@@ -32,7 +32,7 @@ An **idempotent** load gives the same result whether it runs once or several tim
 
 ## How it works
 
-ETL made sense when warehouses were expensive and slow, so the heavy cleaning ran on a cheaper server and only finished data was loaded. Cloud warehouses made storage cheap and let SQL scale across many machines, so ELT won: load the raw data once, keep it, and transform it with SQL (tools such as dbt<!-- link: 07-dbt-and-sql-transformations.md --> run those SQL steps). Raw data kept in the warehouse can be re-transformed when the logic changes, without going back to the source. ETL is still used when data must be masked or reduced before it may leave a system.
+ETL made sense when warehouses were expensive and slow, so the heavy cleaning ran on a cheaper server and only finished data was loaded. Cloud warehouses made storage cheap and let SQL scale across many machines, so ELT won: load the raw data once, keep it, and transform it with SQL (tools [such as dbt](07-dbt-and-sql-transformations.md) run those SQL steps). Raw data kept in the warehouse can be re-transformed when the logic changes, without going back to the source. ETL is still used when data must be masked or reduced before it may leave a system.
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ flowchart LR
 
 Each arrow in the diagram is a step that can be rerun. Staging keeps text exactly as it came, so a bad row can be inspected. The clean layer fixes types and duplicates. The mart layer is the star schema people query.
 
-Two properties make a pipeline trustworthy. First, a load must be idempotent, because jobs fail halfway and are rerun. Either replace a whole partition (delete the day, then insert the day) or use an upsert on a key, shown in the next lesson<!-- link: 04-loading-data-into-postgres.md -->. A plain `INSERT` on rerun duplicates rows. Second, an incremental load needs a watermark so the job reads only new data. The Python below extracts the rows of a CSV file newer than a stored date, using the `csv` module. The file is the 20,000-row `sales.csv` generated in the next lesson.
+Two properties make a pipeline trustworthy. First, a load must be idempotent, because jobs fail halfway and are rerun. Either replace a whole partition (delete the day, then insert the day) or use an upsert on a key, shown in the [next lesson](04-loading-data-into-postgres.md). A plain `INSERT` on rerun duplicates rows. Second, an incremental load needs a watermark so the job reads only new data. The Python below extracts the rows of a CSV file newer than a stored date, using the `csv` module. The file is the 20,000-row `sales.csv` generated in the next lesson.
 
 ```python
 import csv
@@ -95,7 +95,7 @@ ORDER BY sale_id, loaded_at DESC;
 
 </div>
 
-Check: three rows come back, 1002 has amount 5.50 (the later copy), and 1003 has a `NULL` amount that a data quality check<!-- link: 09-data-quality.md --> should flag.
+Check: three rows come back, 1002 has amount 5.50 (the later copy), and 1003 has a `NULL` [amount that a data quality check](09-data-quality.md) should flag.
 
 </div>
 

@@ -282,6 +282,6 @@ The `stale` and `live` columns differ for the province that order 1 ships to. Ad
 
 ## Where this shows up
 
-- Analytics models in dbt<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/07-dbt-and-sql-transformations.md --> are views and materialized tables with a build tool on top.
-- ORM migrations<!-- link: ../05-databases-in-apps/02-orms-and-migrations.md --> often create triggers for `updated_at`.
+- Analytics [models in dbt](../../11-data-engineering-and-data-science/01-data-engineering/07-dbt-and-sql-transformations.md) are views and materialized tables with a build tool on top.
+- [ORM migrations](../05-databases-in-apps/02-orms-and-migrations.md) often create triggers for `updated_at`.
 - Supabase uses triggers on `auth.users` to create a profile row for each new signup.

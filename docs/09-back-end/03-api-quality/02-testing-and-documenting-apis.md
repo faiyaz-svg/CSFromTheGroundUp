@@ -21,7 +21,7 @@ In the diagram, one spec feeds the docs, the contract test and client generators
 
 ## Key terms
 
-An **endpoint test** (or API test) sends a real HTTP request to the app and asserts on the status code, headers and body. It sits between a unit test of one function and an end-to-end test<!-- link: ../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md --> of the whole system. **supertest** does this for Node apps without opening a port; **httpx** (with pytest) does it from Python, over the network or straight into an ASGI app.
+An **endpoint test** (or API test) sends a real HTTP request to the app and asserts on the status code, headers and body. It sits between a unit test of one function and an [end-to-end test](../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md) of the whole system. **supertest** does this for Node apps without opening a port; **httpx** (with pytest) does it from Python, over the network or straight into an ASGI app.
 
 A **contract test** checks that responses keep the shape the API promised: required fields exist and have the right types. It catches a renamed field before a client does.
 
@@ -243,5 +243,5 @@ test("GET /todos items have the documented shape", async () => {
 ## Where this shows up
 
 - [Integration tests, mocks and end-to-end tests](../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md) goes wider than one endpoint.
-- CI/CD<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md --> runs these tests on every push.
+- [CI/CD](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md) runs these tests on every push.
 - Back in this chapter: [background jobs](01-background-jobs.md) need tests for retries and idempotency too.

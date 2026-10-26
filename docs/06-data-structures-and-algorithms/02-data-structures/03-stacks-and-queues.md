@@ -66,7 +66,7 @@ a b deque(['b', 'c'])
 
 In JavaScript, an `Array` works as a stack with `push` and `pop`. It has no built-in deque. `shift()` takes the front element, but on a large array it can be slow, so for big queues keep a head index or use a library.
 
-You already use a stack without writing one. When a function calls another, the computer stacks a frame holding the caller's local variables and return address, and pops it on return; a [recursion](../../03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md) that goes too deep raises a stack overflow (`RecursionError` in Python). A stack is also what you reach for in undo history, the back button, expression evaluation and matching brackets. A queue models work waiting for its turn: print jobs, tasks in a worker pool, and breadth-first search<!-- link: ../03-algorithms/03-bfs-and-dfs.md -->.
+You already use a stack without writing one. When a function calls another, the computer stacks a frame holding the caller's local variables and return address, and pops it on return; a [recursion](../../03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md) that goes too deep raises a stack overflow (`RecursionError` in Python). A stack is also what you reach for in undo history, the back button, expression evaluation and matching brackets. A queue models work waiting for its turn: print jobs, tasks in a worker pool, and [breadth-first search](../03-algorithms/03-bfs-and-dfs.md).
 
 ## Worked examples
 
@@ -227,4 +227,4 @@ print(f"deque.popleft(): {fast:.3f} s")
 ## Where this shows up
 
 - Breadth-first search uses a queue and depth-first search uses a stack, in [BFS and DFS](../03-algorithms/03-bfs-and-dfs.md). The [stacks and monotonic stacks](../04-leetcode-patterns/04-stacks-and-monotonic-stacks.md) pattern solves many interview problems.
-- Message queues in system design<!-- link: ../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md --> are FIFO queues between services.
+- [Message queues in system design](../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md) are FIFO queues between services.

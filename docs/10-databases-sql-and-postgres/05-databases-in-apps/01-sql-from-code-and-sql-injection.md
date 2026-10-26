@@ -2,7 +2,7 @@
 
 After this you can connect to Postgres from Python or Node, run queries with parameters instead of string building, and explain how SQL injection works and why parameters stop it.
 
-Before this: [Postgres and psql](../01-database-basics/03-postgres-and-psql.md) and [joins](../02-querying/04-joins.md). Transactions get their own lesson<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md -->; here you only see how to start one from code.
+Before this: [Postgres and psql](../01-database-basics/03-postgres-and-psql.md) and [joins](../02-querying/04-joins.md). Transactions get their own [lesson](../04-postgres-in-depth/03-transactions-and-acid.md); here you only see how to start one from code.
 
 ## The idea
 
@@ -292,5 +292,5 @@ With the comment marker, the query becomes `... WHERE email = 'ana@example.com' 
 
 ## Where this shows up
 
-- Every web handler that reads from a database. Frameworks hide the driver, but the placeholders are still underneath, which is the next lesson on ORMs<!-- link: 02-orms-and-migrations.md -->.
+- Every web handler that reads from a database. Frameworks hide the driver, but the placeholders are still underneath, which is the next [lesson on ORMs](02-orms-and-migrations.md).
 - Connection limits and server-side pooling come back in [backups, replication and pooling](../04-postgres-in-depth/08-backups-replication-and-pooling.md).

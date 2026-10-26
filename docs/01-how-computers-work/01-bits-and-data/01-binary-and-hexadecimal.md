@@ -241,4 +241,4 @@ print(f"{0o640:09b}")  # owner read+write, group read, others nothing
 ## Where this shows up
 
 - [Bits, bytes and units](02-bits-bytes-and-units.md) builds on this: how many values a given number of bits can hold.
-- Colour codes in CSS, permission modes in Linux<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/03-users-groups-and-permissions.md -->, and the hex strings of hashes, IDs and memory addresses.
+- Colour codes in CSS, permission modes in [Linux](../../02-operating-systems-and-linux/02-linux-command-line/03-users-groups-and-permissions.md), and the hex strings of hashes, IDs and memory addresses.

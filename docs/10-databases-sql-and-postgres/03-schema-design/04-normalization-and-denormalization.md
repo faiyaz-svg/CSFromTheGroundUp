@@ -171,7 +171,7 @@ Check: `after_refresh` is exactly 50.00 above `stale`, the new line. Between the
 
 <div class="warning" markdown>
 
-Watch out: denormalizing before measuring. A copied column (`orders.customer_city`) is easy to add and hard to keep correct. Normalize first, add an index, and look at the query plan<!-- link: ../04-postgres-in-depth/02-explain-and-query-plans.md --> before copying data.
+Watch out: denormalizing before measuring. A copied column (`orders.customer_city`) is easy to add and hard to keep correct. Normalize first, add an index, and look at the [query plan](../04-postgres-in-depth/02-explain-and-query-plans.md) before copying data.
 
 </div>
 
@@ -307,6 +307,6 @@ ORDER BY r.student_email, r.course_code;
 
 ## Where this shows up
 
-- Star schemas<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md --> are deliberately denormalized: one fact table of events surrounded by wide dimension tables, built for fast reports rather than safe updates. The `warehouse` sample database uses one.
-- Views and materialized views<!-- link: ../04-postgres-in-depth/06-views-functions-and-triggers.md --> are covered in the Postgres chapter.
-- Caches such as Redis<!-- link: ../05-databases-in-apps/04-redis-and-caching.md --> are denormalization outside the database, with the same staleness question.
+- [Star schemas](../../11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md) are deliberately denormalized: one fact table of events surrounded by wide dimension tables, built for fast reports rather than safe updates. The `warehouse` sample database uses one.
+- [Views and materialized views](../04-postgres-in-depth/06-views-functions-and-triggers.md) are covered in the Postgres chapter.
+- Caches [such as Redis](../05-databases-in-apps/04-redis-and-caching.md) are denormalization outside the database, with the same staleness question.

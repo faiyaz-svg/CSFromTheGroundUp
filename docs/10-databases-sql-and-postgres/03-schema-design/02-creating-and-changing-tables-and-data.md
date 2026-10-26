@@ -24,7 +24,7 @@ flowchart LR
     DML -->|"fills and edits"| T
 ```
 
-Both kinds are permanent once they succeed (a later lesson on transactions<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md --> covers undoing them). That makes the habits in this lesson matter: say which rows you mean before you change them.
+Both kinds are permanent once they succeed (a later [lesson on transactions](../04-postgres-in-depth/03-transactions-and-acid.md) covers undoing them). That makes the habits in this lesson matter: say which rows you mean before you change them.
 
 ## Key terms
 
@@ -288,4 +288,4 @@ SELECT sku, qty FROM inventory ORDER BY sku;
 
 - [ORMs and migrations](../05-databases-in-apps/02-orms-and-migrations.md) generate and run `ALTER TABLE` scripts for you; this lesson is what to read in them.
 - [Modelling relationships and ER diagrams](03-modelling-relationships-and-er-diagrams.md) decides which tables to create in the first place.
-- Transactions<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md --> make a bad `UPDATE` undoable.
+- [Transactions](../04-postgres-in-depth/03-transactions-and-acid.md) make a bad `UPDATE` undoable.

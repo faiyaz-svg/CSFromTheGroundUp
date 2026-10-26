@@ -2,7 +2,7 @@
 
 After this you can number, rank and compare rows within groups, compute running totals and moving averages, and pick the top rows per group, all without collapsing the rows.
 
-Before this: [aggregates, GROUP BY and HAVING](03-aggregates-group-by-and-having.md) and CTEs<!-- link: 06-ctes-and-recursive-queries.md -->.
+Before this: [aggregates, GROUP BY and HAVING](03-aggregates-group-by-and-having.md) and [CTEs](06-ctes-and-recursive-queries.md).
 
 ## The idea
 
@@ -370,5 +370,5 @@ Expected result: all three tasks show "matches".
 ## Where this shows up
 
 - Dashboards: running totals, month-over-month change with `lag`, "latest row per customer" and "top N per category".
-- Window functions also run over time-ordered data in time-series queries and in data warehouses<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md -->.
+- Window functions also run over time-ordered data in time-series queries and in [data warehouses](../../11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md).
 - [Indexes](../04-postgres-in-depth/01-indexes.md) on the `PARTITION BY` and `ORDER BY` columns can avoid a sort.

@@ -259,5 +259,5 @@ WHERE search @@ websearch_to_tsquery('english', 'headphones');
 ## Where this shows up
 
 - ORMs and APIs store settings and webhook payloads as JSONB, and Supabase returns rows as JSON.
-- Query plans<!-- link: 02-explain-and-query-plans.md --> show whether a GIN index was used.
+- [Query plans](02-explain-and-query-plans.md) show whether a GIN index was used.
 - [NoSQL databases](../05-databases-in-apps/03-nosql-databases.md) make the document model the default instead of one column.

@@ -60,7 +60,7 @@ flowchart TB
     A1 & A2 & A3 --> DB
 ```
 
-The data tier is the hard part to scale, because it is the one place that must stay consistent. Scaling it is the topic of database scaling<!-- link: ../../14-software-and-system-design/02-system-design/04-database-scaling-replication-and-sharding.md -->.
+The data tier is the hard part to scale, because it is the one place that must stay consistent. Scaling it is the topic of [database scaling](../../14-software-and-system-design/02-system-design/04-database-scaling-replication-and-sharding.md).
 
 ## Worked examples
 

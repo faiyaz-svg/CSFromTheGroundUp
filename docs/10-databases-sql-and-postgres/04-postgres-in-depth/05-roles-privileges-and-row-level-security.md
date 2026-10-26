@@ -261,5 +261,5 @@ Selecting `email` as `support` fails with `permission denied for table customers
 ## Where this shows up
 
 - Every managed Postgres (Supabase, RDS, Neon) gives you a superuser-like admin role plus a flow for creating restricted app roles.
-- SQL injection<!-- link: ../05-databases-in-apps/01-sql-from-code-and-sql-injection.md --> does less damage when the app role can't drop tables.
-- Views<!-- link: 06-views-functions-and-triggers.md --> are the other way to expose only part of a table.
+- [SQL injection](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md) does less damage when the app role can't drop tables.
+- [Views](06-views-functions-and-triggers.md) are the other way to expose only part of a table.

@@ -2,7 +2,7 @@
 
 After this you can explain why every program thinks it owns all the memory, what a page fault and swap are, why Linux sometimes kills a process, and the difference between the stack and the heap.
 
-Before this: [Processes, threads and scheduling](02-processes-threads-and-scheduling.md) and the memory hierarchy<!-- link: ../../01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md -->.
+Before this: [Processes, threads and scheduling](02-processes-threads-and-scheduling.md) and the [memory hierarchy](../../01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md).
 
 ## The idea
 
@@ -148,7 +148,7 @@ Recursion stops after 1000 calls, while the heap holds an 80 MB list without tro
 
 Watch out: reading "free memory" from `free -h` or Task Manager and panicking. Linux fills spare RAM with cache. The `available` column is the number to read.
 
-Watch out: blaming only your program for an OOM kill. A container can have a lower memory limit<!-- link: ../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md --> than the machine, so a process can die on a half-empty host. The kernel log shows who was killed and why.
+Watch out: blaming only your program for an OOM kill. A container can have a [lower memory limit](../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md) than the machine, so a process can die on a half-empty host. The kernel log shows who was killed and why.
 
 Watch out: raising the recursion limit to "fix" a `RecursionError`. A bigger limit can overflow the real stack and crash the interpreter. Rewrite the recursion as a loop.
 

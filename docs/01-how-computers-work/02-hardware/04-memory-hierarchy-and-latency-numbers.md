@@ -117,7 +117,7 @@ Network round trip in a data centre    500.0 s
 
 </details>
 
-The ratios are 1 : 1,000 : 5,000. The estimate assumes one read at a time, which is what a naive loop pays; sending many requests at once would finish much sooner. The slow page from the start fits this shape: 10,000 calls to a pricing service at 500 µs each is 5 s of the eight. In database code the same pattern is the N+1 query problem<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md -->.
+The ratios are 1 : 1,000 : 5,000. The estimate assumes one read at a time, which is what a naive loop pays; sending many requests at once would finish much sooner. The slow page from the start fits this shape: 10,000 calls to a pricing service at 500 µs each is 5 s of the eight. In database code the same pattern is the [N+1 query problem](../../10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md).
 
 </div>
 

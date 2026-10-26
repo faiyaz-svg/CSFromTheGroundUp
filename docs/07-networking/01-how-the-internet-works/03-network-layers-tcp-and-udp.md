@@ -118,7 +118,7 @@ A TCP program uses `SOCK_STREAM`, and `connect` triggers the handshake from the 
 
 <div class="warning" markdown>
 
-Watch out: saying TCP is "safe" or "secure". It is reliable, which means delivered and in order. It does not encrypt anything; that is TLS<!-- link: ../02-web-protocols/03-tls-https-and-certificates.md -->, one layer up.
+Watch out: saying TCP is "safe" or "secure". It is reliable, which means delivered and in order. It does not encrypt anything; that is [TLS](../02-web-protocols/03-tls-https-and-certificates.md), one layer up.
 
 Watch out: assuming a UDP `sendto` that returned without error was delivered. It only means the operating system accepted the datagram.
 
@@ -231,6 +231,6 @@ The connect time is one round trip (SYN out, SYN-ACK back) plus a little operati
 
 ## Where this shows up
 
-- Every web request starts with this handshake; [HTTP requests and responses](../02-web-protocols/01-http-requests-and-responses.md) and TLS<!-- link: ../02-web-protocols/03-tls-https-and-certificates.md --> sit on top.
+- Every web request starts with this handshake; [HTTP requests and responses](../02-web-protocols/01-http-requests-and-responses.md) and [TLS](../02-web-protocols/03-tls-https-and-certificates.md) sit on top.
 - [WebSockets and real-time communication](../02-web-protocols/06-websockets-and-real-time.md) reuse a single long-lived TCP connection.
 - [DNS and domains](05-dns-and-domains.md) uses UDP for most lookups.

@@ -31,7 +31,7 @@ A **savepoint** is a named point inside a transaction that you can roll back to 
 
 Four commands control a transaction: `BEGIN` (or `START TRANSACTION`) opens it, `COMMIT` makes it permanent, `ROLLBACK` discards it, and `SAVEPOINT name` with `ROLLBACK TO name` marks and undoes part of it.
 
-**Atomicity** is implemented with row versions: an update writes a new version of the row that other sessions ignore until the transaction commits (the isolation lesson<!-- link: 04-isolation-locking-and-mvcc.md --> shows how). Rolling back just leaves that version invisible; nothing needs to be undone on disk.
+**Atomicity** is implemented with row versions: an update writes a new version of the row that other sessions ignore until the transaction commits (the [isolation lesson](04-isolation-locking-and-mvcc.md) shows how). Rolling back just leaves that version invisible; nothing needs to be undone on disk.
 
 **Consistency** is the database's part and yours. Constraints (`CHECK`, `NOT NULL`, foreign keys, `UNIQUE`) are checked on every statement, and a violation aborts the statement and, in a transaction, the whole block. Business rules the constraints don't express, such as "the totals must add up", are your job.
 
@@ -301,5 +301,5 @@ The runner stops at the first error, so this version undoes the second move by c
 
 ## Where this shows up
 
-- Every payment, order or inventory write in an app is a transaction; see SQL from code<!-- link: ../05-databases-in-apps/01-sql-from-code-and-sql-injection.md -->.
+- Every payment, order or inventory write in an app is a transaction; see [SQL from code](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md).
 - Next: [isolation, locking and MVCC](04-isolation-locking-and-mvcc.md) covers what other sessions see while your transaction is open.

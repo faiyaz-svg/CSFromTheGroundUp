@@ -268,5 +268,5 @@ rm labdb.dump
 ## Where this shows up
 
 - Every provider's "backups" and "read replicas" settings use these terms.
-- Serverless apps<!-- link: ../05-databases-in-apps/01-sql-from-code-and-sql-injection.md --> hit connection limits first, so they use a pooler.
-- Data pipelines<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/04-loading-data-into-postgres.md --> often read from a replica so reports don't slow the app.
+- [Serverless apps](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md) hit connection limits first, so they use a pooler.
+- [Data pipelines](../../11-data-engineering-and-data-science/01-data-engineering/04-loading-data-into-postgres.md) often read from a replica so reports don't slow the app.

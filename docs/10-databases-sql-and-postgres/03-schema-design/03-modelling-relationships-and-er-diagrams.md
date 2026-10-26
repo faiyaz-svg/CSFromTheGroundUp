@@ -295,5 +295,5 @@ ORDER BY l.loan_id;
 ## Where this shows up
 
 - [Normalization and denormalization](04-normalization-and-denormalization.md) tests whether a model like this stores each fact once.
-- ORMs<!-- link: ../05-databases-in-apps/02-orms-and-migrations.md --> express the same relationships as classes with `ForeignKey` and `ManyToMany` fields.
-- Data modelling for warehouses<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md --> draws different diagrams for a different job.
+- [ORMs](../05-databases-in-apps/02-orms-and-migrations.md) express the same relationships as classes with `ForeignKey` and `ManyToMany` fields.
+- Data [modelling for warehouses](../../11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md) draws different diagrams for a different job.

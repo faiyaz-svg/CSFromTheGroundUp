@@ -236,5 +236,5 @@ Changes: `lang` added, darker text (`#595959` is about 7:1 on white), `alt` on t
 
 ## Where this shows up
 
-- Component libraries in React<!-- link: ../03-react/01-components-props-and-jsx.md --> still render HTML, so the same rules apply.
+- Component libraries in [React](../03-react/01-components-props-and-jsx.md) still render HTML, so the same rules apply.
 - Automated accessibility checks run in [end-to-end tests](../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md). Back to the [chapter cheat sheet](index.md).

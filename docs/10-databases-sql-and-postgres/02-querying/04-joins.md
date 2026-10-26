@@ -39,7 +39,7 @@ Take customer 13, who has no orders, and customer 14, who has two (orders 61 and
 | `INNER JOIN` | (14, 61), (14, 498). Customer 13 is gone. |
 | `LEFT JOIN` | (13, NULL), (14, 61), (14, 498). Customer 13 is kept, with `NULL` for the order. |
 
-Conceptually, the database takes each left row and emits one output row per right row where the `ON` condition is true. Zero matches gives no row for an inner join and one `NULL`-padded row for a left join. Two matches give two rows, so the left row is repeated. The real planner is faster than comparing every pair; the lesson on query plans<!-- link: ../04-postgres-in-depth/02-explain-and-query-plans.md --> shows how.
+Conceptually, the database takes each left row and emits one output row per right row where the `ON` condition is true. Zero matches gives no row for an inner join and one `NULL`-padded row for a left join. Two matches give two rows, so the left row is repeated. The real planner is faster than comparing every pair; the lesson on [query plans](../04-postgres-in-depth/02-explain-and-query-plans.md) shows how.
 
 Each extra `JOIN` adds one table to the result so far, so a chain follows the arrows in the diagram. This query lists what order 1 contained. When two columns share a name, `USING (customer_id)` can replace the `ON` condition and keeps one copy of the column. `JOIN` on its own means `INNER JOIN`.
 
@@ -362,5 +362,5 @@ Expected result: all four tasks show "matches" in the runner.
 ## Where this shows up
 
 - Reports join tables, and the zero rows in them (provinces with no refunds) are the left join's job.
-- [Subqueries](05-subqueries.md) and CTEs<!-- link: 06-ctes-and-recursive-queries.md --> are often alternatives to a join, and the next lesson compares them.
+- [Subqueries](05-subqueries.md) and [CTEs](06-ctes-and-recursive-queries.md) are often alternatives to a join, and the next lesson compares them.
 - [Indexes](../04-postgres-in-depth/01-indexes.md) on foreign key columns are what make a join fast on large tables.

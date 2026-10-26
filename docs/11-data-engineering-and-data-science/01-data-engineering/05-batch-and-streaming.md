@@ -90,7 +90,7 @@ offsets {0: 3, 1: 0, 2: 3}
 second poll [[], [], []]
 ```
 
-All three of `ana`'s clicks are in partition 0 in order; the committed offsets mean a second poll returns nothing new. Commit timing is the hard part. If the consumer commits before processing and crashes, the event is lost (**at most once**). If it processes first and crashes before committing, the event is delivered again (**at least once**). **Exactly once** means each event's effect happens once. No system gets that for free across a network, because a crash between "did the work" and "recorded that it did" can't be avoided. Kafka offers transactions for work inside Kafka; for outside systems the practical answer is at-least-once delivery plus an idempotent write, such as the upsert from the previous lesson<!-- link: 04-loading-data-into-postgres.md --> keyed on an event id.
+All three of `ana`'s clicks are in partition 0 in order; the committed offsets mean a second poll returns nothing new. Commit timing is the hard part. If the consumer commits before processing and crashes, the event is lost (**at most once**). If it processes first and crashes before committing, the event is delivered again (**at least once**). **Exactly once** means each event's effect happens once. No system gets that for free across a network, because a crash between "did the work" and "recorded that it did" can't be avoided. Kafka offers transactions for work inside Kafka; for outside systems the practical answer is at-least-once delivery plus an idempotent write, such as the upsert from the [previous lesson](04-loading-data-into-postgres.md) keyed on an event id.
 
 ## Worked examples
 

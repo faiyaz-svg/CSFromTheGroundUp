@@ -297,5 +297,5 @@ The commands above are the full solution. If `curl` returns `403 Forbidden`, one
 ## Where this shows up
 
 - A database behind a Lambda function is reached through a VPC and a pooler, as in [RDS managed Postgres](05-rds-managed-postgres.md) and [VPCs and security groups](06-vpcs-and-security-groups.md).
-- Lambda logs flow to CloudWatch, covered in Logging, metrics and monitoring<!-- link: ../04-operations/01-logging-metrics-and-monitoring.md -->.
+- Lambda logs flow to CloudWatch, covered in [Logging, metrics and monitoring](../04-operations/01-logging-metrics-and-monitoring.md).
 - The container-based alternative for long-running code is in [registries and Kubernetes basics](../01-containers/04-registries-and-kubernetes-basics.md).

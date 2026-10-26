@@ -248,4 +248,4 @@ Remove the unused imports, the unused variable and the `print` line, add the ann
 ## Where this shows up
 
 - [Documentation and readmes](04-documentation-and-readmes.md) is the last piece of the chapter: the text around the code.
-- CI pipelines<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md --> run these checks on every push.
+- [CI pipelines](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md) run these checks on every push.

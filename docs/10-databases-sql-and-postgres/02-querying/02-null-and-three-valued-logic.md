@@ -92,7 +92,7 @@ Check: the result is 1, 151, 48 and 199. The first three add up to 200, so each 
 
 ### Example 2: the NOT IN trap
 
-`x NOT IN (a, b, NULL)` expands to `x <> a AND x <> b AND x <> NULL`. The last term is unknown, so the whole `AND` is never true, and the query returns no rows at all. We want customers whose phone is not one of the phones in Halifax. Two Halifax customers have no phone. (The parenthesized `SELECT` inside `IN` is a subquery, a query used as a list; the subqueries lesson<!-- link: 05-subqueries.md --> covers it.)
+`x NOT IN (a, b, NULL)` expands to `x <> a AND x <> b AND x <> NULL`. The last term is unknown, so the whole `AND` is never true, and the query returns no rows at all. We want customers whose phone is not one of the phones in Halifax. Two Halifax customers have no phone. (The parenthesized `SELECT` inside `IN` is a subquery, a query used as a list; the [subqueries lesson](05-subqueries.md) covers it.)
 
 <div class="sql-runner" data-db="shop" markdown>
 
@@ -315,5 +315,5 @@ Expected result: all three tasks show "matches" in the runner.
 
 ## Where this shows up
 
-- Aggregates<!-- link: 03-aggregates-group-by-and-having.md --> skip `NULL`, and [left joins](04-joins.md) create `NULL`s for unmatched rows.
-- Column constraints such as `NOT NULL`<!-- link: ../03-schema-design/01-data-types-and-constraints.md --> are how a schema removes the problem at the source.
+- [Aggregates](03-aggregates-group-by-and-having.md) skip `NULL`, and [left joins](04-joins.md) create `NULL`s for unmatched rows.
+- Column constraints such as [`NOT NULL`](../03-schema-design/01-data-types-and-constraints.md) are how a schema removes the problem at the source.

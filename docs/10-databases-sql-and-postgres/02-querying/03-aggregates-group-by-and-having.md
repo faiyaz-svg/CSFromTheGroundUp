@@ -170,7 +170,7 @@ Watch out: `avg` ignores `NULL`, so it is the average of the known values, not o
 
 <div class="warning" markdown>
 
-Watch out: `count(*)` after a join counts joined rows, not the entities you meant. Counting orders through `order_items` counts items; use `count(DISTINCT order_id)`, as the joins lesson<!-- link: 04-joins.md --> shows.
+Watch out: `count(*)` after a join counts joined rows, not the entities you meant. Counting orders through `order_items` counts items; use `count(DISTINCT order_id)`, as the [joins lesson](04-joins.md) shows.
 
 </div>
 
@@ -355,4 +355,4 @@ Expected result: all three tasks show "matches" in the runner.
 ## Where this shows up
 
 - Dashboards and reports are grouped aggregates; [window functions](07-window-functions.md) add a per-row running total or rank without collapsing rows.
-- Warehouse queries<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md --> are mostly `GROUP BY` over a fact table.
+- [Warehouse queries](../../11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md) are mostly `GROUP BY` over a fact table.

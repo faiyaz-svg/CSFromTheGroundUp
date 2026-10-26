@@ -25,7 +25,7 @@ An **instruction set architecture** (**ISA**) is the list of instructions a fami
 
 **Assembly** is machine code written as text: one line per instruction, with a short name (a **mnemonic**) such as `mov` or `add`, and its operands. An **assembler** turns the text into bytes, and a **disassembler** turns bytes back into text.
 
-A **register** is one of the CPU's few named storage slots (the top of the hierarchy you saw in the memory lesson<!-- link: ../02-hardware/04-memory-hierarchy-and-latency-numbers.md -->). On x86-64, `rax`, `rdi` and `rsi` are 64-bit registers, and `eax`, `edi` and `esi` are their lower 32 bits.
+A **register** is one of the CPU's few named storage slots (the top of the hierarchy you saw in the [memory lesson](../02-hardware/04-memory-hierarchy-and-latency-numbers.md)). On x86-64, `rax`, `rdi` and `rsi` are 64-bit registers, and `eax`, `edi` and `esi` are their lower 32 bits.
 
 A **calling convention** is the agreement about where a function finds its arguments and leaves its result. On Linux and macOS x86-64 (the System V convention), the first two integer arguments arrive in `rdi` and `rsi` and the result goes in `eax` or `rax`. Windows uses `rcx` and `rdx` instead.
 

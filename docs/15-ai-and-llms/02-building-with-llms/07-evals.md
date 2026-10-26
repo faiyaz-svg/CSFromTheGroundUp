@@ -236,6 +236,6 @@ This catches the case where v2 raises the average but breaks something v1 handle
 
 ## Where this shows up
 
-- The next chapter uses the same habit when reviewing AI-written code: tests first, then judgment<!-- link: ../03-ai-assisted-development/03-reviewing-ai-code.md -->.
+- The next chapter uses the same habit when reviewing AI-written code: tests first, [then judgment](../03-ai-assisted-development/03-reviewing-ai-code.md).
 - Model choice is partly an eval question: run your golden set on two models and compare score, cost and latency, as in [choosing a model](../01-how-llms-work/05-choosing-a-model.md).
 - Tracking prompt changes alongside code relies on the same [unit testing](../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md) discipline.

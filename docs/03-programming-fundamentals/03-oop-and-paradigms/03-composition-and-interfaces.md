@@ -330,5 +330,5 @@ print(s.expired())
 
 ## Where this shows up
 
-- Unit tests<!-- link: ../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md --> rely on injecting fakes for the database, the clock and the network.
+- [Unit tests](../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md) rely on injecting fakes for the database, the clock and the network.
 - [TypeScript](../../08-front-end/02-javascript-and-typescript/04-typescript.md) interfaces are structural in the same way as Protocols. The [SOLID principles](../../14-software-and-system-design/01-software-design/02-solid-principles.md) call this "depend on abstractions". Next: [Functional programming ideas](04-functional-programming-ideas.md).

@@ -297,6 +297,6 @@ The memoized time is a few microseconds and nearly flat, because it does $n + 1$
 
 ## Where this shows up
 
-- [Binary search](../03-algorithms/01-binary-search.md) ($T(n/2) + 1$), [sorting](../03-algorithms/02-sorting.md) ($2T(n/2) + n$) and tree traversals<!-- link: ../02-data-structures/05-trees-and-binary-search-trees.md --> ($2T(n/2) + 1$).
-- [Dynamic programming](../03-algorithms/06-dynamic-programming.md) and the interview patterns built on it<!-- link: ../04-leetcode-patterns/07-dp-patterns.md -->, which are memoization organized on purpose.
+- [Binary search](../03-algorithms/01-binary-search.md) ($T(n/2) + 1$), [sorting](../03-algorithms/02-sorting.md) ($2T(n/2) + n$) and [tree traversals](../02-data-structures/05-trees-and-binary-search-trees.md) ($2T(n/2) + 1$).
+- [Dynamic programming](../03-algorithms/06-dynamic-programming.md) and the interview [patterns built on it](../04-leetcode-patterns/07-dp-patterns.md), which are memoization organized on purpose.
 - [Sums, logs and recurrences](../../05-discrete-math-for-cs/08-sums-logs-and-recurrences.md) gives the maths behind the level sums used here.

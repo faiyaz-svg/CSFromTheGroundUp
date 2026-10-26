@@ -36,7 +36,7 @@ A **server process** is an operating system process that starts, opens a port, a
 Four jobs cover most of what you will see:
 
 1. Business logic. Rules live here because the client can't be trusted to enforce them. The browser may hide the "Delete" button from a normal user, but the back end must still refuse the request.
-2. Data. The back end is the only thing that talks to the database, so every change passes through code that checks it. Databases get their own chapter<!-- link: ../../10-databases-sql-and-postgres/index.md -->.
+2. Data. The back end is the only thing that talks to the database, so every change passes through code that checks it. Databases get their own [chapter](../../10-databases-sql-and-postgres/index.md).
 3. Authentication and authorization. The back end works out who is calling and whether they may do this. See [Authentication vs authorization](../02-auth/01-authentication-vs-authorization.md).
 4. Integrations. Secrets such as a payment API key sit in the back end's environment, and the back end calls the provider on the client's behalf.
 

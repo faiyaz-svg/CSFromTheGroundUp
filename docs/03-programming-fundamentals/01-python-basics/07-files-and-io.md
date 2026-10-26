@@ -77,7 +77,7 @@ As of 2026, Python's default encoding for `open` still depends on the locale on 
 
 Modes: `"r"` read (default), `"w"` write and truncate, `"a"` append, `"x"` create and fail if it exists, plus `"b"` for binary. `"w"` destroys an existing file the moment you open it.
 
-`pathlib` replaces most `os.path` code: `Path("data") / "in.csv"`, `.exists()`, `.suffix`, `.parent`, `.glob("*.csv")`, `.mkdir(parents=True, exist_ok=True)`, `.read_text(encoding=...)`. For structured files, use the standard library. `csv` needs `newline=""` on the file so embedded newlines in fields survive, and returns every field as a string. `json.dumps` and `json.loads` convert between Python objects and JSON text (see data formats<!-- link: ../../04-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md -->).
+`pathlib` replaces most `os.path` code: `Path("data") / "in.csv"`, `.exists()`, `.suffix`, `.parent`, `.glob("*.csv")`, `.mkdir(parents=True, exist_ok=True)`, `.read_text(encoding=...)`. For structured files, use the standard library. `csv` needs `newline=""` on the file so embedded newlines in fields survive, and returns every field as a string. `json.dumps` and `json.loads` convert between Python objects and JSON text (see [data formats](../../04-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md)).
 
 ```python
 import csv, json

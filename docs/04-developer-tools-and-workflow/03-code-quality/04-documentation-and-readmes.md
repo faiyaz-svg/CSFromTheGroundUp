@@ -237,5 +237,5 @@ A `README.md` with the lines: a one-sentence description, `pip install pytest`, 
 
 ## Where this shows up
 
-- The AI-assisted development chapter<!-- link: ../../15-ai-and-llms/03-ai-assisted-development/01-claude-code.md --> shows how an agent uses CLAUDE.md in a session.
+- The [AI-assisted development chapter](../../15-ai-and-llms/03-ai-assisted-development/01-claude-code.md) shows how an agent uses CLAUDE.md in a session.
 - [Design docs and writing](../../16-the-workplace/05-design-docs-and-writing.md) covers longer documents for a team.

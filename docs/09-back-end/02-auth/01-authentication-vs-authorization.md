@@ -39,7 +39,7 @@ The status codes are defined in [RFC 9110](https://datatracker.ietf.org/doc/html
 | Valid token, but the role is too low | 403 | Authenticated, not permitted; sending the same credentials again will not help |
 | Valid user asks for another user's record | 403 or 404 | Return 404 when even revealing that the record exists would leak information |
 
-In an Express app, both checks are middleware<!-- link: ../01-servers-and-apis/03-express-routing-and-middleware.md --> that runs before the handler. `authenticate` fills in `req.user`, and `requireRole` reads it. Roles are the simplest model, but they don't cover "a user may edit only their own posts". That is an **ownership check**: it needs the resource, so it runs inside the handler after the record is loaded.
+In an Express app, both checks are [middleware](../01-servers-and-apis/03-express-routing-and-middleware.md) that runs before the handler. `authenticate` fills in `req.user`, and `requireRole` reads it. Roles are the simplest model, but they don't cover "a user may edit only their own posts". That is an **ownership check**: it needs the resource, so it runs inside the handler after the record is loaded.
 
 Where the checks run matters more than how they look. Hiding the "Delete user" button in the front end is a convenience, not a control, because anyone can send the same request with `curl`. The server must check on every request, on every route, because the client is untrusted. [OWASP's Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) lists this as "enforce least privileges" and "deny by default": a route with no rule should refuse, not allow.
 

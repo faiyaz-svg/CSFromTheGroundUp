@@ -234,4 +234,4 @@ Add `tried = set()` and, in `work`, raise only if `job == "bad" and job not in t
 
 - Throttling producers and clients: [rate limiting and API gateways](07-rate-limiting-and-api-gateways.md).
 - Chat messages, notifications and feeds are queues and pub/sub: [case study: a chat app](11-case-study-chat-app.md).
-- Deployed workers and their logs: logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+- Deployed workers and their logs: [logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).

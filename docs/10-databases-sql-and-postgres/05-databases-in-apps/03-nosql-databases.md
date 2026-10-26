@@ -28,13 +28,13 @@ A **key-value store** maps a key to a value and is fast at exactly that: get, se
 
 A **wide-column store** such as Apache Cassandra spreads rows over many nodes by a partition key and is built for very high write rates. You design the table around the queries you will run, and queries without the partition key are slow or not allowed.
 
-A **graph database** such as Neo4j stores nodes and edges and is fast at "friends of friends" style queries, where SQL would need a chain of joins or a recursive CTE<!-- link: ../02-querying/06-ctes-and-recursive-queries.md -->.
+A **graph database** such as Neo4j stores nodes and edges and is fast at "friends of friends" style queries, where SQL would need a chain of joins or a [recursive CTE](../02-querying/06-ctes-and-recursive-queries.md).
 
 **Schema-on-write** means the database checks the structure when you insert, as a relational table does. **Schema-on-read** means the database stores whatever you give it and your code interprets the structure when reading. The second is flexible, but nothing stops a typo like `colour` and `color` from both appearing.
 
 ## How it works
 
-The trade is flexibility and scale against guarantees. A relational database offers joins, constraints and ACID transactions<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md --> across tables. Many NoSQL systems give up some of that so data can be split across servers. Several now offer transactions in limited forms (MongoDB has multi-document transactions, for example), so check the current docs before assuming a feature is missing.
+The trade is flexibility and scale against guarantees. A relational database offers joins, constraints and [ACID transactions](../04-postgres-in-depth/03-transactions-and-acid.md) across tables. Many NoSQL systems give up some of that so data can be split across servers. Several now offer transactions in limited forms (MongoDB has multi-document transactions, for example), so check the current docs before assuming a feature is missing.
 
 When data lives on several machines and the network between them breaks (a partition), a system must choose: refuse some requests to keep every answer correct, or keep answering and risk stale data. This is the **CAP theorem**: during a partition you get consistency or availability, not both. Systems like Cassandra and DynamoDB let you tune that choice per query. The system design chapter covers it properly in [CAP and consistency](../../14-software-and-system-design/02-system-design/05-cap-and-consistency.md).
 
@@ -203,5 +203,5 @@ Run on PGlite, which gave the results above. If your client treats `?` as a para
 
 ## Where this shows up
 
-- Redis<!-- link: 04-redis-and-caching.md --> is the key-value store you will most likely use, as a cache, in the next lesson.
-- Choosing between stores is a standard system design question, covered in the system design chapter<!-- link: ../../14-software-and-system-design/02-system-design/05-cap-and-consistency.md -->.
+- [Redis](04-redis-and-caching.md) is the key-value store you will most likely use, as a cache, in the next lesson.
+- Choosing between stores is a standard system design question, covered in the [system design chapter](../../14-software-and-system-design/02-system-design/05-cap-and-consistency.md).

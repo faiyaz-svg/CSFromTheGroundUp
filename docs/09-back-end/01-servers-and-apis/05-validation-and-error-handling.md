@@ -55,7 +55,7 @@ Three habits cover most mistakes:
 
 1. Allow-list: accept only the fields you declared. Take `parsed.data`, not `req.body`, so an extra field such as `"isAdmin": true` can't slip into your database call.
 2. Limit sizes: strings, arrays and the body itself (`express.json({ limit: "100kb" })` is the default).
-3. Validate again where it matters. The front end's checks are for usability; the back end's are for safety. Also, validation of shape doesn't replace checking permission or using parameterised SQL<!-- link: ../../10-databases-sql-and-postgres/index.md -->.
+3. Validate again where it matters. The front end's checks are for usability; the back end's are for safety. Also, validation of shape doesn't replace checking permission or using [parameterised SQL](../../10-databases-sql-and-postgres/index.md).
 
 Zod 4 is the current major version as of 2026; see the [zod docs](https://zod.dev/). Its `error.issues` is an array of `{ path, message, ... }` objects, which is what we format below.
 

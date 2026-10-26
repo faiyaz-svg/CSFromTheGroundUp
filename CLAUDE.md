@@ -30,6 +30,7 @@ py -m venv .venv
 node tools/check_sql.mjs                     # run every SQL block and SQL solution
 .venv/Scripts/python tools/build_nav.py      # after adding lessons: nav, progress page, folder lesson lists
 .venv/Scripts/python tools/link_planned.py   # turn <!-- link: ... --> comments into links once targets exist
+.venv/Scripts/python tools/build_reference.py # after lesson edits: regenerate the glossary and common mistakes pages
 ```
 
 Labs run on WSL2 Ubuntu with Docker Desktop. Check Linux and Docker commands with `wsl -e bash -lc "..."`.

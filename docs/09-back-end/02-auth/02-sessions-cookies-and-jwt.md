@@ -22,13 +22,13 @@ sequenceDiagram
     S-->>B: 200 user 42
 ```
 
-In the diagram, the cookie holds only an id. The user data stays on the server, in the **session store** (memory, a database or Redis<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md -->).
+In the diagram, the cookie holds only an id. The user data stays on the server, in the **session store** (memory, a [database or Redis](../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md)).
 
 ## Key terms
 
 A **cookie** is a small name-value pair that the server sets with a `Set-Cookie` header and the browser sends back on later requests to the same site.
 
-The cookie flags that matter: `HttpOnly` hides the cookie from JavaScript, so a script injected into the page can't read it. `Secure` sends it only over HTTPS. `SameSite=Lax` (or `Strict`) stops the browser attaching it to most cross-site requests, which blocks most CSRF attacks<!-- link: ../../12-security/01-web-security/04-xss-csrf-and-browser-security.md -->. `Max-Age` or `Expires` sets its lifetime.
+The cookie flags that matter: `HttpOnly` hides the cookie from JavaScript, so a script injected into the page can't read it. `Secure` sends it only over HTTPS. `SameSite=Lax` (or `Strict`) stops the browser attaching it to most cross-site requests, which blocks most [CSRF attacks](../../12-security/01-web-security/04-xss-csrf-and-browser-security.md). `Max-Age` or `Expires` sets its lifetime.
 
 A **JSON Web Token** (JWT, [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519)) is a compact string of three base64url parts joined by dots: `header.payload.signature`. The header names the signing algorithm, the payload holds **claims** such as `sub` (the user) and `exp` (the expiry time), and the signature proves the first two parts weren't changed.
 

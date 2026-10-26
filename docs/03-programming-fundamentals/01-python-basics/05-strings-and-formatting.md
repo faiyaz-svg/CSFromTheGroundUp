@@ -130,7 +130,7 @@ flowchart LR
     end
 ```
 
-Check: in the diagram, the f-string version mixes input into the code before parsing, and it returned every row for a name that matches nobody. The parameterized version treated the whole input as one value and returned nothing. This is SQL injection<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md -->; the same rule applies to shell commands and HTML.
+Check: in the diagram, the f-string version mixes input into the code before parsing, and it returned every row for a name that matches nobody. The parameterized version treated the whole input as one value and returned nothing. This is [SQL injection](../../12-security/01-web-security/03-injection-and-input-validation.md); the same rule applies to shell commands and HTML.
 
 </div>
 

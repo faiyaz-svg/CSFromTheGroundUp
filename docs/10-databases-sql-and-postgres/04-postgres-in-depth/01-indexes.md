@@ -132,7 +132,7 @@ The second index serves `WHERE lower(email) = 'user77@example.com'` and nothing 
 CREATE INDEX orders_cust_amount_idx ON orders_big (customer_id) INCLUDE (amount);
 ```
 
-Index only scans also need the table's **visibility map** to be current, which `VACUUM` maintains (the isolation lesson<!-- link: 04-isolation-locking-and-mvcc.md --> explains why). Until then the plan shows `Heap Fetches: N`, the number of rows still checked in the heap.
+Index only scans also need the table's **visibility map** to be current, which `VACUUM` maintains (the [isolation lesson](04-isolation-locking-and-mvcc.md) explains why). Until then the plan shows `Heap Fetches: N`, the number of rows still checked in the heap.
 
 Postgres has other index types, chosen with `USING`: hash (equality only, rarely worth it over B-tree), GIN (many values per row, such as arrays, JSONB and full-text search), GiST (geometric and range data, nearest-neighbour search), and BRIN (tiny, for huge tables whose values correlate with physical order, such as timestamps in an append-only log).
 

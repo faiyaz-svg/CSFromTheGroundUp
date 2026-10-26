@@ -106,7 +106,7 @@ After each `c`, pdb also prints the location line again; those lines are left ou
 
 In VS Code the same tools have a graphical form, from the [debugging docs](https://code.visualstudio.com/docs/debugtest/debugging) (Windows shortcuts): click the margin or press F9 to set a breakpoint, F5 to run under the debugger, F10 to step over, F11 to step into, Shift+F11 to step out. The Variables, Watch and Call Stack panes show state. A conditional breakpoint stops only when an expression is true, and a logpoint prints a message without stopping.
 
-Use a debugger when you need to explore state you did not predict. Use logs for code running somewhere you cannot attach to, such as a server. Logging in production is covered in logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+Use a debugger when you need to explore state you did not predict. Use logs for code running somewhere you cannot attach to, such as a server. Logging in production is covered in [logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).
 
 When a bug appeared "sometime this month", bisect the history. In a Git repository, `git bisect` checks out the middle commit, you say good or bad, and it halves the range. With 8 commits it needs about 3 checks. With a script that exits 0 for good and non-zero for bad, Git does it for you:
 
@@ -313,4 +313,4 @@ Step 4: Git picks a commit in the middle. If `grep "return 1" f.py` finds it, ru
 
 - Tests turn a reproduction into a permanent check: [unit testing](../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md).
 - Debugging in the editor: [VS Code and IDEs](../../04-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md).
-- Reading a trace across services: logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+- Reading a trace across services: [logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).

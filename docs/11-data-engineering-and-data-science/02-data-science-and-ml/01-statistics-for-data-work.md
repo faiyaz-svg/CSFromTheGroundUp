@@ -212,5 +212,5 @@ A log-normal variable is the exponential of a normal one, so it has a long right
 
 ## Where this shows up
 
-- Percentile alerts in monitoring and SLOs<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+- Percentile alerts in [monitoring and SLOs](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).
 - [A/B testing](03-ab-testing.md) builds on sampling and confounders; [training, testing and metrics](05-training-testing-and-metrics.md) reuses them for model evaluation.

@@ -226,4 +226,4 @@ field: email | purpose: login and receipts | stored: users table, mail provider 
 ## Where this shows up
 
 - Safe storage of passwords and tokens: [Hashing and salts](01-hashing-and-salts.md) and [Secure authentication](../01-web-security/05-secure-authentication.md).
-- Logging and retention in operations<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+- Logging and retention in [operations](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).

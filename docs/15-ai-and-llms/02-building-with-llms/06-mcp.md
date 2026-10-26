@@ -235,6 +235,6 @@ In the client, after listing, add `print((await client.call_tool("add_note", {"t
 
 ## Where this shows up
 
-- Claude Code and other coding tools act as MCP hosts<!-- link: ../03-ai-assisted-development/01-claude-code.md -->, and the risks of untrusted servers appear again in [AI security risks](../03-ai-assisted-development/04-ai-security-risks.md).
+- Claude Code and other coding tools act as [MCP hosts](../03-ai-assisted-development/01-claude-code.md), and the risks of untrusted servers appear again in [AI security risks](../03-ai-assisted-development/04-ai-security-risks.md).
 - Remote MCP servers use the same HTTP, auth and rate-limit ideas as any API, such as [OAuth and SSO](../../09-back-end/02-auth/03-oauth-and-sso.md).
 - [Evals](07-evals.md) can check that an agent picks the right MCP tool.

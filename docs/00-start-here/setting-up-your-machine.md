@@ -171,7 +171,7 @@ psql (PostgreSQL) 1x.x
 x.y.z
 ```
 
-AWS setup comes later, in its own lesson on AWS accounts, IAM and billing<!-- link: ../13-devops-and-cloud/03-aws/02-aws-account-iam-and-billing.md -->, because it involves billing and security choices that need explaining first.
+AWS setup comes later, in its own lesson on [AWS accounts, IAM and billing](../13-devops-and-cloud/03-aws/02-aws-account-iam-and-billing.md), because it involves billing and security choices that need explaining first.
 
 ## Working with AI
 

@@ -251,5 +251,5 @@ Expected result: below 768 px everything stacks in one column; above it the side
 
 ## Where this shows up
 
-- Every component you build in React<!-- link: ../03-react/01-components-props-and-jsx.md --> is styled with these same properties.
+- Every component you build in [React](../03-react/01-components-props-and-jsx.md) is styled with these same properties.
 - Next: [accessibility](05-accessibility.md), which checks that the layout works for keyboard and screen reader users.

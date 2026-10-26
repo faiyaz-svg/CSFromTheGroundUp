@@ -341,4 +341,4 @@ The commands above are the full solution. If `certbot` cannot fetch the challeng
 ## Where this shows up
 
 - Packaging the same app as a container is in [Docker images and Dockerfiles](../01-containers/02-docker-images-and-dockerfiles.md), and automating this deploy from a pipeline is in [GitHub Actions](../02-ci-cd/02-github-actions.md).
-- Watching the app after it is live is the subject of Logging, metrics and monitoring<!-- link: ../04-operations/01-logging-metrics-and-monitoring.md -->.
+- Watching the app after it is live is the subject of [Logging, metrics and monitoring](../04-operations/01-logging-metrics-and-monitoring.md).

@@ -50,7 +50,7 @@ console.log(document.querySelectorAll("li").length); // all matches
 2
 ```
 
-`querySelector` returns `null` when nothing matches, and then the next line throws a `TypeError`. `classList` has `add`, `remove` and `toggle`, which is how JavaScript changes appearance: it flips classes, and CSS does the styling. `textContent` treats the string as text. `innerHTML` parses it as HTML, so putting user input there allows script injection (see XSS<!-- link: ../../12-security/01-web-security/04-xss-csrf-and-browser-security.md -->).
+`querySelector` returns `null` when nothing matches, and then the next line throws a `TypeError`. `classList` has `add`, `remove` and `toggle`, which is how JavaScript changes appearance: it flips classes, and CSS does the styling. `textContent` treats the string as text. `innerHTML` parses it as HTML, so putting user input there allows script injection (see [XSS](../../12-security/01-web-security/04-xss-csrf-and-browser-security.md)).
 
 `addEventListener("click", fn)` registers a listener. The browser passes `fn` an event object whose `target` is the element that was hit and whose `currentTarget` is the element the listener is attached to.
 

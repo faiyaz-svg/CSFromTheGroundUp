@@ -366,5 +366,5 @@ Expected result: all three tasks show "matches".
 ## Where this shows up
 
 - Reconciling two lists: users in system A and not in system B is an `EXCEPT`.
-- Pivots feed charts and spreadsheets; `CASE` also appears in the cleaning step of data pipelines<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/03-etl-and-elt-pipelines.md -->.
+- Pivots feed charts and spreadsheets; `CASE` also appears in the cleaning step of [data pipelines](../../11-data-engineering-and-data-science/01-data-engineering/03-etl-and-elt-pipelines.md).
 - [Text, dates and times](09-text-dates-and-times.md) is the last lesson of this chapter.

@@ -47,7 +47,7 @@ Microservices buy independent deployment and scaling, and the price is the netwo
 | Debugging | One stack trace | A request crosses services, so you need distributed traces |
 | Scaling | Whole app | Each service on its own |
 
-Each cost has a specific form. Network calls add latency and can fail halfway. Distributed data means that "reserve stock and charge the card" is no longer one transaction; you need patterns such as sagas, which are retried steps with compensating actions. Deployment and observability overhead means each service needs its own build, config, logging and monitoring, as in Logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+Each cost has a specific form. Network calls add latency and can fail halfway. Distributed data means that "reserve stock and charge the card" is no longer one transaction; you need patterns such as sagas, which are retried steps with compensating actions. Deployment and observability overhead means each service needs its own build, config, [logging and monitoring, as in Logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).
 
 When to split:
 

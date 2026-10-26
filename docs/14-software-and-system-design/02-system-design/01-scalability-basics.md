@@ -219,4 +219,4 @@ With `db_hold_s = 0.05` the pool allows 200 req/s, so the CPU (100 req/s) become
 
 - Spreading requests over several servers: [load balancing](02-load-balancing.md).
 - Estimating load and capacity before you build: [back-of-the-envelope estimates](08-back-of-the-envelope-estimates.md).
-- Finding the bottleneck from real data: logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+- Finding the bottleneck from real data: [logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).

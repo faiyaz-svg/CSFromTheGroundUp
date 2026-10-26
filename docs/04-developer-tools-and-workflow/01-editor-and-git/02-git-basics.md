@@ -2,7 +2,7 @@
 
 After this you can put a project under version control, save a snapshot with `git add` and `git commit`, read `status`, `diff` and `log`, undo an uncommitted edit, and write a commit message that a teammate can use.
 
-Before this: [VS Code and IDEs](01-vs-code-and-ides.md) and the shell basics<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/01-shell-and-terminal-basics.md -->.
+Before this: [VS Code and IDEs](01-vs-code-and-ides.md) and the [shell basics](../../02-operating-systems-and-linux/02-linux-command-line/01-shell-and-terminal-basics.md).
 
 ## The idea
 

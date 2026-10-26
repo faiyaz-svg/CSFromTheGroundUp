@@ -238,4 +238,4 @@ SELECT count(*) AS no_email FROM customers WHERE email IS NULL;
 ## Where this shows up
 
 - The next lesson, [the relational model](02-the-relational-model.md), explains the tables and keys behind the integrity rule in Example 1.
-- Transactions and ACID get their own lesson in the Postgres chapter<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md -->.
+- Transactions and ACID get their own lesson in the [Postgres chapter](../04-postgres-in-depth/03-transactions-and-acid.md).

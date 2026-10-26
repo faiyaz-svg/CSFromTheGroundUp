@@ -280,4 +280,4 @@ and call `titles([joinedload(Author.books)])`. The `.unique()` call is needed be
 ## Where this shows up
 
 - Every web framework's data layer (Django ORM, Rails, Prisma in a Next.js app) is this lesson. Production incidents with "the page got slow after the data grew" are often N+1.
-- Migrations run as a step in deployment, which the CI/CD lessons<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md --> cover.
+- Migrations run as a step in deployment, which the [CI/CD lessons](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md) cover.

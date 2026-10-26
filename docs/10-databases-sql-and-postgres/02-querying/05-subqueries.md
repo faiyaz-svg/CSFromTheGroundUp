@@ -47,7 +47,7 @@ SELECT
 
 </div>
 
-The result is 10, 46 and 46. The `IN` form builds a list of customer ids and tests membership. The `EXISTS` form is correlated: `o.customer_id = c.customer_id` ties the inner query to the current customer `c`. It can stop at the first matching order, and unlike `NOT IN` it is safe with `NULL`s, as the `NULL` lesson<!-- link: 02-null-and-three-valued-logic.md --> showed.
+The result is 10, 46 and 46. The `IN` form builds a list of customer ids and tests membership. The `EXISTS` form is correlated: `o.customer_id = c.customer_id` ties the inner query to the current customer `c`. It can stop at the first matching order, and unlike `NOT IN` it is safe with `NULL`s, as the `NULL` [lesson](02-null-and-three-valued-logic.md) showed.
 
 Correlated subqueries are easiest to read as a loop. The database may plan it as a join or a hash lookup, but the result is always the same as this loop.
 
@@ -90,7 +90,7 @@ ORDER BY category, price DESC, name;
 
 </div>
 
-Check: 14 rows. Intro to Statistics (69.99), Linear Algebra Notes (54.00) and Atlas of Canada (49.95) are the three Books above the Books average of 46.15, which agrees with the average printed in the aggregates lesson<!-- link: 03-aggregates-group-by-and-having.md -->. The inner query is run for each row conceptually, so a correlated subquery on a large table needs an index<!-- link: ../04-postgres-in-depth/01-indexes.md --> on `category`.
+Check: 14 rows. Intro to Statistics (69.99), Linear Algebra Notes (54.00) and Atlas of Canada (49.95) are the three Books above the Books average of 46.15, which agrees with the average printed in the [aggregates lesson](03-aggregates-group-by-and-having.md). The inner query is run for each row conceptually, so a correlated subquery on a large table needs an [index](../04-postgres-in-depth/01-indexes.md) on `category`.
 
 </div>
 
@@ -141,7 +141,7 @@ JOIN orders o ON o.customer_id = c.customer_id
 WHERE o.status = 'refunded';
 ```
 
-It returns 46, the same as `IN` and `EXISTS`, but without `DISTINCT` a customer with two refunds would appear twice. `EXISTS` says what you mean (does a matching order exist?) and can't duplicate rows. Use a join when you need columns from both tables in the result. Use `EXISTS` or `NOT EXISTS` when you only need to test for a match. Use a CTE<!-- link: 06-ctes-and-recursive-queries.md --> when a derived table is long or used twice, because a name reads better than nesting. Postgres often plans equivalent forms the same way, so write the clearest one first and measure only if it is slow.
+It returns 46, the same as `IN` and `EXISTS`, but without `DISTINCT` a customer with two refunds would appear twice. `EXISTS` says what you mean (does a matching order exist?) and can't duplicate rows. Use a join when you need columns from both tables in the result. Use `EXISTS` or `NOT EXISTS` when you only need to test for a match. [Use a CTE](06-ctes-and-recursive-queries.md) when a derived table is long or used twice, because a name reads better than nesting. Postgres often plans equivalent forms the same way, so write the clearest one first and measure only if it is slow.
 
 ## Common mistakes
 
@@ -185,7 +185,7 @@ What to check:
 
 - That the result is the same for both forms: compare row counts and a few rows.
 - Whether the answer used `NOT IN` on a nullable column. Replace it with `NOT EXISTS`.
-- Correlated subqueries on big tables: ask for the query plan<!-- link: ../04-postgres-in-depth/02-explain-and-query-plans.md --> and look for a missing index.
+- Correlated subqueries on big tables: ask for the [query plan](../04-postgres-in-depth/02-explain-and-query-plans.md) and look for a missing index.
 - Joins that duplicate rows when the question only asked "does a match exist".
 
 </div>
@@ -347,5 +347,5 @@ Expected result: all three tasks show "matches" in the runner.
 
 ## Where this shows up
 
-- CTEs<!-- link: 06-ctes-and-recursive-queries.md --> give a name to a subquery, and recursive CTEs do what subqueries can't.
-- Row-level security policies<!-- link: ../04-postgres-in-depth/05-roles-privileges-and-row-level-security.md --> often use `EXISTS` to check ownership.
+- [CTEs](06-ctes-and-recursive-queries.md) give a name to a subquery, and recursive CTEs do what subqueries can't.
+- [Row-level security policies](../04-postgres-in-depth/05-roles-privileges-and-row-level-security.md) often use `EXISTS` to check ownership.

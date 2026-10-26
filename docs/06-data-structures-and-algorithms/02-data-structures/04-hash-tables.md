@@ -255,4 +255,4 @@ for i, bucket in enumerate(t.buckets):
 ## Where this shows up
 
 - The [hashing and prefix sums](../04-leetcode-patterns/03-hashing-and-prefix-sums.md) pattern is "put it in a dict" for most interview problems.
-- Caches, database hash indexes and Redis<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md --> are hash tables at larger scale.
+- Caches, database hash [indexes and Redis](../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md) are hash tables at larger scale.

@@ -106,7 +106,7 @@ peak egress 69 MB/s = 0.6 Gbit/s
 
 Sanity checks, each against a known limit:
 
-- 3,472 writes per second is within one well-tuned Postgres primary, but 34,722 reads per second at 2 ms each needs replicas or a cache. That points to caching<!-- link: 03-caching-strategies.md --> and read replicas<!-- link: 04-database-scaling-replication-and-sharding.md -->.
+- 3,472 writes per second is within one well-tuned Postgres primary, but 34,722 reads per second at 2 ms each needs replicas or a cache. That [points to caching](03-caching-strategies.md) and [read replicas](04-database-scaling-replication-and-sharding.md).
 - 35k peak QPS at 1,000 per server is about 35 app servers, plus headroom, so tens and not thousands.
 - 91 TB does not fit on one disk, so storage will need sharding or an object store.
 - 0.6 Gbit/s is below a 10 Gbit/s network card, so bandwidth is not the bottleneck.

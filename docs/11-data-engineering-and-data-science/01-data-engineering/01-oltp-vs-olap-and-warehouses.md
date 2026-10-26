@@ -54,9 +54,9 @@ Row store (one block per row)       Column store (one block per column)
                                     amount:  [40.00, 25.00, 60.00]
 ```
 
-Postgres is a row store. Many cloud warehouses (BigQuery, Snowflake, Redshift) and DuckDB are column stores, as are Parquet files, which a later lesson on file formats<!-- link: 08-file-formats-and-columnar-storage.md --> covers. A row store like Postgres can still serve a small warehouse, and this book does that: the `warehouse` sample database is ordinary Postgres tables.
+Postgres is a row store. Many cloud warehouses (BigQuery, Snowflake, Redshift) and DuckDB are column stores, as are Parquet files, which a later lesson on [file formats](08-file-formats-and-columnar-storage.md) covers. A row store like Postgres can still serve a small warehouse, and this book does that: the `warehouse` sample database is ordinary Postgres tables.
 
-The second change is the table design. OLTP tables are normalized so that an update touches one place. Analytical tables are deliberately reshaped into a few wide dimension tables around one big fact table, which the next lesson<!-- link: 02-star-schemas-and-dimensional-modelling.md --> covers. The third is time: an OLTP row holds the current customer address, while a warehouse keeps what was true when each sale happened.
+The second change is the table design. OLTP tables are normalized so that an update touches one place. Analytical tables are deliberately reshaped into a few wide dimension tables around one big fact table, which the [next lesson](02-star-schemas-and-dimensional-modelling.md) covers. The third is time: an OLTP row holds the current customer address, while a warehouse keeps what was true when each sale happened.
 
 The `warehouse` database holds 1500 sales over 18 months. The query below is a typical OLAP question: one row per month, built from every sale. Joins are covered in the earlier chapter; here `dim_date` supplies the month name.
 
@@ -122,7 +122,7 @@ Electronics is 49.4% of the 161448.41 total.
 
 <div class="warning" markdown>
 
-Watch out: running heavy reports on the production OLTP database "because it already has the data". One long scan slows checkout. The fix is a read replica<!-- link: ../../10-databases-sql-and-postgres/04-postgres-in-depth/08-backups-replication-and-pooling.md --> for small teams, or a warehouse once reports get big.
+Watch out: running heavy reports on the production OLTP database "because it already has the data". One long scan slows checkout. The fix is a [read replica](../../10-databases-sql-and-postgres/04-postgres-in-depth/08-backups-replication-and-pooling.md) for small teams, or a warehouse once reports get big.
 
 </div>
 
@@ -239,4 +239,4 @@ LIMIT 3;
 ## Where this shows up
 
 - Every analytics job starts by asking where the data lives. [Star schemas and dimensional modelling](02-star-schemas-and-dimensional-modelling.md) is next.
-- Dashboards and reports in later chapters assume a warehouse like this one, for example analytics in SQL<!-- link: ../02-data-science-and-ml/02-analytics-sql-cohorts-funnels-retention.md -->.
+- Dashboards and reports in later chapters assume a warehouse like this one, for example [analytics in SQL](../02-data-science-and-ml/02-analytics-sql-cohorts-funnels-retention.md).

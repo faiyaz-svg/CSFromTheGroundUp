@@ -303,4 +303,4 @@ SELECT payment_id, amount, status FROM payments;
 ## Where this shows up
 
 - [Creating and changing tables and data](02-creating-and-changing-tables-and-data.md) uses these types in `CREATE TABLE` and `ALTER TABLE`.
-- JSONB<!-- link: ../04-postgres-in-depth/07-jsonb-and-full-text-search.md --> covers the `jsonb` type properly.
+- [JSONB](../04-postgres-in-depth/07-jsonb-and-full-text-search.md) covers the `jsonb` type properly.

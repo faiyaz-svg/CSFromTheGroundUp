@@ -76,7 +76,7 @@ sequenceDiagram
 
 **Subagents** are Markdown files with YAML frontmatter in `.claude/agents/` (project) or `~/.claude/agents/` (all projects). Required fields are `name` and `description`; `tools` limits what the helper can use ([subagents docs](https://code.claude.com/docs/en/sub-agents)). They keep noisy work, such as searching a codebase, out of your main context.
 
-**MCP servers** are added with `claude mcp add --transport http <name> <url>` for a remote server, or `claude mcp add <name> -- <command>` for a local one ([MCP docs](https://code.claude.com/docs/en/mcp)). The docs warn to verify that you trust each server, because servers that fetch outside content expose you to prompt injection. See MCP<!-- link: ../02-building-with-llms/06-mcp.md --> and [AI security risks](04-ai-security-risks.md).
+**MCP servers** are added with `claude mcp add --transport http <name> <url>` for a remote server, or `claude mcp add <name> -- <command>` for a local one ([MCP docs](https://code.claude.com/docs/en/mcp)). The docs warn to verify that you trust each server, because servers that fetch outside content expose you to prompt injection. See [MCP](../02-building-with-llms/06-mcp.md) and [AI security risks](04-ai-security-risks.md).
 
 **Scoping a task.** Name the files, the behaviour and the check: "In `pricing.py`, make `apply_discount` reject negative percentages. Add a failing test first, then fix it, then run `pytest`."  
 
@@ -86,7 +86,7 @@ sequenceDiagram
 
 ### Example 1: a hook that protects `.env`
 
-We want edits to `.env` files refused every time, not only when the model remembers a rule. The script reads the tool call from stdin and exits 2 for a protected path.
+We want edits to `.env` files refused every time, even when the model forgets a rule. The script reads the tool call from stdin and exits 2 for a protected path.
 
 1. Save the script as `.claude/hooks/protect.py`.
 2. Register it in `.claude/settings.json` under `PreToolUse` with the matcher `Edit|Write`.

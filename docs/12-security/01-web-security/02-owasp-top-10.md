@@ -62,7 +62,7 @@ Code or data is trusted without checking it was not changed. Example: a build pi
 
 ### A09: Security logging and alerting failures
 
-Attacks happen and nobody sees them. Example: 40,000 failed logins in an hour that raise no alert, because failures were never logged. Defence: log authentication and access-control events, keep logs out of the app's reach, and alert on patterns. See logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.
+Attacks happen and nobody sees them. Example: 40,000 failed logins in an hour that raise no alert, because failures were never logged. Defence: log authentication and access-control events, keep logs out of the app's reach, and alert on patterns. See [logging, metrics and monitoring](../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md).
 
 ### A10: Mishandling of exceptional conditions
 

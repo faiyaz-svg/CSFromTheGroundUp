@@ -250,5 +250,5 @@ The rule syntax follows the example in the [settings docs](https://code.claude.c
 ## Where this shows up
 
 - The checklist in [Reviewing AI code](03-reviewing-ai-code.md) includes these checks.
-- [Tool use](../02-building-with-llms/03-tool-use.md) and MCP<!-- link: ../02-building-with-llms/06-mcp.md --> explain how agents get their tools, which is where the attack surface comes from.
+- [Tool use](../02-building-with-llms/03-tool-use.md) and [MCP](../02-building-with-llms/06-mcp.md) explain how agents get their tools, which is where the attack surface comes from.
 - Choosing a tool and its data policy: [AI coding tools landscape](05-ai-coding-tools-landscape.md).

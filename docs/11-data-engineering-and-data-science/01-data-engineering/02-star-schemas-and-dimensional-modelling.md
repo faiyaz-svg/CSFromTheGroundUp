@@ -300,4 +300,4 @@ ORDER BY d.year NULLS LAST, d.quarter NULLS LAST;
 ## Where this shows up
 
 - Pipelines have to build these tables: [ETL and ELT pipelines](03-etl-and-elt-pipelines.md).
-- dbt models<!-- link: 07-dbt-and-sql-transformations.md --> are usually the dimension and fact tables of a star.
+- [dbt models](07-dbt-and-sql-transformations.md) are usually the dimension and fact tables of a star.
