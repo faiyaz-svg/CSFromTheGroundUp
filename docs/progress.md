@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 216 of 252. New lessons appear here as they are added.
+Lessons written so far: 221 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -365,3 +365,13 @@ Lessons written so far: 216 of 252. New lessons appear here as they are added.
 - [ ] [System design interviews](14-software-and-system-design/02-system-design/09-system-design-interviews.md)
 - [ ] [Case study: a URL shortener](14-software-and-system-design/02-system-design/10-case-study-url-shortener.md)
 - [ ] [Case study: a chat app](14-software-and-system-design/02-system-design/11-case-study-chat-app.md)
+
+## AI and LLMs
+
+### How LLMs work
+
+- [ ] [From ML to transformers](15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md)
+- [ ] [Tokens, embeddings and context windows](15-ai-and-llms/01-how-llms-work/02-tokens-embeddings-and-context-windows.md)
+- [ ] [Training, fine-tuning and RLHF](15-ai-and-llms/01-how-llms-work/03-training-fine-tuning-and-rlhf.md)
+- [ ] [Sampling and hallucinations](15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md)
+- [ ] [Choosing a model](15-ai-and-llms/01-how-llms-work/05-choosing-a-model.md)

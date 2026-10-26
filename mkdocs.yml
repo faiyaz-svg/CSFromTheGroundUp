@@ -420,6 +420,11 @@ nav:
       - 15-ai-and-llms/index.md
       - "How LLMs work":
           - 15-ai-and-llms/01-how-llms-work/index.md
+          - "From ML to transformers": 15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md
+          - "Tokens, embeddings and context windows": 15-ai-and-llms/01-how-llms-work/02-tokens-embeddings-and-context-windows.md
+          - "Training, fine-tuning and RLHF": 15-ai-and-llms/01-how-llms-work/03-training-fine-tuning-and-rlhf.md
+          - "Sampling and hallucinations": 15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md
+          - "Choosing a model": 15-ai-and-llms/01-how-llms-work/05-choosing-a-model.md
       - "Building with LLMs":
           - 15-ai-and-llms/02-building-with-llms/index.md
       - "AI-assisted development":

@@ -222,4 +222,4 @@ Step 3 works because `Ã` and `«` encode in Latin-1 to the original bytes `c3 a
 ## Where this shows up
 
 - [Strings and formatting](../../03-programming-fundamentals/01-python-basics/05-strings-and-formatting.md) and [files and I/O](../../03-programming-fundamentals/01-python-basics/07-files-and-io.md), where you pass `encoding="utf-8"`.
-- HTTP headers such as `Content-Type: text/html; charset=utf-8`, and tokens in tokens, embeddings and context windows<!-- link: ../../15-ai-and-llms/01-how-llms-work/02-tokens-embeddings-and-context-windows.md -->, where many tokenizers work on UTF-8 bytes.
+- HTTP headers such as `Content-Type: text/html; charset=utf-8`, and tokens in [tokens, embeddings and context windows](../../15-ai-and-llms/01-how-llms-work/02-tokens-embeddings-and-context-windows.md), where many tokenizers work on UTF-8 bytes.

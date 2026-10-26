@@ -11,11 +11,11 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [How LLMs work](01-how-llms-work/index.md)
 
-1. From ML to transformers (not written yet)
-2. Tokens, embeddings and context windows (not written yet)
-3. Training, fine-tuning and RLHF (not written yet)
-4. Sampling and hallucinations (not written yet)
-5. Choosing a model (not written yet)
+1. [From ML to transformers](01-how-llms-work/01-from-ml-to-transformers.md)
+2. [Tokens, embeddings and context windows](01-how-llms-work/02-tokens-embeddings-and-context-windows.md)
+3. [Training, fine-tuning and RLHF](01-how-llms-work/03-training-fine-tuning-and-rlhf.md)
+4. [Sampling and hallucinations](01-how-llms-work/04-sampling-and-hallucinations.md)
+5. [Choosing a model](01-how-llms-work/05-choosing-a-model.md)
 
 ### 2. [Building with LLMs](02-building-with-llms/index.md)
 

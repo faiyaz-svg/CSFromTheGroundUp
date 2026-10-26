@@ -68,7 +68,7 @@ A useful picture is walking down a hill in fog: you feel the slope under your fe
 
 Why GPUs? A layer is a matrix multiplication: many independent multiply-and-add operations on the same inputs. A CPU has a few fast cores; a GPU has thousands of simpler ones that do those operations in parallel, so training and inference are much faster. GPU memory size also limits how large a model you can train.
 
-Embeddings: A network takes numbers, not words or user ids. An embedding layer maps each id to a learned vector, and training moves vectors for similar items close together. This idea is the bridge to language models: a large language model turns text into tokens, tokens into embeddings, and passes them through many layers (a transformer). The AI chapter picks this up in from ML to transformers<!-- link: ../../15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md -->.
+Embeddings: A network takes numbers, not words or user ids. An embedding layer maps each id to a learned vector, and training moves vectors for similar items close together. This idea is the bridge to language models: a large language model turns text into tokens, tokens into embeddings, and passes them through many layers (a transformer). The AI chapter picks this up in [from ML to transformers](../../15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md).
 
 ## Worked examples
 
@@ -278,5 +278,5 @@ A learning rate of 0.001 is stable but too slow: after 50 steps $w$ is still 1.5
 
 ## Where this shows up
 
-- From ML to transformers<!-- link: ../../15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md --> continues with embeddings, attention and language models.
+- [From ML to transformers](../../15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md) continues with embeddings, attention and language models.
 - [Training, testing and metrics](05-training-testing-and-metrics.md) applies to networks unchanged: split, watch the gap, score once.

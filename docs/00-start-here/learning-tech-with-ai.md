@@ -150,5 +150,5 @@ What to check:
 
 ## Where this shows up
 
-- Writing prompts that carry context is covered in prompt and context engineering<!-- link: ../15-ai-and-llms/02-building-with-llms/02-prompt-and-context-engineering.md -->, and why models produce wrong answers in sampling and hallucinations<!-- link: ../15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md -->.
+- Writing prompts that carry context is covered in prompt and context engineering<!-- link: ../15-ai-and-llms/02-building-with-llms/02-prompt-and-context-engineering.md -->, and why models produce wrong answers in [sampling and hallucinations](../15-ai-and-llms/01-how-llms-work/04-sampling-and-hallucinations.md).
 - Reading what comes back is the subject of [Reading docs and error messages](reading-docs-and-error-messages.md).
