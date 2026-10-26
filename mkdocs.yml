@@ -334,6 +334,12 @@ nav:
       - 12-security/index.md
       - "Web security":
           - 12-security/01-web-security/index.md
+          - "Security mindset and threat modelling": 12-security/01-web-security/01-security-mindset-and-threat-modelling.md
+          - "OWASP top 10": 12-security/01-web-security/02-owasp-top-10.md
+          - "Injection and input validation": 12-security/01-web-security/03-injection-and-input-validation.md
+          - "XSS, CSRF and browser security": 12-security/01-web-security/04-xss-csrf-and-browser-security.md
+          - "Secure authentication": 12-security/01-web-security/05-secure-authentication.md
+          - "Secrets and dependency security": 12-security/01-web-security/06-secrets-and-dependency-security.md
       - "Cryptography":
           - 12-security/02-cryptography/index.md
   - "DevOps and cloud":

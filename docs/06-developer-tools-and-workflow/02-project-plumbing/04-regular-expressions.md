@@ -230,4 +230,4 @@ The `grep` command prints `ip=10.0.0.5`, `ip=10.0.0.7` and `ip=192.168.1.20`.
 ## Where this shows up
 
 - Log searching with the Linux text tools<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/04-pipes-redirection-and-text-tools.md --> and route patterns in Express routing<!-- link: ../../09-back-end/01-servers-and-apis/03-express-routing-and-middleware.md -->.
-- Input checks in injection and input validation<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md -->, where a slow regex can become a denial-of-service bug.
+- Input checks in [injection and input validation](../../12-security/01-web-security/03-injection-and-input-validation.md), where a slow regex can become a denial-of-service bug.

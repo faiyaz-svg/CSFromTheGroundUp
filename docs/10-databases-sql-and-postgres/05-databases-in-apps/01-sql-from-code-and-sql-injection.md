@@ -26,7 +26,7 @@ A **connection string** (or URL) packs the host, port, database, user and passwo
 
 A **parameterized query** (or prepared-style query) sends the SQL text with placeholders and the values separately. The server never parses the values as SQL. psycopg writes the placeholder as `%s`, node-postgres as `$1`, `$2`, and so on.
 
-**SQL injection** is an attack where input from a user changes the structure of a query because it was pasted into the SQL text. It is on the OWASP top 10<!-- link: ../../12-security/01-web-security/02-owasp-top-10.md -->, and the security chapter covers the wider family in injection and input validation<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md -->.
+**SQL injection** is an attack where input from a user changes the structure of a query because it was pasted into the SQL text. It is on the [OWASP top 10](../../12-security/01-web-security/02-owasp-top-10.md), and the security chapter covers the wider family in [injection and input validation](../../12-security/01-web-security/03-injection-and-input-validation.md).
 
 ## How it works
 

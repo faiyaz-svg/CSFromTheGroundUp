@@ -63,7 +63,7 @@ Dependencies sit in two groups. `dependencies` are needed at run time; `devDepen
 
 Python has the same two levels. A `requirements.txt` lists packages, usually pinned with `==`, and `python -m pip freeze` writes out every installed package, transitive ones included. The newer layout puts ranges in `pyproject.toml` ([packaging guide](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)). The tool `uv` adds the lockfile step: `uv add requests` edits `pyproject.toml` and writes `uv.lock`, `uv sync` installs from the lock, and `uv run` runs a command in the project environment ([uv docs](https://docs.astral.sh/uv/concepts/projects/sync/)). Whichever tool you use, you want one file of intent and one file of exact results.
 
-Every dependency is code you did not read, running with your program's permissions. A package can be hijacked, or can be a typo-squatted copy of a popular name. The security chapter covers this under secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md -->.
+Every dependency is code you did not read, running with your program's permissions. A package can be hijacked, or can be a typo-squatted copy of a popular name. The security chapter covers this under [secrets and dependency security](../../12-security/01-web-security/06-secrets-and-dependency-security.md).
 
 ## Worked examples
 

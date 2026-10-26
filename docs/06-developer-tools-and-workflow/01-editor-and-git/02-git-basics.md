@@ -267,4 +267,4 @@ The commands in Example 1 are the full solution. If `git commit` complains "Plea
 ## Where this shows up
 
 - [Branches, merging and conflicts](03-branches-merging-and-conflicts.md) builds on the commit graph from this lesson.
-- Every project in later chapters starts with `git init` and a `.gitignore`; secrets in history are covered in secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md -->.
+- Every project in later chapters starts with `git init` and a `.gitignore`; secrets in history are covered in [secrets and dependency security](../../12-security/01-web-security/06-secrets-and-dependency-security.md).

@@ -11,12 +11,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Web security](01-web-security/index.md)
 
-1. Security mindset and threat modelling (not written yet)
-2. OWASP top 10 (not written yet)
-3. Injection and input validation (not written yet)
-4. XSS, CSRF and browser security (not written yet)
-5. Secure authentication (not written yet)
-6. Secrets and dependency security (not written yet)
+1. [Security mindset and threat modelling](01-web-security/01-security-mindset-and-threat-modelling.md)
+2. [OWASP top 10](01-web-security/02-owasp-top-10.md)
+3. [Injection and input validation](01-web-security/03-injection-and-input-validation.md)
+4. [XSS, CSRF and browser security](01-web-security/04-xss-csrf-and-browser-security.md)
+5. [Secure authentication](01-web-security/05-secure-authentication.md)
+6. [Secrets and dependency security](01-web-security/06-secrets-and-dependency-security.md)
 
 ### 2. [Cryptography](02-cryptography/index.md)
 

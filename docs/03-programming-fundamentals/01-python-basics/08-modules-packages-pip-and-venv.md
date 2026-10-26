@@ -302,4 +302,4 @@ The rebuild uses the same commands with `python -m pip install -r requirements.t
 ## Where this shows up
 
 - [Package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md) compares pip with npm and lock files.
-- Secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md --> covers typosquatting and pinning for safety.
+- [Secrets and dependency security](../../12-security/01-web-security/06-secrets-and-dependency-security.md) covers typosquatting and pinning for safety.

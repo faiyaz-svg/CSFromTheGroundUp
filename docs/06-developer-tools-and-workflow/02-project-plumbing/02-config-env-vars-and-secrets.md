@@ -65,7 +65,7 @@ flowchart TD
     D --> E["4. Clean the repository history<br/>(optional, after rotating)"]
 ```
 
-In production, a `.env` file on the server is the weakest option. A **secret manager** (AWS Secrets Manager, or the secrets feature of GitHub Actions and your hosting platform) stores the values encrypted, controls who can read them and injects them as environment variables when the app starts. The security chapter returns to this in secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md -->.
+In production, a `.env` file on the server is the weakest option. A **secret manager** (AWS Secrets Manager, or the secrets feature of GitHub Actions and your hosting platform) stores the values encrypted, controls who can read them and injects them as environment variables when the app starts. The security chapter returns to this in [secrets and dependency security](../../12-security/01-web-security/06-secrets-and-dependency-security.md).
 
 ## Worked examples
 

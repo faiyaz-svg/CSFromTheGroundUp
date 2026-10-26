@@ -245,4 +245,4 @@ The sequence matches Example 1. On Git 2.54 `git pull` merges and stops at the c
 ## Where this shows up
 
 - Automated checks on pull requests are the start of CI/CD concepts<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md -->.
-- Tokens and keys must stay out of repositories: see secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md -->.
+- Tokens and keys must stay out of repositories: see [secrets and dependency security](../../12-security/01-web-security/06-secrets-and-dependency-security.md).

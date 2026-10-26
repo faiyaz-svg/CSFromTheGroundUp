@@ -91,7 +91,7 @@ chmod 640 notes.txt
 
 Two settings affect new files. The **umask** is a mask of bits removed from the mode a program asks for (usually 666 for files, 777 for directories); with the common `022`, new files are `644` and directories `755`. The **setgid** bit on a directory (`chmod g+s`, or a leading `2` in octal) makes new files inside take the directory's group, which a shared folder needs. It shows as `s` in the group execute position.
 
-Two places this matters in practice. OpenSSH ignores a private key that other users can read, printing `Permissions 0644 ... are too open` ([ssh(1)](https://manpages.ubuntu.com/manpages/noble/man1/ssh.1.html)); the fix is `chmod 600 ~/.ssh/id_ed25519`. And a web server runs as a dedicated user, usually `www-data` on Ubuntu, so a bug in it exposes only what that user can touch. This habit is called least privilege, and the security chapter returns to it in security mindset and threat modelling<!-- link: ../../12-security/01-web-security/01-security-mindset-and-threat-modelling.md -->.
+Two places this matters in practice. OpenSSH ignores a private key that other users can read, printing `Permissions 0644 ... are too open` ([ssh(1)](https://manpages.ubuntu.com/manpages/noble/man1/ssh.1.html)); the fix is `chmod 600 ~/.ssh/id_ed25519`. And a web server runs as a dedicated user, usually `www-data` on Ubuntu, so a bug in it exposes only what that user can touch. This habit is called least privilege, and the security chapter returns to it in [security mindset and threat modelling](../../12-security/01-web-security/01-security-mindset-and-threat-modelling.md).
 
 ## Worked examples
 

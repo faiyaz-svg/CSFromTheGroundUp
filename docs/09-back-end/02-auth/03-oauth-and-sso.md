@@ -204,4 +204,4 @@ The app stores `verifier` and `state` (in the session) and uses them at the call
 
 - Every "Sign in with ..." button, and company SSO through an identity provider.
 - [CORS and same origin](04-cors-and-same-origin.md) explains what a browser lets a page call, which matters for any front end that talks to your API after login.
-- Secure authentication<!-- link: ../../12-security/01-web-security/05-secure-authentication.md --> covers MFA and passkeys.
+- [Secure authentication](../../12-security/01-web-security/05-secure-authentication.md) covers MFA and passkeys.

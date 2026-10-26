@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 152 of 252. New lessons appear here as they are added.
+Lessons written so far: 158 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -263,3 +263,14 @@ Lessons written so far: 152 of 252. New lessons appear here as they are added.
 - [ ] [ORMs and migrations](10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md)
 - [ ] [NoSQL databases](10-databases-sql-and-postgres/05-databases-in-apps/03-nosql-databases.md)
 - [ ] [Redis and caching](10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md)
+
+## Security
+
+### Web security
+
+- [ ] [Security mindset and threat modelling](12-security/01-web-security/01-security-mindset-and-threat-modelling.md)
+- [ ] [OWASP top 10](12-security/01-web-security/02-owasp-top-10.md)
+- [ ] [Injection and input validation](12-security/01-web-security/03-injection-and-input-validation.md)
+- [ ] [XSS, CSRF and browser security](12-security/01-web-security/04-xss-csrf-and-browser-security.md)
+- [ ] [Secure authentication](12-security/01-web-security/05-secure-authentication.md)
+- [ ] [Secrets and dependency security](12-security/01-web-security/06-secrets-and-dependency-security.md)

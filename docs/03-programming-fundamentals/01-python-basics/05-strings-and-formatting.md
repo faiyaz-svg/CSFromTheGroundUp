@@ -267,4 +267,4 @@ WARN        1
 ## Where this shows up
 
 - [Files and I/O](07-files-and-io.md) is where encodings bite: the `encoding` argument of `open`.
-- Injection and escaping come back in injection and input validation<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md --> and in parameterized queries in SQL.
+- Injection and escaping come back in [injection and input validation](../../12-security/01-web-security/03-injection-and-input-validation.md) and in parameterized queries in SQL.

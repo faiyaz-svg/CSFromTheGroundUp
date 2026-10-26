@@ -232,5 +232,5 @@ Use `app.listen(3000)` in `server.mjs` and the `/login` and `/me` routes from Ex
 ## Where this shows up
 
 - [OAuth and SSO](03-oauth-and-sso.md) ends with your server issuing its own session after another provider confirms the user.
-- Secure authentication<!-- link: ../../12-security/01-web-security/05-secure-authentication.md --> covers password storage, MFA and attacks on logins.
+- [Secure authentication](../../12-security/01-web-security/05-secure-authentication.md) covers password storage, MFA and attacks on logins.
 - Signatures, the basis of a JWT, are explained in public-key encryption and signatures<!-- link: ../../12-security/02-cryptography/03-public-key-encryption-and-signatures.md -->.

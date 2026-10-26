@@ -262,4 +262,4 @@ The PNG has a header chunk (`IHDR`: width, height, bit depth 8, colour type 2 fo
 ## Where this shows up
 
 - [File systems](../../02-operating-systems-and-linux/01-os-concepts/04-file-systems.md) store files as bytes plus a name and metadata, and file formats and columnar storage<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/08-file-formats-and-columnar-storage.md --> covers CSV, JSON and Parquet.
-- Upload handling in injection and input validation<!-- link: ../../12-security/01-web-security/03-injection-and-input-validation.md -->, and image and audio data sent to AI models.
+- Upload handling in [injection and input validation](../../12-security/01-web-security/03-injection-and-input-validation.md), and image and audio data sent to AI models.
