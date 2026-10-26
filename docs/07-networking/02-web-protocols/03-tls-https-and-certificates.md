@@ -30,7 +30,7 @@ A **certificate** is a signed file that binds a name (like `example.com`) to a p
 
 ## How it works
 
-When a connection starts, the server sends its certificate chain. The client checks it, then both sides agree on keys for fast encryption. The key-exchange mathematics is in The TLS handshake<!-- link: ../../12-security/02-cryptography/05-the-tls-handshake.md -->; this lesson only covers what the checks mean.
+When a connection starts, the server sends its certificate chain. The client checks it, then both sides agree on keys for fast encryption. The key-exchange mathematics is in [The TLS handshake](../../12-security/02-cryptography/05-the-tls-handshake.md); this lesson only covers what the checks mean.
 
 ```mermaid
 sequenceDiagram
@@ -231,5 +231,5 @@ Without `-k`, curl reports a certificate problem and exits with a non-zero code 
 
 ## Where this shows up
 
-- The TLS handshake<!-- link: ../../12-security/02-cryptography/05-the-tls-handshake.md --> explains the key exchange.
+- [The TLS handshake](../../12-security/02-cryptography/05-the-tls-handshake.md) explains the key exchange.
 - [Proxies and CDNs](05-proxies-and-cdns.md): a proxy or CDN often ends TLS for your server.

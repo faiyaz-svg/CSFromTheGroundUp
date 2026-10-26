@@ -6,11 +6,11 @@ A compact reference for the nine lessons of this chapter. The sample databases a
 
 | # | Lesson | One line |
 |---|---|---|
-| 1 | SELECT, WHERE and ORDER BY<!-- link: 01-select-where-and-order-by.md --> | Choose columns, filter rows, sort, limit. |
-| 2 | NULL and three-valued logic<!-- link: 02-null-and-three-valued-logic.md --> | `NULL` is unknown, and a comparison can be true, false or unknown. |
-| 3 | Aggregates, GROUP BY and HAVING<!-- link: 03-aggregates-group-by-and-having.md --> | Collapse rows into groups and filter the groups. |
+| 1 | [SELECT, WHERE and ORDER BY](01-select-where-and-order-by.md) | Choose columns, filter rows, sort, limit. |
+| 2 | [NULL and three-valued logic](02-null-and-three-valued-logic.md) | `NULL` is unknown, and a comparison can be true, false or unknown. |
+| 3 | [Aggregates, GROUP BY and HAVING](03-aggregates-group-by-and-having.md) | Collapse rows into groups and filter the groups. |
 | 4 | [Joins](04-joins.md) | Combine tables on a key; keep unmatched rows with an outer join. |
-| 5 | Subqueries<!-- link: 05-subqueries.md --> | A query inside a query: scalar, list, correlated, `EXISTS`. |
+| 5 | [Subqueries](05-subqueries.md) | A query inside a query: scalar, list, correlated, `EXISTS`. |
 | 6 | [CTEs and recursive queries](06-ctes-and-recursive-queries.md) | Name steps with `WITH`; walk hierarchies with `WITH RECURSIVE`. |
 | 7 | [Window functions](07-window-functions.md) | Per-row values over a window of rows, without collapsing them. |
 | 8 | [Set operations and CASE](08-set-operations-and-case.md) | Combine result sets; if-then-else inside a query. |

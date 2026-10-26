@@ -231,6 +231,6 @@ A gap of 1 point on a 5% base rate looks like a 20% relative lift, yet it shows 
 
 ## Where this shows up
 
-- Hash tables and how collisions are handled, in [hash tables](../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md), and hashes in security, in hashing and salts<!-- link: ../12-security/02-cryptography/01-hashing-and-salts.md -->.
+- Hash tables and how collisions are handled, in [hash tables](../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md), and hashes in security, in [hashing and salts](../12-security/02-cryptography/01-hashing-and-salts.md).
 - Reading experiment results, in statistics for data work<!-- link: ../11-data-engineering-and-data-science/02-data-science-and-ml/01-statistics-for-data-work.md -->.
 - More depth (optional): [discrete probability](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/03-counting-and-discrete-probability/05-discrete-probability/) in the sibling math book.

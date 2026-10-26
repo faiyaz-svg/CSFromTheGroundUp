@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 168 of 252. New lessons appear here as they are added.
+Lessons written so far: 174 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -289,3 +289,12 @@ Lessons written so far: 168 of 252. New lessons appear here as they are added.
 - [ ] [XSS, CSRF and browser security](12-security/01-web-security/04-xss-csrf-and-browser-security.md)
 - [ ] [Secure authentication](12-security/01-web-security/05-secure-authentication.md)
 - [ ] [Secrets and dependency security](12-security/01-web-security/06-secrets-and-dependency-security.md)
+
+### Cryptography
+
+- [ ] [Hashing and salts](12-security/02-cryptography/01-hashing-and-salts.md)
+- [ ] [Symmetric encryption](12-security/02-cryptography/02-symmetric-encryption.md)
+- [ ] [Public-key encryption and signatures](12-security/02-cryptography/03-public-key-encryption-and-signatures.md)
+- [ ] [RSA step by step](12-security/02-cryptography/04-rsa-step-by-step.md)
+- [ ] [The TLS handshake](12-security/02-cryptography/05-the-tls-handshake.md)
+- [ ] [Privacy and PIPEDA](12-security/02-cryptography/06-privacy-and-pipeda.md)

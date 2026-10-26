@@ -352,6 +352,12 @@ nav:
           - "Secrets and dependency security": 12-security/01-web-security/06-secrets-and-dependency-security.md
       - "Cryptography":
           - 12-security/02-cryptography/index.md
+          - "Hashing and salts": 12-security/02-cryptography/01-hashing-and-salts.md
+          - "Symmetric encryption": 12-security/02-cryptography/02-symmetric-encryption.md
+          - "Public-key encryption and signatures": 12-security/02-cryptography/03-public-key-encryption-and-signatures.md
+          - "RSA step by step": 12-security/02-cryptography/04-rsa-step-by-step.md
+          - "The TLS handshake": 12-security/02-cryptography/05-the-tls-handshake.md
+          - "Privacy and PIPEDA": 12-security/02-cryptography/06-privacy-and-pipeda.md
   - "DevOps and cloud":
       - 13-devops-and-cloud/index.md
       - "Containers":

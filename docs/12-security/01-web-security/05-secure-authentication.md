@@ -25,7 +25,7 @@ flowchart TD
 
 ## Key terms
 
-A **password hash** is the output of a one-way function applied to a password. A **salt** is a random value stored with the hash and mixed into it, so equal passwords give different hashes. Hashing is covered in hashing and salts<!-- link: ../02-cryptography/01-hashing-and-salts.md -->.
+A **password hash** is the output of a one-way function applied to a password. A **salt** is a random value stored with the hash and mixed into it, so equal passwords give different hashes. Hashing is covered in [hashing and salts](../02-cryptography/01-hashing-and-salts.md).
 
 **Argon2id** is a password-hashing function built to be slow and memory-hungry, so guessing at scale is costly. **bcrypt** is an older function with the same goal. Both have a tunable cost.
 

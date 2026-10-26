@@ -20,11 +20,11 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Cryptography](02-cryptography/index.md)
 
-1. Hashing and salts (not written yet)
-2. Symmetric encryption (not written yet)
-3. Public-key encryption and signatures (not written yet)
-4. RSA step by step (not written yet)
-5. The TLS handshake (not written yet)
-6. Privacy and PIPEDA (not written yet)
+1. [Hashing and salts](02-cryptography/01-hashing-and-salts.md)
+2. [Symmetric encryption](02-cryptography/02-symmetric-encryption.md)
+3. [Public-key encryption and signatures](02-cryptography/03-public-key-encryption-and-signatures.md)
+4. [RSA step by step](02-cryptography/04-rsa-step-by-step.md)
+5. [The TLS handshake](02-cryptography/05-the-tls-handshake.md)
+6. [Privacy and PIPEDA](02-cryptography/06-privacy-and-pipeda.md)
 
 <!-- lessons:end -->
