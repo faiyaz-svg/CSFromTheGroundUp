@@ -2,7 +2,7 @@
 
 After this you can rewrite a hard-to-read function so the next reader (a teammate, you in six months, or an AI tool) understands it on the first pass, and name the specific problem you are fixing at each step.
 
-Before this: [Classes and objects](../../03-programming-fundamentals/03-oop-and-paradigms/01-classes-and-objects.md) and [Linters, formatters and type checkers](../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md).
+Before this: [Classes and objects](../../03-programming-fundamentals/03-oop-and-paradigms/01-classes-and-objects.md) and [Linters, formatters and type checkers](../../04-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md).
 
 ## The idea
 
@@ -210,5 +210,5 @@ The solution is the `order_total` function in Example 1. For step 5, add `LARGE_
 
 ## Where this shows up
 
-- Code review: most review comments are about names, size and nesting. See [GitHub, pull requests and code review](../../06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
+- Code review: most review comments are about names, size and nesting. See [GitHub, pull requests and code review](../../04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
 - The next lesson, [SOLID principles](02-solid-principles.md), applies the "one job" idea to classes.

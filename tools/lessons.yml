@@ -100,7 +100,41 @@ folders:
           - [composition-and-interfaces, "Composition and interfaces"]
           - [functional-programming-ideas, "Functional programming ideas"]
 
-  - folder: 04-discrete-math-for-cs
+  - folder: 04-developer-tools-and-workflow
+    title: "Developer tools and workflow"
+    tab: "Dev tools"
+    summary: "Git, GitHub, dependencies, configuration, data formats, regular expressions, testing, code quality and spreadsheets."
+    before: "Programming fundamentals."
+    chapters:
+      - slug: editor-and-git
+        title: "Editor and Git"
+        lessons:
+          - [vs-code-and-ides, "VS Code and IDEs"]
+          - [git-basics, "Git basics"]
+          - [branches-merging-and-conflicts, "Branches, merging and conflicts"]
+          - [github-pull-requests-and-code-review, "GitHub, pull requests and code review"]
+      - slug: project-plumbing
+        title: "Project plumbing"
+        lessons:
+          - [package-managers-and-dependencies, "Package managers and dependencies"]
+          - [config-env-vars-and-secrets, "Config, environment variables and secrets"]
+          - [data-formats-json-yaml-csv, "Data formats: JSON, YAML and CSV"]
+          - [regular-expressions, "Regular expressions"]
+      - slug: code-quality
+        title: "Code quality"
+        lessons:
+          - [unit-testing, "Unit testing"]
+          - [integration-tests-mocks-and-e2e, "Integration tests, mocks and end-to-end tests"]
+          - [linters-formatters-and-type-checkers, "Linters, formatters and type checkers"]
+          - [documentation-and-readmes, "Documentation and readmes"]
+      - slug: spreadsheets
+        title: "Spreadsheets"
+        lessons:
+          - [excel-formulas-and-references, "Excel formulas and references"]
+          - [lookups-pivot-tables-and-charts, "Lookups, pivot tables and charts"]
+          - [spreadsheets-csv-and-sql, "Spreadsheets, CSV and SQL"]
+
+  - folder: 05-discrete-math-for-cs
     title: "Discrete math for CS"
     tab: "Discrete math"
     summary: "The math that algorithms, databases and cryptography rest on: logic, sets, proofs, counting, probability, graphs and modular arithmetic."
@@ -115,7 +149,7 @@ folders:
       - [modular-arithmetic, "Modular arithmetic"]
       - [sums-logs-and-recurrences, "Sums, logs and recurrences"]
 
-  - folder: 05-data-structures-and-algorithms
+  - folder: 06-data-structures-and-algorithms
     title: "Data structures and algorithms"
     tab: "Data structures"
     summary: "Big O, the standard data structures and algorithms, and a set of problem-solving patterns for coding interviews."
@@ -158,40 +192,6 @@ folders:
           - [backtracking, "Backtracking"]
           - [dp-patterns, "DP patterns"]
           - [heaps-intervals-and-top-k, "Heaps, intervals and top-k"]
-
-  - folder: 06-developer-tools-and-workflow
-    title: "Developer tools and workflow"
-    tab: "Dev tools"
-    summary: "Git, GitHub, dependencies, configuration, data formats, regular expressions, testing, code quality and spreadsheets."
-    before: "Programming fundamentals."
-    chapters:
-      - slug: editor-and-git
-        title: "Editor and Git"
-        lessons:
-          - [vs-code-and-ides, "VS Code and IDEs"]
-          - [git-basics, "Git basics"]
-          - [branches-merging-and-conflicts, "Branches, merging and conflicts"]
-          - [github-pull-requests-and-code-review, "GitHub, pull requests and code review"]
-      - slug: project-plumbing
-        title: "Project plumbing"
-        lessons:
-          - [package-managers-and-dependencies, "Package managers and dependencies"]
-          - [config-env-vars-and-secrets, "Config, environment variables and secrets"]
-          - [data-formats-json-yaml-csv, "Data formats: JSON, YAML and CSV"]
-          - [regular-expressions, "Regular expressions"]
-      - slug: code-quality
-        title: "Code quality"
-        lessons:
-          - [unit-testing, "Unit testing"]
-          - [integration-tests-mocks-and-e2e, "Integration tests, mocks and end-to-end tests"]
-          - [linters-formatters-and-type-checkers, "Linters, formatters and type checkers"]
-          - [documentation-and-readmes, "Documentation and readmes"]
-      - slug: spreadsheets
-        title: "Spreadsheets"
-        lessons:
-          - [excel-formulas-and-references, "Excel formulas and references"]
-          - [lookups-pivot-tables-and-charts, "Lookups, pivot tables and charts"]
-          - [spreadsheets-csv-and-sql, "Spreadsheets, CSV and SQL"]
 
   - folder: 07-networking
     title: "Networking"

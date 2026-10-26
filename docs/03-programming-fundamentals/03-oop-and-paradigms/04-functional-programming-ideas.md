@@ -294,4 +294,4 @@ The first line prints `False` for the original order and the dict shown is the n
 ## Where this shows up
 
 - JavaScript code is full of `map`, `filter` and arrow functions, and React state updates follow the rules above: see [JavaScript for Python programmers](../../08-front-end/02-javascript-and-typescript/01-javascript-for-python-programmers.md) and [state and hooks](../../08-front-end/03-react/02-state-and-hooks.md).
-- Pure functions are the easiest code to test, since a test needs only inputs and an expected output: [unit testing](../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md). Data pipelines in Spark and pandas also read as chains of `filter` and `map`.
+- Pure functions are the easiest code to test, since a test needs only inputs and an expected output: [unit testing](../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md). Data pipelines in Spark and pandas also read as chains of `filter` and `map`.

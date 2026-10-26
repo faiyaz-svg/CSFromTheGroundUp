@@ -10,7 +10,7 @@ A function that checks a list for duplicates passes its tests on 100 items and f
 
 We don't measure seconds, because seconds depend on the machine, the language and what else is running. We count steps as a function of the input size, and look at how that count grows when the input gets bigger. The plot shows the common shapes, and the shape matters far more than the details.
 
-![Curves of O(1), O(log n), O(n), O(n log n), O(n^2) and O(2^n) steps for n from 1 to 20. The 2^n and n^2 curves leave the plot first.](../../assets/figures/05-data-structures-and-algorithms/growth-rates.svg)
+![Curves of O(1), O(log n), O(n), O(n log n), O(n^2) and O(2^n) steps for n from 1 to 20. The 2^n and n^2 curves leave the plot first.](../../assets/figures/06-data-structures-and-algorithms/growth-rates.svg)
 
 ## Key terms
 

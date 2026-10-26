@@ -12,9 +12,9 @@ If you are new here, read [How to use this book](00-start-here/index.md) first. 
 | [How computers work](01-how-computers-work/index.md) | How information is stored as bits, how the hardware runs it, and how the code you write becomes a running program. | 14 |
 | [Operating systems and Linux](02-operating-systems-and-linux/index.md) | What an operating system does, plus a working command-line toolkit for Linux, where most servers run. | 15 |
 | [Programming fundamentals](03-programming-fundamentals/index.md) | Python from the basics, the habits of thinking like a programmer, and object-oriented and functional ideas. | 16 |
-| [Discrete math for CS](04-discrete-math-for-cs/index.md) | The math that algorithms, databases and cryptography rest on: logic, sets, proofs, counting, probability, graphs and modular arithmetic. | 8 |
-| [Data structures and algorithms](05-data-structures-and-algorithms/index.md) | Big O, the standard data structures and algorithms, and a set of problem-solving patterns for coding interviews. | 25 |
-| [Developer tools and workflow](06-developer-tools-and-workflow/index.md) | Git, GitHub, dependencies, configuration, data formats, regular expressions, testing, code quality and spreadsheets. | 15 |
+| [Developer tools and workflow](04-developer-tools-and-workflow/index.md) | Git, GitHub, dependencies, configuration, data formats, regular expressions, testing, code quality and spreadsheets. | 15 |
+| [Discrete math for CS](05-discrete-math-for-cs/index.md) | The math that algorithms, databases and cryptography rest on: logic, sets, proofs, counting, probability, graphs and modular arithmetic. | 8 |
+| [Data structures and algorithms](06-data-structures-and-algorithms/index.md) | Big O, the standard data structures and algorithms, and a set of problem-solving patterns for coding interviews. | 25 |
 | [Networking](07-networking/index.md) | How data crosses the internet, from IP addresses and DNS to HTTP and HTTPS, and the tools for debugging a connection. | 12 |
 | [Front end](08-front-end/index.md) | How browsers render pages, HTML and CSS, JavaScript and TypeScript, and React. | 15 |
 | [Back end](09-back-end/index.md) | What a server does, how to design and secure an API, and how to run background jobs. | 13 |

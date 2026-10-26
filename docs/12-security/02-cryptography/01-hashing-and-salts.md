@@ -2,7 +2,7 @@
 
 After this you can say what a cryptographic hash guarantees, store passwords safely with a salted slow hash, and tell a checksum from a hash and from a MAC.
 
-Before this: [Modular arithmetic](../../04-discrete-math-for-cs/07-modular-arithmetic.md) and [Security mindset and threat modelling](../01-web-security/01-security-mindset-and-threat-modelling.md).
+Before this: [Modular arithmetic](../../05-discrete-math-for-cs/07-modular-arithmetic.md) and [Security mindset and threat modelling](../01-web-security/01-security-mindset-and-threat-modelling.md).
 
 ## The idea
 

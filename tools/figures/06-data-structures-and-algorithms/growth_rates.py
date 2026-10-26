@@ -9,7 +9,7 @@ import numpy as np
 
 OUT = (
     Path(__file__).resolve().parents[3]
-    / "docs/assets/figures/05-data-structures-and-algorithms/growth-rates.svg"
+    / "docs/assets/figures/06-data-structures-and-algorithms/growth-rates.svg"
 )
 
 OFFSETS = {"log n": 5, "1": -5}

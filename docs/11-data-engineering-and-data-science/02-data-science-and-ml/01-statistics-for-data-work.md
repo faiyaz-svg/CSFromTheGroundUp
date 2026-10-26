@@ -2,7 +2,7 @@
 
 After this you can summarise a column of numbers with the right statistic, explain why p95 latency matters more than the average, and spot three ways a dataset misleads you: sampling bias, confounders and Simpson's paradox.
 
-Before this: [discrete probability](../../04-discrete-math-for-cs/05-discrete-probability.md) and [lists, dicts, sets and tuples](../../03-programming-fundamentals/01-python-basics/04-lists-dicts-sets-and-tuples.md).
+Before this: [discrete probability](../../05-discrete-math-for-cs/05-discrete-probability.md) and [lists, dicts, sets and tuples](../../03-programming-fundamentals/01-python-basics/04-lists-dicts-sets-and-tuples.md).
 
 ## The idea
 

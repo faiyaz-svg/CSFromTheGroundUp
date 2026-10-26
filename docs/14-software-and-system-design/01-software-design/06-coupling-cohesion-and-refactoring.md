@@ -2,7 +2,7 @@
 
 After this you can name the symptoms of tightly coupled and low-cohesion code, refactor a function in small steps with tests as a safety net, and explain technical debt to a non-engineer.
 
-Before this: [Monoliths and microservices](05-monoliths-and-microservices.md) and [Unit testing](../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md).
+Before this: [Monoliths and microservices](05-monoliths-and-microservices.md) and [Unit testing](../../04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md).
 
 ## The idea
 
@@ -67,10 +67,12 @@ Without tests, write a **characterization test** first: call the code with typic
 
 Common refactorings, each a name worth knowing:
 
-- **Extract function:** move a block into a function with a clear name.
-- **Rename:** make a name say what the thing is. Use the editor's rename, not find and replace.
-- **Introduce parameter object:** replace a long list of parameters with one object (a dataclass).
-- **Replace conditional with polymorphism:** replace an `if/elif` chain on a type with objects that each hold their own behaviour (as in strategy).
+| Refactoring | What it does |
+|---|---|
+| Extract function | Move a block into a function with a clear name. |
+| Rename | Make a name say what the thing is. Use the editor's rename, not find and replace. |
+| Introduce parameter object | Replace a long list of parameters with one object (a dataclass). |
+| Replace conditional with polymorphism | Replace an `if/elif` chain on a type with objects that each hold their own behaviour (as in strategy). |
 
 ## Worked examples
 
@@ -240,5 +242,5 @@ The final form is `price2` from the example, with the new case added to `CASES`.
 
 ## Where this shows up
 
-- Code review and pull requests: [GitHub, pull requests and code review](../../06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
+- Code review and pull requests: [GitHub, pull requests and code review](../../04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md).
 - Reviewing AI-written changes for hidden behaviour changes: Reviewing AI code<!-- link: ../../15-ai-and-llms/03-ai-assisted-development/03-reviewing-ai-code.md -->.

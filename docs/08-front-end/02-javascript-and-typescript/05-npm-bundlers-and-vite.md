@@ -2,7 +2,7 @@
 
 After this you can create a front-end project with Vite, read its `package.json`, and explain what a bundler does between your source files and what the browser loads.
 
-Before this: [TypeScript](04-typescript.md) and [Package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md).
+Before this: [TypeScript](04-typescript.md) and [Package managers and dependencies](../../04-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md).
 
 ## The idea
 

@@ -259,4 +259,4 @@ InvalidTag
 ## Where this shows up
 
 - Encryption at rest in [Privacy and PIPEDA](06-privacy-and-pipeda.md), and encrypted connections in [The TLS handshake](05-the-tls-handshake.md).
-- Where keys and secrets live: [Config, environment variables and secrets](../../06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md).
+- Where keys and secrets live: [Config, environment variables and secrets](../../04-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md).

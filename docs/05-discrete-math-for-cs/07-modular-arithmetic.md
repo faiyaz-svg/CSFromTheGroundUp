@@ -238,6 +238,6 @@ The last line is `True` because encryption is a deterministic function: an attac
 
 ## Where this shows up
 
-- Hash tables, in [hash tables](../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md), and password hashing, in [hashing and salts](../12-security/02-cryptography/01-hashing-and-salts.md).
+- Hash tables, in [hash tables](../06-data-structures-and-algorithms/02-data-structures/04-hash-tables.md), and password hashing, in [hashing and salts](../12-security/02-cryptography/01-hashing-and-salts.md).
 - RSA at full size, in [RSA step by step](../12-security/02-cryptography/04-rsa-step-by-step.md).
 - More depth (optional): [divisibility and modular arithmetic](https://faiyaz-svg.github.io/MathFromTheGroundUp/06-cs-math/02-number-theory/01-divisibility-and-modular-arithmetic/) in the sibling math book.

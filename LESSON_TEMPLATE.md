@@ -46,7 +46,7 @@ Each question is followed by its own answer box, which breaks a Markdown numbere
 Only link to pages that already exist. When you mention a planned lesson that hasn't been written, write its name in plain text and put the planned path in an HTML comment right after it, so the link can be added later by `tools/link_planned.py`:
 
 ```markdown
-You will see this again in hash tables<!-- link: ../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md -->.
+You will see this again in hash tables<!-- link: ../06-data-structures-and-algorithms/02-data-structures/04-hash-tables.md -->.
 ```
 
 ## Code in lessons

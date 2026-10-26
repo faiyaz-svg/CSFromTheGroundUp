@@ -2,7 +2,7 @@
 
 After this you can read and write a GitHub Actions workflow that lints, tests, builds and deploys a project, and name the part (trigger, job, step, runner) that each line belongs to.
 
-Before this: [CI/CD concepts](01-ci-cd-concepts.md) and [data formats: JSON, YAML and CSV](../../06-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md).
+Before this: [CI/CD concepts](01-ci-cd-concepts.md) and [data formats: JSON, YAML and CSV](../../04-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md).
 
 ## The idea
 

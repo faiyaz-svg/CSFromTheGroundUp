@@ -2,7 +2,7 @@
 
 After this you can explain what a CI/CD pipeline does between a commit and production, and name the choices (delivery or deployment, which environments, which checks) that you or an AI would be configuring.
 
-Before this: [GitHub, pull requests and code review](../../06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md) and [config, environment variables and secrets](../../06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md).
+Before this: [GitHub, pull requests and code review](../../04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md) and [config, environment variables and secrets](../../04-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md).
 
 ## The idea
 

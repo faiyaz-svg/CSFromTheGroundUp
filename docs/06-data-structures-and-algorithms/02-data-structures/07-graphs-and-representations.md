@@ -2,7 +2,7 @@
 
 After this you can model a problem as a graph, choose between an adjacency list and an adjacency matrix, and count degrees from either.
 
-Before this: [hash tables](04-hash-tables.md), [linked lists](02-linked-lists.md) and [graphs and trees](../../04-discrete-math-for-cs/06-graphs-and-trees.md).
+Before this: [hash tables](04-hash-tables.md), [linked lists](02-linked-lists.md) and [graphs and trees](../../05-discrete-math-for-cs/06-graphs-and-trees.md).
 
 ## The idea
 

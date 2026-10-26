@@ -26,7 +26,7 @@ flowchart TD
 | `dict` | yes, by insertion (3.7 and later) | yes | unique keys | Lookup by key |
 | `set` | no | yes | no | Membership tests and removing duplicates |
 
-A `list` is a dynamic array of references, so `xs[i]` is constant time and `append` is amortized constant time. A `dict` and a `set` are hash tables (see [hash tables](../../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md)), so lookup, insert and delete are constant time on average.
+A `list` is a dynamic array of references, so `xs[i]` is constant time and `append` is amortized constant time. A `dict` and a `set` are hash tables (see [hash tables](../../06-data-structures-and-algorithms/02-data-structures/04-hash-tables.md)), so lookup, insert and delete are constant time on average.
 
 ## Key terms
 
@@ -305,5 +305,5 @@ The output is from the author's Windows 11 PC, Python 3.14. `dict.fromkeys` is t
 
 ## Where this shows up
 
-- [Hash tables](../../05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md) explains why dict and set lookups are constant time on average.
+- [Hash tables](../../06-data-structures-and-algorithms/02-data-structures/04-hash-tables.md) explains why dict and set lookups are constant time on average.
 - [References, mutability and copying](../02-thinking-like-a-programmer/02-references-mutability-and-copying.md) covers the shared-row grid bug in depth.

@@ -21,9 +21,9 @@ The folders are numbered in reading order. Each one starts with a short overview
 | 01 How computers work | Bits, hardware, and how code becomes a running program |
 | 02 Operating systems and Linux | What an OS does, and the Linux command line |
 | 03 Programming fundamentals | Python, thinking like a programmer, object-oriented ideas |
-| 04 Discrete math for CS | Logic, proofs, counting, graphs, modular arithmetic |
-| 05 Data structures and algorithms | Big O, structures, algorithms, LeetCode patterns |
-| 06 Developer tools and workflow | Git, dependencies, testing, code quality, spreadsheets |
+| 04 Developer tools and workflow | Git, dependencies, testing, code quality, spreadsheets |
+| 05 Discrete math for CS | Logic, proofs, counting, graphs, modular arithmetic |
+| 06 Data structures and algorithms | Big O, structures, algorithms, LeetCode patterns |
 | 07 Networking | How the internet works, HTTP, TLS, debugging tools |
 | 08 Front end | HTML, CSS, JavaScript, TypeScript, React |
 | 09 Back end | Servers, APIs, authentication |
@@ -35,7 +35,7 @@ The folders are numbered in reading order. Each one starts with a short overview
 | 15 AI and LLMs | How LLMs work, building with them, using AI coding tools |
 | 16 The workplace | Teams, code review, interviews |
 
-Folders 01 to 03 are the base for everything after them. Folders 04 and 05 matter most for interviews. Folders 06 to 10 are the core of day-to-day work, and the order inside them follows the dependencies. If you already know a folder well, read its cheat sheet and move on; short lessons make skipping easy. Folders 01 and 04 are the likeliest to skip if the university courses are recent.
+Folders 01 to 03 are the base for everything after them. Folder 04 gives you the tools (Git, testing, dependencies) that every later lab uses. Folders 05 and 06 matter most for interviews. Folders 07 to 10 are the core of day-to-day work. Every folder builds only on the folders before it, and the order inside each folder follows the dependencies. If you already know a folder well, read its cheat sheet and move on; short lessons make skipping easy. Folders 01 and 05 are the likeliest to skip if the university courses are recent.
 
 ## How a lesson is laid out
 

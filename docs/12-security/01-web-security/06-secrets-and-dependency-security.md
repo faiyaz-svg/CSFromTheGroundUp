@@ -2,7 +2,7 @@
 
 After this you can keep secrets out of your code and git history, audit a project's dependencies, and explain how a supply-chain attack reaches your app.
 
-Before this: [Secure authentication](05-secure-authentication.md) and [Git basics](../../06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md).
+Before this: [Secure authentication](05-secure-authentication.md) and [Git basics](../../04-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md).
 
 ## The idea
 

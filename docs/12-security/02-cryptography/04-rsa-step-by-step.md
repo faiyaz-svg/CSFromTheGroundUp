@@ -2,7 +2,7 @@
 
 After this you can generate an RSA key pair by hand with small numbers, encrypt, decrypt and sign with it, and explain why real RSA needs padding and large keys.
 
-Before this: [Public-key encryption and signatures](03-public-key-encryption-and-signatures.md) and [Modular arithmetic](../../04-discrete-math-for-cs/07-modular-arithmetic.md).
+Before this: [Public-key encryption and signatures](03-public-key-encryption-and-signatures.md) and [Modular arithmetic](../../05-discrete-math-for-cs/07-modular-arithmetic.md).
 
 ## The idea
 

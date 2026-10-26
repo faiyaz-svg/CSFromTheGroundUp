@@ -303,4 +303,4 @@ Welcomer(PrintSender()).run("a@x.ca")
 ## Where this shows up
 
 - [Design patterns](03-design-patterns.md) names the common shapes that SOLID leads to.
-- Test doubles and mocks: [Integration tests, mocks and end-to-end](../../06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md).
+- Test doubles and mocks: [Integration tests, mocks and end-to-end](../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md).

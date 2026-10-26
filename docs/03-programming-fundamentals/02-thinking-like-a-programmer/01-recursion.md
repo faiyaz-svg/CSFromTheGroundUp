@@ -61,9 +61,9 @@ deepest point of the stack     (grows downward)
 
 The stack has a fixed size, so Python caps the depth. The limit is 1000 by default (checked on Python 3.14) and `sys.getrecursionlimit()` reports it. Past that, Python raises `RecursionError` instead of letting the real stack overflow and crash the process. `sys.setrecursionlimit()` raises the cap, but the [docs](https://docs.python.org/3/library/sys.html#sys.setrecursionlimit) warn that too high a value can crash the interpreter. If your input needs thousands of levels, reach for a loop.
 
-Any recursion can be written as a loop (with your own stack if needed). A loop is usually faster in Python, because each call costs time and memory, and Python does not optimize tail calls. Recursion is the better fit when the data is itself nested: trees, folders, JSON, expressions, and the problems in [backtracking](../../05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md).
+Any recursion can be written as a loop (with your own stack if needed). A loop is usually faster in Python, because each call costs time and memory, and Python does not optimize tail calls. Recursion is the better fit when the data is itself nested: trees, folders, JSON, expressions, and the problems in [backtracking](../../06-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md).
 
-The second trap is repeated work. A function that calls itself twice per level, such as Fibonacci, recomputes the same subproblems an exponential number of times. Memoization fixes this in one line: `functools.cache` wraps the function and remembers each result. Doing this systematically is [dynamic programming](../../05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md).
+The second trap is repeated work. A function that calls itself twice per level, such as Fibonacci, recomputes the same subproblems an exponential number of times. Memoization fixes this in one line: `functools.cache` wraps the function and remembers each result. Doing this systematically is [dynamic programming](../../06-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md).
 
 ## Worked examples
 
@@ -271,6 +271,6 @@ The loop keeps pending work in a list on the heap, which has no depth cap, so th
 
 ## Where this shows up
 
-- Trees, folders and JSON are recursive data: [trees and binary search trees](../../05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md).
-- Counting the cost of recursive calls: [analysing recursive algorithms](../../05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md).
+- Trees, folders and JSON are recursive data: [trees and binary search trees](../../06-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md).
+- Counting the cost of recursive calls: [analysing recursive algorithms](../../06-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md).
 - SQL has recursion too, for hierarchies: [CTEs and recursive queries](../../10-databases-sql-and-postgres/02-querying/06-ctes-and-recursive-queries.md).

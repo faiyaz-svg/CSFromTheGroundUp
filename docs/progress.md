@@ -70,84 +70,84 @@ Lessons written so far: 195 of 252. New lessons appear here as they are added.
 - [ ] [Composition and interfaces](03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md)
 - [ ] [Functional programming ideas](03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md)
 
+## Developer tools and workflow
+
+### Editor and Git
+
+- [ ] [VS Code and IDEs](04-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md)
+- [ ] [Git basics](04-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md)
+- [ ] [Branches, merging and conflicts](04-developer-tools-and-workflow/01-editor-and-git/03-branches-merging-and-conflicts.md)
+- [ ] [GitHub, pull requests and code review](04-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md)
+
+### Project plumbing
+
+- [ ] [Package managers and dependencies](04-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md)
+- [ ] [Config, environment variables and secrets](04-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md)
+- [ ] [Data formats: JSON, YAML and CSV](04-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md)
+- [ ] [Regular expressions](04-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md)
+
+### Code quality
+
+- [ ] [Unit testing](04-developer-tools-and-workflow/03-code-quality/01-unit-testing.md)
+- [ ] [Integration tests, mocks and end-to-end tests](04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md)
+- [ ] [Linters, formatters and type checkers](04-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md)
+- [ ] [Documentation and readmes](04-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md)
+
+### Spreadsheets
+
+- [ ] [Excel formulas and references](04-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md)
+- [ ] [Lookups, pivot tables and charts](04-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
+- [ ] [Spreadsheets, CSV and SQL](04-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md)
+
 ## Discrete math for CS
 
-- [ ] [Logic and truth tables](04-discrete-math-for-cs/01-logic-and-truth-tables.md)
-- [ ] [Sets, functions and relations](04-discrete-math-for-cs/02-sets-functions-and-relations.md)
-- [ ] [Proof techniques and induction](04-discrete-math-for-cs/03-proof-techniques-and-induction.md)
-- [ ] [Counting](04-discrete-math-for-cs/04-counting.md)
-- [ ] [Discrete probability](04-discrete-math-for-cs/05-discrete-probability.md)
-- [ ] [Graphs and trees](04-discrete-math-for-cs/06-graphs-and-trees.md)
-- [ ] [Modular arithmetic](04-discrete-math-for-cs/07-modular-arithmetic.md)
-- [ ] [Sums, logs and recurrences](04-discrete-math-for-cs/08-sums-logs-and-recurrences.md)
+- [ ] [Logic and truth tables](05-discrete-math-for-cs/01-logic-and-truth-tables.md)
+- [ ] [Sets, functions and relations](05-discrete-math-for-cs/02-sets-functions-and-relations.md)
+- [ ] [Proof techniques and induction](05-discrete-math-for-cs/03-proof-techniques-and-induction.md)
+- [ ] [Counting](05-discrete-math-for-cs/04-counting.md)
+- [ ] [Discrete probability](05-discrete-math-for-cs/05-discrete-probability.md)
+- [ ] [Graphs and trees](05-discrete-math-for-cs/06-graphs-and-trees.md)
+- [ ] [Modular arithmetic](05-discrete-math-for-cs/07-modular-arithmetic.md)
+- [ ] [Sums, logs and recurrences](05-discrete-math-for-cs/08-sums-logs-and-recurrences.md)
 
 ## Data structures and algorithms
 
 ### Analysis
 
-- [ ] [Big O and runtime](05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md)
-- [ ] [Space and amortized analysis](05-data-structures-and-algorithms/01-analysis/02-space-and-amortized-analysis.md)
-- [ ] [Analysing recursive algorithms](05-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md)
+- [ ] [Big O and runtime](06-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md)
+- [ ] [Space and amortized analysis](06-data-structures-and-algorithms/01-analysis/02-space-and-amortized-analysis.md)
+- [ ] [Analysing recursive algorithms](06-data-structures-and-algorithms/01-analysis/03-analysing-recursive-algorithms.md)
 
 ### Data structures
 
-- [ ] [Arrays and dynamic arrays](05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md)
-- [ ] [Linked lists](05-data-structures-and-algorithms/02-data-structures/02-linked-lists.md)
-- [ ] [Stacks and queues](05-data-structures-and-algorithms/02-data-structures/03-stacks-and-queues.md)
-- [ ] [Hash tables](05-data-structures-and-algorithms/02-data-structures/04-hash-tables.md)
-- [ ] [Trees and binary search trees](05-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md)
-- [ ] [Heaps and priority queues](05-data-structures-and-algorithms/02-data-structures/06-heaps-and-priority-queues.md)
-- [ ] [Graphs and representations](05-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md)
-- [ ] [Tries and union find](05-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md)
+- [ ] [Arrays and dynamic arrays](06-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md)
+- [ ] [Linked lists](06-data-structures-and-algorithms/02-data-structures/02-linked-lists.md)
+- [ ] [Stacks and queues](06-data-structures-and-algorithms/02-data-structures/03-stacks-and-queues.md)
+- [ ] [Hash tables](06-data-structures-and-algorithms/02-data-structures/04-hash-tables.md)
+- [ ] [Trees and binary search trees](06-data-structures-and-algorithms/02-data-structures/05-trees-and-binary-search-trees.md)
+- [ ] [Heaps and priority queues](06-data-structures-and-algorithms/02-data-structures/06-heaps-and-priority-queues.md)
+- [ ] [Graphs and representations](06-data-structures-and-algorithms/02-data-structures/07-graphs-and-representations.md)
+- [ ] [Tries and union find](06-data-structures-and-algorithms/02-data-structures/08-tries-and-union-find.md)
 
 ### Algorithms
 
-- [ ] [Binary search](05-data-structures-and-algorithms/03-algorithms/01-binary-search.md)
-- [ ] [Sorting](05-data-structures-and-algorithms/03-algorithms/02-sorting.md)
-- [ ] [BFS and DFS](05-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md)
-- [ ] [Shortest paths](05-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md)
-- [ ] [Greedy algorithms](05-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md)
-- [ ] [Dynamic programming](05-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md)
+- [ ] [Binary search](06-data-structures-and-algorithms/03-algorithms/01-binary-search.md)
+- [ ] [Sorting](06-data-structures-and-algorithms/03-algorithms/02-sorting.md)
+- [ ] [BFS and DFS](06-data-structures-and-algorithms/03-algorithms/03-bfs-and-dfs.md)
+- [ ] [Shortest paths](06-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md)
+- [ ] [Greedy algorithms](06-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md)
+- [ ] [Dynamic programming](06-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md)
 
 ### LeetCode patterns
 
-- [ ] [How to approach a problem](05-data-structures-and-algorithms/04-leetcode-patterns/01-how-to-approach-a-problem.md)
-- [ ] [Two pointers and sliding window](05-data-structures-and-algorithms/04-leetcode-patterns/02-two-pointers-and-sliding-window.md)
-- [ ] [Hashing and prefix sums](05-data-structures-and-algorithms/04-leetcode-patterns/03-hashing-and-prefix-sums.md)
-- [ ] [Stacks and monotonic stacks](05-data-structures-and-algorithms/04-leetcode-patterns/04-stacks-and-monotonic-stacks.md)
-- [ ] [Tree and graph problems](05-data-structures-and-algorithms/04-leetcode-patterns/05-tree-and-graph-problems.md)
-- [ ] [Backtracking](05-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md)
-- [ ] [DP patterns](05-data-structures-and-algorithms/04-leetcode-patterns/07-dp-patterns.md)
-- [ ] [Heaps, intervals and top-k](05-data-structures-and-algorithms/04-leetcode-patterns/08-heaps-intervals-and-top-k.md)
-
-## Developer tools and workflow
-
-### Editor and Git
-
-- [ ] [VS Code and IDEs](06-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md)
-- [ ] [Git basics](06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md)
-- [ ] [Branches, merging and conflicts](06-developer-tools-and-workflow/01-editor-and-git/03-branches-merging-and-conflicts.md)
-- [ ] [GitHub, pull requests and code review](06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md)
-
-### Project plumbing
-
-- [ ] [Package managers and dependencies](06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md)
-- [ ] [Config, environment variables and secrets](06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md)
-- [ ] [Data formats: JSON, YAML and CSV](06-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md)
-- [ ] [Regular expressions](06-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md)
-
-### Code quality
-
-- [ ] [Unit testing](06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md)
-- [ ] [Integration tests, mocks and end-to-end tests](06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md)
-- [ ] [Linters, formatters and type checkers](06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md)
-- [ ] [Documentation and readmes](06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md)
-
-### Spreadsheets
-
-- [ ] [Excel formulas and references](06-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md)
-- [ ] [Lookups, pivot tables and charts](06-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
-- [ ] [Spreadsheets, CSV and SQL](06-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md)
+- [ ] [How to approach a problem](06-data-structures-and-algorithms/04-leetcode-patterns/01-how-to-approach-a-problem.md)
+- [ ] [Two pointers and sliding window](06-data-structures-and-algorithms/04-leetcode-patterns/02-two-pointers-and-sliding-window.md)
+- [ ] [Hashing and prefix sums](06-data-structures-and-algorithms/04-leetcode-patterns/03-hashing-and-prefix-sums.md)
+- [ ] [Stacks and monotonic stacks](06-data-structures-and-algorithms/04-leetcode-patterns/04-stacks-and-monotonic-stacks.md)
+- [ ] [Tree and graph problems](06-data-structures-and-algorithms/04-leetcode-patterns/05-tree-and-graph-problems.md)
+- [ ] [Backtracking](06-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md)
+- [ ] [DP patterns](06-data-structures-and-algorithms/04-leetcode-patterns/07-dp-patterns.md)
+- [ ] [Heaps, intervals and top-k](06-data-structures-and-algorithms/04-leetcode-patterns/08-heaps-intervals-and-top-k.md)
 
 ## Networking
 

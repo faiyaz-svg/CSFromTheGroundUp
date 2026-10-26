@@ -2,7 +2,7 @@
 
 After this you can read a tree diagram, search and insert in a binary search tree, explain why an in-order walk gives sorted output, and say what balance has to do with speed.
 
-Before this: [linked lists](02-linked-lists.md), [recursion](../../03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md) and [graphs and trees](../../04-discrete-math-for-cs/06-graphs-and-trees.md).
+Before this: [linked lists](02-linked-lists.md), [recursion](../../03-programming-fundamentals/02-thinking-like-a-programmer/01-recursion.md) and [graphs and trees](../../05-discrete-math-for-cs/06-graphs-and-trees.md).
 
 ## The idea
 
