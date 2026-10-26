@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 185 of 252. New lessons appear here as they are added.
+Lessons written so far: 189 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -310,6 +310,13 @@ Lessons written so far: 185 of 252. New lessons appear here as they are added.
 - [ ] [Privacy and PIPEDA](12-security/02-cryptography/06-privacy-and-pipeda.md)
 
 ## DevOps and cloud
+
+### Containers
+
+- [ ] [VMs vs containers](13-devops-and-cloud/01-containers/01-vms-vs-containers.md)
+- [ ] [Docker images and Dockerfiles](13-devops-and-cloud/01-containers/02-docker-images-and-dockerfiles.md)
+- [ ] [Volumes, networks and Compose](13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md)
+- [ ] [Registries and Kubernetes basics](13-devops-and-cloud/01-containers/04-registries-and-kubernetes-basics.md)
 
 ### CI/CD
 

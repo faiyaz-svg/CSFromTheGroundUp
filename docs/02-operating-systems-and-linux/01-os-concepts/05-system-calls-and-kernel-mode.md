@@ -243,4 +243,4 @@ With `buffering=0`, each `f.write` goes straight to the kernel, so the time matc
 ## Where this shows up
 
 - Processes and signals<!-- link: ../02-linux-command-line/05-processes-and-signals.md --> uses `kill`, which is a system call, and `strace -p` is a standard way to see why a process hangs.
-- Containers share the host kernel, so the system calls they can make matter: VMs vs containers<!-- link: ../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md -->.
+- Containers share the host kernel, so the system calls they can make matter: [VMs vs containers](../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md).

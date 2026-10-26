@@ -243,5 +243,5 @@ False
 ## Where this shows up
 
 - Ports and the NAT table: [Ports and sockets](04-ports-and-sockets.md).
-- Cloud networks (VPCs and subnets) use the same CIDR arithmetic; see Volumes, networks and Compose<!-- link: ../../13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md --> for Docker networks.
+- Cloud networks (VPCs and subnets) use the same CIDR arithmetic; see [Volumes, networks and Compose](../../13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md) for Docker networks.
 - Firewalls and exposure: a bind address of `0.0.0.0` is a security decision.

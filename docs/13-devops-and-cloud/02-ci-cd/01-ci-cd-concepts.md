@@ -65,7 +65,7 @@ production ca6c91c38e86
 same artifact: True
 ```
 
-Real systems use the same idea with a container image tagged by commit hash, so "what is running in production?" has an exact answer. See Docker images and Dockerfiles<!-- link: ../01-containers/02-docker-images-and-dockerfiles.md -->.
+Real systems use the same idea with a container image tagged by commit hash, so "what is running in production?" has an exact answer. See [Docker images and Dockerfiles](../01-containers/02-docker-images-and-dockerfiles.md).
 
 ## Worked examples
 

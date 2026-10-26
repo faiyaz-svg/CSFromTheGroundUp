@@ -209,5 +209,5 @@ The PIDs differ because each `python` command is a new process, and the kernel g
 
 ## Where this shows up
 
-- Every container, VM and cloud server you meet later rests on the kernel boundary: VMs vs containers<!-- link: ../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md -->.
+- Every container, VM and cloud server you meet later rests on the kernel boundary: [VMs vs containers](../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md).
 - The Linux command line chapter works in user space on top of this kernel, starting with shell and terminal basics<!-- link: ../02-linux-command-line/01-shell-and-terminal-basics.md -->.

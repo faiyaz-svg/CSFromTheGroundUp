@@ -100,7 +100,7 @@ Check: during step 2, the question to ask is "compared with what?" A canary judg
 
 <div class="warning" markdown>
 
-Watch out: a rollback plan that ignores the data. Rolling code back is easy. If v2 wrote rows v1 cannot read, or dropped a column, the rollback fails. Make schema changes backward compatible and test the rollback, not only the deploy.
+Watch out: a rollback plan that ignores the data. Rolling code back is easy. If v2 wrote rows v1 cannot read, or dropped a column, the rollback fails. Make schema changes backward compatible and test the rollback as well as the deploy.
 
 Watch out: a health check that only returns 200. If `/health` never touches the database, a broken instance still takes traffic. Check what the service needs to do its job, but not so deeply that one slow dependency takes every instance out at once.
 
@@ -200,5 +200,5 @@ The count varies with the hash function, but it stays within a few percent of 10
 
 ## Where this shows up
 
-- Kubernetes rolling updates and readiness probes: Registries and Kubernetes basics<!-- link: ../01-containers/04-registries-and-kubernetes-basics.md -->.
+- Kubernetes rolling updates and readiness probes: [Registries and Kubernetes basics](../01-containers/04-registries-and-kubernetes-basics.md).
 - Describing the servers and load balancers as code: [Infrastructure as code](04-infrastructure-as-code.md).

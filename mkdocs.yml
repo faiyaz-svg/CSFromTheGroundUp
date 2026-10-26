@@ -369,6 +369,10 @@ nav:
       - 13-devops-and-cloud/index.md
       - "Containers":
           - 13-devops-and-cloud/01-containers/index.md
+          - "VMs vs containers": 13-devops-and-cloud/01-containers/01-vms-vs-containers.md
+          - "Docker images and Dockerfiles": 13-devops-and-cloud/01-containers/02-docker-images-and-dockerfiles.md
+          - "Volumes, networks and Compose": 13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md
+          - "Registries and Kubernetes basics": 13-devops-and-cloud/01-containers/04-registries-and-kubernetes-basics.md
       - "CI/CD":
           - 13-devops-and-cloud/02-ci-cd/index.md
           - "CI/CD concepts": 13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md

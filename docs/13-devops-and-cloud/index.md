@@ -11,10 +11,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Containers](01-containers/index.md)
 
-1. VMs vs containers (not written yet)
-2. Docker images and Dockerfiles (not written yet)
-3. Volumes, networks and Compose (not written yet)
-4. Registries and Kubernetes basics (not written yet)
+1. [VMs vs containers](01-containers/01-vms-vs-containers.md)
+2. [Docker images and Dockerfiles](01-containers/02-docker-images-and-dockerfiles.md)
+3. [Volumes, networks and Compose](01-containers/03-volumes-networks-and-compose.md)
+4. [Registries and Kubernetes basics](01-containers/04-registries-and-kubernetes-basics.md)
 
 ### 2. [CI/CD](02-ci-cd/index.md)
 

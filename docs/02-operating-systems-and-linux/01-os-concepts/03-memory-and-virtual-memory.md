@@ -238,5 +238,5 @@ Steps 1 to 3 are the code from the lesson. In step 3 the 800 MB list shows up in
 
 ## Where this shows up
 
-- Memory limits for containers in VMs vs containers<!-- link: ../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md -->.
+- Memory limits for containers in [VMs vs containers](../../13-devops-and-cloud/01-containers/01-vms-vs-containers.md).
 - Why arrays beat linked structures in practice: [arrays and dynamic arrays](../../05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md).
