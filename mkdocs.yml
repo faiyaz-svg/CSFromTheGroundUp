@@ -127,7 +127,16 @@ nav:
           - "System calls and kernel mode": 02-operating-systems-and-linux/01-os-concepts/05-system-calls-and-kernel-mode.md
       - "Linux command line":
           - 02-operating-systems-and-linux/02-linux-command-line/index.md
+          - "Shell and terminal basics": 02-operating-systems-and-linux/02-linux-command-line/01-shell-and-terminal-basics.md
+          - "Files and navigation": 02-operating-systems-and-linux/02-linux-command-line/02-files-and-navigation.md
           - "Users, groups and permissions": 02-operating-systems-and-linux/02-linux-command-line/03-users-groups-and-permissions.md
+          - "Pipes, redirection and text tools": 02-operating-systems-and-linux/02-linux-command-line/04-pipes-redirection-and-text-tools.md
+          - "Processes and signals": 02-operating-systems-and-linux/02-linux-command-line/05-processes-and-signals.md
+          - "Packages with apt": 02-operating-systems-and-linux/02-linux-command-line/06-packages-with-apt.md
+          - "Services, systemd and logs": 02-operating-systems-and-linux/02-linux-command-line/07-services-systemd-and-logs.md
+          - "Environment variables and path": 02-operating-systems-and-linux/02-linux-command-line/08-environment-variables-and-path.md
+          - "Shell scripting and cron": 02-operating-systems-and-linux/02-linux-command-line/09-shell-scripting-and-cron.md
+          - "SSH and keys": 02-operating-systems-and-linux/02-linux-command-line/10-ssh-and-keys.md
   - "Programming":
       - 03-programming-fundamentals/index.md
       - "Python basics":

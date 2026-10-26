@@ -55,7 +55,7 @@ Most teams protect `main` so that nobody pushes to it directly. In a classic bra
 
 If you cannot push to the repository, fork it, clone your fork, and add the original as a second remote, conventionally named `upstream`, to pull its updates. You then open the PR from your fork's branch into the original.
 
-Logging in has two options. With HTTPS, Git asks for a username and a personal access token (not your account password), which a credential helper stores. With SSH, you create a key pair, keep the private key on your machine and add the public key to your GitHub account; later connections need no typing ([about SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)). The key pair is the same idea as in SSH and keys<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/10-ssh-and-keys.md -->.
+Logging in has two options. With HTTPS, Git asks for a username and a personal access token (not your account password), which a credential helper stores. With SSH, you create a key pair, keep the private key on your machine and add the public key to your GitHub account; later connections need no typing ([about SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)). The key pair is the same idea as in [SSH and keys](../../02-operating-systems-and-linux/02-linux-command-line/10-ssh-and-keys.md).
 
 ```bash
 ssh-keygen -t ed25519 -C "sam@example.com"

@@ -71,7 +71,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-The commands to use it are `sudo systemctl daemon-reload` after editing a unit, `sudo systemctl enable --now demoapp` to start now and at every boot, `systemctl status demoapp`, and `sudo systemctl restart demoapp` after a deploy. Services, systemd and logs<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/07-services-systemd-and-logs.md --> covers these in depth.
+The commands to use it are `sudo systemctl daemon-reload` after editing a unit, `sudo systemctl enable --now demoapp` to start now and at every boot, `systemctl status demoapp`, and `sudo systemctl restart demoapp` after a deploy. [Services, systemd and logs](../../02-operating-systems-and-linux/02-linux-command-line/07-services-systemd-and-logs.md) covers these in depth.
 
 nginx needs one server block. On Ubuntu, files go in `/etc/nginx/sites-available/` and a link in `sites-enabled/` turns one on. The `proxy_set_header` lines pass the original host and client address on, because otherwise the app sees every request as coming from nginx ([nginx reverse proxy docs](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)).
 

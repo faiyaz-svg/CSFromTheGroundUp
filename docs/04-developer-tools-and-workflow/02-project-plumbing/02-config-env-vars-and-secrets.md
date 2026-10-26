@@ -2,7 +2,7 @@
 
 After this you can keep settings and passwords out of your code, load them from the environment in Python and Node, and know what to do when a key leaks.
 
-Before this: [Package managers and dependencies](01-package-managers-and-dependencies.md) and Environment variables and path<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/08-environment-variables-and-path.md -->.
+Before this: [Package managers and dependencies](01-package-managers-and-dependencies.md) and [Environment variables and path](../../02-operating-systems-and-linux/02-linux-command-line/08-environment-variables-and-path.md).
 
 ## The idea
 

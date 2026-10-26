@@ -221,4 +221,4 @@ The fix is a guard at the top of `average`: `if not values: return 0.0`. The ren
 ## Where this shows up
 
 - Every later lesson assumes this setup; the next one, [Git basics](02-git-basics.md), uses the terminal and source control view from the same window.
-- Remote development over SSH, which builds on SSH and keys<!-- link: ../../02-operating-systems-and-linux/02-linux-command-line/10-ssh-and-keys.md -->.
+- Remote development over SSH, which builds on [SSH and keys](../../02-operating-systems-and-linux/02-linux-command-line/10-ssh-and-keys.md).

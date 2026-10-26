@@ -237,5 +237,5 @@ Step 2: both names point at one inode, so a write through either shows up throug
 
 ## Where this shows up
 
-- The permission bits in the inode are the subject of [users, groups and permissions](../02-linux-command-line/03-users-groups-and-permissions.md); paths and `ls` are in files and navigation<!-- link: ../02-linux-command-line/02-files-and-navigation.md -->.
+- The permission bits in the inode are the subject of [users, groups and permissions](../02-linux-command-line/03-users-groups-and-permissions.md); paths and `ls` are in [files and navigation](../02-linux-command-line/02-files-and-navigation.md).
 - Docker images are stacks of file-system layers, which later lessons build on.

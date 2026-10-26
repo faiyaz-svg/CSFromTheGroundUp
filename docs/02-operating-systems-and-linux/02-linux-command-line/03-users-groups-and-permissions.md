@@ -2,7 +2,7 @@
 
 After this you can read an `ls -l` line, change who may read, write or run a file with `chmod` and `chown`, and fix a "Permission denied" error without reaching for `chmod 777`.
 
-Before this: Shell and terminal basics<!-- link: 01-shell-and-terminal-basics.md --> and Files and navigation<!-- link: 02-files-and-navigation.md -->.
+Before this: [Shell and terminal basics](01-shell-and-terminal-basics.md) and [Files and navigation](02-files-and-navigation.md).
 
 ## The idea
 
@@ -294,5 +294,5 @@ The commands in steps 1 to 6 are the full solution. The first `bob` write fails 
 
 ## Where this shows up
 
-- Generating and protecting keys in SSH and keys<!-- link: 10-ssh-and-keys.md -->, where mode `600` on the private key is checked on every connection.
-- Dedicated users for services in Services, systemd and logs<!-- link: 07-services-systemd-and-logs.md -->, and the permission model underneath [file systems](../01-os-concepts/04-file-systems.md).
+- Generating and protecting keys in [SSH and keys](10-ssh-and-keys.md), where mode `600` on the private key is checked on every connection.
+- Dedicated users for services in [Services, systemd and logs](07-services-systemd-and-logs.md), and the permission model underneath [file systems](../01-os-concepts/04-file-systems.md).

@@ -38,15 +38,15 @@ flowchart LR
 
 ### 2. [Linux command line](02-linux-command-line/index.md)
 
-1. Shell and terminal basics (not written yet)
-2. Files and navigation (not written yet)
+1. [Shell and terminal basics](02-linux-command-line/01-shell-and-terminal-basics.md)
+2. [Files and navigation](02-linux-command-line/02-files-and-navigation.md)
 3. [Users, groups and permissions](02-linux-command-line/03-users-groups-and-permissions.md)
-4. Pipes, redirection and text tools (not written yet)
-5. Processes and signals (not written yet)
-6. Packages with apt (not written yet)
-7. Services, systemd and logs (not written yet)
-8. Environment variables and path (not written yet)
-9. Shell scripting and cron (not written yet)
-10. SSH and keys (not written yet)
+4. [Pipes, redirection and text tools](02-linux-command-line/04-pipes-redirection-and-text-tools.md)
+5. [Processes and signals](02-linux-command-line/05-processes-and-signals.md)
+6. [Packages with apt](02-linux-command-line/06-packages-with-apt.md)
+7. [Services, systemd and logs](02-linux-command-line/07-services-systemd-and-logs.md)
+8. [Environment variables and path](02-linux-command-line/08-environment-variables-and-path.md)
+9. [Shell scripting and cron](02-linux-command-line/09-shell-scripting-and-cron.md)
+10. [SSH and keys](02-linux-command-line/10-ssh-and-keys.md)
 
 <!-- lessons:end -->
