@@ -2,7 +2,7 @@
 
 After this you can split Python code across files, run a package correctly, and set up one virtual environment per project with a pinned `requirements.txt`.
 
-Before this: [Files and I/O](07-files-and-io.md). The same dependency ideas return in package managers and dependencies<!-- link: ../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md -->.
+Before this: [Files and I/O](07-files-and-io.md). The same dependency ideas return in [package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md).
 
 ## The idea
 
@@ -301,5 +301,5 @@ The rebuild uses the same commands with `python -m pip install -r requirements.t
 
 ## Where this shows up
 
-- Package managers and dependencies<!-- link: ../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md --> compares pip with npm and lock files.
+- [Package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md) compares pip with npm and lock files.
 - Secrets and dependency security<!-- link: ../../12-security/01-web-security/06-secrets-and-dependency-security.md --> covers typosquatting and pinning for safety.

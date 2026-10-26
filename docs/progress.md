@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 66 of 252. New lessons appear here as they are added.
+Lessons written so far: 70 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -117,6 +117,13 @@ Lessons written so far: 66 of 252. New lessons appear here as they are added.
 - [ ] [Git basics](06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md)
 - [ ] [Branches, merging and conflicts](06-developer-tools-and-workflow/01-editor-and-git/03-branches-merging-and-conflicts.md)
 - [ ] [GitHub, pull requests and code review](06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md)
+
+### Project plumbing
+
+- [ ] [Package managers and dependencies](06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md)
+- [ ] [Config, environment variables and secrets](06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md)
+- [ ] [Data formats: JSON, YAML and CSV](06-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md)
+- [ ] [Regular expressions](06-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md)
 
 ## Databases, SQL and Postgres
 

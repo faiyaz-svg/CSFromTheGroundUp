@@ -18,10 +18,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Project plumbing](02-project-plumbing/index.md)
 
-1. Package managers and dependencies (not written yet)
-2. Config, environment variables and secrets (not written yet)
-3. Data formats: JSON, YAML and CSV (not written yet)
-4. Regular expressions (not written yet)
+1. [Package managers and dependencies](02-project-plumbing/01-package-managers-and-dependencies.md)
+2. [Config, environment variables and secrets](02-project-plumbing/02-config-env-vars-and-secrets.md)
+3. [Data formats: JSON, YAML and CSV](02-project-plumbing/03-data-formats-json-yaml-csv.md)
+4. [Regular expressions](02-project-plumbing/04-regular-expressions.md)
 
 ### 3. [Code quality](03-code-quality/index.md)
 

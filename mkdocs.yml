@@ -199,6 +199,10 @@ nav:
           - "GitHub, pull requests and code review": 06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md
       - "Project plumbing":
           - 06-developer-tools-and-workflow/02-project-plumbing/index.md
+          - "Package managers and dependencies": 06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md
+          - "Config, environment variables and secrets": 06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md
+          - "Data formats: JSON, YAML and CSV": 06-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md
+          - "Regular expressions": 06-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md
       - "Code quality":
           - 06-developer-tools-and-workflow/03-code-quality/index.md
       - "Spreadsheets":
