@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 158 of 252. New lessons appear here as they are added.
+Lessons written so far: 168 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -263,6 +263,21 @@ Lessons written so far: 158 of 252. New lessons appear here as they are added.
 - [ ] [ORMs and migrations](10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md)
 - [ ] [NoSQL databases](10-databases-sql-and-postgres/05-databases-in-apps/03-nosql-databases.md)
 - [ ] [Redis and caching](10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md)
+
+## Data engineering and data science
+
+### Data engineering
+
+- [ ] [OLTP vs OLAP and warehouses](11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md)
+- [ ] [Star schemas and dimensional modelling](11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md)
+- [ ] [ETL and ELT pipelines](11-data-engineering-and-data-science/01-data-engineering/03-etl-and-elt-pipelines.md)
+- [ ] [Loading data into Postgres](11-data-engineering-and-data-science/01-data-engineering/04-loading-data-into-postgres.md)
+- [ ] [Batch and streaming](11-data-engineering-and-data-science/01-data-engineering/05-batch-and-streaming.md)
+- [ ] [Orchestration and idempotent jobs](11-data-engineering-and-data-science/01-data-engineering/06-orchestration-and-idempotent-jobs.md)
+- [ ] [dbt and SQL transformations](11-data-engineering-and-data-science/01-data-engineering/07-dbt-and-sql-transformations.md)
+- [ ] [File formats and columnar storage](11-data-engineering-and-data-science/01-data-engineering/08-file-formats-and-columnar-storage.md)
+- [ ] [Data quality](11-data-engineering-and-data-science/01-data-engineering/09-data-quality.md)
+- [ ] [Lakes, lakehouses and cloud warehouses](11-data-engineering-and-data-science/01-data-engineering/10-lakes-lakehouses-and-cloud-warehouses.md)
 
 ## Security
 

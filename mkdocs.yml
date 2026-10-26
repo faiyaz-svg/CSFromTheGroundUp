@@ -328,6 +328,16 @@ nav:
       - 11-data-engineering-and-data-science/index.md
       - "Data engineering":
           - 11-data-engineering-and-data-science/01-data-engineering/index.md
+          - "OLTP vs OLAP and warehouses": 11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md
+          - "Star schemas and dimensional modelling": 11-data-engineering-and-data-science/01-data-engineering/02-star-schemas-and-dimensional-modelling.md
+          - "ETL and ELT pipelines": 11-data-engineering-and-data-science/01-data-engineering/03-etl-and-elt-pipelines.md
+          - "Loading data into Postgres": 11-data-engineering-and-data-science/01-data-engineering/04-loading-data-into-postgres.md
+          - "Batch and streaming": 11-data-engineering-and-data-science/01-data-engineering/05-batch-and-streaming.md
+          - "Orchestration and idempotent jobs": 11-data-engineering-and-data-science/01-data-engineering/06-orchestration-and-idempotent-jobs.md
+          - "dbt and SQL transformations": 11-data-engineering-and-data-science/01-data-engineering/07-dbt-and-sql-transformations.md
+          - "File formats and columnar storage": 11-data-engineering-and-data-science/01-data-engineering/08-file-formats-and-columnar-storage.md
+          - "Data quality": 11-data-engineering-and-data-science/01-data-engineering/09-data-quality.md
+          - "Lakes, lakehouses and cloud warehouses": 11-data-engineering-and-data-science/01-data-engineering/10-lakes-lakehouses-and-cloud-warehouses.md
       - "Data science and machine learning":
           - 11-data-engineering-and-data-science/02-data-science-and-ml/index.md
   - "Security":
