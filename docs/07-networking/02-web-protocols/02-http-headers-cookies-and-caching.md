@@ -263,5 +263,5 @@ Normal reload usually shows `(disk cache)` for fresh files and `304` for revalid
 ## Where this shows up
 
 - [TLS, HTTPS and certificates](03-tls-https-and-certificates.md) explains the `Secure` in `Secure` cookies.
-- Sessions, cookies and JWT<!-- link: ../../09-back-end/02-auth/02-sessions-cookies-and-jwt.md --> uses these cookies for login.
-- CORS and same origin<!-- link: ../../09-back-end/02-auth/04-cors-and-same-origin.md --> adds the `Access-Control-*` headers.
+- [Sessions, cookies and JWT](../../09-back-end/02-auth/02-sessions-cookies-and-jwt.md) uses these cookies for login.
+- [CORS and same origin](../../09-back-end/02-auth/04-cors-and-same-origin.md) adds the `Access-Control-*` headers.

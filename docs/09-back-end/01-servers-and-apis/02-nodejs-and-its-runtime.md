@@ -244,4 +244,4 @@ sum from worker: 4999999950000000
 ## Where this shows up
 
 - The framework built on this runtime: [Express: routing and middleware](03-express-routing-and-middleware.md).
-- Moving slow work out of the request entirely: background jobs<!-- link: ../03-api-quality/01-background-jobs.md -->.
+- Moving slow work out of the request entirely: [background jobs](../03-api-quality/01-background-jobs.md).

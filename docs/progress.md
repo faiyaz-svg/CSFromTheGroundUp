@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 122 of 252. New lessons appear here as they are added.
+Lessons written so far: 128 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -206,6 +206,18 @@ Lessons written so far: 122 of 252. New lessons appear here as they are added.
 - [ ] [Validation and error handling](09-back-end/01-servers-and-apis/05-validation-and-error-handling.md)
 - [ ] [Other API styles: GraphQL, gRPC and webhooks](09-back-end/01-servers-and-apis/06-other-api-styles-graphql-grpc-webhooks.md)
 - [ ] [Python back ends: FastAPI and Django](09-back-end/01-servers-and-apis/07-python-back-ends-fastapi-and-django.md)
+
+### Authentication and authorization
+
+- [ ] [Authentication vs authorization](09-back-end/02-auth/01-authentication-vs-authorization.md)
+- [ ] [Sessions, cookies and JWT](09-back-end/02-auth/02-sessions-cookies-and-jwt.md)
+- [ ] [OAuth and SSO](09-back-end/02-auth/03-oauth-and-sso.md)
+- [ ] [CORS and same origin](09-back-end/02-auth/04-cors-and-same-origin.md)
+
+### API quality
+
+- [ ] [Background jobs](09-back-end/03-api-quality/01-background-jobs.md)
+- [ ] [Testing and documenting APIs](09-back-end/03-api-quality/02-testing-and-documenting-apis.md)
 
 ## Databases, SQL and Postgres
 

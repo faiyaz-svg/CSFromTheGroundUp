@@ -230,5 +230,5 @@ The `openssl dgst -hmac` command prints the same hex digest that Node's `createH
 
 ## Where this shows up
 
-- Calling third-party APIs and receiving their events in a real integration: background jobs<!-- link: ../03-api-quality/01-background-jobs.md -->.
+- Calling third-party APIs and receiving their events in a real integration: [background jobs](../03-api-quality/01-background-jobs.md).
 - Real-time channels for browsers: [WebSockets and real-time communication](../../07-networking/02-web-protocols/06-websockets-and-real-time.md).

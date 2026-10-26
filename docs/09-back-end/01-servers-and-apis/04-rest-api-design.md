@@ -243,4 +243,4 @@ In `POST`, before creating: `if ([...tasks.values()].some((t) => t.title === req
 
 - Rejecting bad input with the right status: [Validation and error handling](05-validation-and-error-handling.md).
 - Other ways to shape an API: [Other API styles: GraphQL, gRPC and webhooks](06-other-api-styles-graphql-grpc-webhooks.md).
-- Documenting the endpoints: testing and documenting APIs<!-- link: ../03-api-quality/02-testing-and-documenting-apis.md -->.
+- Documenting the endpoints: [testing and documenting APIs](../03-api-quality/02-testing-and-documenting-apis.md).

@@ -237,5 +237,5 @@ The function body needs no change, because `task.model_dump()` includes every fi
 
 ## Where this shows up
 
-- Documenting and testing APIs, where FastAPI's OpenAPI output is used: testing and documenting APIs<!-- link: ../03-api-quality/02-testing-and-documenting-apis.md -->.
+- Documenting and testing APIs, where FastAPI's OpenAPI output is used: [testing and documenting APIs](../03-api-quality/02-testing-and-documenting-apis.md).
 - Databases from application code, including Django's ORM: [the databases folder](../../10-databases-sql-and-postgres/index.md).

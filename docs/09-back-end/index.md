@@ -21,14 +21,14 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Authentication and authorization](02-auth/index.md)
 
-1. Authentication vs authorization (not written yet)
-2. Sessions, cookies and JWT (not written yet)
-3. OAuth and SSO (not written yet)
-4. CORS and same origin (not written yet)
+1. [Authentication vs authorization](02-auth/01-authentication-vs-authorization.md)
+2. [Sessions, cookies and JWT](02-auth/02-sessions-cookies-and-jwt.md)
+3. [OAuth and SSO](02-auth/03-oauth-and-sso.md)
+4. [CORS and same origin](02-auth/04-cors-and-same-origin.md)
 
 ### 3. [API quality](03-api-quality/index.md)
 
-1. Background jobs (not written yet)
-2. Testing and documenting APIs (not written yet)
+1. [Background jobs](03-api-quality/01-background-jobs.md)
+2. [Testing and documenting APIs](03-api-quality/02-testing-and-documenting-apis.md)
 
 <!-- lessons:end -->

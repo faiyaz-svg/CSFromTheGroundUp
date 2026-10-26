@@ -276,8 +276,14 @@ nav:
           - "Python back ends: FastAPI and Django": 09-back-end/01-servers-and-apis/07-python-back-ends-fastapi-and-django.md
       - "Authentication and authorization":
           - 09-back-end/02-auth/index.md
+          - "Authentication vs authorization": 09-back-end/02-auth/01-authentication-vs-authorization.md
+          - "Sessions, cookies and JWT": 09-back-end/02-auth/02-sessions-cookies-and-jwt.md
+          - "OAuth and SSO": 09-back-end/02-auth/03-oauth-and-sso.md
+          - "CORS and same origin": 09-back-end/02-auth/04-cors-and-same-origin.md
       - "API quality":
           - 09-back-end/03-api-quality/index.md
+          - "Background jobs": 09-back-end/03-api-quality/01-background-jobs.md
+          - "Testing and documenting APIs": 09-back-end/03-api-quality/02-testing-and-documenting-apis.md
   - "SQL and Postgres":
       - 10-databases-sql-and-postgres/index.md
       - "Database basics":

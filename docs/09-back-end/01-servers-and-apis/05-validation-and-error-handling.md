@@ -219,6 +219,6 @@ The response contains `{"field":"tags","message":"Too big: expected array to hav
 
 ## Where this shows up
 
-- Who is allowed to call an endpoint at all: Authentication vs authorization<!-- link: ../02-auth/01-authentication-vs-authorization.md -->.
-- Tests that send bad input on purpose: Testing and documenting APIs<!-- link: ../03-api-quality/02-testing-and-documenting-apis.md -->.
+- Who is allowed to call an endpoint at all: [Authentication vs authorization](../02-auth/01-authentication-vs-authorization.md).
+- Tests that send bad input on purpose: [Testing and documenting APIs](../03-api-quality/02-testing-and-documenting-apis.md).
 - The same idea in Python: [Python back ends: FastAPI and Django](07-python-back-ends-fastapi-and-django.md), where Pydantic does the schema work.
