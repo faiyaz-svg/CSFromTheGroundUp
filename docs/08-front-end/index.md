@@ -27,10 +27,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [React](03-react/index.md)
 
-1. Components, props and JSX (not written yet)
-2. State and hooks (not written yet)
-3. Data fetching and forms (not written yet)
-4. Frameworks and libraries landscape (not written yet)
-5. Web performance (not written yet)
+1. [Components, props and JSX](03-react/01-components-props-and-jsx.md)
+2. [State and hooks](03-react/02-state-and-hooks.md)
+3. [Data fetching and forms](03-react/03-data-fetching-and-forms.md)
+4. [Frameworks and libraries landscape](03-react/04-frameworks-and-libraries-landscape.md)
+5. [Web performance](03-react/05-web-performance.md)
 
 <!-- lessons:end -->

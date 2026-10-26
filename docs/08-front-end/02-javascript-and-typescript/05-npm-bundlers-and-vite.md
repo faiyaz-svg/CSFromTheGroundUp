@@ -222,5 +222,5 @@ For step 5, change `let counter = 0` to `let counter: number = "x"` in `src/coun
 
 ## Where this shows up
 
-- React projects start from the same Vite scaffold: components, props and JSX<!-- link: ../03-react/01-components-props-and-jsx.md -->.
-- Bundle size drives load time: web performance<!-- link: ../03-react/05-web-performance.md -->.
+- React projects start from the same Vite scaffold: [components, props and JSX](../03-react/01-components-props-and-jsx.md).
+- Bundle size drives load time: [web performance](../03-react/05-web-performance.md).

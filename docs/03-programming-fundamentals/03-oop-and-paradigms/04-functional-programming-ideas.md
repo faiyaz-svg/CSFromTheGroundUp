@@ -158,7 +158,7 @@ false
 
 Check: `state` still shows one item, so the update did not change it.
 
-React relies on this. A component is meant to be a pure function of its props and state: same inputs, same screen. React decides whether to re-render by checking whether the state value is a new object, not whether its contents changed. So the update is `setItems([...items, newItem])`, not `items.push(newItem)`; the push changes the array in place, React sees the same array, and the screen does not update. The React docs on [updating arrays in state](https://react.dev/learn/updating-arrays-in-state) list the non-mutating methods to use. Side effects (fetching data, timers) are kept out of the rendering function and put in effects, covered in state and hooks<!-- link: ../../08-front-end/03-react/02-state-and-hooks.md -->.
+React relies on this. A component is meant to be a pure function of its props and state: same inputs, same screen. React decides whether to re-render by checking whether the state value is a new object, not whether its contents changed. So the update is `setItems([...items, newItem])`, not `items.push(newItem)`; the push changes the array in place, React sees the same array, and the screen does not update. The React docs on [updating arrays in state](https://react.dev/learn/updating-arrays-in-state) list the non-mutating methods to use. Side effects (fetching data, timers) are kept out of the rendering function and put in effects, covered in [state and hooks](../../08-front-end/03-react/02-state-and-hooks.md).
 
 </div>
 
@@ -293,5 +293,5 @@ The first line prints `False` for the original order and the dict shown is the n
 
 ## Where this shows up
 
-- JavaScript code is full of `map`, `filter` and arrow functions, and React state updates follow the rules above: see [JavaScript for Python programmers](../../08-front-end/02-javascript-and-typescript/01-javascript-for-python-programmers.md) and state and hooks<!-- link: ../../08-front-end/03-react/02-state-and-hooks.md -->.
+- JavaScript code is full of `map`, `filter` and arrow functions, and React state updates follow the rules above: see [JavaScript for Python programmers](../../08-front-end/02-javascript-and-typescript/01-javascript-for-python-programmers.md) and [state and hooks](../../08-front-end/03-react/02-state-and-hooks.md).
 - Pure functions are the easiest code to test, since a test needs only inputs and an expected output: [unit testing](../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md). Data pipelines in Spark and pandas also read as chains of `filter` and `map`.

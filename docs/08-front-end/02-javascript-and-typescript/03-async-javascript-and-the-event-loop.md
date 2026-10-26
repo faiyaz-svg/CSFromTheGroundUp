@@ -282,4 +282,4 @@ caught boom after 100
 ## Where this shows up
 
 - The same loop drives servers: Node.js and its runtime<!-- link: ../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md -->.
-- React data loading is `fetch` plus state: data fetching and forms<!-- link: ../03-react/03-data-fetching-and-forms.md -->.
+- React data loading is `fetch` plus state: [data fetching and forms](../03-react/03-data-fetching-and-forms.md).

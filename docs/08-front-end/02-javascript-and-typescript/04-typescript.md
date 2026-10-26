@@ -260,4 +260,4 @@ With `qty: "2"`, `tsc` reports that `string` is not assignable to `number`. Node
 ## Where this shows up
 
 - Vite builds TypeScript projects: [npm, bundlers and Vite](05-npm-bundlers-and-vite.md).
-- React components are typed with props interfaces: components, props and JSX<!-- link: ../03-react/01-components-props-and-jsx.md -->.
+- React components are typed with props interfaces: [components, props and JSX](../03-react/01-components-props-and-jsx.md).

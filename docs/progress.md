@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 107 of 252. New lessons appear here as they are added.
+Lessons written so far: 112 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -186,6 +186,14 @@ Lessons written so far: 107 of 252. New lessons appear here as they are added.
 - [ ] [Async JavaScript and the event loop](08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md)
 - [ ] [TypeScript](08-front-end/02-javascript-and-typescript/04-typescript.md)
 - [ ] [npm, bundlers and Vite](08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md)
+
+### React
+
+- [ ] [Components, props and JSX](08-front-end/03-react/01-components-props-and-jsx.md)
+- [ ] [State and hooks](08-front-end/03-react/02-state-and-hooks.md)
+- [ ] [Data fetching and forms](08-front-end/03-react/03-data-fetching-and-forms.md)
+- [ ] [Frameworks and libraries landscape](08-front-end/03-react/04-frameworks-and-libraries-landscape.md)
+- [ ] [Web performance](08-front-end/03-react/05-web-performance.md)
 
 ## Databases, SQL and Postgres
 

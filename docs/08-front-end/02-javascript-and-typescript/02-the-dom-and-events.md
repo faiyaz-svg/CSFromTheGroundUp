@@ -217,4 +217,4 @@ Expected result: the number counts up and gets bigger after the fifth click.
 ## Where this shows up
 
 - Callbacks like these are the start of asynchronous code: [Async JavaScript and the event loop](03-async-javascript-and-the-event-loop.md).
-- React replaces manual DOM edits with components: components, props and JSX<!-- link: ../03-react/01-components-props-and-jsx.md -->.
+- React replaces manual DOM edits with components: [components, props and JSX](../03-react/01-components-props-and-jsx.md).

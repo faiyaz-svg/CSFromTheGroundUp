@@ -250,4 +250,4 @@ Content-box: $200 + 40 + 10 = 250$ px, so the Computed tab shows 200 px for the 
 ## Where this shows up
 
 - Arranging boxes in rows and grids is next, in [layout with flexbox, grid and responsive design](04-layout-flexbox-grid-and-responsive.md).
-- Component libraries and utility classes are covered in the frameworks and libraries landscape<!-- link: ../03-react/04-frameworks-and-libraries-landscape.md -->.
+- Component libraries and utility classes are covered in the [frameworks and libraries landscape](../03-react/04-frameworks-and-libraries-landscape.md).
