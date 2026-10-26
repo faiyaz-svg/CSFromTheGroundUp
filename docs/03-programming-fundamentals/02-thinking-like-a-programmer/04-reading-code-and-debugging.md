@@ -311,6 +311,6 @@ Step 4: Git picks a commit in the middle. If `grep "return 1" f.py` finds it, ru
 
 ## Where this shows up
 
-- Tests turn a reproduction into a permanent check: unit testing<!-- link: ../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md -->.
+- Tests turn a reproduction into a permanent check: [unit testing](../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md).
 - Debugging in the editor: [VS Code and IDEs](../../06-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md).
 - Reading a trace across services: logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.

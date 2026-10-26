@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 70 of 252. New lessons appear here as they are added.
+Lessons written so far: 74 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -124,6 +124,13 @@ Lessons written so far: 70 of 252. New lessons appear here as they are added.
 - [ ] [Config, environment variables and secrets](06-developer-tools-and-workflow/02-project-plumbing/02-config-env-vars-and-secrets.md)
 - [ ] [Data formats: JSON, YAML and CSV](06-developer-tools-and-workflow/02-project-plumbing/03-data-formats-json-yaml-csv.md)
 - [ ] [Regular expressions](06-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md)
+
+### Code quality
+
+- [ ] [Unit testing](06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md)
+- [ ] [Integration tests, mocks and end-to-end tests](06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md)
+- [ ] [Linters, formatters and type checkers](06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md)
+- [ ] [Documentation and readmes](06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md)
 
 ## Databases, SQL and Postgres
 

@@ -96,7 +96,7 @@ flowchart LR
 
 In the diagram, the call succeeds for any object that has the method. The failure for `Rock` happens only when that line runs, which is the cost of checking at run time.
 
-Python can add static checking on top. Hints do nothing at run time; a separate tool reads them. Python 3.9 and later accept `list[str]`, and 3.10 and later accept `str | None`. The official reference is the [typing documentation](https://docs.python.org/3/library/typing.html), and mypy and [pyright](https://microsoft.github.io/pyright/) are the common checkers. Editors such as VS Code use Pylance (built on pyright) for the same checks as you type. Setting these up is covered in linters, formatters and type checkers<!-- link: ../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md -->.
+Python can add static checking on top. Hints do nothing at run time; a separate tool reads them. Python 3.9 and later accept `list[str]`, and 3.10 and later accept `str | None`. The official reference is the [typing documentation](https://docs.python.org/3/library/typing.html), and mypy and [pyright](https://microsoft.github.io/pyright/) are the common checkers. Editors such as VS Code use Pylance (built on pyright) for the same checks as you type. Setting these up is covered in [linters, formatters and type checkers](../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md).
 
 TypeScript<!-- link: ../../08-front-end/02-javascript-and-typescript/04-typescript.md --> is the same idea for JavaScript, with one difference: its checker runs before the code is compiled to plain JavaScript, and the types are erased. At run time, nothing checks them.
 
@@ -301,6 +301,6 @@ if price is not None:
 
 ## Where this shows up
 
-- Type hints, linters and CI checks: linters, formatters and type checkers<!-- link: ../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md -->.
+- Type hints, linters and CI checks: [linters, formatters and type checkers](../../06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md).
 - TypeScript on top of JavaScript: TypeScript<!-- link: ../../08-front-end/02-javascript-and-typescript/04-typescript.md -->.
 - SQL columns have types too: data types and constraints<!-- link: ../../10-databases-sql-and-postgres/03-schema-design/01-data-types-and-constraints.md -->.

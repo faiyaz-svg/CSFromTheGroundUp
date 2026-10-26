@@ -25,10 +25,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [Code quality](03-code-quality/index.md)
 
-1. Unit testing (not written yet)
-2. Integration tests, mocks and end-to-end tests (not written yet)
-3. Linters, formatters and type checkers (not written yet)
-4. Documentation and readmes (not written yet)
+1. [Unit testing](03-code-quality/01-unit-testing.md)
+2. [Integration tests, mocks and end-to-end tests](03-code-quality/02-integration-tests-mocks-and-e2e.md)
+3. [Linters, formatters and type checkers](03-code-quality/03-linters-formatters-and-type-checkers.md)
+4. [Documentation and readmes](03-code-quality/04-documentation-and-readmes.md)
 
 ### 4. [Spreadsheets](04-spreadsheets/index.md)
 

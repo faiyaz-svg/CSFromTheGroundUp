@@ -205,6 +205,10 @@ nav:
           - "Regular expressions": 06-developer-tools-and-workflow/02-project-plumbing/04-regular-expressions.md
       - "Code quality":
           - 06-developer-tools-and-workflow/03-code-quality/index.md
+          - "Unit testing": 06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md
+          - "Integration tests, mocks and end-to-end tests": 06-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md
+          - "Linters, formatters and type checkers": 06-developer-tools-and-workflow/03-code-quality/03-linters-formatters-and-type-checkers.md
+          - "Documentation and readmes": 06-developer-tools-and-workflow/03-code-quality/04-documentation-and-readmes.md
       - "Spreadsheets":
           - 06-developer-tools-and-workflow/04-spreadsheets/index.md
   - "Networking":
