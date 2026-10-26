@@ -25,14 +25,14 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 3. [AWS](03-aws/index.md)
 
-1. Cloud models and regions (not written yet)
-2. AWS account, IAM and billing (not written yet)
-3. EC2 (not written yet)
-4. S3 (not written yet)
-5. RDS managed Postgres (not written yet)
-6. VPCs and security groups (not written yet)
-7. Lambda and serverless (not written yet)
-8. Deploying an app to EC2 (not written yet)
+1. [Cloud models and regions](03-aws/01-cloud-models-and-regions.md)
+2. [AWS account, IAM and billing](03-aws/02-aws-account-iam-and-billing.md)
+3. [EC2](03-aws/03-ec2.md)
+4. [S3](03-aws/04-s3.md)
+5. [RDS managed Postgres](03-aws/05-rds-managed-postgres.md)
+6. [VPCs and security groups](03-aws/06-vpcs-and-security-groups.md)
+7. [Lambda and serverless](03-aws/07-lambda-and-serverless.md)
+8. [Deploying an app to EC2](03-aws/08-deploying-an-app-to-ec2.md)
 
 ### 4. [Operations](04-operations/index.md)
 

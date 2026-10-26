@@ -224,5 +224,5 @@ The matrix multiply does $2 \times 2000^3 = 1.6 \times 10^{10}$ operations, whic
 ## Where this shows up
 
 - Running and training machine-learning models, where VRAM size decides which models you can load. See from ML to transformers<!-- link: ../../15-ai-and-llms/01-how-llms-work/01-from-ml-to-transformers.md -->.
-- Cloud instance types with GPUs, in cloud models and regions<!-- link: ../../13-devops-and-cloud/03-aws/01-cloud-models-and-regions.md -->.
+- Cloud instance types with GPUs, in [cloud models and regions](../../13-devops-and-cloud/03-aws/01-cloud-models-and-regions.md).
 - Parallelism in software: [processes, threads and scheduling](../../02-operating-systems-and-linux/01-os-concepts/02-processes-threads-and-scheduling.md).

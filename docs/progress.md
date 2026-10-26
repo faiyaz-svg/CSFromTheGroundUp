@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 208 of 252. New lessons appear here as they are added.
+Lessons written so far: 216 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -324,6 +324,17 @@ Lessons written so far: 208 of 252. New lessons appear here as they are added.
 - [ ] [GitHub Actions](13-devops-and-cloud/02-ci-cd/02-github-actions.md)
 - [ ] [Deployment strategies](13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md)
 - [ ] [Infrastructure as code](13-devops-and-cloud/02-ci-cd/04-infrastructure-as-code.md)
+
+### AWS
+
+- [ ] [Cloud models and regions](13-devops-and-cloud/03-aws/01-cloud-models-and-regions.md)
+- [ ] [AWS account, IAM and billing](13-devops-and-cloud/03-aws/02-aws-account-iam-and-billing.md)
+- [ ] [EC2](13-devops-and-cloud/03-aws/03-ec2.md)
+- [ ] [S3](13-devops-and-cloud/03-aws/04-s3.md)
+- [ ] [RDS managed Postgres](13-devops-and-cloud/03-aws/05-rds-managed-postgres.md)
+- [ ] [VPCs and security groups](13-devops-and-cloud/03-aws/06-vpcs-and-security-groups.md)
+- [ ] [Lambda and serverless](13-devops-and-cloud/03-aws/07-lambda-and-serverless.md)
+- [ ] [Deploying an app to EC2](13-devops-and-cloud/03-aws/08-deploying-an-app-to-ec2.md)
 
 ### Operations
 

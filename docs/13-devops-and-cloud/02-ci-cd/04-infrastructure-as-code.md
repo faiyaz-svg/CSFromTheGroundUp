@@ -235,5 +235,5 @@ Add `"old-bucket": {"versioning": False}` to `desired`. `old-bucket` now exists 
 
 ## Where this shows up
 
-- Creating the cloud resources a deploy runs on: Cloud models and regions<!-- link: ../03-aws/01-cloud-models-and-regions.md -->.
+- Creating the cloud resources a deploy runs on: [Cloud models and regions](../03-aws/01-cloud-models-and-regions.md).
 - Running the plan in a pipeline for review, using [GitHub Actions](02-github-actions.md).

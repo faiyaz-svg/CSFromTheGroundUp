@@ -226,4 +226,4 @@ The commands above are the full solution. If port 8080 is busy, use another host
 ## Where this shows up
 
 - Writing the package that a container starts from: [Docker images and Dockerfiles](02-docker-images-and-dockerfiles.md).
-- Cloud services such as AWS Lambda and Fargate run your code in VM-isolated containers; see EC2<!-- link: ../03-aws/03-ec2.md --> for the VM side.
+- Cloud services such as AWS Lambda and Fargate run your code in VM-isolated containers; see [EC2](../03-aws/03-ec2.md) for the VM side.

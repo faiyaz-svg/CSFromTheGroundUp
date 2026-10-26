@@ -302,4 +302,4 @@ If `up` complains about a port in use, change the left side of `"3000:3000"`. If
 ## Where this shows up
 
 - Pushing the built image to a shared place and running it on a cluster: [Registries and Kubernetes basics](04-registries-and-kubernetes-basics.md).
-- Choosing a managed database instead of a container: RDS managed Postgres<!-- link: ../03-aws/05-rds-managed-postgres.md -->.
+- Choosing a managed database instead of a container: [RDS managed Postgres](../03-aws/05-rds-managed-postgres.md).
