@@ -4,7 +4,27 @@ The math that algorithms, databases and cryptography rest on: logic, sets, proof
 
 Before this folder: Programming fundamentals.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder is the math that computer science keeps using: logic and truth tables, sets, functions and relations, proofs and induction, counting, discrete probability, graphs and trees, modular arithmetic, and sums, logs and recurrences. The lessons are short and aimed at recognising the idea when it appears in code, not at proving theorems for marks.
+
+For AI tools, the payoff is judging claims. A model can state that an algorithm is $O(n \log n)$ or that a hash collision is unlikely, and these lessons give you the tools (recurrences, counting, probability) to check whether that is plausible. Boolean logic also shows up in every condition you write.
+
+It builds on [Programming fundamentals](../03-programming-fundamentals/index.md). [Data structures and algorithms](../06-data-structures-and-algorithms/index.md) uses graphs, recurrences and logs directly, [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md) uses sets and relations, and [Security](../12-security/index.md) uses modular arithmetic for RSA.
+
+```mermaid
+flowchart LR
+    A["Logic"] --> B["Sets and proofs"]
+    B --> C["Counting and probability"]
+    B --> D["Graphs and trees"]
+    B --> E["Modular arithmetic"]
+    C --> F["Sums, logs, recurrences"]
+    D --> F
+```
+
+### How to use this folder
+
+- Read logic, sets and proofs in order. The later lessons are more independent.
+- Modular arithmetic is needed before RSA in Security, so do not skip it.
+- Check results with the short Python snippets rather than by hand.
 
 <!-- lessons:start -->
 ## Lessons

@@ -4,7 +4,26 @@ Relational databases and SQL in depth, schema design, how Postgres works inside,
 
 Before this folder: Programming fundamentals.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This is the biggest folder. It starts with what a database is and the relational model, then SQL in depth: filtering, NULL, aggregates, joins, subqueries, CTEs and window functions. Schema design covers types, constraints, relationships and normalization. Postgres in depth covers indexes, query plans, transactions, isolation, roles, backups and replication. The last chapter uses a database from application code, including ORMs, NoSQL and Redis.
+
+SQL is something AI tools write often, and a wrong query can still return plausible rows. A join that duplicates rows, a NULL that drops a filter, an index on the wrong column, or a query built by string concatenation are all things this folder teaches you to spot.
+
+It builds on [Programming fundamentals](../03-programming-fundamentals/index.md), with sets and relations from [Discrete math for CS](../05-discrete-math-for-cs/index.md) behind it. It feeds [Data engineering and data science](../11-data-engineering-and-data-science/index.md), [Security](../12-security/index.md) and [Software and system design](../14-software-and-system-design/index.md).
+
+```mermaid
+flowchart LR
+    A["Database basics"] --> B["Querying"]
+    A --> C["Schema design"]
+    B --> D["Postgres in depth"]
+    C --> D
+    D --> E["Databases in apps"]
+```
+
+### How to use this folder
+
+- Install Postgres in WSL (Ubuntu) with apt, following [Setting up your machine](../00-start-here/setting-up-your-machine.md) and [Postgres and psql](01-database-basics/03-postgres-and-psql.md). Later labs use it.
+- Keep the Querying and Postgres in depth cheat sheets open when you write queries.
+- Do the querying lessons in order. Joins, subqueries and window functions build on each other.
 
 <!-- lessons:start -->
 ## Lessons

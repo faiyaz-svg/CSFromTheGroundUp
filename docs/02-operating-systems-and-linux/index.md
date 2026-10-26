@@ -4,7 +4,26 @@ What an operating system does, plus a working command-line toolkit for Linux, wh
 
 Before this folder: How computers work.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder has two halves. The first explains what an operating system does: it runs processes and threads, gives each one virtual memory, manages files, and lets programs ask the kernel for services through system calls. The second teaches the Linux command line, where most servers run: navigating files, permissions, pipes, processes, packages, services, scripts and SSH.
+
+AI tools produce shell commands constantly, and a wrong one can delete files or open a server to the world. Knowing what a permission string, a signal or a pipe means lets you read a suggested command before you run it.
+
+It builds on [How computers work](../01-how-computers-work/index.md): the CPU, memory and storage you met there are what the OS shares out. It feeds [Programming fundamentals](../03-programming-fundamentals/index.md) (you will use the terminal daily), then [Networking](../07-networking/index.md) and [DevOps and cloud](../13-devops-and-cloud/index.md), which assume you are comfortable on a Linux box.
+
+```mermaid
+flowchart LR
+    A["OS concepts"] --> B["Processes and memory"]
+    A --> C["Files and system calls"]
+    B --> D["Linux command line"]
+    C --> D
+    D --> E["Services, scripts, SSH"]
+```
+
+### How to use this folder
+
+- The Linux labs assume WSL2 Ubuntu on Windows 11. Set it up before the second chapter.
+- Keep the Linux command line cheat sheet open while you work in later folders.
+- Practise the commands in a scratch directory, not in a folder with work you care about.
 
 <!-- lessons:start -->
 ## Lessons

@@ -4,7 +4,26 @@ Containers, CI/CD pipelines, the core AWS services, and how to monitor a running
 
 Before this folder: Operating systems and Linux, Networking, and Back end.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder is about getting code running somewhere other than your laptop. Containers cover VMs versus containers, Docker images, volumes, Compose and a first look at Kubernetes. CI/CD covers pipelines, GitHub Actions and deployment strategies. The AWS chapter covers accounts, IAM, EC2, S3, RDS, VPCs, Lambda and deploying an app. Operations covers logs, metrics, monitoring and incidents.
+
+AI tools write Dockerfiles, pipeline files and cloud commands readily, and the mistakes are costly: an open security group, an over-broad IAM policy, a secret baked into an image, an instance left running on your bill. This folder gives you the terms to check each of those.
+
+It builds on [Operating systems and Linux](../02-operating-systems-and-linux/index.md), [Networking](../07-networking/index.md) and [Back end](../09-back-end/index.md), with Git from [Developer tools and workflow](../04-developer-tools-and-workflow/index.md). It feeds [Software and system design](../14-software-and-system-design/index.md) and [The workplace](../16-the-workplace/index.md).
+
+```mermaid
+flowchart LR
+    A["Containers"] --> B["CI/CD"]
+    A --> C["AWS"]
+    B --> D["Deploy"]
+    C --> D
+    D --> E["Operations"]
+```
+
+### How to use this folder
+
+- The container labs need Docker with WSL2. Install it before the first chapter.
+- The AWS labs need your own AWS account. Set a billing alert first, and delete what you create.
+- Infrastructure as code is optional.
 
 <!-- lessons:start -->
 ## Lessons

@@ -4,7 +4,26 @@ How to structure code that stays maintainable, and how to design systems that sc
 
 Before this folder: Back end, Databases, SQL and Postgres, and DevOps and cloud.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder has two chapters. Software design covers how to structure code so it stays maintainable: clean code, SOLID, design patterns, layered architecture and MVC, monoliths versus microservices, and refactoring. System design covers how to build systems that handle load: scalability, load balancing, caching, replication and sharding, CAP, queues, rate limiting, estimates, and two worked case studies.
+
+An AI tool can add code faster than you can keep it organised. Without a sense of coupling and layers, generated changes pile up into a tangle, and without system design vocabulary you cannot say what a design trades away. Interviews also test this chapter directly.
+
+It draws on nearly everything before it: [Back end](../09-back-end/index.md), [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md) and [DevOps and cloud](../13-devops-and-cloud/index.md) most of all, along with the costs from [Data structures and algorithms](../06-data-structures-and-algorithms/index.md). It leads into [AI and LLMs](../15-ai-and-llms/index.md) and [The workplace](../16-the-workplace/index.md).
+
+```mermaid
+flowchart LR
+    A["Clean code, SOLID"] --> B["Patterns and layers"]
+    B --> C["Monolith or microservices"]
+    C --> D["Scale: balance, cache"]
+    D --> E["Data: replicate, shard"]
+    E --> F["Queues and case studies"]
+```
+
+### How to use this folder
+
+- Read the Software design chapter with a project of your own open, so you can find examples.
+- Do the back-of-the-envelope estimates before the case studies.
+- The chat app case study is optional. The rate limiting lab uses `curl` in WSL.
 
 <!-- lessons:start -->
 ## Lessons

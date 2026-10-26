@@ -4,7 +4,25 @@ How information is stored as bits, how the hardware runs it, and how the code yo
 
 Before this folder: Nothing. This is the start.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder explains what a computer does with the code you write. Everything is stored as bits, so you start with how numbers, text, images and files become bytes, and why some numbers (floating point) are only approximate. Then you see the hardware that runs those bytes: logic gates, the CPU, memory and storage, and why reading from each has a very different cost.
+
+The last chapter connects your source code to the machine: how it becomes machine code, and the difference between compiling, interpreting and JIT. When an AI tool says "this overflows", "this is cache-unfriendly" or "this runs in an interpreter", this folder is the vocabulary behind it.
+
+This is the first folder, so nothing comes before it. [Operating systems and Linux](../02-operating-systems-and-linux/index.md) builds on the hardware picture, and later folders such as data structures and algorithms use the memory and latency numbers.
+
+```mermaid
+flowchart LR
+    A["Bits and data"] --> B["Hardware"]
+    B --> C["Code to running program"]
+    A -. "bytes in memory" .-> B
+    B -. "CPU runs machine code" .-> C
+```
+
+### How to use this folder
+
+- Keep the Bits and data and Hardware cheat sheets open when you read about overflow, rounding or latency elsewhere in the book.
+- The GPUs and parallel hardware lesson is optional on a first read.
+- Most labs run in Python. The machine code lab compiles C with `gcc` in WSL (Ubuntu).
 
 <!-- lessons:start -->
 ## Lessons

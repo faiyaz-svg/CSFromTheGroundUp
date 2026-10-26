@@ -4,7 +4,26 @@ How web applications get attacked and defended, and the cryptography behind hash
 
 Before this folder: Networking, Back end, and Databases, SQL and Postgres.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder has two chapters. Web security teaches the mindset of threat modelling, the OWASP Top 10, injection, XSS and CSRF, secure authentication, and keeping secrets and dependencies safe. Cryptography explains hashing and salts, symmetric and public-key encryption, signatures, RSA step by step, the TLS handshake, and privacy law in Canada (PIPEDA).
+
+AI-generated code often looks fine and is insecure: string-built SQL, a hard-coded key, a weak password hash, an outdated dependency. You do not need to implement cryptography, but you do need to know which primitive does what, so you can tell when a suggestion uses the wrong one.
+
+It builds on [Networking](../07-networking/index.md) (TLS), [Back end](../09-back-end/index.md) (auth and APIs) and [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md) (SQL injection), with modular arithmetic from [Discrete math for CS](../05-discrete-math-for-cs/index.md) behind RSA. It feeds [DevOps and cloud](../13-devops-and-cloud/index.md) and [Software and system design](../14-software-and-system-design/index.md).
+
+```mermaid
+flowchart LR
+    A["Threat modelling"] --> B["OWASP, injection, XSS"]
+    B --> C["Auth and secrets"]
+    C --> D["Hashing and encryption"]
+    D --> E["Signatures, RSA, TLS"]
+    E --> F["Privacy law"]
+```
+
+### How to use this folder
+
+- Keep the Web security cheat sheet open when you review code.
+- RSA step by step is the most mathematical lesson. Read it after modular arithmetic.
+- The TLS lab uses `openssl` in WSL or Git Bash.
 
 <!-- lessons:start -->
 ## Lessons

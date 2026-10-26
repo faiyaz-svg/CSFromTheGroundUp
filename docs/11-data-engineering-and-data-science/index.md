@@ -4,7 +4,26 @@ Warehouses, pipelines and dimensional modelling, then statistics, A/B testing an
 
 Before this folder: Databases, SQL and Postgres.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder has two chapters. Data engineering covers moving and shaping data: OLTP versus OLAP, warehouses and star schemas, ETL and ELT, batch and streaming, orchestration, dbt, columnar file formats and data quality. Data science and machine learning covers statistics, SQL analytics (cohorts, funnels), A/B testing, and the basics of training and evaluating models, up to neural networks.
+
+AI tools can write a pipeline or a model quickly, but they do not know whether the numbers are right. The failures here are specific: a job that is not idempotent and double counts on retry, a metric with no baseline, a model evaluated on its training data, a result that is not statistically meaningful.
+
+It builds on [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md), since most of the work is SQL. It leads on to [AI and LLMs](../15-ai-and-llms/index.md), which depends on the machine learning ideas, and to [The workplace](../16-the-workplace/index.md).
+
+```mermaid
+flowchart LR
+    A["Warehouses and modelling"] --> B["Pipelines"]
+    B --> C["Data quality"]
+    A --> D["Statistics and A/B tests"]
+    C --> D
+    D --> E["Machine learning"]
+```
+
+### How to use this folder
+
+- Labs use Postgres in WSL from the previous folder.
+- The lakes, lakehouses and cloud warehouses lesson is optional, and only describes AWS services.
+- Read What machine learning is before the AI and LLMs folder.
 
 <!-- lessons:start -->
 ## Lessons

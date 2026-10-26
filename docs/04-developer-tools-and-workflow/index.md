@@ -4,7 +4,25 @@ Git, GitHub, dependencies, configuration, data formats, regular expressions, tes
 
 Before this folder: Programming fundamentals.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder covers the tools around the code. You learn Git and GitHub (branches, merges, pull requests), then project plumbing: dependencies, configuration and secrets, JSON, YAML and CSV, and regular expressions. A code quality chapter covers testing, linters, formatters, type checkers and documentation. The last chapter is spreadsheets, since a lot of workplace data lives in them.
+
+With AI tools, version control and tests are your safety net. An assistant can change ten files at once, and Git lets you see exactly what changed and undo it. Tests tell you whether the change still works, so the AI's confidence is not what you rely on.
+
+It builds on [Programming fundamentals](../03-programming-fundamentals/index.md). Later folders reuse it constantly: [Front end](../08-front-end/index.md), [Back end](../09-back-end/index.md), [Security](../12-security/index.md) and [DevOps and cloud](../13-devops-and-cloud/index.md) all depend on Git, config and tests.
+
+```mermaid
+flowchart LR
+    A["Editor and Git"] --> B["Project plumbing"]
+    B --> C["Code quality"]
+    C --> D["Spreadsheets"]
+    A -. "commit, review" .-> C
+```
+
+### How to use this folder
+
+- Do the Git labs in a throwaway repository first. Some labs use WSL.
+- Keep the Git cheat sheet open until the commands are habit.
+- The spreadsheet chapter is independent. Read it any time you need it.
 
 <!-- lessons:start -->
 ## Lessons

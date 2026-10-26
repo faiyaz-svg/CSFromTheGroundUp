@@ -4,7 +4,25 @@ Python from the basics, the habits of thinking like a programmer, and object-ori
 
 Before this folder: How computers work, and Operating systems and Linux for the terminal.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder teaches Python from values and control flow up to modules and virtual environments, then the habits that separate reading code from writing it: recursion, references and mutability, type systems, and debugging. The last chapter covers object-oriented and functional ideas, so words like "class", "interface" and "pure function" mean something precise.
+
+An AI tool will write a lot of Python for you, but you are the one who reads it. Most of the bugs worth catching here are the ones the tool also makes: a mutable default argument, a shallow copy, an unhandled exception, a wrong type assumption.
+
+It builds on [How computers work](../01-how-computers-work/index.md) and uses the terminal from [Operating systems and Linux](../02-operating-systems-and-linux/index.md). Almost everything after it needs it: [Developer tools and workflow](../04-developer-tools-and-workflow/index.md), [Discrete math for CS](../05-discrete-math-for-cs/index.md), [Data structures and algorithms](../06-data-structures-and-algorithms/index.md) and [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md) all use Python code.
+
+```mermaid
+flowchart LR
+    A["Python basics"] --> B["Thinking like a programmer"]
+    B --> C["OOP and paradigms"]
+    A -. "functions, data types" .-> B
+    B -. "references, types" .-> C
+```
+
+### How to use this folder
+
+- If you already write Python, skim Python basics and read Thinking like a programmer closely.
+- Run every snippet. Predicting the output before you run it is the point.
+- Keep the Python basics cheat sheet open while you do the later labs.
 
 <!-- lessons:start -->
 ## Lessons

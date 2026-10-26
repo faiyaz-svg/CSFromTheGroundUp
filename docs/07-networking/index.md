@@ -4,7 +4,28 @@ How data crosses the internet, from IP addresses and DNS to HTTP and HTTPS, and 
 
 Before this folder: Operating systems and Linux.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder follows a request across the internet. The first chapter covers packets and routers, IP addresses and subnets, the network layers, TCP and UDP, ports and sockets, and DNS. The second covers what runs on top: HTTP requests, headers and cookies, TLS and HTTPS, client-server architecture, proxies and CDNs, WebSockets, and the tools for debugging a connection.
+
+When an AI-written service fails to connect, the cause is often here: the wrong port, a DNS record that has not changed yet, a missing header, a certificate problem. With this vocabulary you can ask a precise question and read the output of tools like `curl` and `dig`.
+
+It builds on [Operating systems and Linux](../02-operating-systems-and-linux/index.md), because the labs use the Linux terminal. It feeds [Front end](../08-front-end/index.md), [Back end](../09-back-end/index.md), [Security](../12-security/index.md) (TLS) and [DevOps and cloud](../13-devops-and-cloud/index.md) (subnets, security groups).
+
+```mermaid
+flowchart LR
+    A["Packets and IP"] --> B["TCP, UDP, ports"]
+    B --> C["DNS"]
+    C --> D["HTTP"]
+    D --> E["TLS and HTTPS"]
+    D --> F["Proxies, CDNs, WebSockets"]
+    E --> G["Debugging tools"]
+    F --> G
+```
+
+### How to use this folder
+
+- The labs use WSL2 Ubuntu, so set that up first.
+- Keep the Web protocols cheat sheet (status codes, headers) open while you work on back end code.
+- Run the debugging tools lesson's commands against a site you own or a public test site.
 
 <!-- lessons:start -->
 ## Lessons

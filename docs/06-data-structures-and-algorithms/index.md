@@ -4,7 +4,27 @@ Big O, the standard data structures and algorithms, and a set of problem-solving
 
 Before this folder: Programming fundamentals and Discrete math for CS.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder starts with how to measure an algorithm (Big O, space, amortized cost, recurrences), then covers the standard data structures (arrays, linked lists, stacks, queues, hash tables, trees, heaps, graphs) and the standard algorithms (binary search, sorting, BFS and DFS, shortest paths, greedy, dynamic programming). The last chapter turns these into patterns for coding interviews.
+
+An AI tool will pick a data structure for you, and the choice often decides whether code is fast or slow. You need to ask "why a hash map here, not a list?" and to notice when a generated solution is quadratic. The interview patterns chapter matters because interviews usually test this without AI.
+
+It builds on [Programming fundamentals](../03-programming-fundamentals/index.md) and on [Discrete math for CS](../05-discrete-math-for-cs/index.md) for graphs, logs and recurrences. It feeds [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md) (indexes are trees), and [Software and system design](../14-software-and-system-design/index.md), which reasons about costs the same way.
+
+```mermaid
+flowchart LR
+    A["Analysis"] --> B["Data structures"]
+    B --> C["Algorithms"]
+    C --> D["LeetCode patterns"]
+    A -. "cost of each op" .-> C
+    B -. "tools for patterns" .-> D
+```
+
+### How to use this folder
+
+- Read Analysis first. Every later lesson quotes Big O.
+- Keep the Data structures cheat sheet open while solving problems.
+- Tries and union find is optional on a first read.
+- Do the pattern problems yourself before asking an AI for hints.
 
 <!-- lessons:start -->
 ## Lessons

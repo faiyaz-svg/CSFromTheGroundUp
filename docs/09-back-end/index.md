@@ -4,7 +4,25 @@ What a server does, how to design and secure an API, and how to run background j
 
 Before this folder: Front end and Networking.
 
-The lessons and chapter cheat sheets for this folder are written in reading order.
+This folder covers the server side of a web app. You learn what a back end does, how Node.js and Express handle requests, how to design a REST API with validation and error handling, and how authentication works: sessions, cookies, JWT, OAuth and CORS. The last chapter covers background jobs and testing and documenting an API.
+
+AI tools can generate an endpoint in seconds, and the common failures are here: no input validation, an authorization check missing on one route, tokens stored unsafely, a slow task run inside a request. With the right terms you can review an endpoint instead of trusting it.
+
+It builds on [Front end](../08-front-end/index.md), whose JavaScript you reuse in Node.js, and on [Networking](../07-networking/index.md) for HTTP. It feeds [Databases, SQL and Postgres](../10-databases-sql-and-postgres/index.md), [Security](../12-security/index.md), [DevOps and cloud](../13-devops-and-cloud/index.md) and [Software and system design](../14-software-and-system-design/index.md).
+
+```mermaid
+flowchart LR
+    A["Servers and APIs"] --> B["Auth"]
+    A --> C["API quality"]
+    B --> C
+    A -. "routes, middleware" .-> B
+```
+
+### How to use this folder
+
+- Keep the Servers and APIs cheat sheet open while you design endpoints.
+- GraphQL, gRPC and webhooks, and Python back ends, are optional.
+- Read the auth lessons in order. Each one builds on the one before.
 
 <!-- lessons:start -->
 ## Lessons
