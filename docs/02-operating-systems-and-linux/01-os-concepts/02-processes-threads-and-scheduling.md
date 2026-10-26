@@ -259,4 +259,4 @@ With 2 workers, the 4 one-second waits run as two rounds of two, so about 2 s. I
 ## Where this shows up
 
 - Managing processes from the shell: processes and signals<!-- link: ../02-linux-command-line/05-processes-and-signals.md -->.
-- The same idea of "wait without burning a core" drives async JavaScript and the event loop<!-- link: ../../08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md -->.
+- The same idea of "wait without burning a core" drives [async JavaScript and the event loop](../../08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md).

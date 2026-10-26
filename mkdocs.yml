@@ -251,6 +251,11 @@ nav:
           - "Accessibility": 08-front-end/01-html-css-and-the-browser/05-accessibility.md
       - "JavaScript and TypeScript":
           - 08-front-end/02-javascript-and-typescript/index.md
+          - "JavaScript for Python programmers": 08-front-end/02-javascript-and-typescript/01-javascript-for-python-programmers.md
+          - "The DOM and events": 08-front-end/02-javascript-and-typescript/02-the-dom-and-events.md
+          - "Async JavaScript and the event loop": 08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md
+          - "TypeScript": 08-front-end/02-javascript-and-typescript/04-typescript.md
+          - "npm, bundlers and Vite": 08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md
       - "React":
           - 08-front-end/03-react/index.md
   - "Back end":

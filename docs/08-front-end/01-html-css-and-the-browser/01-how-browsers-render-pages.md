@@ -230,5 +230,5 @@ Change the script line to `<script src="slow.js" defer></script>`. The loop stil
 
 ## Where this shows up
 
-- Scripts that touch the page are the subject of the DOM and events<!-- link: ../02-javascript-and-typescript/02-the-dom-and-events.md -->.
+- Scripts that touch the page are the subject of [the DOM and events](../02-javascript-and-typescript/02-the-dom-and-events.md).
 - Load time and layout shift are covered in web performance<!-- link: ../03-react/05-web-performance.md -->.

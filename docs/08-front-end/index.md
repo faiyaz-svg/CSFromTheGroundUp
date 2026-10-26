@@ -19,11 +19,11 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [JavaScript and TypeScript](02-javascript-and-typescript/index.md)
 
-1. JavaScript for Python programmers (not written yet)
-2. The DOM and events (not written yet)
-3. Async JavaScript and the event loop (not written yet)
-4. TypeScript (not written yet)
-5. npm, bundlers and Vite (not written yet)
+1. [JavaScript for Python programmers](02-javascript-and-typescript/01-javascript-for-python-programmers.md)
+2. [The DOM and events](02-javascript-and-typescript/02-the-dom-and-events.md)
+3. [Async JavaScript and the event loop](02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md)
+4. [TypeScript](02-javascript-and-typescript/04-typescript.md)
+5. [npm, bundlers and Vite](02-javascript-and-typescript/05-npm-bundlers-and-vite.md)
 
 ### 3. [React](03-react/index.md)
 

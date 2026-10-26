@@ -258,4 +258,4 @@ An empty email shows "Please fill out this field". `abc` shows a message asking 
 ## Where this shows up
 
 - Styling these elements is next, in [CSS and the box model](03-css-and-the-box-model.md).
-- Reading and changing the tree from code is in the DOM and events<!-- link: ../02-javascript-and-typescript/02-the-dom-and-events.md -->; the server side of the form is in [HTTP requests and responses](../../07-networking/02-web-protocols/01-http-requests-and-responses.md).
+- Reading and changing the tree from code is in [the DOM and events](../02-javascript-and-typescript/02-the-dom-and-events.md); the server side of the form is in [HTTP requests and responses](../../07-networking/02-web-protocols/01-http-requests-and-responses.md).

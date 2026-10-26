@@ -241,6 +241,6 @@ In step 5 the loop body shows `ModSmi [7]`, `Add` and `JumpLoop`, the same shape
 
 ## Where this shows up
 
-- TypeScript<!-- link: ../../08-front-end/02-javascript-and-typescript/04-typescript.md --> and Node.js and its runtime<!-- link: ../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md --> build on this lesson.
+- [TypeScript](../../08-front-end/02-javascript-and-typescript/04-typescript.md) and Node.js and its runtime<!-- link: ../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md --> build on this lesson.
 - [Big O and runtime](../../05-data-structures-and-algorithms/01-analysis/01-big-o-and-runtime.md) counts steps; this lesson explains why each step costs different amounts in different languages.
 - Profilers and "why is the first request slow" questions in production usually come down to JIT warm-up and caches.

@@ -202,4 +202,4 @@ Step 5 prints `npm error code EUSAGE` and `Invalid: lock file's debug@4.4.3 does
 ## Where this shows up
 
 - Every CI run starts with an install step, covered in CI/CD concepts<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md -->.
-- Front-end builds on the same files in npm, bundlers and Vite<!-- link: ../../08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md -->.
+- Front-end builds on the same files in [npm, bundlers and Vite](../../08-front-end/02-javascript-and-typescript/05-npm-bundlers-and-vite.md).

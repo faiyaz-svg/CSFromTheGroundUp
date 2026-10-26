@@ -246,5 +246,5 @@ All four answers should show the same set of addresses, possibly in a different 
 ## Where this shows up
 
 - A domain name is part of every URL; [HTTP requests and responses](../02-web-protocols/01-http-requests-and-responses.md) start with the lookup in this lesson.
-- TLS certificates<!-- link: ../02-web-protocols/03-tls-https-and-certificates.md --> are issued for domain names, and proving you own one often means adding a TXT or CNAME record.
+- [TLS certificates](../02-web-protocols/03-tls-https-and-certificates.md) are issued for domain names, and proving you own one often means adding a TXT or CNAME record.
 - [Network debugging tools](../02-web-protocols/07-network-debugging-tools.md) covers `dig`, `curl` and `nslookup` for finding which layer is failing.
