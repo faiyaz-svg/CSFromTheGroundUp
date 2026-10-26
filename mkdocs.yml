@@ -233,6 +233,13 @@ nav:
           - "DNS and domains": 07-networking/01-how-the-internet-works/05-dns-and-domains.md
       - "Web protocols":
           - 07-networking/02-web-protocols/index.md
+          - "HTTP requests and responses": 07-networking/02-web-protocols/01-http-requests-and-responses.md
+          - "HTTP headers, cookies and caching": 07-networking/02-web-protocols/02-http-headers-cookies-and-caching.md
+          - "TLS, HTTPS and certificates": 07-networking/02-web-protocols/03-tls-https-and-certificates.md
+          - "Client-server architecture": 07-networking/02-web-protocols/04-client-server-architecture.md
+          - "Proxies and CDNs": 07-networking/02-web-protocols/05-proxies-and-cdns.md
+          - "WebSockets and real-time communication": 07-networking/02-web-protocols/06-websockets-and-real-time.md
+          - "Network debugging tools": 07-networking/02-web-protocols/07-network-debugging-tools.md
   - "Front end":
       - 08-front-end/index.md
       - "HTML, CSS and the browser":

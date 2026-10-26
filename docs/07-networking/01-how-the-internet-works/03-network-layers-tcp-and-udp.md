@@ -231,6 +231,6 @@ The connect time is one round trip (SYN out, SYN-ACK back) plus a little operati
 
 ## Where this shows up
 
-- Every web request starts with this handshake; HTTP requests and responses<!-- link: ../02-web-protocols/01-http-requests-and-responses.md --> and TLS<!-- link: ../02-web-protocols/03-tls-https-and-certificates.md --> sit on top.
-- WebSockets and real-time communication<!-- link: ../02-web-protocols/06-websockets-and-real-time.md --> reuse a single long-lived TCP connection.
+- Every web request starts with this handshake; [HTTP requests and responses](../02-web-protocols/01-http-requests-and-responses.md) and TLS<!-- link: ../02-web-protocols/03-tls-https-and-certificates.md --> sit on top.
+- [WebSockets and real-time communication](../02-web-protocols/06-websockets-and-real-time.md) reuse a single long-lived TCP connection.
 - [DNS and domains](05-dns-and-domains.md) uses UDP for most lookups.

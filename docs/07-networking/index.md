@@ -19,12 +19,12 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [Web protocols](02-web-protocols/index.md)
 
-1. HTTP requests and responses (not written yet)
-2. HTTP headers, cookies and caching (not written yet)
-3. TLS, HTTPS and certificates (not written yet)
-4. Client-server architecture (not written yet)
-5. Proxies and CDNs (not written yet)
-6. WebSockets and real-time communication (not written yet)
-7. Network debugging tools (not written yet)
+1. [HTTP requests and responses](02-web-protocols/01-http-requests-and-responses.md)
+2. [HTTP headers, cookies and caching](02-web-protocols/02-http-headers-cookies-and-caching.md)
+3. [TLS, HTTPS and certificates](02-web-protocols/03-tls-https-and-certificates.md)
+4. [Client-server architecture](02-web-protocols/04-client-server-architecture.md)
+5. [Proxies and CDNs](02-web-protocols/05-proxies-and-cdns.md)
+6. [WebSockets and real-time communication](02-web-protocols/06-websockets-and-real-time.md)
+7. [Network debugging tools](02-web-protocols/07-network-debugging-tools.md)
 
 <!-- lessons:end -->

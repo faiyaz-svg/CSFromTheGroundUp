@@ -97,7 +97,7 @@ print(round(2 * d / 200_000 * 1000, 1), "ms round trip, minimum")
 
 </details>
 
-Check: a real ping from Toronto to Vancouver is higher than 33.6 ms, because cables do not follow great circles and every router adds a little time. A measured value below the floor would mean the server is nearer than you think, for example a CDN edge (see Proxies and CDNs<!-- link: ../02-web-protocols/05-proxies-and-cdns.md -->).
+Check: a real ping from Toronto to Vancouver is higher than 33.6 ms, because cables do not follow great circles and every router adds a little time. A measured value below the floor would mean the server is nearer than you think, for example a CDN edge (see [Proxies and CDNs](../02-web-protocols/05-proxies-and-cdns.md)).
 
 </div>
 
@@ -226,5 +226,5 @@ Exact addresses and times depend on your ISP and location. For a pass, check tha
 ## Where this shows up
 
 - IP addresses and why hop 1 is a private address: [IP addresses, subnets and NAT](02-ip-addresses-subnets-and-nat.md).
-- Network debugging tools<!-- link: ../02-web-protocols/07-network-debugging-tools.md --> use `ping` and `traceroute` to tell a slow network from a slow server.
+- [Network debugging tools](../02-web-protocols/07-network-debugging-tools.md) use `ping` and `traceroute` to tell a slow network from a slow server.
 - Latency numbers when you choose where to deploy a service: [memory hierarchy and latency numbers](../../01-how-computers-work/02-hardware/04-memory-hierarchy-and-latency-numbers.md).

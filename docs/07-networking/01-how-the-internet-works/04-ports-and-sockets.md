@@ -257,5 +257,5 @@ Step 3: the `LISTENING` line is replaced by lines in `TIME_WAIT` for the closed 
 ## Where this shows up
 
 - Every `localhost:3000` in front-end work is a port on the loopback address; see [IP addresses, subnets and NAT](02-ip-addresses-subnets-and-nat.md).
-- HTTP requests and responses<!-- link: ../02-web-protocols/01-http-requests-and-responses.md --> are text sent through exactly this kind of socket.
+- [HTTP requests and responses](../02-web-protocols/01-http-requests-and-responses.md) are text sent through exactly this kind of socket.
 - Docker<!-- link: ../../13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md --> publishes container ports with `-p 8080:80`, a port mapping like the NAT entry in the previous lesson.
