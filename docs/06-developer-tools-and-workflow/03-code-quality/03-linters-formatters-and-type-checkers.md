@@ -25,7 +25,7 @@ A **formatter** rewrites code into one fixed layout (spacing, line breaks, quote
 
 A **type checker** uses type annotations to check that values match what functions expect. It does this before the program runs, and the annotations change nothing at runtime in Python.
 
-A **pre-commit hook** is a script Git runs before it creates a commit; if it fails, the commit is refused. The **pre-commit** framework manages these hooks from a `.pre-commit-config.yaml` file. **CI** (continuous integration) runs checks on a server for every push; see CI/CD concepts<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md -->.
+A **pre-commit hook** is a script Git runs before it creates a commit; if it fails, the commit is refused. The **pre-commit** framework manages these hooks from a `.pre-commit-config.yaml` file. **CI** (continuous integration) runs checks on a server for every push; see [CI/CD concepts](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md).
 
 ## How it works
 
@@ -109,7 +109,7 @@ ruff check...............................................................Failed
 - files were modified by this hook
 ```
 
-A local hook can be skipped with `git commit --no-verify`, so CI runs the same checks again as the gate nobody can skip. In GitHub Actions<!-- link: ../../13-devops-and-cloud/02-ci-cd/02-github-actions.md --> that is one job (action versions as of 2026, from the [checkout](https://github.com/actions/checkout/releases) and [setup-python](https://github.com/actions/setup-python/releases) release pages):
+A local hook can be skipped with `git commit --no-verify`, so CI runs the same checks again as the gate nobody can skip. In [GitHub Actions](../../13-devops-and-cloud/02-ci-cd/02-github-actions.md) that is one job (action versions as of 2026, from the [checkout](https://github.com/actions/checkout/releases) and [setup-python](https://github.com/actions/setup-python/releases) release pages):
 
 ```yaml
 name: checks

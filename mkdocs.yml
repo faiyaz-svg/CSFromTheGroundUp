@@ -371,6 +371,10 @@ nav:
           - 13-devops-and-cloud/01-containers/index.md
       - "CI/CD":
           - 13-devops-and-cloud/02-ci-cd/index.md
+          - "CI/CD concepts": 13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md
+          - "GitHub Actions": 13-devops-and-cloud/02-ci-cd/02-github-actions.md
+          - "Deployment strategies": 13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md
+          - "Infrastructure as code": 13-devops-and-cloud/02-ci-cd/04-infrastructure-as-code.md
       - "AWS":
           - 13-devops-and-cloud/03-aws/index.md
       - "Operations":

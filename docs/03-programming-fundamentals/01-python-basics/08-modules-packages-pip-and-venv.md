@@ -2,7 +2,9 @@
 
 After this you can split Python code across files, run a package correctly, and set up one virtual environment per project with a pinned `requirements.txt`.
 
-Before this: [Files and I/O](07-files-and-io.md). The same dependency ideas return in [package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md).
+Before this: [Files and I/O](07-files-and-io.md).
+
+The same dependency ideas return later, in more depth, in [package managers and dependencies](../../06-developer-tools-and-workflow/02-project-plumbing/01-package-managers-and-dependencies.md).
 
 ## The idea
 

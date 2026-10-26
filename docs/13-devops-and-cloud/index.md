@@ -18,10 +18,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [CI/CD](02-ci-cd/index.md)
 
-1. CI/CD concepts (not written yet)
-2. GitHub Actions (not written yet)
-3. Deployment strategies (not written yet)
-4. Infrastructure as code (not written yet) (optional)
+1. [CI/CD concepts](02-ci-cd/01-ci-cd-concepts.md)
+2. [GitHub Actions](02-ci-cd/02-github-actions.md)
+3. [Deployment strategies](02-ci-cd/03-deployment-strategies.md)
+4. [Infrastructure as code](02-ci-cd/04-infrastructure-as-code.md) (optional)
 
 ### 3. [AWS](03-aws/index.md)
 

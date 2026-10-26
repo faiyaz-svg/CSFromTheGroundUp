@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 181 of 252. New lessons appear here as they are added.
+Lessons written so far: 185 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -308,3 +308,12 @@ Lessons written so far: 181 of 252. New lessons appear here as they are added.
 - [ ] [RSA step by step](12-security/02-cryptography/04-rsa-step-by-step.md)
 - [ ] [The TLS handshake](12-security/02-cryptography/05-the-tls-handshake.md)
 - [ ] [Privacy and PIPEDA](12-security/02-cryptography/06-privacy-and-pipeda.md)
+
+## DevOps and cloud
+
+### CI/CD
+
+- [ ] [CI/CD concepts](13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md)
+- [ ] [GitHub Actions](13-devops-and-cloud/02-ci-cd/02-github-actions.md)
+- [ ] [Deployment strategies](13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md)
+- [ ] [Infrastructure as code](13-devops-and-cloud/02-ci-cd/04-infrastructure-as-code.md)

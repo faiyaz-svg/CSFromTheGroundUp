@@ -228,5 +228,5 @@ In PowerShell, set the override with `$env:PORT = "9000"` first.
 
 ## Where this shows up
 
-- Pipelines pass secrets as protected variables in GitHub Actions<!-- link: ../../13-devops-and-cloud/02-ci-cd/02-github-actions.md -->, and containers receive them through Compose<!-- link: ../../13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md -->.
+- Pipelines pass secrets as protected variables in [GitHub Actions](../../13-devops-and-cloud/02-ci-cd/02-github-actions.md), and containers receive them through Compose<!-- link: ../../13-devops-and-cloud/01-containers/03-volumes-networks-and-compose.md -->.
 - Every back-end project starts with a settings module, as in [what a back end does](../../09-back-end/01-servers-and-apis/01-what-a-back-end-does.md).

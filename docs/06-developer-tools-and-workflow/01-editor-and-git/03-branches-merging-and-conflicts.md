@@ -291,4 +291,4 @@ Step 3: `git switch main`, `sed -i 's/Hello, /Hi, /' app.py`, `git commit -am "U
 ## Where this shows up
 
 - Teams merge branches through pull requests, covered in [GitHub, pull requests and code review](04-github-pull-requests-and-code-review.md).
-- CI pipelines run on every branch, in CI/CD concepts<!-- link: ../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md -->.
+- CI pipelines run on every branch, in [CI/CD concepts](../../13-devops-and-cloud/02-ci-cd/01-ci-cd-concepts.md).
