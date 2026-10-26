@@ -132,7 +132,7 @@ da0634583046e5099765b221ba28dfef2c29e615 is the first bad commit
 bisect found first bad commit
 ```
 
-The first command marks `HEAD` bad and `HEAD~7` good; `reset` returns you to your branch. See Git basics<!-- link: ../../06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md --> for the commit model.
+The first command marks `HEAD` bad and `HEAD~7` good; `reset` returns you to your branch. See [Git basics](../../06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md) for the commit model.
 
 Last, **rubber-ducking**: explain the code line by line to a rubber duck, a colleague or an AI chat. Having to say what each line does is often enough to hear the wrong assumption.
 
@@ -312,5 +312,5 @@ Step 4: Git picks a commit in the middle. If `grep "return 1" f.py` finds it, ru
 ## Where this shows up
 
 - Tests turn a reproduction into a permanent check: unit testing<!-- link: ../../06-developer-tools-and-workflow/03-code-quality/01-unit-testing.md -->.
-- Debugging in the editor: VS Code and IDEs<!-- link: ../../06-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md -->.
+- Debugging in the editor: [VS Code and IDEs](../../06-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md).
 - Reading a trace across services: logging, metrics and monitoring<!-- link: ../../13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md -->.

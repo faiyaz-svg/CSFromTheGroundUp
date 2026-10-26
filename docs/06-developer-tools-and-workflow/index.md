@@ -11,10 +11,10 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Editor and Git](01-editor-and-git/index.md)
 
-1. VS Code and IDEs (not written yet)
-2. Git basics (not written yet)
-3. Branches, merging and conflicts (not written yet)
-4. GitHub, pull requests and code review (not written yet)
+1. [VS Code and IDEs](01-editor-and-git/01-vs-code-and-ides.md)
+2. [Git basics](01-editor-and-git/02-git-basics.md)
+3. [Branches, merging and conflicts](01-editor-and-git/03-branches-merging-and-conflicts.md)
+4. [GitHub, pull requests and code review](01-editor-and-git/04-github-pull-requests-and-code-review.md)
 
 ### 2. [Project plumbing](02-project-plumbing/index.md)
 

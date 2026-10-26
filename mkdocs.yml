@@ -193,6 +193,10 @@ nav:
       - 06-developer-tools-and-workflow/index.md
       - "Editor and Git":
           - 06-developer-tools-and-workflow/01-editor-and-git/index.md
+          - "VS Code and IDEs": 06-developer-tools-and-workflow/01-editor-and-git/01-vs-code-and-ides.md
+          - "Git basics": 06-developer-tools-and-workflow/01-editor-and-git/02-git-basics.md
+          - "Branches, merging and conflicts": 06-developer-tools-and-workflow/01-editor-and-git/03-branches-merging-and-conflicts.md
+          - "GitHub, pull requests and code review": 06-developer-tools-and-workflow/01-editor-and-git/04-github-pull-requests-and-code-review.md
       - "Project plumbing":
           - 06-developer-tools-and-workflow/02-project-plumbing/index.md
       - "Code quality":
