@@ -267,6 +267,13 @@ nav:
       - 09-back-end/index.md
       - "Servers and APIs":
           - 09-back-end/01-servers-and-apis/index.md
+          - "What a back end does": 09-back-end/01-servers-and-apis/01-what-a-back-end-does.md
+          - "Node.js and its runtime": 09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md
+          - "Express: routing and middleware": 09-back-end/01-servers-and-apis/03-express-routing-and-middleware.md
+          - "REST API design": 09-back-end/01-servers-and-apis/04-rest-api-design.md
+          - "Validation and error handling": 09-back-end/01-servers-and-apis/05-validation-and-error-handling.md
+          - "Other API styles: GraphQL, gRPC and webhooks": 09-back-end/01-servers-and-apis/06-other-api-styles-graphql-grpc-webhooks.md
+          - "Python back ends: FastAPI and Django": 09-back-end/01-servers-and-apis/07-python-back-ends-fastapi-and-django.md
       - "Authentication and authorization":
           - 09-back-end/02-auth/index.md
       - "API quality":

@@ -194,4 +194,4 @@ The Vite template is CSR: the HTML is a shell and JavaScript fills in `#root`. N
 ## Where this shows up
 
 - Pages that load slowly are the subject of [Web performance](05-web-performance.md).
-- Server-side code for these frameworks runs on Node, covered in Node.js and its runtime<!-- link: ../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md -->.
+- Server-side code for these frameworks runs on Node, covered in [Node.js and its runtime](../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md).

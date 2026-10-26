@@ -267,4 +267,4 @@ Step 4 prints `"form": {"a": "1", "b": "2"}`, because `-d` sends `Content-Type: 
 ## Where this shows up
 
 - [HTTP headers, cookies and caching](02-http-headers-cookies-and-caching.md) covers the headers in more detail.
-- REST API design<!-- link: ../../09-back-end/01-servers-and-apis/04-rest-api-design.md --> builds on methods and status codes.
+- [REST API design](../../09-back-end/01-servers-and-apis/04-rest-api-design.md) builds on methods and status codes.

@@ -218,5 +218,5 @@ Expected result: Alice's count is 3 after the restart.
 
 ## Where this shows up
 
-- What a back end does<!-- link: ../../09-back-end/01-servers-and-apis/01-what-a-back-end-does.md --> builds the application tier.
+- [What a back end does](../../09-back-end/01-servers-and-apis/01-what-a-back-end-does.md) builds the application tier.
 - Scalability basics<!-- link: ../../14-software-and-system-design/02-system-design/01-scalability-basics.md --> uses stateless servers as its first step.

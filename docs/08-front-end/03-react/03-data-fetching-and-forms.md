@@ -67,7 +67,7 @@ The `queryKey` plays the role of the dependency array, and the library keeps a c
 
 Forms follow the controlled-input pattern. State holds the field, `onChange` copies each keystroke into it, and the `onSubmit` handler calls `e.preventDefault()` (otherwise the browser reloads the page), validates, then sends the data.
 
-Validation has two layers. Client checks (an `@` in the email) give fast feedback. Server checks are the real ones, because anyone can call your API without your form; see validation and error handling<!-- link: ../../09-back-end/01-servers-and-apis/05-validation-and-error-handling.md -->.
+Validation has two layers. Client checks (an `@` in the email) give fast feedback. Server checks are the real ones, because anyone can call your API without your form; see [validation and error handling](../../09-back-end/01-servers-and-apis/05-validation-and-error-handling.md).
 
 A note on where React is heading: in frameworks that support React Server Components, such as Next.js, a component can run on the server, read a database, and send finished markup, so no fetch-in-effect is needed for the first load. Those components cannot use state or effects; the ones that do are marked `"use client"`. Next.js documents its data fetching in its [App Router docs](https://nextjs.org/docs/app/getting-started/fetching-data). The next lesson places this in the wider landscape.
 
@@ -236,5 +236,5 @@ function User({ id }) {
 
 ## Where this shows up
 
-- The API on the other end is built in REST API design<!-- link: ../../09-back-end/01-servers-and-apis/04-rest-api-design.md -->.
+- The API on the other end is built in [REST API design](../../09-back-end/01-servers-and-apis/04-rest-api-design.md).
 - Next: [Frameworks and libraries landscape](04-frameworks-and-libraries-landscape.md).

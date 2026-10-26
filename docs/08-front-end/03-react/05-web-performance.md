@@ -185,4 +185,4 @@ There is no single answer; a typical result is a hero image reduced from megabyt
 ## Where this shows up
 
 - Caching headers are covered in [HTTP headers, cookies and caching](../../07-networking/02-web-protocols/02-http-headers-cookies-and-caching.md), and CDNs in [proxies and CDNs](../../07-networking/02-web-protocols/05-proxies-and-cdns.md).
-- The next chapter moves to the server side: what a back end does<!-- link: ../../09-back-end/01-servers-and-apis/01-what-a-back-end-does.md -->.
+- The next chapter moves to the server side: [what a back end does](../../09-back-end/01-servers-and-apis/01-what-a-back-end-does.md).

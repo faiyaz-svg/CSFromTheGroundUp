@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 115 of 252. New lessons appear here as they are added.
+Lessons written so far: 122 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -194,6 +194,18 @@ Lessons written so far: 115 of 252. New lessons appear here as they are added.
 - [ ] [Data fetching and forms](08-front-end/03-react/03-data-fetching-and-forms.md)
 - [ ] [Frameworks and libraries landscape](08-front-end/03-react/04-frameworks-and-libraries-landscape.md)
 - [ ] [Web performance](08-front-end/03-react/05-web-performance.md)
+
+## Back end
+
+### Servers and APIs
+
+- [ ] [What a back end does](09-back-end/01-servers-and-apis/01-what-a-back-end-does.md)
+- [ ] [Node.js and its runtime](09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md)
+- [ ] [Express: routing and middleware](09-back-end/01-servers-and-apis/03-express-routing-and-middleware.md)
+- [ ] [REST API design](09-back-end/01-servers-and-apis/04-rest-api-design.md)
+- [ ] [Validation and error handling](09-back-end/01-servers-and-apis/05-validation-and-error-handling.md)
+- [ ] [Other API styles: GraphQL, gRPC and webhooks](09-back-end/01-servers-and-apis/06-other-api-styles-graphql-grpc-webhooks.md)
+- [ ] [Python back ends: FastAPI and Django](09-back-end/01-servers-and-apis/07-python-back-ends-fastapi-and-django.md)
 
 ## Databases, SQL and Postgres
 

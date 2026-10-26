@@ -11,13 +11,13 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Servers and APIs](01-servers-and-apis/index.md)
 
-1. What a back end does (not written yet)
-2. Node.js and its runtime (not written yet)
-3. Express: routing and middleware (not written yet)
-4. REST API design (not written yet)
-5. Validation and error handling (not written yet)
-6. Other API styles: GraphQL, gRPC and webhooks (not written yet) (optional)
-7. Python back ends: FastAPI and Django (not written yet) (optional)
+1. [What a back end does](01-servers-and-apis/01-what-a-back-end-does.md)
+2. [Node.js and its runtime](01-servers-and-apis/02-nodejs-and-its-runtime.md)
+3. [Express: routing and middleware](01-servers-and-apis/03-express-routing-and-middleware.md)
+4. [REST API design](01-servers-and-apis/04-rest-api-design.md)
+5. [Validation and error handling](01-servers-and-apis/05-validation-and-error-handling.md)
+6. [Other API styles: GraphQL, gRPC and webhooks](01-servers-and-apis/06-other-api-styles-graphql-grpc-webhooks.md) (optional)
+7. [Python back ends: FastAPI and Django](01-servers-and-apis/07-python-back-ends-fastapi-and-django.md) (optional)
 
 ### 2. [Authentication and authorization](02-auth/index.md)
 

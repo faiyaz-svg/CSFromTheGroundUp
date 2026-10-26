@@ -219,5 +219,5 @@ The fix for the YAML is quoting: `country: "NO"`, `version: "1.10"`, `zip: "0123
 
 ## Where this shows up
 
-- Reading config in GitHub Actions workflows<!-- link: ../../13-devops-and-cloud/02-ci-cd/02-github-actions.md --> and REST API design<!-- link: ../../09-back-end/01-servers-and-apis/04-rest-api-design.md -->.
+- Reading config in GitHub Actions workflows<!-- link: ../../13-devops-and-cloud/02-ci-cd/02-github-actions.md --> and [REST API design](../../09-back-end/01-servers-and-apis/04-rest-api-design.md).
 - Storing JSON inside a database in JSONB and full-text search<!-- link: ../../10-databases-sql-and-postgres/04-postgres-in-depth/07-jsonb-and-full-text-search.md -->, and opening CSV in a spreadsheet<!-- link: ../04-spreadsheets/03-spreadsheets-csv-and-sql.md -->.
