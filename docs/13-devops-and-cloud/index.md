@@ -36,7 +36,7 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 4. [Operations](04-operations/index.md)
 
-1. Logging metrics and monitoring (not written yet)
-2. Incidents and on-call (not written yet)
+1. [Logging metrics and monitoring](04-operations/01-logging-metrics-and-monitoring.md)
+2. [Incidents and on-call](04-operations/02-incidents-and-on-call.md)
 
 <!-- lessons:end -->

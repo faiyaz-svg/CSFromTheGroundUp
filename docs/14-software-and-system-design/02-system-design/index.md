@@ -4,12 +4,12 @@ A compact page of the chapter's ideas. Lessons 01 to 06 are summarised here as t
 
 ## Lessons
 
-1. Scalability basics<!-- link: 01-scalability-basics.md -->
-2. Load balancing<!-- link: 02-load-balancing.md -->
-3. Caching strategies<!-- link: 03-caching-strategies.md -->
-4. Database scaling: replication and sharding<!-- link: 04-database-scaling-replication-and-sharding.md -->
-5. CAP and consistency<!-- link: 05-cap-and-consistency.md -->
-6. Queues and event-driven design<!-- link: 06-queues-and-event-driven-design.md -->
+1. [Scalability basics](01-scalability-basics.md)
+2. [Load balancing](02-load-balancing.md)
+3. [Caching strategies](03-caching-strategies.md)
+4. [Database scaling: replication and sharding](04-database-scaling-replication-and-sharding.md)
+5. [CAP and consistency](05-cap-and-consistency.md)
+6. [Queues and event-driven design](06-queues-and-event-driven-design.md)
 7. [Rate limiting and API gateways](07-rate-limiting-and-api-gateways.md)
 8. [Back-of-the-envelope estimates](08-back-of-the-envelope-estimates.md)
 9. [System design interviews](09-system-design-interviews.md)
@@ -81,7 +81,7 @@ Estimate chain: DAU, requests per day, average QPS, peak QPS, then storage (reco
 3. API.
 4. Data model.
 5. High-level design.
-6. Deep dives on the hard parts.
+6. Detailed design on the hard parts.
 7. Trade-offs and bottlenecks.
 
 ## Case study facts

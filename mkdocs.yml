@@ -383,6 +383,8 @@ nav:
           - 13-devops-and-cloud/03-aws/index.md
       - "Operations":
           - 13-devops-and-cloud/04-operations/index.md
+          - "Logging metrics and monitoring": 13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md
+          - "Incidents and on-call": 13-devops-and-cloud/04-operations/02-incidents-and-on-call.md
   - "Design":
       - 14-software-and-system-design/index.md
       - "Software design":

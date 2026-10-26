@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 206 of 252. New lessons appear here as they are added.
+Lessons written so far: 208 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -324,6 +324,11 @@ Lessons written so far: 206 of 252. New lessons appear here as they are added.
 - [ ] [GitHub Actions](13-devops-and-cloud/02-ci-cd/02-github-actions.md)
 - [ ] [Deployment strategies](13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md)
 - [ ] [Infrastructure as code](13-devops-and-cloud/02-ci-cd/04-infrastructure-as-code.md)
+
+### Operations
+
+- [ ] [Logging metrics and monitoring](13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md)
+- [ ] [Incidents and on-call](13-devops-and-cloud/04-operations/02-incidents-and-on-call.md)
 
 ## Software and system design
 

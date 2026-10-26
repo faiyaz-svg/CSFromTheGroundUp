@@ -16,7 +16,7 @@ flowchart TD
     B --> C["3. API<br/>endpoints and payloads<br/>(3 min)"]
     C --> D["4. Data model<br/>tables or documents, keys<br/>(5 min)"]
     D --> E["5. High-level design<br/>boxes and arrows<br/>(10 min)"]
-    E --> F["6. Deep dives<br/>the 1 or 2 hard parts<br/>(10 min)"]
+    E --> F["6. Detailed design<br/>the 1 or 2 hard parts<br/>(10 min)"]
     F --> G["7. Trade-offs and bottlenecks<br/>what fails, what to change<br/>(5 min)"]
     F -.->|"interviewer redirects"| E
 ```
@@ -36,7 +36,7 @@ A **trade-off** is a choice where improving one property costs another, such as 
 3. API. List the main endpoints with their method, path and key fields. Two or three are enough.
 4. Data model. Name the entities, their keys and the main queries. Choose a store and say why (relational for joins and transactions, key-value for lookups by id at high volume).
 5. High-level design. Draw the clients, the load balancer, the services, the caches, the databases and any queues. Walk one request through it from end to end.
-6. Deep dives. The interviewer picks, or you propose, the one or two hard parts: ID generation, fan-out, hot keys, sharding.
+6. Detailed design. The interviewer picks, or you propose, the one or two hard parts: ID generation, fan-out, hot keys, sharding.
 7. Trade-offs and bottlenecks. Name what breaks first at 10 times the load, and what you would add.
 
 ## What interviewers look for
@@ -76,7 +76,7 @@ Watch out: staying silent while thinking, or never stating a trade-off. The inte
 
 <div class="ai" markdown>
 
-Words to use: functional requirement, non-functional requirement, bottleneck, trade-off, single point of failure, deep dive.
+Words to use: functional requirement, non-functional requirement, bottleneck, trade-off, single point of failure, detailed design.
 
 Prompts to try:
 
@@ -98,7 +98,7 @@ What to check:
 <details class="solution" markdown>
 <summary>Answer</summary>
 
-Requirements, estimates, API, data model, high-level design, deep dives, trade-offs and bottlenecks.
+Requirements, estimates, API, data model, high-level design, detailed design, trade-offs and bottlenecks.
 
 </details>
 
