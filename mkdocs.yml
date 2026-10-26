@@ -312,6 +312,10 @@ nav:
           - 10-databases-sql-and-postgres/04-postgres-in-depth/index.md
       - "Databases in apps":
           - 10-databases-sql-and-postgres/05-databases-in-apps/index.md
+          - "SQL from code and SQL injection": 10-databases-sql-and-postgres/05-databases-in-apps/01-sql-from-code-and-sql-injection.md
+          - "ORMs and migrations": 10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md
+          - "NoSQL databases": 10-databases-sql-and-postgres/05-databases-in-apps/03-nosql-databases.md
+          - "Redis and caching": 10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md
   - "Data":
       - 11-data-engineering-and-data-science/index.md
       - "Data engineering":

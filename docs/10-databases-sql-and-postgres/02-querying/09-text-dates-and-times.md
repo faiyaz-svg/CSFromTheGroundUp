@@ -2,7 +2,7 @@
 
 After this you can clean and search text with string functions, `LIKE` and regular expressions, group rows by day or month, do date arithmetic, and store and display moments in time without time zone surprises.
 
-Before this: [joins](04-joins.md) and CTEs<!-- link: 06-ctes-and-recursive-queries.md -->.
+Before this: [joins](04-joins.md) and [CTEs](06-ctes-and-recursive-queries.md).
 
 ## The idea
 

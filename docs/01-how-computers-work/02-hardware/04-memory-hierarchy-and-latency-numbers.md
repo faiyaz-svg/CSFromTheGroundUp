@@ -77,7 +77,7 @@ flowchart LR
 The same idea repeats at every layer:
 
 - An array stores its elements side by side, so a loop moves through cache lines in order. A linked list reaches each element through a pointer, so each step can be a miss, and the CPU cannot fetch ahead. Both take time proportional to $n$, but the array's constant is much smaller. See [arrays and dynamic arrays](../../05-data-structures-and-algorithms/02-data-structures/01-arrays-and-dynamic-arrays.md) and [linked lists](../../05-data-structures-and-algorithms/02-data-structures/02-linked-lists.md).
-- A cache such as Redis keeps results in RAM, but across the network, so each lookup costs a round trip of roughly 100 µs to 1 ms, not 100 ns. See Redis and caching<!-- link: ../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md -->.
+- A cache such as Redis keeps results in RAM, but across the network, so each lookup costs a round trip of roughly 100 µs to 1 ms, not 100 ns. See [Redis and caching](../../10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md).
 
 ## Worked examples
 

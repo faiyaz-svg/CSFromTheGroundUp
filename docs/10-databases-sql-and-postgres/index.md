@@ -47,9 +47,9 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 5. [Databases in apps](05-databases-in-apps/index.md)
 
-1. SQL from code and SQL injection (not written yet)
-2. ORMs and migrations (not written yet)
-3. NoSQL databases (not written yet)
-4. Redis and caching (not written yet)
+1. [SQL from code and SQL injection](05-databases-in-apps/01-sql-from-code-and-sql-injection.md)
+2. [ORMs and migrations](05-databases-in-apps/02-orms-and-migrations.md)
+3. [NoSQL databases](05-databases-in-apps/03-nosql-databases.md)
+4. [Redis and caching](05-databases-in-apps/04-redis-and-caching.md)
 
 <!-- lessons:end -->

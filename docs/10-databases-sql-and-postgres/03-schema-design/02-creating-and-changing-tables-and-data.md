@@ -286,6 +286,6 @@ SELECT sku, qty FROM inventory ORDER BY sku;
 
 ## Where this shows up
 
-- ORMs and migrations<!-- link: ../05-databases-in-apps/02-orms-and-migrations.md --> generate and run `ALTER TABLE` scripts for you; this lesson is what to read in them.
+- [ORMs and migrations](../05-databases-in-apps/02-orms-and-migrations.md) generate and run `ALTER TABLE` scripts for you; this lesson is what to read in them.
 - [Modelling relationships and ER diagrams](03-modelling-relationships-and-er-diagrams.md) decides which tables to create in the first place.
 - Transactions<!-- link: ../04-postgres-in-depth/03-transactions-and-acid.md --> make a bad `UPDATE` undoable.

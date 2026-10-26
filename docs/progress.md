@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 140 of 252. New lessons appear here as they are added.
+Lessons written so far: 144 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -245,3 +245,10 @@ Lessons written so far: 140 of 252. New lessons appear here as they are added.
 - [ ] [Creating and changing tables and data](10-databases-sql-and-postgres/03-schema-design/02-creating-and-changing-tables-and-data.md)
 - [ ] [Modelling relationships and ER diagrams](10-databases-sql-and-postgres/03-schema-design/03-modelling-relationships-and-er-diagrams.md)
 - [ ] [Normalization and denormalization](10-databases-sql-and-postgres/03-schema-design/04-normalization-and-denormalization.md)
+
+### Databases in apps
+
+- [ ] [SQL from code and SQL injection](10-databases-sql-and-postgres/05-databases-in-apps/01-sql-from-code-and-sql-injection.md)
+- [ ] [ORMs and migrations](10-databases-sql-and-postgres/05-databases-in-apps/02-orms-and-migrations.md)
+- [ ] [NoSQL databases](10-databases-sql-and-postgres/05-databases-in-apps/03-nosql-databases.md)
+- [ ] [Redis and caching](10-databases-sql-and-postgres/05-databases-in-apps/04-redis-and-caching.md)

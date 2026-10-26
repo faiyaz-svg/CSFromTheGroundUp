@@ -111,7 +111,7 @@ string-built SQL failed: near "Brien": syntax error
 [("O'Brien",)]
 ```
 
-A name with an apostrophe breaks the first shape. A name crafted on purpose does worse than break it: that is SQL injection, covered in SQL from code and SQL injection<!-- link: ../10-databases-sql-and-postgres/05-databases-in-apps/01-sql-from-code-and-sql-injection.md -->.
+A name with an apostrophe breaks the first shape. A name crafted on purpose does worse than break it: that is SQL injection, covered in [SQL from code and SQL injection](../10-databases-sql-and-postgres/05-databases-in-apps/01-sql-from-code-and-sql-injection.md).
 
 </div>
 
