@@ -274,5 +274,5 @@ Exact timings vary.
 
 ## Where this shows up
 
-- Caching at every level (browser, CDN, application, database) is covered in [HTTP caching](../../07-networking/02-web-protocols/02-http-headers-cookies-and-caching.md) and caching strategies<!-- link: ../../14-software-and-system-design/02-system-design/03-caching-strategies.md -->.
-- Rate limiting at the edge is in rate limiting and API gateways<!-- link: ../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md -->.
+- Caching at every level (browser, CDN, application, database) is covered in [HTTP caching](../../07-networking/02-web-protocols/02-http-headers-cookies-and-caching.md) and [caching strategies](../../14-software-and-system-design/02-system-design/03-caching-strategies.md).
+- Rate limiting at the edge is in [rate limiting and API gateways](../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md).

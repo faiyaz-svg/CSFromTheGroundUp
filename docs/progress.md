@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 195 of 252. New lessons appear here as they are added.
+Lessons written so far: 206 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -335,3 +335,17 @@ Lessons written so far: 195 of 252. New lessons appear here as they are added.
 - [ ] [Layered architecture and MVC](14-software-and-system-design/01-software-design/04-layered-architecture-and-mvc.md)
 - [ ] [Monoliths and microservices](14-software-and-system-design/01-software-design/05-monoliths-and-microservices.md)
 - [ ] [Coupling, cohesion and refactoring](14-software-and-system-design/01-software-design/06-coupling-cohesion-and-refactoring.md)
+
+### System design
+
+- [ ] [Scalability basics](14-software-and-system-design/02-system-design/01-scalability-basics.md)
+- [ ] [Load balancing](14-software-and-system-design/02-system-design/02-load-balancing.md)
+- [ ] [Caching strategies](14-software-and-system-design/02-system-design/03-caching-strategies.md)
+- [ ] [Database scaling: replication and sharding](14-software-and-system-design/02-system-design/04-database-scaling-replication-and-sharding.md)
+- [ ] [CAP and consistency](14-software-and-system-design/02-system-design/05-cap-and-consistency.md)
+- [ ] [Queues and event-driven design](14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md)
+- [ ] [Rate limiting and API gateways](14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md)
+- [ ] [Back-of-the-envelope estimates](14-software-and-system-design/02-system-design/08-back-of-the-envelope-estimates.md)
+- [ ] [System design interviews](14-software-and-system-design/02-system-design/09-system-design-interviews.md)
+- [ ] [Case study: a URL shortener](14-software-and-system-design/02-system-design/10-case-study-url-shortener.md)
+- [ ] [Case study: a chat app](14-software-and-system-design/02-system-design/11-case-study-chat-app.md)

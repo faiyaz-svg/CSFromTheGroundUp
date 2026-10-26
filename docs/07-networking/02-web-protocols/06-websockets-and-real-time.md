@@ -243,4 +243,4 @@ For this small stream, curl's output may look the same with and without `-N`, be
 ## Where this shows up
 
 - [Async JavaScript and the event loop](../../08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md) shows the `EventSource` and `WebSocket` browser APIs in use.
-- Queues and event-driven design<!-- link: ../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md --> covers how messages reach every server.
+- [Queues and event-driven design](../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md) covers how messages reach every server.

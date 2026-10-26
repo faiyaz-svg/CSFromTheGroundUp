@@ -214,6 +214,6 @@ In a real system the balance change and the `done_ids` insert happen in one data
 
 ## Where this shows up
 
-- Queues and event-driven design<!-- link: ../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md --> and rate limiting<!-- link: ../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md -->.
+- [Queues and event-driven design](../../14-software-and-system-design/02-system-design/06-queues-and-event-driven-design.md) and rate limiting<!-- link: ../../14-software-and-system-design/02-system-design/07-rate-limiting-and-api-gateways.md -->.
 - [Testing and documenting APIs](02-testing-and-documenting-apis.md) covers how to test an endpoint like `POST /signup`.
 - Webhooks from Stripe and others are delivered at least once, so their handlers need the same idempotency.

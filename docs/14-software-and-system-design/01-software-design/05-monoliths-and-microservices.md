@@ -226,6 +226,6 @@ $0.999^5 = 0.99501$ and $0.999^6 = 0.99402$.
 
 ## Where this shows up
 
-- Queues decouple services so a slow one does not block the others: Queues and event-driven design<!-- link: ../02-system-design/06-queues-and-event-driven-design.md -->.
+- Queues decouple services so a slow one does not block the others: [Queues and event-driven design](../02-system-design/06-queues-and-event-driven-design.md).
 - Deployment: [Deployment strategies](../../13-devops-and-cloud/02-ci-cd/03-deployment-strategies.md).
 - Next: [Coupling, cohesion and refactoring](06-coupling-cohesion-and-refactoring.md).

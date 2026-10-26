@@ -29,7 +29,7 @@ A **CDN** (content delivery network) is a worldwide set of reverse-proxy servers
 
 The **origin** is your real server, the one behind the CDN or proxy.
 
-A **load balancer** spreads requests across several identical servers and stops sending to the ones that are down. It is a reverse proxy with that job. Details are in load balancing<!-- link: ../../14-software-and-system-design/02-system-design/02-load-balancing.md -->.
+A **load balancer** spreads requests across several identical servers and stops sending to the ones that are down. It is a reverse proxy with that job. Details are in [load balancing](../../14-software-and-system-design/02-system-design/02-load-balancing.md).
 
 **TLS termination** means the proxy handles HTTPS and talks plain HTTP to the servers behind it, inside a private network.
 
@@ -239,5 +239,5 @@ In this local run both addresses are `127.0.0.1` because the client and the prox
 
 ## Where this shows up
 
-- Load balancing<!-- link: ../../14-software-and-system-design/02-system-design/02-load-balancing.md --> and caching strategies<!-- link: ../../14-software-and-system-design/02-system-design/03-caching-strategies.md --> extend this lesson.
+- [Load balancing](../../14-software-and-system-design/02-system-design/02-load-balancing.md) and [caching strategies](../../14-software-and-system-design/02-system-design/03-caching-strategies.md) extend this lesson.
 - [Network debugging tools](07-network-debugging-tools.md) shows how to tell whether a proxy or the origin produced a response.

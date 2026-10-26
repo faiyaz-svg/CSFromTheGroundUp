@@ -20,16 +20,16 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 2. [System design](02-system-design/index.md)
 
-1. Scalability basics (not written yet)
-2. Load balancing (not written yet)
-3. Caching strategies (not written yet)
-4. Database scaling: replication and sharding (not written yet)
-5. CAP and consistency (not written yet)
-6. Queues and event-driven design (not written yet)
-7. Rate limiting and API gateways (not written yet)
-8. Back-of-the-envelope estimates (not written yet)
-9. System design interviews (not written yet)
-10. Case study: a URL shortener (not written yet)
-11. Case study: a chat app (not written yet) (optional)
+1. [Scalability basics](02-system-design/01-scalability-basics.md)
+2. [Load balancing](02-system-design/02-load-balancing.md)
+3. [Caching strategies](02-system-design/03-caching-strategies.md)
+4. [Database scaling: replication and sharding](02-system-design/04-database-scaling-replication-and-sharding.md)
+5. [CAP and consistency](02-system-design/05-cap-and-consistency.md)
+6. [Queues and event-driven design](02-system-design/06-queues-and-event-driven-design.md)
+7. [Rate limiting and API gateways](02-system-design/07-rate-limiting-and-api-gateways.md)
+8. [Back-of-the-envelope estimates](02-system-design/08-back-of-the-envelope-estimates.md)
+9. [System design interviews](02-system-design/09-system-design-interviews.md)
+10. [Case study: a URL shortener](02-system-design/10-case-study-url-shortener.md)
+11. [Case study: a chat app](02-system-design/11-case-study-chat-app.md) (optional)
 
 <!-- lessons:end -->
