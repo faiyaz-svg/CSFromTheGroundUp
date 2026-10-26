@@ -267,5 +267,5 @@ Ontario (ON) is first with 72.
 
 ## Where this shows up
 
-- The Postgres chapter starts with indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> and uses `\timing` and `EXPLAIN` to see their effect.
+- The Postgres chapter starts with [indexes](../04-postgres-in-depth/01-indexes.md) and uses `\timing` and `EXPLAIN` to see their effect.
 - Application code connects with the same connection string; see [SQL from code and SQL injection](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md).

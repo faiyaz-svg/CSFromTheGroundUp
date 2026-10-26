@@ -371,4 +371,4 @@ Expected result: all three tasks show "matches".
 
 - Dashboards: running totals, month-over-month change with `lag`, "latest row per customer" and "top N per category".
 - Window functions also run over time-ordered data in time-series queries and in data warehouses<!-- link: ../../11-data-engineering-and-data-science/01-data-engineering/01-oltp-vs-olap-and-warehouses.md -->.
-- Indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> on the `PARTITION BY` and `ORDER BY` columns can avoid a sort.
+- [Indexes](../04-postgres-in-depth/01-indexes.md) on the `PARTITION BY` and `ORDER BY` columns can avoid a sort.

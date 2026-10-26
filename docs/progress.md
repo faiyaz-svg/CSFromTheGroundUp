@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 144 of 252. New lessons appear here as they are added.
+Lessons written so far: 152 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -245,6 +245,17 @@ Lessons written so far: 144 of 252. New lessons appear here as they are added.
 - [ ] [Creating and changing tables and data](10-databases-sql-and-postgres/03-schema-design/02-creating-and-changing-tables-and-data.md)
 - [ ] [Modelling relationships and ER diagrams](10-databases-sql-and-postgres/03-schema-design/03-modelling-relationships-and-er-diagrams.md)
 - [ ] [Normalization and denormalization](10-databases-sql-and-postgres/03-schema-design/04-normalization-and-denormalization.md)
+
+### Postgres in depth
+
+- [ ] [Indexes](10-databases-sql-and-postgres/04-postgres-in-depth/01-indexes.md)
+- [ ] [EXPLAIN and query plans](10-databases-sql-and-postgres/04-postgres-in-depth/02-explain-and-query-plans.md)
+- [ ] [Transactions and ACID](10-databases-sql-and-postgres/04-postgres-in-depth/03-transactions-and-acid.md)
+- [ ] [Isolation, locking and MVCC](10-databases-sql-and-postgres/04-postgres-in-depth/04-isolation-locking-and-mvcc.md)
+- [ ] [Roles, privileges and row-level security](10-databases-sql-and-postgres/04-postgres-in-depth/05-roles-privileges-and-row-level-security.md)
+- [ ] [Views, functions and triggers](10-databases-sql-and-postgres/04-postgres-in-depth/06-views-functions-and-triggers.md)
+- [ ] [JSONB and full-text search](10-databases-sql-and-postgres/04-postgres-in-depth/07-jsonb-and-full-text-search.md)
+- [ ] [Backups, replication and pooling](10-databases-sql-and-postgres/04-postgres-in-depth/08-backups-replication-and-pooling.md)
 
 ### Databases in apps
 

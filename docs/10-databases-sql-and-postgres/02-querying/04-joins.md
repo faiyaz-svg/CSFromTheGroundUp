@@ -363,4 +363,4 @@ Expected result: all four tasks show "matches" in the runner.
 
 - Reports join tables, and the zero rows in them (provinces with no refunds) are the left join's job.
 - [Subqueries](05-subqueries.md) and CTEs<!-- link: 06-ctes-and-recursive-queries.md --> are often alternatives to a join, and the next lesson compares them.
-- Indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> on foreign key columns are what make a join fast on large tables.
+- [Indexes](../04-postgres-in-depth/01-indexes.md) on foreign key columns are what make a join fast on large tables.

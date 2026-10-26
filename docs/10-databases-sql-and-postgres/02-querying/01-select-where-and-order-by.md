@@ -331,4 +331,4 @@ Expected result: all three tasks show "matches" in the runner.
 ## Where this shows up
 
 - Every report starts with `FROM` and `WHERE`; the same logical order explains why `HAVING` exists, in the aggregates lesson<!-- link: 03-aggregates-group-by-and-having.md -->.
-- Indexes<!-- link: ../04-postgres-in-depth/01-indexes.md --> are what make a keyset query fast, and the same sort columns should be the index columns.
+- [Indexes](../04-postgres-in-depth/01-indexes.md) are what make a keyset query fast, and the same sort columns should be the index columns.

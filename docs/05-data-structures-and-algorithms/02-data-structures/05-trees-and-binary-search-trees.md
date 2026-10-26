@@ -51,7 +51,7 @@ flowchart LR
 
 A **self-balancing** tree, such as an AVL tree or a red-black tree, rotates nodes during insert and delete to keep the height near $\log_2 n$. You will rarely write one. You need to know that the guarantee depends on balance, and that production libraries do the balancing for you.
 
-Database indexes use a wider relative, the B-tree, which puts hundreds of keys in a node so that a lookup reads only three or four disk pages. See indexes<!-- link: ../../10-databases-sql-and-postgres/04-postgres-in-depth/01-indexes.md -->.
+Database indexes use a wider relative, the B-tree, which puts hundreds of keys in a node so that a lookup reads only three or four disk pages. See [indexes](../../10-databases-sql-and-postgres/04-postgres-in-depth/01-indexes.md).
 
 Python has no balanced tree in the standard library. For sorted data, keep a sorted `list` and use the `bisect` module, which finds a position in $O(\log n)$, though inserting into the list is still $O(n)$. The third-party `sortedcontainers` package offers a sorted list, set and dict. JavaScript has no built-in sorted structure either.
 

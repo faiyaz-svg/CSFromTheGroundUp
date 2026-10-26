@@ -194,5 +194,5 @@ The ownership check sits in the handler because it needs the loaded note.
 ## Where this shows up
 
 - Next: sessions, cookies and JWT, which are the two ways a server remembers who you are ([next lesson](02-sessions-cookies-and-jwt.md)).
-- Postgres can enforce the same idea inside the database: roles, privileges and row-level security<!-- link: ../../10-databases-sql-and-postgres/04-postgres-in-depth/05-roles-privileges-and-row-level-security.md -->.
+- Postgres can enforce the same idea inside the database: [roles, privileges and row-level security](../../10-databases-sql-and-postgres/04-postgres-in-depth/05-roles-privileges-and-row-level-security.md).
 - "Broken access control" is entry A01 in the 2021 OWASP top 10<!-- link: ../../12-security/01-web-security/02-owasp-top-10.md -->.

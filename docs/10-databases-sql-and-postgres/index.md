@@ -36,14 +36,14 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 4. [Postgres in depth](04-postgres-in-depth/index.md)
 
-1. Indexes (not written yet)
-2. EXPLAIN and query plans (not written yet)
-3. Transactions and ACID (not written yet)
-4. Isolation, locking and MVCC (not written yet)
-5. Roles, privileges and row-level security (not written yet)
-6. Views, functions and triggers (not written yet)
-7. JSONB and full-text search (not written yet)
-8. Backups, replication and pooling (not written yet)
+1. [Indexes](04-postgres-in-depth/01-indexes.md)
+2. [EXPLAIN and query plans](04-postgres-in-depth/02-explain-and-query-plans.md)
+3. [Transactions and ACID](04-postgres-in-depth/03-transactions-and-acid.md)
+4. [Isolation, locking and MVCC](04-postgres-in-depth/04-isolation-locking-and-mvcc.md)
+5. [Roles, privileges and row-level security](04-postgres-in-depth/05-roles-privileges-and-row-level-security.md)
+6. [Views, functions and triggers](04-postgres-in-depth/06-views-functions-and-triggers.md)
+7. [JSONB and full-text search](04-postgres-in-depth/07-jsonb-and-full-text-search.md)
+8. [Backups, replication and pooling](04-postgres-in-depth/08-backups-replication-and-pooling.md)
 
 ### 5. [Databases in apps](05-databases-in-apps/index.md)
 

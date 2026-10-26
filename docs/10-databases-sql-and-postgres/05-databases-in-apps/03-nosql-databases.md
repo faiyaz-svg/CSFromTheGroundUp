@@ -40,7 +40,7 @@ When data lives on several machines and the network between them breaks (a parti
 
 Design also differs. In SQL you model the data first and ask any question later with joins. In a document or wide-column store you list your queries first and shape the data so each query reads one document or one partition. That means copying data into several places (denormalizing), and keeping the copies in sync is your code's job.
 
-Postgres covers a lot of the document case. A `jsonb` column stores JSON in a binary form that can be queried and indexed, so one table can hold fixed columns for the stable fields and a flexible `attrs` column for the rest. The full tour is in JSONB and full-text search<!-- link: ../04-postgres-in-depth/07-jsonb-and-full-text-search.md -->.
+Postgres covers a lot of the document case. A `jsonb` column stores JSON in a binary form that can be queried and indexed, so one table can hold fixed columns for the stable fields and a flexible `attrs` column for the rest. The full tour is in [JSONB and full-text search](../04-postgres-in-depth/07-jsonb-and-full-text-search.md).
 
 ## Worked examples
 

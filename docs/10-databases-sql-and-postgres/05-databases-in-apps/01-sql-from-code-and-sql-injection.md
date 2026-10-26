@@ -293,4 +293,4 @@ With the comment marker, the query becomes `... WHERE email = 'ana@example.com' 
 ## Where this shows up
 
 - Every web handler that reads from a database. Frameworks hide the driver, but the placeholders are still underneath, which is the next lesson on ORMs<!-- link: 02-orms-and-migrations.md -->.
-- Connection limits and server-side pooling come back in backups, replication and pooling<!-- link: ../04-postgres-in-depth/08-backups-replication-and-pooling.md -->.
+- Connection limits and server-side pooling come back in [backups, replication and pooling](../04-postgres-in-depth/08-backups-replication-and-pooling.md).
