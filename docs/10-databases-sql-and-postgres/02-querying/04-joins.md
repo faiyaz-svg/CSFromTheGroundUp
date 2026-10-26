@@ -2,7 +2,7 @@
 
 After this you can combine rows from several tables with the right kind of join, keep unmatched rows when you need them, and check that a join did not drop or duplicate rows.
 
-Before this: the relational model<!-- link: ../01-database-basics/02-the-relational-model.md --> and aggregates, GROUP BY and HAVING<!-- link: 03-aggregates-group-by-and-having.md -->.
+Before this: [the relational model](../01-database-basics/02-the-relational-model.md) and aggregates, GROUP BY and HAVING<!-- link: 03-aggregates-group-by-and-having.md -->.
 
 ## The idea
 

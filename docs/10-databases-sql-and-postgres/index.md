@@ -11,9 +11,9 @@ The lessons and chapter cheat sheets for this folder are written in reading orde
 
 ### 1. [Database basics](01-database-basics/index.md)
 
-1. What a database is (not written yet)
-2. The relational model (not written yet)
-3. Postgres and psql (not written yet)
+1. [What a database is](01-database-basics/01-what-a-database-is.md)
+2. [The relational model](01-database-basics/02-the-relational-model.md)
+3. [Postgres and psql](01-database-basics/03-postgres-and-psql.md)
 
 ### 2. [Querying](02-querying/index.md)
 

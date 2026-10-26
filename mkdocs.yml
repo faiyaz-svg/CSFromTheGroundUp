@@ -275,6 +275,9 @@ nav:
       - 10-databases-sql-and-postgres/index.md
       - "Database basics":
           - 10-databases-sql-and-postgres/01-database-basics/index.md
+          - "What a database is": 10-databases-sql-and-postgres/01-database-basics/01-what-a-database-is.md
+          - "The relational model": 10-databases-sql-and-postgres/01-database-basics/02-the-relational-model.md
+          - "Postgres and psql": 10-databases-sql-and-postgres/01-database-basics/03-postgres-and-psql.md
       - "Querying":
           - 10-databases-sql-and-postgres/02-querying/index.md
           - "Joins": 10-databases-sql-and-postgres/02-querying/04-joins.md
