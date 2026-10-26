@@ -244,6 +244,11 @@ nav:
       - 08-front-end/index.md
       - "HTML, CSS and the browser":
           - 08-front-end/01-html-css-and-the-browser/index.md
+          - "How browsers render pages": 08-front-end/01-html-css-and-the-browser/01-how-browsers-render-pages.md
+          - "HTML": 08-front-end/01-html-css-and-the-browser/02-html.md
+          - "CSS and the box model": 08-front-end/01-html-css-and-the-browser/03-css-and-the-box-model.md
+          - "Layout with flexbox, grid and responsive design": 08-front-end/01-html-css-and-the-browser/04-layout-flexbox-grid-and-responsive.md
+          - "Accessibility": 08-front-end/01-html-css-and-the-browser/05-accessibility.md
       - "JavaScript and TypeScript":
           - 08-front-end/02-javascript-and-typescript/index.md
       - "React":

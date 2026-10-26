@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 97 of 252. New lessons appear here as they are added.
+Lessons written so far: 102 of 252. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -168,6 +168,16 @@ Lessons written so far: 97 of 252. New lessons appear here as they are added.
 - [ ] [Proxies and CDNs](07-networking/02-web-protocols/05-proxies-and-cdns.md)
 - [ ] [WebSockets and real-time communication](07-networking/02-web-protocols/06-websockets-and-real-time.md)
 - [ ] [Network debugging tools](07-networking/02-web-protocols/07-network-debugging-tools.md)
+
+## Front end
+
+### HTML, CSS and the browser
+
+- [ ] [How browsers render pages](08-front-end/01-html-css-and-the-browser/01-how-browsers-render-pages.md)
+- [ ] [HTML](08-front-end/01-html-css-and-the-browser/02-html.md)
+- [ ] [CSS and the box model](08-front-end/01-html-css-and-the-browser/03-css-and-the-box-model.md)
+- [ ] [Layout with flexbox, grid and responsive design](08-front-end/01-html-css-and-the-browser/04-layout-flexbox-grid-and-responsive.md)
+- [ ] [Accessibility](08-front-end/01-html-css-and-the-browser/05-accessibility.md)
 
 ## Databases, SQL and Postgres
 

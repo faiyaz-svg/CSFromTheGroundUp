@@ -13,7 +13,7 @@ sequenceDiagram
     participant B as Browser
     participant S as Server
     B->>S: POST /login (email, password)
-    S-->>B: 200 + Set-Cookie: sid=abc123; Secure; HttpOnly; SameSite=Lax
+    S-->>B: 200 + Set-Cookie: sid=abc123 #59; Secure #59; HttpOnly #59; SameSite=Lax
     Note over B: stores the cookie for this site
     B->>S: GET /account + Cookie: sid=abc123
     S-->>B: 200 (server looks up session abc123)
@@ -127,7 +127,7 @@ except urllib.error.HTTPError as e:
 
 1. The first request has no `If-None-Match`, so the server sends 14 bytes and the `ETag`.
 2. The second sends the `ETag` back. It matches, so the server answers `304` with no body.
-3. Python's `urllib` raises an error for `304` because it did not ask for a conditional response itself; a browser handles it quietly.
+3. Python's `urllib` raises an error for `304` because it did not ask for a conditional response itself; a browser handles it without showing you anything.
 
 Check against the real world with httpbin:
 
