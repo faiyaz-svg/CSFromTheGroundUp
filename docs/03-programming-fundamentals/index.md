@@ -4,7 +4,7 @@ Python from the basics, the habits of thinking like a programmer, and object-ori
 
 Before this folder: How computers work, and Operating systems and Linux for the terminal.
 
-This folder teaches Python from values and control flow up to modules and virtual environments, then the habits that separate reading code from writing it: recursion, references and mutability, type systems, and debugging. The last chapter covers object-oriented and functional ideas, so words like "class", "interface" and "pure function" mean something precise.
+This folder teaches Python from values and control flow up to modules and virtual environments, then the habits that separate reading code from writing it: recursion, references and mutability, type systems, and debugging. The last chapter covers object-oriented and functional ideas, so words like "class", "interface" and "pure function" mean something precise. The last two chapters go under the hood: how memory is allocated and freed (by hand, by a garbage collector, or by Rust's ownership rules), and how code that runs several things at once goes wrong and how to make it safe.
 
 An AI tool will write a lot of Python for you, but you are the one who reads it. Most of the bugs worth catching here are the ones the tool also makes: a mutable default argument, a shallow copy, an unhandled exception, a wrong type assumption.
 
@@ -14,6 +14,8 @@ It builds on [How computers work](../01-how-computers-work/index.md) and uses th
 flowchart LR
     A["Python basics"] --> B["Thinking like a programmer"]
     B --> C["OOP and paradigms"]
+    C --> D["Memory management"]
+    D --> E["Concurrency"]
     A -. "functions, data types" .-> B
     B -. "references, types" .-> C
 ```
@@ -51,5 +53,17 @@ flowchart LR
 2. [Encapsulation, inheritance and polymorphism](03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md)
 3. [Composition and interfaces](03-oop-and-paradigms/03-composition-and-interfaces.md)
 4. [Functional programming ideas](03-oop-and-paradigms/04-functional-programming-ideas.md)
+
+### 4. [Memory management](04-memory-management/index.md)
+
+1. [Pointers and manual memory](04-memory-management/01-pointers-and-manual-memory.md)
+2. [Garbage collection and reference counting](04-memory-management/02-garbage-collection-and-reference-counting.md)
+3. [Ownership and borrowing in Rust](04-memory-management/03-ownership-and-borrowing-in-rust.md)
+
+### 5. Concurrency
+
+1. Concurrency, parallelism and race conditions (not written yet)
+2. Locks, deadlocks and thread safety (not written yet)
+3. Threads, processes and asyncio (not written yet)
 
 <!-- lessons:end -->

@@ -99,6 +99,18 @@ folders:
           - [encapsulation-inheritance-and-polymorphism, "Encapsulation, inheritance and polymorphism"]
           - [composition-and-interfaces, "Composition and interfaces"]
           - [functional-programming-ideas, "Functional programming ideas"]
+      - slug: memory-management
+        title: "Memory management"
+        lessons:
+          - [pointers-and-manual-memory, "Pointers and manual memory"]
+          - [garbage-collection-and-reference-counting, "Garbage collection and reference counting"]
+          - [ownership-and-borrowing-in-rust, "Ownership and borrowing in Rust"]
+      - slug: concurrency
+        title: "Concurrency"
+        lessons:
+          - [concurrency-parallelism-and-race-conditions, "Concurrency, parallelism and race conditions"]
+          - [locks-deadlocks-and-thread-safety, "Locks, deadlocks and thread safety"]
+          - [threads-processes-and-asyncio, "Threads, processes and asyncio"]
 
   - folder: 04-developer-tools-and-workflow
     title: "Developer tools and workflow"
@@ -277,6 +289,12 @@ folders:
         lessons:
           - [background-jobs, "Background jobs"]
           - [testing-and-documenting-apis, "Testing and documenting APIs"]
+      - slug: dates-and-times
+        title: "Dates and times"
+        lessons:
+          - [how-computers-keep-time, "How computers keep time"]
+          - [time-zones-and-daylight-saving, "Time zones and daylight saving"]
+          - [dates-in-python-and-javascript, "Dates in Python and JavaScript"]
 
   - folder: 10-databases-sql-and-postgres
     title: "Databases, SQL and Postgres"
@@ -449,6 +467,13 @@ folders:
           - [system-design-interviews, "System design interviews"]
           - [case-study-url-shortener, "Case study: a URL shortener"]
           - [case-study-chat-app, "Case study: a chat app", ["optional"]]
+      - slug: distributed-systems
+        title: "Distributed systems"
+        lessons:
+          - [why-distributed-systems-are-hard, "Why distributed systems are hard"]
+          - [timeouts-retries-and-circuit-breakers, "Timeouts, retries and circuit breakers"]
+          - [clocks-ordering-and-delivery, "Clocks, ordering and delivery"]
+          - [consensus-and-leader-election, "Consensus and leader election"]
 
   - folder: 15-ai-and-llms
     title: "AI and LLMs"

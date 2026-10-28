@@ -27,4 +27,4 @@ If you are new here, read [How to use this book](00-start-here/index.md) first. 
 | [The workplace](16-the-workplace/index.md) | How software teams work, how to communicate in code review and design docs, and how to prepare for hiring. | 10 |
 | [Reference](reference/index.md) | Glossary, command cheat sheets, ports, status codes and latency numbers, common mistakes | 4 pages |
 
-The folders are in reading order, and each one builds only on the folders before it. Each folder lists its lessons on its first page; there are 252 lessons in all, plus a cheat sheet for every chapter and a [reference](reference/index.md) section with a glossary, command tables and common mistakes. Track what you have finished on the [progress page](progress.md).
+The folders are in reading order, and each one builds only on the folders before it. Each folder lists its lessons on its first page; there are 265 lessons in all, plus a cheat sheet for every chapter and a [reference](reference/index.md) section with a glossary, command tables and common mistakes. Track what you have finished on the [progress page](progress.md).

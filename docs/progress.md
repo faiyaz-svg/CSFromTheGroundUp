@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 252 of 252. New lessons appear here as they are added.
+Lessons written so far: 255 of 265. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -78,6 +78,12 @@ Lessons written so far: 252 of 252. New lessons appear here as they are added.
 - [ ] [Encapsulation, inheritance and polymorphism](03-programming-fundamentals/03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md)
 - [ ] [Composition and interfaces](03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md)
 - [ ] [Functional programming ideas](03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md)
+
+### Memory management
+
+- [ ] [Pointers and manual memory](03-programming-fundamentals/04-memory-management/01-pointers-and-manual-memory.md)
+- [ ] [Garbage collection and reference counting](03-programming-fundamentals/04-memory-management/02-garbage-collection-and-reference-counting.md)
+- [ ] [Ownership and borrowing in Rust](03-programming-fundamentals/04-memory-management/03-ownership-and-borrowing-in-rust.md)
 
 ## Developer tools and workflow
 

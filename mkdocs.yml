@@ -161,6 +161,11 @@ nav:
           - "Encapsulation, inheritance and polymorphism": 03-programming-fundamentals/03-oop-and-paradigms/02-encapsulation-inheritance-and-polymorphism.md
           - "Composition and interfaces": 03-programming-fundamentals/03-oop-and-paradigms/03-composition-and-interfaces.md
           - "Functional programming ideas": 03-programming-fundamentals/03-oop-and-paradigms/04-functional-programming-ideas.md
+      - "Memory management":
+          - 03-programming-fundamentals/04-memory-management/index.md
+          - "Pointers and manual memory": 03-programming-fundamentals/04-memory-management/01-pointers-and-manual-memory.md
+          - "Garbage collection and reference counting": 03-programming-fundamentals/04-memory-management/02-garbage-collection-and-reference-counting.md
+          - "Ownership and borrowing in Rust": 03-programming-fundamentals/04-memory-management/03-ownership-and-borrowing-in-rust.md
   - "Dev tools":
       - 04-developer-tools-and-workflow/index.md
       - "Editor and Git":
