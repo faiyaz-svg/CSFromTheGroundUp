@@ -4,7 +4,7 @@ What a server does, how to design and secure an API, and how to run background j
 
 Before this folder: Front end and Networking.
 
-This folder covers the server side of a web app. You learn what a back end does, how Node.js and Express handle requests, how to design a REST API with validation and error handling, and how authentication works: sessions, cookies, JWT, OAuth and CORS. The last chapter covers background jobs and testing and documenting an API.
+This folder covers the server side of a web app. You learn what a back end does, how Node.js and Express handle requests, how to design a REST API with validation and error handling, and how authentication works: sessions, cookies, JWT, OAuth and CORS. Then come background jobs and testing and documenting an API, and a chapter on dates and times: Unix time, time zones, daylight saving, and the date types in Python and JavaScript.
 
 AI tools can generate an endpoint in seconds, and the common failures are here: no input validation, an authorization check missing on one route, tokens stored unsafely, a slow task run inside a request. With the right terms you can review an endpoint instead of trusting it.
 
@@ -15,6 +15,7 @@ flowchart LR
     A["Servers and APIs"] --> B["Auth"]
     A --> C["API quality"]
     B --> C
+    C --> D["Dates and times"]
     A -. "routes, middleware" .-> B
 ```
 
@@ -48,5 +49,11 @@ flowchart LR
 
 1. [Background jobs](03-api-quality/01-background-jobs.md)
 2. [Testing and documenting APIs](03-api-quality/02-testing-and-documenting-apis.md)
+
+### 4. [Dates and times](04-dates-and-times/index.md)
+
+1. [How computers keep time](04-dates-and-times/01-how-computers-keep-time.md)
+2. [Time zones and daylight saving](04-dates-and-times/02-time-zones-and-daylight-saving.md)
+3. [Dates in Python and JavaScript](04-dates-and-times/03-dates-in-python-and-javascript.md)
 
 <!-- lessons:end -->

@@ -360,4 +360,4 @@ Expected result: all three tasks show "matches".
 - Every report is grouped by day, week or month, and every log table has a timestamp column.
 - Storing times correctly matters again in [data types and constraints](../03-schema-design/01-data-types-and-constraints.md) and in [application code](../05-databases-in-apps/01-sql-from-code-and-sql-injection.md).
 - [Full-text search](../04-postgres-in-depth/07-jsonb-and-full-text-search.md) is the next step up from `LIKE` and regular expressions.
-- The same rules in Python and JavaScript, with daylight saving traps: time zones and daylight saving<!-- link: ../../09-back-end/04-dates-and-times/02-time-zones-and-daylight-saving.md -->.
+- The same rules in Python and JavaScript, with daylight saving traps: [time zones and daylight saving](../../09-back-end/04-dates-and-times/02-time-zones-and-daylight-saving.md).

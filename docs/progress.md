@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 258 of 265. New lessons appear here as they are added.
+Lessons written so far: 261 of 265. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -239,6 +239,12 @@ Lessons written so far: 258 of 265. New lessons appear here as they are added.
 
 - [ ] [Background jobs](09-back-end/03-api-quality/01-background-jobs.md)
 - [ ] [Testing and documenting APIs](09-back-end/03-api-quality/02-testing-and-documenting-apis.md)
+
+### Dates and times
+
+- [ ] [How computers keep time](09-back-end/04-dates-and-times/01-how-computers-keep-time.md)
+- [ ] [Time zones and daylight saving](09-back-end/04-dates-and-times/02-time-zones-and-daylight-saving.md)
+- [ ] [Dates in Python and JavaScript](09-back-end/04-dates-and-times/03-dates-in-python-and-javascript.md)
 
 ## Databases, SQL and Postgres
 
