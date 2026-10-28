@@ -260,4 +260,4 @@ With 2 workers, the 4 one-second waits run as two rounds of two, so about 2 s. I
 
 - Managing processes from the shell: [processes and signals](../02-linux-command-line/05-processes-and-signals.md).
 - The same idea of "wait without burning a core" drives [async JavaScript and the event loop](../../08-front-end/02-javascript-and-typescript/03-async-javascript-and-the-event-loop.md).
-- Threads that share memory need care in your own code: race conditions<!-- link: ../../03-programming-fundamentals/05-concurrency/01-concurrency-parallelism-and-race-conditions.md --> and locks and deadlocks<!-- link: ../../03-programming-fundamentals/05-concurrency/02-locks-deadlocks-and-thread-safety.md -->.
+- Threads that share memory need care in your own code: [race conditions](../../03-programming-fundamentals/05-concurrency/01-concurrency-parallelism-and-race-conditions.md) and [locks and deadlocks](../../03-programming-fundamentals/05-concurrency/02-locks-deadlocks-and-thread-safety.md).
