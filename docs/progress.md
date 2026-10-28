@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 255 of 265. New lessons appear here as they are added.
+Lessons written so far: 258 of 265. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -84,6 +84,12 @@ Lessons written so far: 255 of 265. New lessons appear here as they are added.
 - [ ] [Pointers and manual memory](03-programming-fundamentals/04-memory-management/01-pointers-and-manual-memory.md)
 - [ ] [Garbage collection and reference counting](03-programming-fundamentals/04-memory-management/02-garbage-collection-and-reference-counting.md)
 - [ ] [Ownership and borrowing in Rust](03-programming-fundamentals/04-memory-management/03-ownership-and-borrowing-in-rust.md)
+
+### Concurrency
+
+- [ ] [Concurrency, parallelism and race conditions](03-programming-fundamentals/05-concurrency/01-concurrency-parallelism-and-race-conditions.md)
+- [ ] [Locks, deadlocks and thread safety](03-programming-fundamentals/05-concurrency/02-locks-deadlocks-and-thread-safety.md)
+- [ ] [Threads, processes and asyncio](03-programming-fundamentals/05-concurrency/03-threads-processes-and-asyncio.md)
 
 ## Developer tools and workflow
 

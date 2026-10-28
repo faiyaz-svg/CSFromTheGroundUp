@@ -60,10 +60,10 @@ flowchart LR
 2. [Garbage collection and reference counting](04-memory-management/02-garbage-collection-and-reference-counting.md)
 3. [Ownership and borrowing in Rust](04-memory-management/03-ownership-and-borrowing-in-rust.md)
 
-### 5. Concurrency
+### 5. [Concurrency](05-concurrency/index.md)
 
-1. Concurrency, parallelism and race conditions (not written yet)
-2. Locks, deadlocks and thread safety (not written yet)
-3. Threads, processes and asyncio (not written yet)
+1. [Concurrency, parallelism and race conditions](05-concurrency/01-concurrency-parallelism-and-race-conditions.md)
+2. [Locks, deadlocks and thread safety](05-concurrency/02-locks-deadlocks-and-thread-safety.md)
+3. [Threads, processes and asyncio](05-concurrency/03-threads-processes-and-asyncio.md)
 
 <!-- lessons:end -->

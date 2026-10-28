@@ -268,4 +268,4 @@ Rust's real borrow checker does this at compile time and tracks the releases for
 ## Where this shows up
 
 - Rust is used for systems code where C was the default: browsers, operating system components and command-line tools.
-- The "one writer at a time" idea returns in concurrency, parallelism and race conditions<!-- link: ../05-concurrency/01-concurrency-parallelism-and-race-conditions.md -->.
+- The "one writer at a time" idea returns in [concurrency, parallelism and race conditions](../05-concurrency/01-concurrency-parallelism-and-race-conditions.md).

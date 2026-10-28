@@ -283,4 +283,4 @@ caught boom after 100
 
 - The same loop drives servers: [Node.js and its runtime](../../09-back-end/01-servers-and-apis/02-nodejs-and-its-runtime.md).
 - React data loading is `fetch` plus state: [data fetching and forms](../03-react/03-data-fetching-and-forms.md).
-- Python has the same model in `asyncio`: threads, processes and asyncio<!-- link: ../../03-programming-fundamentals/05-concurrency/03-threads-processes-and-asyncio.md -->.
+- Python has the same model in `asyncio`: [threads, processes and asyncio](../../03-programming-fundamentals/05-concurrency/03-threads-processes-and-asyncio.md).
