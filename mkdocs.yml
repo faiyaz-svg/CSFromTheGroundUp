@@ -440,6 +440,12 @@ nav:
           - "System design interviews": 14-software-and-system-design/02-system-design/09-system-design-interviews.md
           - "Case study: a URL shortener": 14-software-and-system-design/02-system-design/10-case-study-url-shortener.md
           - "Case study: a chat app": 14-software-and-system-design/02-system-design/11-case-study-chat-app.md
+      - "Distributed systems":
+          - 14-software-and-system-design/03-distributed-systems/index.md
+          - "Why distributed systems are hard": 14-software-and-system-design/03-distributed-systems/01-why-distributed-systems-are-hard.md
+          - "Timeouts, retries and circuit breakers": 14-software-and-system-design/03-distributed-systems/02-timeouts-retries-and-circuit-breakers.md
+          - "Clocks, ordering and delivery": 14-software-and-system-design/03-distributed-systems/03-clocks-ordering-and-delivery.md
+          - "Consensus and leader election": 14-software-and-system-design/03-distributed-systems/04-consensus-and-leader-election.md
   - "AI and LLMs":
       - 15-ai-and-llms/index.md
       - "How LLMs work":

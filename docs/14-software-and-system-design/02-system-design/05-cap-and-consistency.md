@@ -211,4 +211,4 @@ Expected result: the pairs with $R + W > 5$ show 0.0% stale reads, namely `(3, 3
 - Messages that may arrive twice, and consumers that must cope: [queues and event-driven design](06-queues-and-event-driven-design.md).
 - Distributed systems interview questions about consistency: [system design interviews](09-system-design-interviews.md).
 - Stale data in caches follows the same reasoning: [caching strategies](03-caching-strategies.md).
-- What partitions, slow nodes and clock skew do to a real system: why distributed systems are hard<!-- link: ../03-distributed-systems/01-why-distributed-systems-are-hard.md -->.
+- What partitions, slow nodes and clock skew do to a real system: [why distributed systems are hard](../03-distributed-systems/01-why-distributed-systems-are-hard.md).

@@ -4,7 +4,7 @@ How to structure code that stays maintainable, and how to design systems that sc
 
 Before this folder: Back end, Databases, SQL and Postgres, and DevOps and cloud.
 
-This folder has two chapters. Software design covers how to structure code so it stays maintainable: clean code, SOLID, design patterns, layered architecture and MVC, monoliths versus microservices, and refactoring. System design covers how to build systems that handle load: scalability, load balancing, caching, replication and sharding, CAP, queues, rate limiting, estimates, and two worked case studies.
+This folder has three chapters. Software design covers how to structure code so it stays maintainable: clean code, SOLID, design patterns, layered architecture and MVC, monoliths versus microservices, and refactoring. System design covers how to build systems that handle load: scalability, load balancing, caching, replication and sharding, CAP, queues, rate limiting, estimates, and two worked case studies. Distributed systems covers what goes wrong when work is spread over machines: partial failure, timeouts and retries, clocks and ordering, and consensus.
 
 An AI tool can add code faster than you can keep it organised. Without a sense of coupling and layers, generated changes pile up into a tangle, and without system design vocabulary you cannot say what a design trades away. Interviews also test this chapter directly.
 
@@ -17,6 +17,7 @@ flowchart LR
     C --> D["Scale: balance, cache"]
     D --> E["Data: replicate, shard"]
     E --> F["Queues and case studies"]
+    F --> G["Distributed systems"]
 ```
 
 ### How to use this folder
@@ -50,5 +51,12 @@ flowchart LR
 9. [System design interviews](02-system-design/09-system-design-interviews.md)
 10. [Case study: a URL shortener](02-system-design/10-case-study-url-shortener.md)
 11. [Case study: a chat app](02-system-design/11-case-study-chat-app.md) (optional)
+
+### 3. [Distributed systems](03-distributed-systems/index.md)
+
+1. [Why distributed systems are hard](03-distributed-systems/01-why-distributed-systems-are-hard.md)
+2. [Timeouts, retries and circuit breakers](03-distributed-systems/02-timeouts-retries-and-circuit-breakers.md)
+3. [Clocks, ordering and delivery](03-distributed-systems/03-clocks-ordering-and-delivery.md)
+4. [Consensus and leader election](03-distributed-systems/04-consensus-and-leader-election.md)
 
 <!-- lessons:end -->

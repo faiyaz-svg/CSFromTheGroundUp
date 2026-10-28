@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 261 of 265. New lessons appear here as they are added.
+Lessons written so far: 265 of 265. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -392,6 +392,13 @@ Lessons written so far: 261 of 265. New lessons appear here as they are added.
 - [ ] [System design interviews](14-software-and-system-design/02-system-design/09-system-design-interviews.md)
 - [ ] [Case study: a URL shortener](14-software-and-system-design/02-system-design/10-case-study-url-shortener.md)
 - [ ] [Case study: a chat app](14-software-and-system-design/02-system-design/11-case-study-chat-app.md)
+
+### Distributed systems
+
+- [ ] [Why distributed systems are hard](14-software-and-system-design/03-distributed-systems/01-why-distributed-systems-are-hard.md)
+- [ ] [Timeouts, retries and circuit breakers](14-software-and-system-design/03-distributed-systems/02-timeouts-retries-and-circuit-breakers.md)
+- [ ] [Clocks, ordering and delivery](14-software-and-system-design/03-distributed-systems/03-clocks-ordering-and-delivery.md)
+- [ ] [Consensus and leader election](14-software-and-system-design/03-distributed-systems/04-consensus-and-leader-election.md)
 
 ## AI and LLMs
 
