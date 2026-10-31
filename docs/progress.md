@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 271 of 279. New lessons appear here as they are added.
+Lessons written so far: 273 of 279. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -227,6 +227,11 @@ Lessons written so far: 271 of 279. New lessons appear here as they are added.
 - [ ] [Visual design basics](08-front-end/04-ui-and-ux-design/02-visual-design-basics.md)
 - [ ] [Design systems and Figma](08-front-end/04-ui-and-ux-design/03-design-systems-and-figma.md)
 - [ ] [UX research and usability](08-front-end/04-ui-and-ux-design/04-ux-research-and-usability.md)
+
+### Mobile development
+
+- [ ] [Mobile platforms: native and cross-platform](08-front-end/05-mobile-development/01-mobile-platforms-native-and-cross-platform.md)
+- [ ] [PWAs, offline and push](08-front-end/05-mobile-development/02-pwas-offline-and-push.md)
 
 ## Back end
 

@@ -292,6 +292,10 @@ nav:
           - "Visual design basics": 08-front-end/04-ui-and-ux-design/02-visual-design-basics.md
           - "Design systems and Figma": 08-front-end/04-ui-and-ux-design/03-design-systems-and-figma.md
           - "UX research and usability": 08-front-end/04-ui-and-ux-design/04-ux-research-and-usability.md
+      - "Mobile development":
+          - 08-front-end/05-mobile-development/index.md
+          - "Mobile platforms: native and cross-platform": 08-front-end/05-mobile-development/01-mobile-platforms-native-and-cross-platform.md
+          - "PWAs, offline and push": 08-front-end/05-mobile-development/02-pwas-offline-and-push.md
   - "Back end":
       - 09-back-end/index.md
       - "Servers and APIs":

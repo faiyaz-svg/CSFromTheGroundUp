@@ -58,9 +58,9 @@ flowchart LR
 3. [Design systems and Figma](04-ui-and-ux-design/03-design-systems-and-figma.md)
 4. [UX research and usability](04-ui-and-ux-design/04-ux-research-and-usability.md)
 
-### 5. Mobile development
+### 5. [Mobile development](05-mobile-development/index.md)
 
-1. Mobile platforms: native and cross-platform (not written yet)
-2. PWAs, offline and push (not written yet)
+1. [Mobile platforms: native and cross-platform](05-mobile-development/01-mobile-platforms-native-and-cross-platform.md)
+2. [PWAs, offline and push](05-mobile-development/02-pwas-offline-and-push.md)
 
 <!-- lessons:end -->
