@@ -184,3 +184,4 @@ Search bug   |                 |               |
 
 - [Tickets, estimates and planning](03-tickets-estimates-and-planning.md) covers what goes on the cards and how to size them.
 - [Incidents and on-call](../13-devops-and-cloud/04-operations/02-incidents-and-on-call.md) shows work that interrupts any plan.
+- Where agile sits among the other process models, and how stories get acceptance criteria: [SDLC models](../14-software-and-system-design/04-software-engineering-process/03-sdlc-models.md) and [requirements and user stories](../14-software-and-system-design/04-software-engineering-process/01-requirements-and-user-stories.md).

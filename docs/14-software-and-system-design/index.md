@@ -4,7 +4,7 @@ How to structure code that stays maintainable, and how to design systems that sc
 
 Before this folder: Back end, Databases, SQL and Postgres, and DevOps and cloud.
 
-This folder has three chapters. Software design covers how to structure code so it stays maintainable: clean code, SOLID, design patterns, layered architecture and MVC, monoliths versus microservices, and refactoring. System design covers how to build systems that handle load: scalability, load balancing, caching, replication and sharding, CAP, queues, rate limiting, estimates, and two worked case studies. Distributed systems covers what goes wrong when work is spread over machines: partial failure, timeouts and retries, clocks and ordering, and consensus.
+This folder has four chapters. Software design covers how to structure code so it stays maintainable: clean code, SOLID, design patterns, layered architecture and MVC, monoliths versus microservices, and refactoring. System design covers how to build systems that handle load: scalability, load balancing, caching, replication and sharding, CAP, queues, rate limiting, estimates, and two worked case studies. Distributed systems covers what goes wrong when work is spread over machines: partial failure, timeouts and retries, clocks and ordering, and consensus. Software engineering process covers requirements and user stories, UML diagrams, and the SDLC models.
 
 An AI tool can add code faster than you can keep it organised. Without a sense of coupling and layers, generated changes pile up into a tangle, and without system design vocabulary you cannot say what a design trades away. Interviews also test this chapter directly.
 
@@ -18,6 +18,7 @@ flowchart LR
     D --> E["Data: replicate, shard"]
     E --> F["Queues and case studies"]
     F --> G["Distributed systems"]
+    G --> H["SE process"]
 ```
 
 ### How to use this folder

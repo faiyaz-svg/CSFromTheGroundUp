@@ -238,3 +238,4 @@ Changes: `lang` added, darker text (`#595959` is about 7:1 on white), `alt` on t
 
 - Component libraries in [React](../03-react/01-components-props-and-jsx.md) still render HTML, so the same rules apply.
 - Automated accessibility checks run in [end-to-end tests](../../04-developer-tools-and-workflow/03-code-quality/02-integration-tests-mocks-and-e2e.md). Back to the [chapter cheat sheet](index.md).
+- Contrast ratios, states and usability come back in [visual design basics](../04-ui-and-ux-design/02-visual-design-basics.md) and [UX research and usability](../04-ui-and-ux-design/04-ux-research-and-usability.md).

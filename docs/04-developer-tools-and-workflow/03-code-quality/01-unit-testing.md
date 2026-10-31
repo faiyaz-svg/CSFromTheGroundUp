@@ -290,3 +290,4 @@ def test_invalid_weight(weight):
 
 - [Integration tests, mocks and end-to-end tests](02-integration-tests-mocks-and-e2e.md) cover tests that involve more than one unit.
 - [The plan, build, test, review workflow](../../15-ai-and-llms/03-ai-assisted-development/02-plan-build-test-review-workflow.md) uses tests as the loop an agent runs.
+- Writing the test first, and tests that generate their own inputs: [TDD and test strategy](../05-testing-in-depth/01-tdd-and-test-strategy.md) and [property-based testing](../05-testing-in-depth/02-property-based-testing-fuzzing-and-mutation-testing.md).

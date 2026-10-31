@@ -4,7 +4,7 @@ Big O, the standard data structures and algorithms, and a set of problem-solving
 
 Before this folder: Programming fundamentals and Discrete math for CS.
 
-This folder starts with how to measure an algorithm (Big O, space, amortized cost, recurrences), then covers the standard data structures (arrays, linked lists, stacks, queues, hash tables, trees, heaps, graphs) and the standard algorithms (binary search, sorting, BFS and DFS, shortest paths, greedy, dynamic programming). The last chapter turns these into patterns for coding interviews.
+This folder starts with how to measure an algorithm (Big O, space, amortized cost, recurrences), then covers the standard data structures (arrays, linked lists, stacks, queues, hash tables, trees, heaps, graphs) and the standard algorithms (binary search, sorting, BFS and DFS, shortest paths, greedy, dynamic programming), and what to do when a problem is NP-hard. The LeetCode chapter turns these into patterns for coding interviews, and the last chapter covers performance: profiling, benchmarking and how CPUs run code fast.
 
 An AI tool will pick a data structure for you, and the choice often decides whether code is fast or slow. You need to ask "why a hash map here, not a list?" and to notice when a generated solution is quadratic. The interview patterns chapter matters because interviews usually test this without AI.
 
@@ -15,6 +15,7 @@ flowchart LR
     A["Analysis"] --> B["Data structures"]
     B --> C["Algorithms"]
     C --> D["LeetCode patterns"]
+    D --> E["Performance"]
     A -. "cost of each op" .-> C
     B -. "tools for patterns" .-> D
 ```

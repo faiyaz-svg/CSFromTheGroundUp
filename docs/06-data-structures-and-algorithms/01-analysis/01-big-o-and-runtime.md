@@ -295,3 +295,4 @@ Step 4: an $n \log n$ curve, fitted as a power of $n$, gives an exponent slightl
 
 - Choosing what to store a collection in, in [arrays and dynamic arrays](../02-data-structures/01-arrays-and-dynamic-arrays.md) and [hash tables](../02-data-structures/04-hash-tables.md).
 - Coding-interview questions, which end with "what is the time and space complexity?". [Space and amortized analysis](02-space-and-amortized-analysis.md) is the next lesson.
+- Measuring real running time, not just counting steps: [profiling and benchmarking](../05-performance/01-profiling-and-benchmarking.md). Problems with no known fast algorithm are in [hard problems and NP-completeness](../03-algorithms/07-hard-problems-and-np-completeness.md).

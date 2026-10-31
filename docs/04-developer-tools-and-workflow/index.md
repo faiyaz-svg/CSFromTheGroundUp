@@ -4,7 +4,7 @@ Git, GitHub, dependencies, configuration, data formats, regular expressions, tes
 
 Before this folder: Programming fundamentals.
 
-This folder covers the tools around the code. You learn Git and GitHub (branches, merges, pull requests), then project plumbing: dependencies, configuration and secrets, JSON, YAML and CSV, and regular expressions. A code quality chapter covers testing, linters, formatters, type checkers and documentation. The last chapter is spreadsheets, since a lot of workplace data lives in them.
+This folder covers the tools around the code. You learn Git and GitHub (branches, merges, pull requests), then project plumbing: dependencies, configuration and secrets, JSON, YAML and CSV, and regular expressions. A code quality chapter covers testing, linters, formatters, type checkers and documentation. Then comes spreadsheets, since a lot of workplace data lives in them, and a last chapter on testing in depth: test-driven development, test strategy, property-based testing and fuzzing.
 
 With AI tools, version control and tests are your safety net. An assistant can change ten files at once, and Git lets you see exactly what changed and undo it. Tests tell you whether the change still works, so the AI's confidence is not what you rely on.
 
@@ -15,6 +15,7 @@ flowchart LR
     A["Editor and Git"] --> B["Project plumbing"]
     B --> C["Code quality"]
     C --> D["Spreadsheets"]
+    C --> E["Testing in depth"]
     A -. "commit, review" .-> C
 ```
 
