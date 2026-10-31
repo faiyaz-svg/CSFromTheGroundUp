@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 267 of 279. New lessons appear here as they are added.
+Lessons written so far: 271 of 279. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -220,6 +220,13 @@ Lessons written so far: 267 of 279. New lessons appear here as they are added.
 - [ ] [Data fetching and forms](08-front-end/03-react/03-data-fetching-and-forms.md)
 - [ ] [Frameworks and libraries landscape](08-front-end/03-react/04-frameworks-and-libraries-landscape.md)
 - [ ] [Web performance](08-front-end/03-react/05-web-performance.md)
+
+### UI and UX design
+
+- [ ] [UI vocabulary and components](08-front-end/04-ui-and-ux-design/01-ui-vocabulary-and-components.md)
+- [ ] [Visual design basics](08-front-end/04-ui-and-ux-design/02-visual-design-basics.md)
+- [ ] [Design systems and Figma](08-front-end/04-ui-and-ux-design/03-design-systems-and-figma.md)
+- [ ] [UX research and usability](08-front-end/04-ui-and-ux-design/04-ux-research-and-usability.md)
 
 ## Back end
 

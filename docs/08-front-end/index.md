@@ -51,4 +51,16 @@ flowchart LR
 4. [Frameworks and libraries landscape](03-react/04-frameworks-and-libraries-landscape.md)
 5. [Web performance](03-react/05-web-performance.md)
 
+### 4. [UI and UX design](04-ui-and-ux-design/index.md)
+
+1. [UI vocabulary and components](04-ui-and-ux-design/01-ui-vocabulary-and-components.md)
+2. [Visual design basics](04-ui-and-ux-design/02-visual-design-basics.md)
+3. [Design systems and Figma](04-ui-and-ux-design/03-design-systems-and-figma.md)
+4. [UX research and usability](04-ui-and-ux-design/04-ux-research-and-usability.md)
+
+### 5. Mobile development
+
+1. Mobile platforms: native and cross-platform (not written yet)
+2. PWAs, offline and push (not written yet)
+
 <!-- lessons:end -->
