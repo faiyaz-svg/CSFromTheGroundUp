@@ -145,6 +145,11 @@ folders:
           - [excel-formulas-and-references, "Excel formulas and references"]
           - [lookups-pivot-tables-and-charts, "Lookups, pivot tables and charts"]
           - [spreadsheets-csv-and-sql, "Spreadsheets, CSV and SQL"]
+      - slug: testing-in-depth
+        title: "Testing in depth"
+        lessons:
+          - [tdd-and-test-strategy, "TDD and test strategy"]
+          - [property-based-testing-fuzzing-and-mutation-testing, "Property-based testing, fuzzing and mutation testing"]
 
   - folder: 05-discrete-math-for-cs
     title: "Discrete math for CS"
@@ -193,6 +198,7 @@ folders:
           - [shortest-paths, "Shortest paths"]
           - [greedy-algorithms, "Greedy algorithms"]
           - [dynamic-programming, "Dynamic programming"]
+          - [hard-problems-and-np-completeness, "Hard problems and NP-completeness"]
       - slug: leetcode-patterns
         title: "LeetCode patterns"
         lessons:
@@ -204,6 +210,11 @@ folders:
           - [backtracking, "Backtracking"]
           - [dp-patterns, "DP patterns"]
           - [heaps-intervals-and-top-k, "Heaps, intervals and top-k"]
+      - slug: performance
+        title: "Performance"
+        lessons:
+          - [profiling-and-benchmarking, "Profiling and benchmarking"]
+          - [how-cpus-go-fast, "How CPUs go fast"]
 
   - folder: 07-networking
     title: "Networking"
@@ -260,6 +271,18 @@ folders:
           - [data-fetching-and-forms, "Data fetching and forms"]
           - [frameworks-and-libraries-landscape, "Frameworks and libraries landscape"]
           - [web-performance, "Web performance"]
+      - slug: ui-and-ux-design
+        title: "UI and UX design"
+        lessons:
+          - [ui-vocabulary-and-components, "UI vocabulary and components"]
+          - [visual-design-basics, "Visual design basics"]
+          - [design-systems-and-figma, "Design systems and Figma"]
+          - [ux-research-and-usability, "UX research and usability"]
+      - slug: mobile-development
+        title: "Mobile development"
+        lessons:
+          - [mobile-platforms-native-and-cross-platform, "Mobile platforms: native and cross-platform"]
+          - [pwas-offline-and-push, "PWAs, offline and push"]
 
   - folder: 09-back-end
     title: "Back end"
@@ -474,6 +497,12 @@ folders:
           - [timeouts-retries-and-circuit-breakers, "Timeouts, retries and circuit breakers"]
           - [clocks-ordering-and-delivery, "Clocks, ordering and delivery"]
           - [consensus-and-leader-election, "Consensus and leader election"]
+      - slug: software-engineering-process
+        title: "Software engineering process"
+        lessons:
+          - [requirements-and-user-stories, "Requirements and user stories"]
+          - [uml-class-and-sequence-diagrams, "UML class and sequence diagrams"]
+          - [sdlc-models, "SDLC models"]
 
   - folder: 15-ai-and-llms
     title: "AI and LLMs"

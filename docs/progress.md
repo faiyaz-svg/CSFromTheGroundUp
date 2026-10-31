@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 265 of 265. New lessons appear here as they are added.
+Lessons written so far: 267 of 279. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -119,6 +119,11 @@ Lessons written so far: 265 of 265. New lessons appear here as they are added.
 - [ ] [Excel formulas and references](04-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md)
 - [ ] [Lookups, pivot tables and charts](04-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
 - [ ] [Spreadsheets, CSV and SQL](04-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md)
+
+### Testing in depth
+
+- [ ] [TDD and test strategy](04-developer-tools-and-workflow/05-testing-in-depth/01-tdd-and-test-strategy.md)
+- [ ] [Property-based testing, fuzzing and mutation testing](04-developer-tools-and-workflow/05-testing-in-depth/02-property-based-testing-fuzzing-and-mutation-testing.md)
 
 ## Discrete math for CS
 

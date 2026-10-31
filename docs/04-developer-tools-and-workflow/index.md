@@ -54,4 +54,9 @@ flowchart LR
 2. [Lookups, pivot tables and charts](04-spreadsheets/02-lookups-pivot-tables-and-charts.md)
 3. [Spreadsheets, CSV and SQL](04-spreadsheets/03-spreadsheets-csv-and-sql.md)
 
+### 5. [Testing in depth](05-testing-in-depth/index.md)
+
+1. [TDD and test strategy](05-testing-in-depth/01-tdd-and-test-strategy.md)
+2. [Property-based testing, fuzzing and mutation testing](05-testing-in-depth/02-property-based-testing-fuzzing-and-mutation-testing.md)
+
 <!-- lessons:end -->

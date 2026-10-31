@@ -196,6 +196,10 @@ nav:
           - "Excel formulas and references": 04-developer-tools-and-workflow/04-spreadsheets/01-excel-formulas-and-references.md
           - "Lookups, pivot tables and charts": 04-developer-tools-and-workflow/04-spreadsheets/02-lookups-pivot-tables-and-charts.md
           - "Spreadsheets, CSV and SQL": 04-developer-tools-and-workflow/04-spreadsheets/03-spreadsheets-csv-and-sql.md
+      - "Testing in depth":
+          - 04-developer-tools-and-workflow/05-testing-in-depth/index.md
+          - "TDD and test strategy": 04-developer-tools-and-workflow/05-testing-in-depth/01-tdd-and-test-strategy.md
+          - "Property-based testing, fuzzing and mutation testing": 04-developer-tools-and-workflow/05-testing-in-depth/02-property-based-testing-fuzzing-and-mutation-testing.md
   - "Discrete math":
       - 05-discrete-math-for-cs/index.md
       - "Logic and truth tables": 05-discrete-math-for-cs/01-logic-and-truth-tables.md
