@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 273 of 279. New lessons appear here as they are added.
+Lessons written so far: 276 of 279. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -416,6 +416,12 @@ Lessons written so far: 273 of 279. New lessons appear here as they are added.
 - [ ] [Timeouts, retries and circuit breakers](14-software-and-system-design/03-distributed-systems/02-timeouts-retries-and-circuit-breakers.md)
 - [ ] [Clocks, ordering and delivery](14-software-and-system-design/03-distributed-systems/03-clocks-ordering-and-delivery.md)
 - [ ] [Consensus and leader election](14-software-and-system-design/03-distributed-systems/04-consensus-and-leader-election.md)
+
+### Software engineering process
+
+- [ ] [Requirements and user stories](14-software-and-system-design/04-software-engineering-process/01-requirements-and-user-stories.md)
+- [ ] [UML class and sequence diagrams](14-software-and-system-design/04-software-engineering-process/02-uml-class-and-sequence-diagrams.md)
+- [ ] [SDLC models](14-software-and-system-design/04-software-engineering-process/03-sdlc-models.md)
 
 ## AI and LLMs
 

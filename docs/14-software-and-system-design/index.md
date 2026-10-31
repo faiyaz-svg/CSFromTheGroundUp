@@ -59,4 +59,10 @@ flowchart LR
 3. [Clocks, ordering and delivery](03-distributed-systems/03-clocks-ordering-and-delivery.md)
 4. [Consensus and leader election](03-distributed-systems/04-consensus-and-leader-election.md)
 
+### 4. [Software engineering process](04-software-engineering-process/index.md)
+
+1. [Requirements and user stories](04-software-engineering-process/01-requirements-and-user-stories.md)
+2. [UML class and sequence diagrams](04-software-engineering-process/02-uml-class-and-sequence-diagrams.md)
+3. [SDLC models](04-software-engineering-process/03-sdlc-models.md)
+
 <!-- lessons:end -->
