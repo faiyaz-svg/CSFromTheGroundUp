@@ -284,4 +284,4 @@ dlg.querySelector("form").addEventListener("submit", (e) => {
 ## Where this shows up
 
 - The look of these components is the next lesson, [Visual design basics](02-visual-design-basics.md); the same parts come ready-made in [design systems](03-design-systems-and-figma.md).
-- Mobile apps use the same patterns under other names, such as bottom sheets and snackbars, in mobile platforms<!-- link: ../05-mobile-development/01-mobile-platforms-native-and-cross-platform.md -->. Back to the [chapter cheat sheet](index.md).
+- Mobile apps use the same patterns under other names, such as bottom sheets and snackbars, in [mobile platforms](../05-mobile-development/01-mobile-platforms-native-and-cross-platform.md). Back to the [chapter cheat sheet](index.md).

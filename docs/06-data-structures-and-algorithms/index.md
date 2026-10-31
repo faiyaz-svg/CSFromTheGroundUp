@@ -54,6 +54,7 @@ flowchart LR
 4. [Shortest paths](03-algorithms/04-shortest-paths.md)
 5. [Greedy algorithms](03-algorithms/05-greedy-algorithms.md)
 6. [Dynamic programming](03-algorithms/06-dynamic-programming.md)
+7. [Hard problems and NP-completeness](03-algorithms/07-hard-problems-and-np-completeness.md)
 
 ### 4. [LeetCode patterns](04-leetcode-patterns/index.md)
 
@@ -65,5 +66,10 @@ flowchart LR
 6. [Backtracking](04-leetcode-patterns/06-backtracking.md)
 7. [DP patterns](04-leetcode-patterns/07-dp-patterns.md)
 8. [Heaps, intervals and top-k](04-leetcode-patterns/08-heaps-intervals-and-top-k.md)
+
+### 5. [Performance](05-performance/index.md)
+
+1. [Profiling and benchmarking](05-performance/01-profiling-and-benchmarking.md)
+2. [How CPUs go fast](05-performance/02-how-cpus-go-fast.md)
 
 <!-- lessons:end -->

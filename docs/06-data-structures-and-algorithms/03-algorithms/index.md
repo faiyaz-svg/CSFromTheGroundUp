@@ -10,6 +10,7 @@ A cheat sheet for the chapter. Each lesson link has the explanation; this page o
 4. [Shortest paths](04-shortest-paths.md)
 5. [Greedy algorithms](05-greedy-algorithms.md)
 6. [Dynamic programming](06-dynamic-programming.md)
+7. [Hard problems and NP-completeness](07-hard-problems-and-np-completeness.md)
 
 ## The algorithms at a glance
 
@@ -81,3 +82,4 @@ Here $n$ is the number of items, $V$ the number of nodes and $E$ the number of e
 | Maximum number of non-overlapping things | Greedy, sort by end |
 | Fewest or number of ways, with repeated subproblems | Dynamic programming |
 | Compare two strings or sequences | LCS or edit distance table |
+| Best route, packing or timetable with no known fast exact method (NP-hard) | Brute force if $n$ is under about 20, DP if the numbers are small, otherwise greedy, approximation or a solver such as OR-Tools |

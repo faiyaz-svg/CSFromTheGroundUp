@@ -235,6 +235,7 @@ nav:
           - "Shortest paths": 06-data-structures-and-algorithms/03-algorithms/04-shortest-paths.md
           - "Greedy algorithms": 06-data-structures-and-algorithms/03-algorithms/05-greedy-algorithms.md
           - "Dynamic programming": 06-data-structures-and-algorithms/03-algorithms/06-dynamic-programming.md
+          - "Hard problems and NP-completeness": 06-data-structures-and-algorithms/03-algorithms/07-hard-problems-and-np-completeness.md
       - "LeetCode patterns":
           - 06-data-structures-and-algorithms/04-leetcode-patterns/index.md
           - "How to approach a problem": 06-data-structures-and-algorithms/04-leetcode-patterns/01-how-to-approach-a-problem.md
@@ -245,6 +246,10 @@ nav:
           - "Backtracking": 06-data-structures-and-algorithms/04-leetcode-patterns/06-backtracking.md
           - "DP patterns": 06-data-structures-and-algorithms/04-leetcode-patterns/07-dp-patterns.md
           - "Heaps, intervals and top-k": 06-data-structures-and-algorithms/04-leetcode-patterns/08-heaps-intervals-and-top-k.md
+      - "Performance":
+          - 06-data-structures-and-algorithms/05-performance/index.md
+          - "Profiling and benchmarking": 06-data-structures-and-algorithms/05-performance/01-profiling-and-benchmarking.md
+          - "How CPUs go fast": 06-data-structures-and-algorithms/05-performance/02-how-cpus-go-fast.md
   - "Networking":
       - 07-networking/index.md
       - "How the internet works":
