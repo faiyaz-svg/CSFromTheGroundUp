@@ -2,7 +2,7 @@
 
 A ground-up tour of computers, software, data and the cloud. It is written for a working developer who uses AI tools and needs the concepts and vocabulary to direct them and check their output. Each lesson is short, ends with a quiz and a small hands-on lab, and has a box on working with AI.
 
-If you are new here, read [How to use this book](00-start-here/index.md) first. If you want more depth on the math behind some lessons, the sibling book [Math From the Ground Up](https://faiyaz-svg.github.io/MathFromTheGroundUp/) covers it. It is optional, and every lesson here stands on its own.
+If you are new here, read [How to use this book](00-start-here/index.md) first. If you want more depth on the math behind some lessons, the sibling book [Math From the Ground Up](https://faiyaz-svg.github.io/MathFromTheGroundUp/) covers it. It is optional, and every lesson here stands on its own. A third book, [Music From the Ground Up](https://faiyaz-svg.github.io/MusicFromTheGroundUp/), teaches piano and guitar from the first note.
 
 ## Contents
 
