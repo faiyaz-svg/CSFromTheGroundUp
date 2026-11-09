@@ -214,5 +214,5 @@ With `www` canonical, `curl -sIL http://yourdomain.ca/about.html` should show a 
 
 ## Where this shows up
 
-- Search engines use redirects and the canonical link to decide which URL to index, in SEO basics<!-- link: ../07-search-and-launch/01-seo-basics.md -->.
-- Moving a site to a new domain uses these redirects plus the change of address tool in Google Search Console<!-- link: ../07-search-and-launch/02-google-search-console-and-analytics.md -->.
+- Search engines use redirects and the canonical link to decide which URL to index, in [SEO basics](../07-search-and-launch/01-seo-basics.md).
+- Moving a site to a new domain uses these redirects plus the Change of Address tool in [Google Search Console and analytics](../07-search-and-launch/02-google-search-console-and-analytics.md).

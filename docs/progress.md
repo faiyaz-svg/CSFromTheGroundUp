@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 287 of 294. New lessons appear here as they are added.
+Lessons written so far: 290 of 294. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -404,6 +404,12 @@ Lessons written so far: 287 of 294. New lessons appear here as they are added.
 - [ ] [Receiving mail and email authentication](13-devops-and-cloud/06-email-from-your-domain/01-receiving-mail-and-email-authentication.md)
 - [ ] [Sending email from code](13-devops-and-cloud/06-email-from-your-domain/02-sending-email-from-code.md)
 - [ ] [Email law and deliverability](13-devops-and-cloud/06-email-from-your-domain/03-email-law-and-deliverability.md)
+
+### Search and launch
+
+- [ ] [SEO basics](13-devops-and-cloud/07-search-and-launch/01-seo-basics.md)
+- [ ] [Google Search Console and analytics](13-devops-and-cloud/07-search-and-launch/02-google-search-console-and-analytics.md)
+- [ ] [Case study: launching a small site](13-devops-and-cloud/07-search-and-launch/03-case-study-launching-a-small-site.md)
 
 ## Software and system design
 

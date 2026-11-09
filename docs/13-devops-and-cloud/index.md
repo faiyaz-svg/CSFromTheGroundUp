@@ -78,11 +78,11 @@ flowchart LR
 2. [Sending email from code](06-email-from-your-domain/02-sending-email-from-code.md)
 3. [Email law and deliverability](06-email-from-your-domain/03-email-law-and-deliverability.md)
 
-### 7. Search and launch
+### 7. [Search and launch](07-search-and-launch/index.md)
 
-1. SEO basics (not written yet)
-2. Google Search Console and analytics (not written yet)
-3. Case study: launching a small site (not written yet)
+1. [SEO basics](07-search-and-launch/01-seo-basics.md)
+2. [Google Search Console and analytics](07-search-and-launch/02-google-search-console-and-analytics.md)
+3. [Case study: launching a small site](07-search-and-launch/03-case-study-launching-a-small-site.md)
 
 ### 8. Google Cloud
 

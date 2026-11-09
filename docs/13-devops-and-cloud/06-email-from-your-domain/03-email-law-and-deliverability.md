@@ -203,4 +203,4 @@ Consent text: "Send me Example Shop's monthly newsletter and offers by email. Yo
 ## Where this shows up
 
 - Consent records are personal information, so [privacy and PIPEDA](../../12-security/02-cryptography/06-privacy-and-pipeda.md) rules on purpose and retention apply to them.
-- The launch checklist in case study: launching a small site<!-- link: ../07-search-and-launch/03-case-study-launching-a-small-site.md --> includes the email items from this chapter.
+- The launch checklist in [case study: launching a small site](../07-search-and-launch/03-case-study-launching-a-small-site.md) includes the email items from this chapter.
