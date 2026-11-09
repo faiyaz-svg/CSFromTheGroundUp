@@ -460,6 +460,33 @@ folders:
         lessons:
           - [logging-metrics-and-monitoring, "Logging metrics and monitoring"]
           - [incidents-and-on-call, "Incidents and on-call"]
+      - slug: domains-and-hosting
+        title: "Domains and hosting"
+        lessons:
+          - [buying-and-owning-a-domain, "Buying and owning a domain"]
+          - [pointing-a-domain-at-a-host, "Pointing a domain at a host"]
+          - [redirects-and-canonical-domains, "Redirects and canonical domains"]
+          - [hosting-platforms, "Hosting platforms"]
+          - [vercel-deployments-and-environments, "Vercel: deployments, previews and environments"]
+      - slug: email-from-your-domain
+        title: "Email from your domain"
+        lessons:
+          - [receiving-mail-and-email-authentication, "Receiving mail and email authentication"]
+          - [sending-email-from-code, "Sending email from code"]
+          - [email-law-and-deliverability, "Email law and deliverability"]
+      - slug: search-and-launch
+        title: "Search and launch"
+        lessons:
+          - [seo-basics, "SEO basics"]
+          - [google-search-console-and-analytics, "Google Search Console and analytics"]
+          - [case-study-launching-a-small-site, "Case study: launching a small site"]
+      - slug: google-cloud
+        title: "Google Cloud"
+        lessons:
+          - [projects-billing-and-the-console, "Projects, billing and the console"]
+          - [apis-keys-and-service-accounts, "APIs, keys and service accounts"]
+          - [sign-in-with-google, "Sign in with Google"]
+          - [deploying-to-cloud-run, "Deploying to Cloud Run"]
 
   - folder: 14-software-and-system-design
     title: "Software and system design"

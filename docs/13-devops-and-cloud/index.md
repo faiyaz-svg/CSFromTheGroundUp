@@ -4,7 +4,7 @@ Containers, CI/CD pipelines, the core AWS services, and how to monitor a running
 
 Before this folder: Operating systems and Linux, Networking, and Back end.
 
-This folder is about getting code running somewhere other than your laptop. Containers cover VMs versus containers, Docker images, volumes, Compose and a first look at Kubernetes. CI/CD covers pipelines, GitHub Actions and deployment strategies. The AWS chapter covers accounts, IAM, EC2, S3, RDS, VPCs, Lambda and deploying an app. Operations covers logs, metrics, monitoring and incidents.
+This folder is about getting code running somewhere other than your laptop. Containers cover VMs versus containers, Docker images, volumes, Compose and a first look at Kubernetes. CI/CD covers pipelines, GitHub Actions and deployment strategies. The AWS chapter covers accounts, IAM, EC2, S3, RDS, VPCs, Lambda and deploying an app. Operations covers logs, metrics, monitoring and incidents. The last four chapters put a real site on a real domain: Domains and hosting covers buying a domain, DNS records for a platform, redirects and Vercel; Email from your domain covers mail authentication, sending email from code and Canada's anti-spam law; Search and launch covers SEO, Google Search Console and a launch checklist; Google Cloud covers projects, API keys, Sign in with Google and Cloud Run.
 
 AI tools write Dockerfiles, pipeline files and cloud commands readily, and the mistakes are costly: an open security group, an over-broad IAM policy, a secret baked into an image, an instance left running on your bill. This folder gives you the terms to check each of those.
 
@@ -17,6 +17,11 @@ flowchart LR
     B --> D["Deploy"]
     C --> D
     D --> E["Operations"]
+    F["Domains and hosting"] --> G["Email from your domain"]
+    F --> H["Search and launch"]
+    G --> H
+    H --> I["Google Cloud"]
+    C --> I
 ```
 
 ### How to use this folder
@@ -24,6 +29,7 @@ flowchart LR
 - The container labs need Docker with WSL2. Install it before the first chapter.
 - The AWS labs need your own AWS account. Set a billing alert first, and delete what you create.
 - Infrastructure as code is optional.
+- The domain, email and search labs share one domain that you buy in the first lesson of Domains and hosting, so they cost one year of registration. The Google Cloud labs need a Google Cloud account with a budget alert, set up like the AWS one.
 
 <!-- lessons:start -->
 ## Lessons
@@ -57,5 +63,32 @@ flowchart LR
 
 1. [Logging metrics and monitoring](04-operations/01-logging-metrics-and-monitoring.md)
 2. [Incidents and on-call](04-operations/02-incidents-and-on-call.md)
+
+### 5. [Domains and hosting](05-domains-and-hosting/index.md)
+
+1. [Buying and owning a domain](05-domains-and-hosting/01-buying-and-owning-a-domain.md)
+2. [Pointing a domain at a host](05-domains-and-hosting/02-pointing-a-domain-at-a-host.md)
+3. [Redirects and canonical domains](05-domains-and-hosting/03-redirects-and-canonical-domains.md)
+4. [Hosting platforms](05-domains-and-hosting/04-hosting-platforms.md)
+5. [Vercel: deployments, previews and environments](05-domains-and-hosting/05-vercel-deployments-and-environments.md)
+
+### 6. Email from your domain
+
+1. Receiving mail and email authentication (not written yet)
+2. Sending email from code (not written yet)
+3. Email law and deliverability (not written yet)
+
+### 7. Search and launch
+
+1. SEO basics (not written yet)
+2. Google Search Console and analytics (not written yet)
+3. Case study: launching a small site (not written yet)
+
+### 8. Google Cloud
+
+1. Projects, billing and the console (not written yet)
+2. APIs, keys and service accounts (not written yet)
+3. Sign in with Google (not written yet)
+4. Deploying to Cloud Run (not written yet)
 
 <!-- lessons:end -->

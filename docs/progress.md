@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 279 of 279. New lessons appear here as they are added.
+Lessons written so far: 284 of 294. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -390,6 +390,14 @@ Lessons written so far: 279 of 279. New lessons appear here as they are added.
 
 - [ ] [Logging metrics and monitoring](13-devops-and-cloud/04-operations/01-logging-metrics-and-monitoring.md)
 - [ ] [Incidents and on-call](13-devops-and-cloud/04-operations/02-incidents-and-on-call.md)
+
+### Domains and hosting
+
+- [ ] [Buying and owning a domain](13-devops-and-cloud/05-domains-and-hosting/01-buying-and-owning-a-domain.md)
+- [ ] [Pointing a domain at a host](13-devops-and-cloud/05-domains-and-hosting/02-pointing-a-domain-at-a-host.md)
+- [ ] [Redirects and canonical domains](13-devops-and-cloud/05-domains-and-hosting/03-redirects-and-canonical-domains.md)
+- [ ] [Hosting platforms](13-devops-and-cloud/05-domains-and-hosting/04-hosting-platforms.md)
+- [ ] [Vercel: deployments, previews and environments](13-devops-and-cloud/05-domains-and-hosting/05-vercel-deployments-and-environments.md)
 
 ## Software and system design
 
