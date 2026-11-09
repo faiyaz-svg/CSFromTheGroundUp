@@ -181,4 +181,4 @@ The headers look like those in Example 1. Vercel usually shows `Cache-Control: p
 ## Where this shows up
 
 - The next lesson, [Vercel: deployments, previews and environments](05-vercel-deployments-and-environments.md), goes inside one frontend platform.
-- Cloud Run, Google's container platform, is deployed by hand in deploying to Cloud Run<!-- link: ../08-google-cloud/04-deploying-to-cloud-run.md -->.
+- Cloud Run, Google's container platform, is deployed by hand in [deploying to Cloud Run](../08-google-cloud/04-deploying-to-cloud-run.md).

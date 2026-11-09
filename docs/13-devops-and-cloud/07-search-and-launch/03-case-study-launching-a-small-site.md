@@ -241,4 +241,4 @@ A failed scheduled run sends an email to the person who last edited the workflow
 ## Where this shows up
 
 - Uptime checks are a simple form of the monitoring in [logging, metrics and monitoring](../04-operations/01-logging-metrics-and-monitoring.md), and an alert at 3 a.m. is where [incidents and on-call](../04-operations/02-incidents-and-on-call.md) starts.
-- A booking page that signs people in with Google uses the next chapter's sign in with Google<!-- link: ../08-google-cloud/03-sign-in-with-google.md -->.
+- A booking page that signs people in with Google uses the next chapter's [sign in with Google](../08-google-cloud/03-sign-in-with-google.md).

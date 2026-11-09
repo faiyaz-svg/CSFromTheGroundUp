@@ -192,5 +192,5 @@ The verification record looks like `google-site-verification=<token from Search 
 
 ## Where this shows up
 
-- Domain verification by DNS record is also needed for Sign in with Google's consent screen, in Sign in with Google<!-- link: ../08-google-cloud/03-sign-in-with-google.md -->.
+- Domain verification by DNS record is also needed for Sign in with Google's consent screen, in [Sign in with Google](../08-google-cloud/03-sign-in-with-google.md).
 - Funnels and retention from analytics data are covered in [analytics in SQL](../../11-data-engineering-and-data-science/02-data-science-and-ml/02-analytics-sql-cohorts-funnels-retention.md).

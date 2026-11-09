@@ -84,11 +84,11 @@ flowchart LR
 2. [Google Search Console and analytics](07-search-and-launch/02-google-search-console-and-analytics.md)
 3. [Case study: launching a small site](07-search-and-launch/03-case-study-launching-a-small-site.md)
 
-### 8. Google Cloud
+### 8. [Google Cloud](08-google-cloud/index.md)
 
-1. Projects, billing and the console (not written yet)
-2. APIs, keys and service accounts (not written yet)
-3. Sign in with Google (not written yet)
-4. Deploying to Cloud Run (not written yet)
+1. [Projects, billing and the console](08-google-cloud/01-projects-billing-and-the-console.md)
+2. [APIs, keys and service accounts](08-google-cloud/02-apis-keys-and-service-accounts.md)
+3. [Sign in with Google](08-google-cloud/03-sign-in-with-google.md)
+4. [Deploying to Cloud Run](08-google-cloud/04-deploying-to-cloud-run.md)
 
 <!-- lessons:end -->

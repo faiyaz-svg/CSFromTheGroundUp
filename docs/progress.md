@@ -2,7 +2,7 @@
 
 Tick each lesson when you finish it. On the website, ticks are saved in the browser you use, so each device keeps its own list. In VS Code, change `[ ]` to `[x]` in `docs/progress.md`.
 
-Lessons written so far: 290 of 294. New lessons appear here as they are added.
+Lessons written so far: 294 of 294. New lessons appear here as they are added.
 
 ## How computers work
 
@@ -410,6 +410,13 @@ Lessons written so far: 290 of 294. New lessons appear here as they are added.
 - [ ] [SEO basics](13-devops-and-cloud/07-search-and-launch/01-seo-basics.md)
 - [ ] [Google Search Console and analytics](13-devops-and-cloud/07-search-and-launch/02-google-search-console-and-analytics.md)
 - [ ] [Case study: launching a small site](13-devops-and-cloud/07-search-and-launch/03-case-study-launching-a-small-site.md)
+
+### Google Cloud
+
+- [ ] [Projects, billing and the console](13-devops-and-cloud/08-google-cloud/01-projects-billing-and-the-console.md)
+- [ ] [APIs, keys and service accounts](13-devops-and-cloud/08-google-cloud/02-apis-keys-and-service-accounts.md)
+- [ ] [Sign in with Google](13-devops-and-cloud/08-google-cloud/03-sign-in-with-google.md)
+- [ ] [Deploying to Cloud Run](13-devops-and-cloud/08-google-cloud/04-deploying-to-cloud-run.md)
 
 ## Software and system design
 
