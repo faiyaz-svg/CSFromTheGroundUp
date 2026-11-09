@@ -216,4 +216,4 @@ Not run while writing this lesson, since it needs a Vercel account and domain; t
 ## Where this shows up
 
 - The same preview and rollback ideas appear in [deployment strategies](../02-ci-cd/03-deployment-strategies.md), done by hand with GitHub Actions.
-- Sending email from a function, and why to queue it, is in sending email from code<!-- link: ../06-email-from-your-domain/02-sending-email-from-code.md -->.
+- Sending email from a function, and why to queue it, is in [sending email from code](../06-email-from-your-domain/02-sending-email-from-code.md).

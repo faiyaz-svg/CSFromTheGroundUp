@@ -194,5 +194,5 @@ Not run while writing this lesson, since it needs a purchased domain; the steps 
 ## Where this shows up
 
 - Choosing between the apex and `www`, and redirecting the other one, is [redirects and canonical domains](03-redirects-and-canonical-domains.md).
-- Email and verification records for mail providers go in the same zone, in receiving mail and email authentication<!-- link: ../06-email-from-your-domain/01-receiving-mail-and-email-authentication.md -->.
+- Email and verification records for mail providers go in the same zone, in [receiving mail and email authentication](../06-email-from-your-domain/01-receiving-mail-and-email-authentication.md).
 - Cloudflare's proxy mode is the reverse proxy and CDN from [proxies and CDNs](../../07-networking/02-web-protocols/05-proxies-and-cdns.md).

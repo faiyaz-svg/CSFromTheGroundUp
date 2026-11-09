@@ -72,11 +72,11 @@ flowchart LR
 4. [Hosting platforms](05-domains-and-hosting/04-hosting-platforms.md)
 5. [Vercel: deployments, previews and environments](05-domains-and-hosting/05-vercel-deployments-and-environments.md)
 
-### 6. Email from your domain
+### 6. [Email from your domain](06-email-from-your-domain/index.md)
 
-1. Receiving mail and email authentication (not written yet)
-2. Sending email from code (not written yet)
-3. Email law and deliverability (not written yet)
+1. [Receiving mail and email authentication](06-email-from-your-domain/01-receiving-mail-and-email-authentication.md)
+2. [Sending email from code](06-email-from-your-domain/02-sending-email-from-code.md)
+3. [Email law and deliverability](06-email-from-your-domain/03-email-law-and-deliverability.md)
 
 ### 7. Search and launch
 

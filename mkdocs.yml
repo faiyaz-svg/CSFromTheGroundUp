@@ -443,6 +443,11 @@ nav:
           - "Redirects and canonical domains": 13-devops-and-cloud/05-domains-and-hosting/03-redirects-and-canonical-domains.md
           - "Hosting platforms": 13-devops-and-cloud/05-domains-and-hosting/04-hosting-platforms.md
           - "Vercel: deployments, previews and environments": 13-devops-and-cloud/05-domains-and-hosting/05-vercel-deployments-and-environments.md
+      - "Email from your domain":
+          - 13-devops-and-cloud/06-email-from-your-domain/index.md
+          - "Receiving mail and email authentication": 13-devops-and-cloud/06-email-from-your-domain/01-receiving-mail-and-email-authentication.md
+          - "Sending email from code": 13-devops-and-cloud/06-email-from-your-domain/02-sending-email-from-code.md
+          - "Email law and deliverability": 13-devops-and-cloud/06-email-from-your-domain/03-email-law-and-deliverability.md
   - "Design":
       - 14-software-and-system-design/index.md
       - "Software design":
