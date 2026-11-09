@@ -122,7 +122,7 @@ h1 count: 1
 3. The description and canonical link are present and correct.
 4. No Open Graph tags, so a link shared in a chat app gets a plain or guessed preview.
 
-Run it on `https://nextjs.org/` for comparison: the title is "Next.js by Vercel - The React Framework", and `og:title` and `og:image` are set.
+Both problems were fixed after this check, with a small theme override that shows the site name once and adds `og:title`, `og:description` and `og:url`, so running the script today gives a shorter title and no missing Open Graph title. Run it on `https://nextjs.org/` for comparison: the title is "Next.js by Vercel - The React Framework", and `og:title` and `og:image` are set.
 
 Check: also request `https://faiyaz-svg.github.io/robots.txt`. It returns 404, because this book is a GitHub Pages project site under a path, and `robots.txt` only counts at the root of the host. Missing `robots.txt` means "crawl everything", which is fine here, but a project site can't set one.
 
