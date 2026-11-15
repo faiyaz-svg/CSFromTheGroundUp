@@ -107,8 +107,22 @@ input {
   color: #ffffff;
 }
 
+/* The theme hides this bar's scrollbar, so mouse users could not reach
+   tabs past the window edge. Show a thin one when the tabs overflow. */
 .md-tabs__list {
   margin-left: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #8a8d96 transparent;
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  display: block;
+  height: 6px;
+}
+
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background-color: #8a8d96;
 }
 
 .md-tabs__item {
